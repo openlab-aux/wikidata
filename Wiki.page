@@ -1,0 +1,17 @@
+## Allgemeines
+
+Dieses Wiki ist eine angepasste Version von [gitit](https://github.com/jgm/gitit), denn wir haben folgende Features hinzugefügt:
+
+* Einen graphischen Markdowneditor ([SimpleMDE](http://simplemde.com))
+* Keine Assets werden von CDNs nachgeladen für mehr Datensparsamkeit
+* Verbesserter Preview
+
+Unser [Sourcecode lebt auf GitHub](https://github.com/openlab-aux/gitit).
+
+Falls du Fragen oder Probleme hast, kannst du folgendes tun:
+
+* Ein Issue [öffnen](https://github.com/openlab-aux/gitit/issues/new)
+* [sternenseemann](http://lukasepple.de/contact/) oder [Profpatsch](http://profpatsch.de) anschreiben (z. B. im [IRC](IRC))
+* In der nächsten Sektion einen Text hinzufügen
+
+## Feedback
