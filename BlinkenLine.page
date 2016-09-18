@@ -1,0 +1,67 @@
+## Technische Daten
+
+* ca. 17,5m lang
+* über 1000 einzeln ansteuerbare RGB LEDs
+* Ansteuerung über ESP8266 mit NodeMCU-Firmware
+
+## Aufbau
+
+Je 2m LED-Streifen aufgeklebt auf einen Kabelkanal. Im Kabelkanal ein dickes Stromkabel (min 5mm²) in dem ein Abzweig auf den Streifen geht. An den Enden des Kabelkanals sind je eine XT60 Buchse und ein XT60 Stecker, so dass die Kanäle aneinandergereiht werden können.
+Pro 2m muss man mit 6A bei 5V rechnen, um den Strom für ca. 18m geringer zu halten, wird von 2 Seiten her je eine Hälfte versorgt.
+Die Netzteile müssen also 5V und mindestens 30A liefern.
+Durch den Aufbau mit steckbaren Kabelkanälen kann **und soll** die BlinkenLine schnell ab- und aufgebaut werden. So kann sie auf Veranstaltungen mitgenommen und benutzt werden können. Auch eine andere Anordnung z.B. 8 x 2m Streifen untereinander für eine RGB-Laufschrift ist möglich.
+
+### ToDo
+Für die mechanische Befestigung, die auch später die Milch-Plexiglasscheibe hält und zudem noch den leichten Auf- und Abbau ermöglicht, sind noch Ideen gefragt.
+
+## Ansteuerung
+
+IP: 172.16.0.238 Port: 2323
+UDP-Paket mit reinen Rohdaten in der Reihenfolge RGB (je ein Byte) mal Anzahl der Pixel.
+
+Es darf gerne damit gespielt werden!
+Einfach das Netzteil anstecken, nach wenigen Sekunden ist der Streifen über die o.a. Adresse erreichbar
+Momentan sind 4 Meter und damit 240 Pixel aufgebaut und können angesteuert werden.
+Das aktuelle China-Netzteil bitte nur unter Beaufsichtigung betreiben, wer es einsteckt hat die Verantwortung, dass es auch ausgesteckt wird!
+
+### Software
+Martin hat schon einiges an cooler Software für die Blinkenline geschrieben und ist weiter dabei. [Der Code ist bei Github](https://github.com/mor7/blinkenline) zu finden.
+
+### Effekte
+#### FFT
+
+Es wird die Energieverteilung z.B. der eingespielten Musik dargestellt, dabei wird ein logarithmischer Maßstab angelegt.
+
+Videos:
+
+* [Guitar on BlinkenLine in OpenLab Augsburg](https://youtu.be/Jlcrdw3FPaY)
+* [Harmonica on BlinkenLine in OpenLab Augsburg](https://youtu.be/NTunE6luLPE)
+
+#### LineTris
+
+Ein Spiel in Anlehnung an Tetris, nur mit Farben. Bestehende Blöcke können umsortiert werden, wenn der fallende Block in der Farbe dem obersten Block entspricht lösen sich beide auf.
+Video: [LineTris on BlinkenLine in OpenLab Augsburg](https://youtu.be/RJX5_UgN6n4)
+
+#### PNG-Play
+
+Die einfachste Möglichkeit auf der BlinkenLine coole Effekte anzuzeigen. Einfach ein PNG-Bild in der Breite der Anzahl der Pixel entsprechend erstellen. Die Höhe des Bildes entspricht dann der Zeit. Das Bild wird dann Zeile für Zeile von Oben nach Unten in der gewünschten Frequenz angezeigt.
+Es ist auch möglich mit dem Alpha-Wert zu arbeiten und so zwei Bilder, und damit Effekte, zu mischen.
+
+## Finanzierung
+* 4 x 5m LED Streifen bei eBay
+* 2 x Netzteile 5V mindestens 30A am besten geschlossene Bauform z.B. bei Reichelt (gerne auch andere Quellen, sollte aber für Festeinbau geeignet sein)
+* 9 x 2m Kabelkanäle
+* 9 x XT60 Stecker/Buchsen-Pärchen Banggood (Hier gibt es evtl. noch einen Bestand vom 3D-Druckerkurs)
+* ca. 20m mindestens 5mm² Kupferdoppelader
+* 2 bis 9 ESP8266 für WLAN zur Ansteuerung
+
+Die entsprechenden Kosten und finanzierenden Mitglieder sind im [Ethercalc](https://ethercalc.org/ola-blinkenline) hinterlegt.
+
+## Zukunft
+Als Erweiterung sind Milch-Plexiglas-Scheiben und eine (oder mehrere) Transportrohre angedacht, auch könnte man sich an anderen Stellen im Lab noch weitere, voll ansteuerbare Streifen vorstellen ;-)
+
+## Kümmerer
+Hardware: Sam
+Software: Martin
+
+Mitstreiter herzlich willkommen!
