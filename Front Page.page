@@ -5,6 +5,22 @@ format: Markdown
 # Hallo Mensch!
 Dieses Wiki ist eventuell die Zukunft.
 
+## Allgemeines
+
+Generelle Informationen findest du auf der [normalen Website des OpenLabs](https://openlab-augsburg.de/)
+
+## Projekte
+
+* [Aufgaben](https://github.com/openlab-aux/orgafoo/issues)
+* [GitHub Organisation](https://github.com/openlab-aux)
+* [Projekte von Mitgliedern](MitgliederProjekte)
+
+## Kurse und Workshops
+
+* [3D-Druckerkurs](https://wiki.openlab-augsburg.de/openwiki:projekte:3dkurs_start)
+* [Pad für neue Workshops](https://freepad.erdgeist.org/p/ola_workshops)
+* [Termine](https://openlab-augsburg.de/veranstaltungen/)
+
 ## Infrastruktur
 
 * [Haufen](Haufen)
@@ -19,6 +35,10 @@ Dieses Wiki ist eventuell die Zukunft.
 * [Telefon](Telefon)
 * [Getränke](Getränke)
 * [Küche](Küche)
+
+## Maschinen
+
+* [Analoges Oszilloskop](AnalogOszilloskop)
 
 ## Meta
 * [Wiki](Wiki) Info & Feedback hier
