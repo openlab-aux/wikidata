@@ -11,16 +11,16 @@ Der Haufen hat zu jedem Zeitpunkt einen Zustand.
 Der Haufen kann in 3 Zuständen sein und geht nach festgelegten Zeiten vom aktuellen Zustand in den nächsten über:
 
 1. Init
-  * Drauflegen: erlaubt
-  * Nehmen: verboten
-  * Dauer: keine Feste, Zustand endet nach Ankündigung von Menschen
+    * Drauflegen: erlaubt
+    * Nehmen: verboten
+    * Dauer: keine Feste, Zustand endet nach Ankündigung von Menschen
 2. Freeze
-   * Drauflegen: verboten
-   * Nehmen: Eigentümer dürfen ihren Kram nach Hause mitnehmen
-   * Dauer: 1,5 Wochen
+     * Drauflegen: verboten
+     * Nehmen: Eigentümer dürfen ihren Kram nach Hause mitnehmen
+     * Dauer: 1,5 Wochen
 3. Free For All
-   * Drauflegen: verboten
-   * Nehmen: erlaubt für alle
-   * Dauer: 1,5 Wochen
+     * Drauflegen: verboten
+     * Nehmen: erlaubt für alle
+     * Dauer: 1,5 Wochen
 
 Sind alle drei Zustände abgelaufen wird der Haufen entsorgt.
