@@ -95,3 +95,36 @@ Außerdem gibt es noch drei Status-LEDs auf der Platine und an der Tür:
    <td>X</td>
   </tr>
 </table>
+
+## Bedienung
+
+### Bedienung von außen
+
+Die Steuerung des Sphincters von außen basiert auf einem HTTPS-Service, der aus dem internen Netzwerk (WLAN) des OpenLabs erreichbar ist.
+
+### Clients
+
+* [Sphincter-Android-App](https://github.com/openlab-aux/sphincter-remote/releases) ([Source Code](https://github.com/openlab-aux/sphincter-remote/))
+
+### Bedienung von innen
+
+Wenn ihr den Türöffner aus irgend einem Grund von innen manuell bedienen müsst, müsst ihr die Abdeckung am Elektronikgehäuse aufklappen. Dort befinden sich jeweils ein Taster für einen Systemreset und das Auf-/Zuschließen.
+
+Wenn ihr das Labor als letzter verlasst und nicht über euer mobiles Endgerät absperren wollt, dann könnt ihr - wie früher - automatisch zusperren lassen. Drückt dafür den Taster an der Tür ca. 1s lang. Die gelbe LED beginnt zu blinken, ihr habt dann 15s Zeit um das Lab zu verlassen.
+
+### Verhalten bei Fehlern
+
+Das System ist so ausgelegt, dass es grundsätzlich jeden Fehler mit einem Absperrvorgang beheben kann. Wenn sich das System im Error-Modus befindet (fehlgeschlagener Absperrversuch oder Systemneustart) führt jedes Kommando zu einer Referenzfahrt. Dabei wird die Tür abgeschlossen und ein neuer Nullpunkt ermittelt. Bei jedem normalen Absperren wird ebenfalls der Nullpunkt neu ermittelt.
+
+Der Unterschied zwischen Referenzfahrt und Absperren besteht darin, dass die Referenzfahrt auch dann einen genauen Nullpunkt ermitteln kann, wenn das Zahnrad so weit verdreht wurde, dass der Endstopp schon ausgelöst hat.
+
+## Source Code und Schaltpläne
+
+Der Source Code ist relativ wild verteilt, was schon mehrfach für Verwirrung gesorgt hat. Man sollte das [mal™ ändern](https://github.com/openlab-aux/orgafoo/issues/225).
+
+Folgende Repositories enthalten relevantes:
+
+* Android-Client [sphincter-remote](https://github.com/openlab-aux/sphincter-remote)
+* Control daemon (stellt die HTTPS-API bereit) [sphincterd](https://github.com/openlab-aux/sphincterd)
+* CAD für die 3D-gedruckten Teile [sphincter-cad](https://github.com/openlab-aux/sphincter2-cad)
+* Firmware für den Mikrocontroller [sphincter2.0](https://github.com/openlab-aux/sphincter2.0) (bzw. ursprüngliches Repository [hier](https://github.com/phil-underscore/sphincter2.0))
