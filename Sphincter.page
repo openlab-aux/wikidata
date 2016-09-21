@@ -47,51 +47,51 @@ Außerdem gibt es noch drei Status-LEDs auf der Platine und an der Tür:
 
 <table>
   <tr>
-    <td>Status</td>
-    <td>rot (Platine)</td>
-    <td>gelb</td>
-    <td>blau</td>
+   <td>Status</td>
+   <td>rot (Platine)</td>
+   <td>gelb</td>
+   <td>blau</td>
   </tr>
   <tr>
-    <td>error</td>
-    <td>X</td>
-    <td>(blinken)</td>
-    <td>(blinken)</td>
+   <td>error</td>
+   <td>X</td>
+   <td>(blinken)</td>
+   <td>(blinken)</td>
   </tr>
   <tr>
-    <td>aufgesperrt</td>
-    <td>X</td>
-    <td>aus</td>
-    <td>ein</td>
+   <td>aufgesperrt</td>
+   <td>X</td>
+   <td>aus</td>
+   <td>ein</td>
   </tr>
   <tr>
-    <td>Türe offen</td>
-    <td>X</td>
-    <td>aus</td>
-    <td>(blinken)</td>
+   <td>Türe offen</td>
+   <td>X</td>
+   <td>aus</td>
+   <td>(blinken)</td>
   </tr>
   <tr>
-    <td>zugesperrt</td>
-    <td>X</td>
-    <td>ein</td>
-    <td>aus</td>
+   <td>zugesperrt</td>
+   <td>X</td>
+   <td>ein</td>
+   <td>aus</td>
   </tr>
   <tr>
-    <td>automatisches Zusperren</td>
-    <td>X</td>
-    <td>(blinken)</td>
-    <td>aus</td>
+   <td>automatisches Zusperren</td>
+   <td>X</td>
+   <td>(blinken)</td>
+   <td>aus</td>
   </tr>
   <tr>
-    <td>Akkuspannung niedrig</td>
-    <td>(blinken, langsam)</td>
-    <td>X</td>
-    <td>X</td>
+   <td>Akkuspannung niedrig</td>
+   <td>(blinken, langsam)</td>
+   <td>X</td>
+   <td>X</td>
   </tr>
   <tr>
-    <td>Akkuspannung kritisch</td>
-    <td>(blinken, schnell)</td>
-    <td>X</td>
-    <td>X</td>
+   <td>Akkuspannung kritisch</td>
+   <td>(blinken, schnell)</td>
+   <td>X</td>
+   <td>X</td>
   </tr>
 </table>
