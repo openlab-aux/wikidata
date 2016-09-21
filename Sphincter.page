@@ -1,0 +1,97 @@
+![](/sphincter2.0.jpg)
+
+Dieser Artikel behandelt Sphincter 2.0, die Schliessanlage des Labors 2.0. Die Neuauflage war nötig, weil im Labor 2.0 eine Paniktür verbaut wurde, die sich auch im abgeschlossenen Zustand von innen öffnen lässt. Außerdem wurden einige Kinderkrankheiten der alten Version beseitigt. Die alte Version ist [hier](Sphincter%201.0) dokumentiert.
+
+Firmware und Schaltplan gibts [hier](https://github.com/phil-underscore/sphincter2.0).
+
+## Anforderungen an das neue System
+* funktioniert mit Paniktüren (Auf- und Zuschließen mit jeweils einer Vierteldrehung, Aufsperren durch Herunterdrücken der Klinke)
+* bei einer Fehlfunktion muss von außen mit einem normalen Schlüssel gesperrt werden können
+* fail-safe: Das System darf unter keinen Umständen die Tür blockieren können.
+* Verwendung mehrerer Zugangskontrollsysteme (sprich: Signalgeber) gleichzeitig
+* Notversorgung bei Stromausfall und galvanische Trennung von allen anderen Laborsystemen
+
+## Technik
+
+### Hardware
+
+Um die neuen Anforderungen zu erfüllen musste der Türöffner von sphincter 1.0 von Grund auf neu entwickelt werden. Er besteht jetzt aus einer 3D-gedruckten Platte, die auf den Schließzylinder von innen aufgesetzt wird. Darauf befindet sich ein Zahnrad, in das der Schlüssel eingesetzt wird. Angetrieben wird es über einen Schrittmotor, die Positionsbestimmung erfolgt über einen Reed-Kontakt in der Grundplatte und einen Magneten im Zahnrad.
+
+Auf der Steuerplatine ist ein ATmega8 verbaut. Die galvanische Trennung von anderen Laborsystemen wurde über Optokoppler realisiert. Außerdem gibt es noch einen 12V Bleiakku mit Ladegerät und Spannungsüberwachung um auch bei einem ausgelösten FI noch Zugang zu den Räumen zu haben.
+
+### Interface
+
+Der Türöffner verfügt über zwei getrennte, optisch isolierte Interfaces. Jedes Interface hat 6 Pins: Vcc, GND, lock, unlock, status0 und status1.
+
+Über die lock/unlock-Leitungen wird die Tür ab- und aufgesperrt. Die Steuerung erwartet hier ein mindestens 1.5ms langes active-high Signal. Der Pegel ist unkritisch (mind. 2V wegen des Optokopplers). status0/status1 sind zwei open collector Ausgänge. Auf der Steuerplatine sind bereits Pullup-Widerstände vorgesehen; um sie zu nutzen muss Vcc angeschlossen werden. Möchte man die Pullups nicht benutzen muss Vcc unbelegt bleiben.
+
+Steckerbelegung:
+
+<table>
+<tr><td>Vcc</td> <td>status0</td></tr>
+<tr><td>status1</td><td>lock</td></tr>
+<tr><td>unlock</td><td>GND</td></tr>
+</table>
+
+Das Steuergerät kennt im Moment drei Statuszustände:
+
+<table>
+<tr><td>Zustand</td><td>status0</td><td>status1</td></tr>
+<tr><td>error</td><td>High</td><td>High</td></tr>
+<tr><td>aufgesperrt</td><td>High</td><td>Low</td></tr>
+<tr><td>zugesperrt</td><td>Low</td><td>High</td></tr>
+</table>
+
+Außerdem gibt es noch drei Status-LEDs auf der Platine und an der Tür:
+
+
+<table>
+  <tr>
+    <td>Status</td>
+    <td>rot (Platine)</td>
+    <td>gelb</td>
+    <td>blau</td>
+  </tr>
+  <tr>
+    <td>error</td>
+    <td>X</td>
+    <td>(blinken)</td>
+    <td>(blinken)</td>
+  </tr>
+  <tr>
+    <td>aufgesperrt</td>
+    <td>X</td>
+    <td>aus</td>
+    <td>ein</td>
+  </tr>
+  <tr>
+    <td>Türe offen</td>
+    <td>X</td>
+    <td>aus</td>
+    <td>(blinken)</td>
+  </tr>
+  <tr>
+    <td>zugesperrt</td>
+    <td>X</td>
+    <td>ein</td>
+    <td>aus</td>
+  </tr>
+  <tr>
+    <td>automatisches Zusperren</td>
+    <td>X</td>
+    <td>(blinken)</td>
+    <td>aus</td>
+  </tr>
+  <tr>
+    <td>Akkuspannung niedrig</td>
+    <td>(blinken, langsam)</td>
+    <td>X</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>Akkuspannung kritisch</td>
+    <td>(blinken, schnell)</td>
+    <td>X</td>
+    <td>X</td>
+  </tr>
+</table>
