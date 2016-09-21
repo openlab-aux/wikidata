@@ -100,7 +100,17 @@ Außerdem gibt es noch drei Status-LEDs auf der Platine und an der Tür:
 
 ### Bedienung von außen
 
-Die Steuerung des Sphincters von außen basiert auf einem HTTPS-Service, der aus dem internen Netzwerk (WLAN) des OpenLabs erreichbar ist.
+Die Steuerung des Sphincters von außen basiert auf einem HTTPS-Service, der aus dem internen Netzwerk (WLAN) des OpenLabs erreichbar ist. Dieser Service läuft auf `https://labctl.openlab-augsburg.de/sphincter` (der DNS-Eintrag zeigt auf eine interne IP-Addresse).
+
+Der Service erwartet HTTP-Request nach folgender Form: `https://labctl.openlab-augsburg.de/sphincter?action=<action>&token=<token>`
+
+Hierbei ist das Token ein zufälliger String, den man als virtuellen Schlüssel zum OpenLab bekommt, und action ist entweder:
+
+* `state`: Gibt `OPEN` bzw. `CLOSED` für den jeweils aktuellen Zustand des Schlosses zurück
+* `open`: Öffnet die Tür bei korrektem Token
+* `close`: Schließt die Tür bei korrektem Token
+
+Die einfachste Möglichkeit ist also einfach die Tür mit dem Browser oder `curl` zu steuern, es sind aber Clients aller Arten denkbar.
 
 ### Clients
 
@@ -118,13 +128,30 @@ Das System ist so ausgelegt, dass es grundsätzlich jeden Fehler mit einem Abspe
 
 Der Unterschied zwischen Referenzfahrt und Absperren besteht darin, dass die Referenzfahrt auch dann einen genauen Nullpunkt ermitteln kann, wenn das Zahnrad so weit verdreht wurde, dass der Endstopp schon ausgelöst hat.
 
+<table>
+<tr>
+<td>Fehler</td> <td>Symptome</td><td>Lösung</td>
+</tr>
+<tr>
+<td>jemand hat das Zahnrad von Hand verdreht</td> <td>Aufschließen funktioniert nicht mehr</td><td>Zuschließen um eine neue Referenzposition zu finden, dann nochmal aufschließen. In besonders harten Fällen diese Prozedur nochmal wiederholen (nötig, wenn der Endstopp beim Verdrehen ausgelöst hat)</td>
+</tr>
+<tr>
+<td>Tür wurde beim Zusperren nicht zugezogen</td> <td>Tür wurde nicht abgeschlossen, Sphincter ist im Error-Modus: beide LEDs blinken</td><td>Auf- oder Zusperren, um eine neue Referenzfahrt auszulösen. Dabei Tür unbedingt zuziehen!</td>
+</tr>
+<tr>
+<td>Tür wurde beim Aufsperren nicht zugezogen</td> <td>Tür öffnet sich nicht (auch nicht, wenn sie danach zugezogen wird), Motor überspringt Schritte und hat seine Position verloren</td><td>Zuschließen um eine neue Referenzposition zu finden, dann nochmal aufschließen</td>
+</tr>
+<tr>
+<td>sphincter ist im Error-Modus</td> <td>beide LEDs blinken</td><td>irgend ein Kommando geben und Tür zuziehen um eine Referenzfahrt auszulösen</td>
+</tr>
+</table>
 ## Source Code und Schaltpläne
 
 Der Source Code ist relativ wild verteilt, was schon mehrfach für Verwirrung gesorgt hat. Man sollte das [mal™ ändern](https://github.com/openlab-aux/orgafoo/issues/225).
 
 Folgende Repositories enthalten relevantes:
 
-* Android-Client [sphincter-remote](https://github.com/openlab-aux/sphincter-remote)
-* Control daemon (stellt die HTTPS-API bereit) [sphincterd](https://github.com/openlab-aux/sphincterd)
-* CAD für die 3D-gedruckten Teile [sphincter-cad](https://github.com/openlab-aux/sphincter2-cad)
-* Firmware für den Mikrocontroller [sphincter2.0](https://github.com/openlab-aux/sphincter2.0) (bzw. ursprüngliches Repository [hier](https://github.com/phil-underscore/sphincter2.0))
+* Android-Client: [sphincter-remote](https://github.com/openlab-aux/sphincter-remote)
+* Control daemon (stellt die HTTPS-API bereit): [sphincterd](https://github.com/openlab-aux/sphincterd)
+* CAD für die 3D-gedruckten Teile: [sphincter-cad](https://github.com/openlab-aux/sphincter2-cad)
+* Firmware für den Mikrocontroller: [sphincter2.0](https://github.com/openlab-aux/sphincter2.0) (bzw. ursprüngliches Repository [hier](https://github.com/phil-underscore/sphincter2.0))
