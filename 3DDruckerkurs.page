@@ -28,6 +28,8 @@ Bitte beachtet, dass sich die Preise für zukünftige Workshops ändern können,
 - Die Bausätze kommen mit fertig konfigurierter und druckfertiger Firmware. Außerdem werden slic3r-configs vorliegen.
 - Der Bausatz an sich beinhaltet den vollständigen Drucker. Allerdings lässt der sich immer noch erweitern. Z.B mit einer Beleuchtung um Druckfehler besser zu erkennen oder generell um den Druck zu beobachten, oder man baut einen Raspberry Pi und Octoprint an um den Drucker netzwerkfähig zu machen ...
 
+[Bausatz ausgepackt](/small prusa i3 unboxed.JPG)
+
 ## Was bisher geschah
 
 Im **Workshop 1 und 2** (März / April 2015) wurden Prusa i3 aus gekauften Teilesätzen und selbst gedruckten Kunststoffteilen gebaut. Wir haben uns für die Version mit lasergeschnittenem Holzrahmen entschieden. Der i3 ist sicher nicht der beste Drucker am Markt, aber er ist günstig und einfach zusammen zu bauen. Außerdem ist er weit verbreitet und es gibt viele Verbesserungen, Upgrades und Support. Die Vorbereitungen der Kurse waren sehr zeitaufwändig und aufgrund der geringen Stückzahlen nicht rentabel. Wir mussten die Bauanleitung selbst erstellen, zuvor Fotos der Bauteile schießen, Druckteile drucken und die Zeit dazu frei bekommen und vieles mehr.
