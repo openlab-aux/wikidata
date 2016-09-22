@@ -36,7 +36,9 @@ Steckerbelegung:
 Das Steuergerät kennt im Moment drei Statuszustände:
 
 <table>
-<tr><td>Zustand</td><td>status0</td><td>status1</td></tr>
+<thead>
+  <tr><td>Zustand</td><td>status0</td><td>status1</td></tr>
+</thead>
 <tr><td>error</td><td>High</td><td>High</td></tr>
 <tr><td>aufgesperrt</td><td>High</td><td>Low</td></tr>
 <tr><td>zugesperrt</td><td>Low</td><td>High</td></tr>
@@ -46,12 +48,14 @@ Außerdem gibt es noch drei Status-LEDs auf der Platine und an der Tür:
 
 
 <table>
+ <thead>
   <tr>
    <td>Status</td>
    <td>rot (Platine)</td>
    <td>gelb</td>
    <td>blau</td>
   </tr>
+ </thead>
   <tr>
    <td>error</td>
    <td>X</td>
@@ -129,9 +133,9 @@ Das System ist so ausgelegt, dass es grundsätzlich jeden Fehler mit einem Abspe
 Der Unterschied zwischen Referenzfahrt und Absperren besteht darin, dass die Referenzfahrt auch dann einen genauen Nullpunkt ermitteln kann, wenn das Zahnrad so weit verdreht wurde, dass der Endstopp schon ausgelöst hat.
 
 <table>
-<tr>
+<thead><tr>
 <td>Fehler</td> <td>Symptome</td><td>Lösung</td>
-</tr>
+</tr></thead>
 <tr>
 <td>jemand hat das Zahnrad von Hand verdreht</td> <td>Aufschließen funktioniert nicht mehr</td><td>Zuschließen um eine neue Referenzposition zu finden, dann nochmal aufschließen. In besonders harten Fällen diese Prozedur nochmal wiederholen (nötig, wenn der Endstopp beim Verdrehen ausgelöst hat)</td>
 </tr>
