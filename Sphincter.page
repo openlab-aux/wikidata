@@ -37,7 +37,7 @@ Das Steuergerät kennt im Moment drei Statuszustände:
 
 <table>
 <thead>
-  <tr><td>Zustand</td><td>status0</td><td>status1</td></tr>
+  <tr class="header"><th>Zustand</th><th>status0</th><th>status1</th></tr>
 </thead>
 <tr><td>error</td><td>High</td><td>High</td></tr>
 <tr><td>aufgesperrt</td><td>High</td><td>Low</td></tr>
@@ -50,10 +50,10 @@ Außerdem gibt es noch drei Status-LEDs auf der Platine und an der Tür:
 <table>
  <thead>
   <tr class="header">
-   <th>Status</td>
-   <th>rot (Platine)</td>
-   <th>gelb</td>
-   <th>blau</td>
+   <th>Status</th>
+   <th>rot (Platine)</th>
+   <th>gelb</th>
+   <th>blau</th>
   </tr>
  </thead>
   <tr>
