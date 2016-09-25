@@ -23,4 +23,4 @@ Der Haufen kann in 3 Zuständen sein und geht nach festgelegten Zeiten vom aktue
      * Nehmen: erlaubt für alle
      * Dauer: 1,5 Wochen
 
-Sind alle drei Zustände abgelaufen wird der Haufen entsorgt.
+Sobald alle drei Zustände durchlaufen sind, wird der Haufen entsorgt.
