@@ -1,0 +1,346 @@
+Prusa I3 3D Drucker
+Allgemeines zum Drucker
+
+Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker eine komplexe Maschine, bei der einige Stolpersteine lauern. Um Defekte vorzubeugen und um die Verfügbarkeit des Druckers für alle Mitglieder des OpenLab zu ermöglichen wird für den Drucker eine einmalige Einweisung benötigt. Die Benutzung erfolgt dann mit einem personalisierten Account über die Weboberfläche des Druckers. Eine Einweisung könnt ihr bei folgenden Personen bekommen:
+
+    Stephan Schlosser (Salü, eMail)
+    Adrian Rauth (Aelonath, eMail)
+    Stefan Krister (Bastard, eMail)
+
+Wichtige Eckdaten
+
+I3 #1
+IP	172.16.0.246
+Hostname	i3-1
+Weboberfläche	http://i3-1.openlab.lan
+Bauraum	200x200x180mm
+Filament	1.75mm (i.d.R PLA)
+
+I3 #2
+IP	172.16.0.185
+Hostname	i3-2
+Weboberfläche	http://i3-2.openlab.lan
+Bauraum	200x200x180mm
+Filament	1.75mm (i.d.R PLA)
+Betrieb
+Einschalten
+
+    Strom für den Drucker am Netzteil.
+    Der Raspberry muss
+        mit dem Drucker
+        Strom
+        und Netzwerk verbunden sein.
+    Beachte, dass Octoprint nach einem Kaltstart eine Weile zum Starten braucht.
+
+Fillament
+Spulen / Art
+
+Der i3 verwendet 1.75mm Fillament. In der Regel drucken wir im OpenLab mit PLA Fillament verschiedener Hersteller.
+Fillament einführen
+
+    Fillamentspule auf den Spulenhalter setzen
+    Sicherstellen, dass das Ende des Stranges sauber abgetrennt wurde. Evtl. muss es mit einer Zange sauber abgeknipst werden.
+    Heize das Hotend auf 180 Grad
+    Öffne den Spanner am Extruder
+    Führe das Fillament vorsichtig durch den Teflonschlauch am Förderrad vorbei in den zweiten Teflonschlauch und schiebe es bis zum Hotend hinab.
+    Stelle sicher, dass Fillament aus dem Hotend austritt.
+    Schließe nun den Spanner wieder, so dass der Idler das Fillament in die Riffelung drückt.
+
+Fillament wechseln
+
+    Heize das Hotend auf 100 Grad (Fillament von „Das Fillament“ bzw. 80 Grad (Fillament eines anderen Herstellers).
+    Öffne den Idler am Extruder
+    Ziehe das Fillament vorsichtig heraus. Es sollte etwas strenger gehen, da das Fillament bei dieser Temperatur nur zähflüssig ist.
+    Fillament einführen (siehe oben)
+
+Beschichtung des Druckbettes
+
+Damit das Fillament auf dem Druckbett haftet, ist die Glasplatte mit Holzleim beschichtet. Von Zeit zu Zeit ist es nötig diese zu erneuern - wenn zum Beispiel das Druckobjekt nicht mehr richtig haftet oder sich Ecken nach oben kräuseln.
+
+    Nimm die Druckplatte vom Drucker und reinige sie gründlich mit Wasser und Spülmittel.
+    Lege die Druckplatte wieder auf das Heizbett und klemme sie fest.
+    Stelle sicher, dass die Druckplatte sauber und fettfrei ist (evtl einmal mit Aceton wischen - vorsicht, Kontakt mit der Haut vermeiden)
+    heize das Druckbett auf 70 Grad
+    Tauche ein gefaltetes Blatt von einer Küchenrolle in die vorbereitete Wasser/Holzleim-Lösung
+
+Vorschubschraube reinigen
+
+Bei gestörtem Vorschub kann es passieren, dass sich in der Riffelung des Vorschubschraube Fillament ablagert. In diesem Fall ist es notwendig diese vor dem nächsten Druck zu reinigen.
+
+    Öffne den Idler am Extruder
+    Entferne das Fillament
+    Reinige die Förderschraube mit einer kleinen Messing- oder Stahlbürste. Es geht auch mit einer spitzen Pinzette o.ä. - das ist dann aber etwas mühsamer.
+
+Drucken
+Genereller Workflow
+
+    Objekt liegt als STL-Datei vor und eignet sich für den Druck in einem FDM Drucker. Objekte eignen sich dann für den 3D Druck, wenn sie
+        auf das Druckbett passen (auch die maximale Druckhöhe beachten)
+        keine zu starken Überhänge besitzen
+        keine zu weiten Brücken gedruckt werden müssen (ab etwa 30-40mm)
+        keine Teile gedruckt werden müssen die in der Luft schweben und sonst keine Stütze besitzen.
+    Objekt wird mit einem Slicer in einzelne Druckbare Schichten zerlegt und als für den Drucker ausführbare gcode-Datei gespeichert.
+        Objekt(e) im Slicer auf dem Druckbett platzieren
+        Slicer Einstellungen wählen
+        gcode-Datei speichern oder direkt zum Drucker schicken
+    Die gcode-Datei wird an den Drucker geschickt und gedruckt.
+
+Nach dem Druck
+
+    Stelle sicher, dass alle Heizelemente abgeschaltet sind und langsam herunterkühlen (Hotend und Druckbett).
+    Warte bis das Druckbett auf Zimmertemperatur heruntergekühlt ist. Das Druckobjekt kann dann ganz einfach und ohne Kraftaufwand heruntergenommen werden. Versuche nicht, das Druckobjekt vorher mit Werkzeug oder ähnlichem abzulösen. hierbei besteht die Gefahr einer Beschädigung der Glasplatte.
+
+Slic3r Profil
+
+Slic3r Config Bundle (kann über „File > Load Config Bundle“ importiert werden). Diese Einstellungen sind druckfertig für normale Gegenstände.
+
+prusarotti_slicer_bundle.ini
+
+    # Slic3r Config für OpenLap Prusa I3 #1 und #2
+    # Datum: 12.04.2016 19:45
+     
+    [filament:DF 1.75mm (o)]
+    bed_temperature = 60
+    bridge_fan_speed = 100
+    cooling = 1
+    disable_fan_first_layers = 1
+    extrusion_multiplier = 1
+    fan_always_on = 1
+    fan_below_layer_time = 60
+    filament_diameter = 1.69
+    first_layer_bed_temperature = 65
+    first_layer_temperature = 235
+    max_fan_speed = 60
+    min_fan_speed = 50
+    min_print_speed = 20
+    slowdown_below_layer_time = 20
+    temperature = 235
+     
+    [presets]
+    filament = DF 1.75mm.ini
+    print = kurs i3.ini
+    printer = kurs i3 bowden.ini
+     
+    [print:kurs i3]
+    avoid_crossing_perimeters = 0
+    bottom_solid_layers = 3
+    bridge_acceleration = 0
+    bridge_flow_ratio = 1
+    bridge_speed = 40
+    brim_width = 0
+    complete_objects = 0
+    default_acceleration = 0
+    dont_support_bridges = 0
+    external_fill_pattern = rectilinear
+    external_perimeter_speed = 40
+    external_perimeters_first = 0
+    extra_perimeters = 1
+    extruder_clearance_height = 20
+    extruder_clearance_radius = 20
+    extrusion_width = 0
+    fill_angle = 45
+    fill_density = 25%
+    fill_pattern = honeycomb
+    first_layer_acceleration = 0
+    first_layer_extrusion_width = 0
+    first_layer_height = 0.3
+    first_layer_speed = 50%
+    gap_fill_speed = 20
+    gcode_comments = 0
+    infill_acceleration = 0
+    infill_every_layers = 1
+    infill_extruder = 1
+    infill_extrusion_width = 0
+    infill_first = 0
+    infill_only_where_needed = 0
+    infill_speed = 60
+    interface_shells = 0
+    layer_height = 0.3
+    min_skirt_length = 5
+    notes = 
+    only_retract_when_crossing_perimeters = 1
+    ooze_prevention = 0
+    output_filename_format = [input_filename_base].gcode
+    overhangs = 1
+    perimeter_acceleration = 0
+    perimeter_extruder = 1
+    perimeter_extrusion_width = 0
+    perimeter_speed = 60
+    perimeters = 2
+    post_process = 
+    raft_layers = 0
+    resolution = 0
+    seam_position = aligned
+    skirt_distance = 6
+    skirt_height = 1
+    skirts = 2
+    small_perimeter_speed = 50
+    solid_infill_below_area = 70
+    solid_infill_every_layers = 0
+    solid_infill_extrusion_width = 0
+    solid_infill_speed = 50
+    spiral_vase = 0
+    standby_temperature_delta = -5
+    support_material = 0
+    support_material_angle = 0
+    support_material_enforce_layers = 0
+    support_material_extruder = 1
+    support_material_extrusion_width = 0
+    support_material_interface_extruder = 1
+    support_material_interface_layers = 0
+    support_material_interface_spacing = 0
+    support_material_interface_speed = 100%
+    support_material_pattern = rectilinear
+    support_material_spacing = 2.5
+    support_material_speed = 40
+    support_material_threshold = 0
+    thin_walls = 1
+    threads = 2
+    top_infill_extrusion_width = 0
+    top_solid_infill_speed = 40
+    top_solid_layers = 3
+    travel_speed = 100
+     
+    [printer:kurs i3 bowden]
+    end_gcode = M104 S0 ; turn off temperature\nM140 S0;\nG28 X\nG28 Y\nM84     ; disable motors
+    extruder_offset = 0x0
+    gcode_flavor = reprap
+    layer_gcode = 
+    nozzle_diameter = 0.4
+    retract_before_travel = 2
+    retract_layer_change = 1
+    retract_length = 4
+    retract_length_toolchange = 10
+    retract_lift = 0
+    retract_restart_extra = 0
+    retract_restart_extra_toolchange = 0
+    retract_speed = 35
+    start_gcode = G28 ; home all axes
+    toolchange_gcode = 
+    use_firmware_retraction = 0
+    use_relative_e_distances = 0
+    vibration_limit = 0
+    wipe = 0
+    z_offset = 0
+     
+    [settings]
+    autocenter = 1
+    mode = expert
+     
+    [simple]
+    avoid_crossing_perimeters = 1
+    bed_temperature = 60
+    bottom_solid_layers = 3
+    bridge_acceleration = 0
+    bridge_fan_speed = 100
+    bridge_flow_ratio = 1
+    bridge_speed = 60
+    brim_width = 0
+    complete_objects = 0
+    cooling = 1
+    default_acceleration = 0
+    disable_fan_first_layers = 1
+    dont_support_bridges = 1
+    duplicate_distance = 6
+    end_gcode = M104 S0 ; turn off temperature\nG28 X0  ; home X axis\nM84     ; disable motors\n
+    external_perimeter_speed = 70%
+    external_perimeters_first = 0
+    extra_perimeters = 1
+    extruder_clearance_height = 20
+    extruder_clearance_radius = 20
+    extruder_offset = 0x0
+    extrusion_axis = E
+    extrusion_multiplier = 1
+    extrusion_width = 0
+    fan_always_on = 0
+    fan_below_layer_time = 60
+    filament_diameter = 1.75
+    fill_angle = 45
+    fill_density = 40%
+    fill_pattern = honeycomb
+    first_layer_acceleration = 0
+    first_layer_bed_temperature = 65
+    first_layer_extrusion_width = 200%
+    first_layer_height = 0.4
+    first_layer_speed = 30%
+    first_layer_temperature = 205
+    gap_fill_speed = 20
+    gcode_arcs = 0
+    gcode_comments = 0
+    gcode_flavor = reprap
+    infill_acceleration = 0
+    infill_every_layers = 10
+    infill_extruder = 1
+    infill_extrusion_width = 0
+    infill_first = 0
+    infill_only_where_needed = 0
+    infill_speed = 60
+    interface_shells = 0
+    layer_gcode = 
+    layer_height = 0.3
+    max_fan_speed = 100
+    min_fan_speed = 35
+    min_print_speed = 10
+    min_skirt_length = 0
+    notes = 
+    nozzle_diameter = 0.4
+    only_retract_when_crossing_perimeters = 1
+    ooze_prevention = 0
+    output_filename_format = [input_filename_base].gcode
+    overhangs = 1
+    perimeter_acceleration = 0
+    perimeter_extruder = 1
+    perimeter_extrusion_width = 0
+    perimeter_speed = 30
+    perimeters = 3
+    post_process = 
+    raft_layers = 0
+    resolution = 0
+    retract_before_travel = 2
+    retract_layer_change = 1
+    retract_length = 1
+    retract_length_toolchange = 10
+    retract_lift = 0
+    retract_restart_extra = 0
+    retract_restart_extra_toolchange = 0
+    retract_speed = 30
+    seam_position = aligned
+    skirt_distance = 6
+    skirt_height = 1
+    skirts = 1
+    slowdown_below_layer_time = 30
+    small_perimeter_speed = 30
+    solid_infill_below_area = 70
+    solid_infill_every_layers = 0
+    solid_infill_extrusion_width = 0
+    solid_infill_speed = 60
+    spiral_vase = 0
+    standby_temperature_delta = -5
+    start_gcode = G28 ; home all axes\nG1 Z5 F5000 ; lift nozzle\n
+    support_material = 0
+    support_material_angle = 0
+    support_material_enforce_layers = 0
+    support_material_extruder = 1
+    support_material_extrusion_width = 0
+    support_material_interface_extruder = 1
+    support_material_interface_layers = 3
+    support_material_interface_spacing = 0
+    support_material_interface_speed = 100%
+    support_material_pattern = pillars
+    support_material_spacing = 2.5
+    support_material_speed = 60
+    support_material_threshold = 0
+    temperature = 200
+    thin_walls = 1
+    threads = 2
+    toolchange_gcode = 
+    top_infill_extrusion_width = 0
+    top_solid_infill_speed = 50
+    top_solid_layers = 3
+    travel_speed = 130
+    use_firmware_retraction = 0
+    use_relative_e_distances = 0
+    vibration_limit = 0
+    wipe = 0
+    z_offset = 0
+
