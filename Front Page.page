@@ -5,7 +5,8 @@ format: Markdown
 ## Hallo Mensch!
 Dieses Wiki ist eventuell die Zukunft.
 
-* [Wie dokumentiere ich etwas?](Tutorial_doku)
+* [Wie dokumentiere ich etwas?](Tutorial%20Dokumentation)
+* [Wie funktioniert das Wiki?](Tutorial%20Syntax)
 * …
 
 ## Allgemeines
