@@ -1,0 +1,24 @@
+## Accounts
+
+Jeder kann einen Account anlegen und Seiten bearbeiten sowie anlegen. Das geht [hier](https://wiki.openlab-augsburg.de/_register?destination=).
+
+## Markup-Syntax
+
+Standardmarkup ist [Markdown](http://daringfireball.net/projects/markdown/), das [hier](http://daringfireball.net/projects/markdown/syntax) dokumentiert ist. Markdown kennt man sicherlich schon z. B. von GitHub.
+
+Dieses Wiki verwendet eine verbesserte Version von Markdown, nämlich Pandoc Markdown, die im [Handbuch von pandoc](http://pandoc.org/MANUAL.html#pandocs-markdown) dokumentiert ist.
+
+### Fallen
+
+Hier ein bisschen aufpassen:
+
+* Unterlisten müssen mit vier Leerzeichen eingerückt sein
+
+### Wie geht … in Markdown?
+
+#### Tabellen
+
+Unterstützt Markdown nicht von Haus aus, also gibt es zwei Möglichkeiten:
+
+1. [HTML-Tabellen](http://www.w3schools.com/html/html_tables.asp) benutzen
+2. [Pandoc-Markdown-Tabellen](http://pandoc.org/MANUAL.html#tables) benutzen, wobei alle im Abschnitt beschriebenen Versionen funktionieren (besser)
