@@ -42,9 +42,9 @@ Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker e
 
 1. Strom für den Drucker am Netzteil.
 2. Der Raspberry muss
-   a. mit dem Drucker
-   b. Strom
-   c. und Netzwerk verbunden sein.
+    * mit dem Drucker
+    * Strom
+    * und Netzwerk verbunden sein.
 3. Beachte, dass Octoprint nach einem Kaltstart eine Weile zum Starten braucht.
 
 ### Filament
@@ -90,14 +90,14 @@ Bei gestörtem Vorschub kann es passieren, dass sich in der Riffelung des Vorsch
 Genereller Workflow
 
 1. Objekt liegt als STL-Datei vor und eignet sich für den Druck in einem FDM Drucker. Objekte eignen sich dann für den 3D Druck, wenn sie
-a. auf das Druckbett passen (auch die maximale Druckhöhe beachten)
-b. keine zu starken Überhänge besitzen
-c. keine zu weiten Brücken gedruckt werden müssen (ab etwa 30-40mm)
-d. keine Teile gedruckt werden müssen die in der Luft schweben und sonst keine Stütze besitzen.
+    * auf das Druckbett passen (auch die maximale Druckhöhe beachten)
+    * keine zu starken Überhänge besitzen
+    * keine zu weiten Brücken gedruckt werden müssen (ab etwa 30-40mm)
+    * keine Teile gedruckt werden müssen die in der Luft schweben und sonst keine Stütze besitzen.
 2. Objekt wird mit einem Slicer in einzelne Druckbare Schichten zerlegt und als für den Drucker ausführbare gcode-Datei gespeichert.
-a. Objekt(e) im Slicer auf dem Druckbett platzieren
-b. Slicer Einstellungen wählen
-c. gcode-Datei speichern oder direkt zum Drucker schicken
+    * Objekt(e) im Slicer auf dem Druckbett platzieren
+    * Slicer Einstellungen wählen
+    * gcode-Datei speichern oder direkt zum Drucker schicken
 3. Die gcode-Datei wird an den Drucker geschickt und gedruckt.
 
 ### Nach dem Druck
