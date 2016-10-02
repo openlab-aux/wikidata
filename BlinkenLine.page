@@ -40,6 +40,7 @@ Videos:
 #### LineTris
 
 Ein Spiel in Anlehnung an Tetris, nur mit Farben. Bestehende Blöcke können umsortiert werden, wenn der fallende Block in der Farbe dem obersten Block entspricht lösen sich beide auf.
+
 Video: [LineTris on BlinkenLine in OpenLab Augsburg](https://youtu.be/RJX5_UgN6n4)
 
 #### PNG-Play
