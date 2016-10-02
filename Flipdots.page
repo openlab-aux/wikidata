@@ -1,0 +1,22 @@
+* [Kümmerer](Kümmerer#flipdots)
+
+## Ansteuerung
+
+### Per UDP-Schnittstelle
+
+* Erreichbar auf `flipdot.openlab.lan`, Port 2323
+
+### Per Web(-API)
+
+* [flipdot.openlab-augsburg.de](http://flipdot.openlab-augsburg.de)
+
+## Software
+
+Auf dem Raspberry Pi laufen diese drei relevanten [systemd](http://systemd.org/)-services:
+
+Service                           Beschreibung                                                                          Source-Code
+--------------------------------  ----------------------------------------------------------------------------------    ------------
+`flipdot.service`                 Empfängt die Steuerungspakete per UDP auf Port 2323                                   [flipdots](https://github.com/openlab-aux/flipdots/tree/master/raspberrypi)
+`flipdot-gschichtler.service`     Fragt regelmäßig die Queue der Web-API ab und schickt neuen Text auf die Flipdots     [flipdot-gschichtler](https://github.com/openlab-aux/flipdot-gschichtler)
+`flipdot-admin.service`           Erlaubt das Löschen von Queue-Einträgen                                               tbd
+--------------------------------  ----------------------------------------------------------------------------------    ------------
