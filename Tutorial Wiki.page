@@ -22,3 +22,21 @@ Unterstützt Markdown nicht von Haus aus, also gibt es zwei Möglichkeiten:
 
 1. [HTML-Tabellen](http://www.w3schools.com/html/html_tables.asp) benutzen
 2. [Pandoc-Markdown-Tabellen](http://pandoc.org/MANUAL.html#tables) benutzen, wobei alle im Abschnitt beschriebenen Versionen funktionieren (besser)
+
+## Allgemeine Informationen
+
+Dieses Wiki ist eine angepasste Version von [gitit](https://github.com/jgm/gitit), denn wir haben folgende Features hinzugefügt:
+
+* Einen graphischen Markdowneditor ([SimpleMDE](http://simplemde.com))
+* Keine Assets werden von CDNs nachgeladen für mehr Datensparsamkeit
+* Verbesserter Preview
+
+Unser [Sourcecode lebt auf GitHub](https://github.com/openlab-aux/gitit).
+
+## Was tun, wenn etwas kaputt ist?
+
+Falls du Fragen oder Probleme hast, kannst du folgendes tun:
+
+* Ein Issue [öffnen](https://github.com/openlab-aux/gitit/issues/new)
+* [sternenseemann](Mensch_sternenseemann) oder [Profpatsch](Mensch_profpatsch) anschreiben (z. B. im [IRC](IRC))
+* In der nächsten Sektion einen Text hinzufügen
