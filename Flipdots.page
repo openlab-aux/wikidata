@@ -1,5 +1,9 @@
 * [Kümmerer](Kümmerer#flipdots)
 
+Die Flipdots stehen auf dem [Regal](Regal). Strom ist in der Mehrfachsteckdose über der Musikanlage beim Schallplattenspieler und hannswurst eingesteckt. LAN steckt in Buchse 14 (ist hinter Kisten).
+
+Ein- und Ausgeschaltet können die Flipdots per Schalter an der Mehrfachsteckdose *direkt* an den Flipdots.
+
 ## Ansteuerung
 
 ### Per UDP-Schnittstelle
