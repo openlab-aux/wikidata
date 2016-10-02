@@ -1,0 +1,9 @@
+Name                                                  Info/Rolle
+----------------------------------------------------- ------------------------------------------------------------
+rantanplan                                            Physikalischer Server im OpenLab, stellt viele VMs bereit
+labctl                                                tbd
+ftp.openlab.lan                                       VM auf dem rantanplan
+flipdot.openlab.lan                                   Raspberry Pi im OpenLab, siehe [Flipdots](Flipdots)
+VM der Website                                        tbd
+VM der Mailinglisten                                  gibt es nicht :o
+----------------------------------------------------- ------------------------------------------------------------
