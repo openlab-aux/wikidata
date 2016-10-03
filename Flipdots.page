@@ -22,6 +22,8 @@ Auf dem Raspberry Pi laufen diese drei relevanten [systemd](http://systemd.org/)
 Service                           Beschreibung                                                                          Source-Code
 --------------------------------  ----------------------------------------------------------------------------------    ------------
 `flipdot.service`                 Empfängt die Steuerungspakete per UDP auf Port 2323                                   [flipdots](https://github.com/openlab-aux/flipdots/tree/master/raspberrypi)
-`flipdot-gschichtler.service`     Fragt regelmäßig die Queue der Web-API ab und schickt neuen Text auf die Flipdots     [flipdot-gschichtler](https://github.com/openlab-aux/flipdot-gschichtler)
-`flipdot-admin.service`           Erlaubt das Löschen von Queue-Einträgen                                               tbd
+`flipdot-gschichtler.service`     Fragt regelmäßig die Queue der Web-API ab und schickt neuen Text auf die Flipdots     [flipdot-gschichtler/flipper](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/flipper)
+`flipdot-admin.service`           Erlaubt das Löschen von Queue-Einträgen                                               [flipdot-gschichtler/admin](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/admin)
 --------------------------------  ----------------------------------------------------------------------------------    ------------
+
+Auf einem Server von [sternenseemann](Mensch_sternenseemann) läuft [flipdot-gschichtler/web](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/web).
