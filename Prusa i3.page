@@ -110,4 +110,5 @@ Genereller Workflow
 Slic3r Config Bundle (kann über „File > Load Config Bundle“ importiert werden). Diese Einstellungen sind druckfertig für normale Gegenstände.
 
 [Slic3r Profil für den Prusa i3 #1](https://github.com/openlab-aux/3d-printer-prusa-i3-1/blob/master/slic3r_config/config_bundle.ini)
+
 [Slic3r Profil für den Prusa i3 #2](https://github.com/openlab-aux/3d-printer-prusa-i3-2/blob/master/slic3r_config/config_bundle.ini)
