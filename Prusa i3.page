@@ -16,7 +16,7 @@ Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker e
 +-------------+------------+
 |Hostname     |i3-1        |
 +-------------+------------+
-|Weboberfläche|http://i3-1.openlab.lan |
+|Weboberfläche|[http://i3-1.openlab.lan](http://i3-1.openlab.lan) |
 +-------------+------------+
 |Bauraum      |200x200x180mm|
 +-------------+------------+
@@ -30,7 +30,7 @@ Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker e
 +-------------+------------+
 |Hostname     |i3-2        |
 +-------------+------------+
-|Weboberfläche|http://i3-2.openlab.lan |
+|Weboberfläche|[http://i3-2.openlab.lan]() |
 +-------------+------------+
 |Bauraum      |200x200x180mm|
 +-------------+------------+
