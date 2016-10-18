@@ -14,19 +14,19 @@ Anzahl Bauteil
 1      1.8" TFT Display (128X160)
 1      Nano V3 ATmega328P Board, 5V/16MHz
 1      Audio Verlängerungskabel 3,5mm Klinke
-1      R1: 1/4W 1,0K	Widerstand
-1      1/4W 100	Widerstand
+1      R1, (R5): 1/4W 1,0K	Widerstand
+1      R7: 1/4W 100	Widerstand
 1      1/4W 100K	Widerstand
 5      R3, R9, R10, R11, R12: 1/4W 10K	Widerstand
-1      1/4W 10M	Widerstand
+1      R18: 1/4W 10M	Widerstand
 1      1/4W 220	Widerstand
-2      1/4W 5,6K	Widerstand
-1      1/4W 68K	Widerstand
-1      74HC 4050	Pegelwandler
+2      R2, R8: 1/4W 5,6K	Widerstand
+1      R4: 1/4W 68K	Widerstand
+1      U1: 74HC 4050	Pegelwandler
 4      BL 1X10G 2,54	Buchsenleiste
 1      EBS 35	Klinkenbuchse
 2      KERKO 10N	Keramikkondensator
-6      TASTER 3301D	Taster
+6      S1 - S6: TASTER 3301D	Taster
 1      OPA 703 PA	Operationsverstärker
 1      N-Kanal 2N 7000	MOSFET
 1      P-Kanal IRF 5305	MOSFET
