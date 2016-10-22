@@ -1,9 +1,11 @@
 #Bau' Dir eine eigene Lötstation
 
 ## Vorgeschichte
-![Titelbild Make 5/2016](https://www.heise.de/make/inhalt/thumbnails/2016/05/1.jpg "Titelbild Make 5/2016")In der [Make 5/2016 Seite 12ff](http://www.heise.de/make/inhalt/2016/5/12/) wurde eine Lötstation zum Selberbauen vorgestellt. Sie basiert auf einem Arduino Nano, einem 1,8" TFT Display und einer Weller RT Lötspitze. Der Arduino übernimmt die Ausgaben auf dem Display, regelt die Lötspitzentemperatur und bietet dem Anwender mittels 6 Taster ein Benutzerinterface zum Einstellen der Solltemperatur. Weitere Taster wählen vorkonfigurierte Temperaturen an bzw. schalten Ein/Aus oder in Standby mit reduzierter Temperatur.
+![Titelbild Make 5/2016](https://www.heise.de/make/inhalt/thumbnails/2016/05/1.jpg "Titelbild Make 5/2016")
 
-Es werden zusätzlich noch ein paar Widerstönde, Kondensatoren, zwei MOSFETs und 2 ICs benötigt. Der eine IC verstätkt den Temperaturmesswert, der andere führt eine Pegelanpassung auf 3,3V für das Display durch. Die Platinendateien und der Quellcode sind [hier](https://github.com/ArduinoHannover/Maiskolben) zu finden. Es werden ausschließlich Durchsteck-Bauteile verwendet. Damit sollte jeder in der Lage sein, mit seinem *schlechten* Lötkolben diese Lötstation aufzubauen. Für das Gehäuse bieten sich zwei Möglichkeiten an - 3D Druck oder lasergeschnittene Gehäuseplatten. Im Augenblick läuft eine Preisanfrage nach den Laserteilen. Ebenso ist der Preis für die Platinen noch nicht 100% genau - bei Abnahme von 20 Stück dürfte eine Platine auf ca. 10€ kommen. Der Gesamtpreis für die Bauteile, Netzteil, Kabel, Lötspitze beträgt aktuell 81,89€ pro Satz. 
+In der [Make 5/2016 Seite 12ff](http://www.heise.de/make/inhalt/2016/5/12/) wurde eine Lötstation zum Selberbauen vorgestellt. Sie basiert auf einem Arduino Nano, einem 1,8" TFT Display und einer Weller RT Lötspitze. Der Arduino übernimmt die Ausgaben auf dem Display, regelt die Lötspitzentemperatur und bietet dem Anwender mittels 6 Taster ein Benutzerinterface zum Einstellen der Solltemperatur. Weitere Taster wählen vorkonfigurierte Temperaturen an bzw. schalten Ein/Aus oder in Standby mit reduzierter Temperatur.
+
+Es werden zusätzlich noch ein paar Widerstände, Kondensatoren, zwei MOSFETs und 2 ICs benötigt. Der eine IC verstätkt den Temperaturmesswert, der andere führt eine Pegelanpassung auf 3,3V für das Display durch. Die Platinendateien und der Quellcode sind [hier](https://github.com/ArduinoHannover/Maiskolben) zu finden. Es werden ausschließlich Durchsteck-Bauteile verwendet. Damit sollte jeder in der Lage sein, mit seinem *schlechten* Lötkolben diese Lötstation aufzubauen. Für das Gehäuse bieten sich zwei Möglichkeiten an - 3D Druck oder lasergeschnittene Gehäuseplatten. Im Augenblick läuft eine Preisanfrage nach den Laserteilen. Ebenso ist der Preis für die Platinen noch nicht 100% genau - bei Abnahme von 20 Stück dürfte eine Platine auf ca. 10€ kommen. Der Gesamtpreis für die Bauteile, Netzteil, Kabel, Lötspitze beträgt aktuell 81,89€ pro Satz. 
 
 ## Bauteile
 
@@ -36,14 +38,17 @@ Anzahl Bauteil
 
 
 ## Prototypenphase
+
 Ähnlich wie bei den 3D-Druckern, kann man mit einer kleineren Menge erst mal Kosten sparen und ausprobieren, ob der Plan gelingt. Später lässt sich dann daraus ein Workshop basteln. Zur Vorbereitung habe ich 20 Platinen und alle Bauteile bestellt, die man für 5 Prototypen benötigt. Ebenso müsste es möglich sein, den Aufbau so zu gestalten, dass man nach jedem Schritt nachmessen können sollte, um Fehler frühzeitig zu finden.
 
 Bis die Platinen da sind, kann man einen Teil der Lötstation auf einem Breadboard aufbauen, um z.B. an einer Einschaltmeldung herumzuspielen:
 
 ![Lötstation Prototyp 1](/loet-proto-1.jpg){ width=800 }
+
 ![Lötstation Prototyp 2](/loet-proto-2.jpg){ width=200 }
 
 ### Aufbau des Prototypen
+
 - Zur Übertragung der Firmware auf den Arduino NANO steht ein dazu geeignetes Gerät allen Teilnehmern im Workshop zur Verfügung. Beim Prototyp muss man halt die Arduino-Entwicklungsumgebung installieren, die notwendigen Bibliotheken dazu laden und nach dem compilieren übertragen. Da auf den Boards kein FTDI seriell-USB Wandler ist, sondern ein CH340, muß man den dafür notwendigen Treiber separat installieren. Den Treiber und weitere Details gibt es [hier](https://www.jens-bretschneider.de/aktuelle-treiber-fur-seriell-zu-usb-adapter/).
 - DC Einbaubuchse einlöten, prüfen ob 12V an den Pins anliegen
 - Buchsenleisten vorbereiten. Der NANO benötigt 2x15, das Display 1x8 Buchsen. Die Buchsenleisten haben jeweils 10 Buchsen. Trenne 2 der 10er Buchsenleisten in eine 5er und eine 4er. Debei geht eine Buchse verloren. Nun hast du 2x10 + 2x5 für den NANO und 2x4 für das Display.
