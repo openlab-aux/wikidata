@@ -3,17 +3,17 @@
 ## Vorgeschichte
 ![Titelbild Make 5/2016](https://www.heise.de/make/inhalt/thumbnails/2016/05/1.jpg "Titelbild Make 5/2016")In der [Make 5/2016 Seite 12ff](http://www.heise.de/make/inhalt/2016/5/12/) wurde eine Lötstation zum Selberbauen vorgestellt. Sie basiert auf einem Arduino Nano, einem 1,8" TFT Display und einer Weller RT Lötspitze. Der Arduino übernimmt die Ausgaben auf dem Display, regelt die Lötspitzentemperatur und bietet dem Anwender mittels 6 Taster ein Benutzerinterface zum Einstellen der Solltemperatur. Weitere Taster wählen vorkonfigurierte Temperaturen an bzw. schalten Ein/Aus oder in Standby mit reduzierter Temperatur.
 
-Es werden zusätzlich noch ein paar Widerstände, Kondensatoren, zwei MOSFETs und 2 ICs benötigt. Der eine IC verstärtkt den Temperaturmesswert, der andere führt eine Pegelanpassung auf 3,3V für das Display durch. Die Platinendateien und der Quellcode sind [hier](https://github.com/ArduinoHannover/Maiskolben) zu finden. Es werden ausschließlich Durchsteck-Bauteile verwendet. Damit sollte jeder in der Lage sein, mit seinem *schlechten* Lötkolben diese Lötstation aufzubauen. Für das Gehäuse bieten sich zwei Möglichkeiten an - 3D Druck oder lasergeschnittene Gehäuseplatten. Im Augenblick läuft eine Preisanfrage nach den Laserteilen. Ebenso ist der Preis für die Platinen noch nicht 100% genau - bei Abnahme von 20 Stück dürfte eine Platine auf ca. 10€ kommen. Der Gesamtpreis für die Bauteile, Netzteil, Kabel, Lötspitze beträgt aktuell 81,89€ pro Satz. 
+Es werden zusätzlich noch ein paar Widerstände, Kondensatoren, zwei MOSFETs und zwei ICs benötigt. Der eine IC verstärtkt den Temperaturmesswert, der andere führt eine Pegelanpassung auf 3,3V für das Display durch. Die Platinendateien und der Quellcode sind [hier](https://github.com/ArduinoHannover/Maiskolben) zu finden. Es werden ausschließlich Durchsteck-Bauteile verwendet. Damit sollte jeder in der Lage sein, mit seinem *schlechten* Lötkolben diese Lötstation aufzubauen. Für das Gehäuse bieten sich zwei Möglichkeiten an - 3D Druck oder lasergeschnittene Gehäuseplatten. Im Augenblick läuft eine Preisanfrage nach den Laserteilen. Ebenso ist der Preis für die Platinen noch nicht 100% genau - bei Abnahme von 20 Stück dürfte eine Platine auf ca. 10€ kommen. Der Gesamtpreis für die Bauteile, Netzteil, Kabel, Lötspitze beträgt aktuell 81,89€ pro Satz.
 
 ## Bauteile
 
 Anzahl Bauteil
 ------ ----------------
 1      Platine
-1      JP1: DC Einbaubuchse
-1      TFT1: 1.8" TFT Display (128X160)
-1      U1: Nano V3 ATmega328P Board, 5V/16MHz
-1      Audio Verlängerungskabel 3,5mm Klinke
+1      JP1: [DC Einbaubuchse](http://www.ebay.de/itm/121854036157)
+1      TFT1: [1.8" TFT Display (128X160)](http://www.ebay.de/itm/291751653989)
+1      U1: [Nano V3 ATmega328P Board, 5V/16MHz](http://www.ebay.de/itm/301943933929)
+1      [Audio Verlängerungskabel 3,5mm Klinke](http://www.ebay.de/itm/182281479503?)
 1      R1, (R5): 1/4W 1,0KΩ Widerstand (braun-schwarz-rot)
 1      R7: 1/4W 100Ω Widerstand (braun-schwarz-braun)
 1      1/4W 100KΩ	Widerstand (braun-schwarz-gelb)
