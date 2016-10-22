@@ -39,7 +39,7 @@ Anzahl Bauteil
 Ähnlich wie bei den 3D-Druckern, kann man mit einer kleineren Menge erst mal Kosten sparen und ausprobieren, ob der Plan gelingt. Später lässt sich dann daraus ein Workshop basteln. Zur Vorbereitung habe ich 20 Platinen und alle Bauteile bestellt, die man für 5 Prototypen benötigt. Ebenso müsste es möglich sein, den Aufbau so zu gestalten, dass man nach jedem Schritt nachmessen können sollte, um Fehler frühzeitig zu finden.
 
 ### Aufbau des Prototypen
-- Übertragen der Software auf den Arduino NANO (im Workshop steht dazu ein geeignetes Gerät allen Teilnehmern zur Verfügung); beim Prototyp muss man halt die ArduinoEntwicklungsumgebung installieren, die notwendigen Bibliotheken dazu laden und nach dem compilieren übertragen.
+- Zur Übertragung der Firmware auf den Arduino NANO steht ein dazu geeignetes Gerät allen Teilnehmern im Workshop zur Verfügung. Beim Prototyp muss man halt die Arduino-Entwicklungsumgebung installieren, die notwendigen Bibliotheken dazu laden und nach dem compilieren übertragen. Da auf den Boards kein FTDI seriell-USB Wandler ist, sondern ein CH340, muß man den dafür notwendigen Treiber separat installieren. Den Treiber und weitere Details gibt es [hier](https://www.jens-bretschneider.de/aktuelle-treiber-fur-seriell-zu-usb-adapter/).
 - DC Einbaubuchse einlöten, prüfen ob 12V an den Pins anliegen
 - Buchsenleisten vorbereiten. Der NANO benötigt 2x15, das Display 1x8 Buchsen. Die Buchsenleisten haben jeweils 10 Buchsen. Trenne 2 der 10er Buchsenleisten in eine 5er und eine 4er. Debei geht eine Buchse verloren. Nun hast du 2x10 + 2x5 für den NANO und 2x4 für das Display.
 - Buchsenleisten einlöten. Prüfe, ob 12V an den Pins Vin und GND anliegt. Ein eingesteckter NANO sollte die Power-LED aufleuchten lassen.
@@ -48,4 +48,5 @@ Anzahl Bauteil
 - Klinkenbuchse einlöten
 - Operationsverstärker, R2, R4, R7, R8, R18, C7 und C8 einlöten.
 - Pegelwandler einlöten, LED und R5 einlöten.
+- Stiftleisten an den Nano löten
 - Nano mit der Firmware flashen, einstecken, Display einstecken
