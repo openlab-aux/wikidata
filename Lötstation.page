@@ -1,9 +1,9 @@
 #Bau' Dir eine eigene Lötstation
 
 ## Vorgeschichte
-![Titelbild Make 5/2016](https://www.heise.de/make/inhalt/thumbnails/2016/05/1.jpg "Titelbild Make 5/2016")In der [Make 5/2016 Seite 12ff](http://www.heise.de/make/inhalt/2016/5/12/) wurde eine Lötstation zum Selberbauen vorgestellt. Sie basiert auf einem Arduino Nano, einem 1,8" TFT Display und einer Weller RT Lötspitze. Der Arduino übernimmt die Ausgaben auf dem Display, regelt die Lötspitzentemperatur und bietet dem Anwender mittels 6 Taster ein Benutzerinterface zum Einstellen der Solltemperatur. Weitere Taster wählen vorkonfigurierte Temperaturen an bzw. schalten Ein/Aus oder in Standby mit reduzierter Temperatur.
+![Titelbild Make 5/2016](https://www.heise.de/make/inhalt/thumbnails/2016/05/1.jpg "Titelbild Make 5/2016")In der [Make 5/2016 Seite 12ff](http://www.heise.de/make/inhalt/2016/5/12/) wurde eine Lötstation zum Selberbauen vorgestellt. Sie basiert auf einem Arduino Nano, einem 1,8" TFT Display und einer Weller RT Lötspitze. Der Arduino übernimmt die Ausgaben auf dem Display, regelt die Lötspitzentemperatur und bietet dem Anwender über zwei Tasten ein Benutzerinterface zum Einstellen der Solltemperatur. Weitere Taster wählen vorkonfigurierte Temperaturen an bzw. schalten Ein/Aus oder in Standby mit reduzierter Temperatur.
 
-Es werden zusätzlich noch ein paar Widerstände, Kondensatoren, zwei MOSFETs und zwei ICs benötigt. Der eine IC verstärtkt den Temperaturmesswert, der andere führt eine Pegelanpassung auf 3,3V für das Display durch. Die Platinendateien und der Quellcode sind [hier](https://github.com/ArduinoHannover/Maiskolben) zu finden. Es werden ausschließlich Durchsteck-Bauteile verwendet. Damit sollte jeder in der Lage sein, mit seinem *schlechten* Lötkolben diese Lötstation aufzubauen. 
+Es werden zusätzlich noch ein paar Widerstände, Kondensatoren, zwei MOSFETs und zwei ICs benötigt. Der eine IC verstärtkt den Temperaturmesswert, der andere führt eine Pegelanpassung auf 3,3V für das Display durch. Die Platinendateien und der Quellcode sind [hier](https://github.com/ArduinoHannover/Maiskolben) zu finden. Es werden ausschließlich bedrahtete Bauteile verwendet. Damit sollte jeder in der Lage sein, mit seinem *schlechten* Lötkolben diese Lötstation aufzubauen. 
 
 Für das Gehäuse bieten sich zwei Möglichkeiten an - 3D Druck oder lasergeschnittene Gehäuseplatten. Im Augenblick läuft eine Preisanfrage nach den Laserteilen. Das fertige Gehäuse wird ungefähr so aussehen:
 
@@ -13,37 +13,38 @@ Frisch aus dem Laser - noch mit Schutzfolie, deswegen der Blaustich:
 
 ![Gehäuse Prototyp](/Loetstation-Gehaeuse-Prototyp.jpg){ width=800 }
 
-Ebenso ist der Preis für die Platinen noch nicht 100% genau - bei Abnahme von 20 Stück dürfte eine Platine auf ca. 10€ kommen. Der Gesamtpreis für die Bauteile, Netzteil, Kabel, Lötspitze beträgt aktuell 81,89€ pro Satz.
+Leider passt das Gehäuse nicht zur Platine. Im Moment haben wir dafür keine Lösung. Es wird lediglich eine 3D-Druck Alternative zur Zeit entwickelt.
+
 
 ## Bauteile
 
 Anzahl Bauteil
 ------ ----------------
 1      Platine
-1      JP1: [DC Einbaubuchse](http://www.ebay.de/itm/121854036157)
-1      TFT1: [1.8" TFT Display (128X160)](http://www.ebay.de/itm/291751653989)
-1      U1: [Nano V3 ATmega328P Board, 5V/16MHz](http://www.ebay.de/itm/301943933929)
-1      [Audio Verlängerungskabel 3,5mm Klinke](http://www.ebay.de/itm/182281479503?)
-1      R1, (R5): 1/4W 1,0KΩ Widerstand (braun-schwarz-rot)
-1      R7: 1/4W 100Ω Widerstand (braun-schwarz-braun)
-1      1/4W 100KΩ	Widerstand (braun-schwarz-gelb)
+1      JP1: DC Einbaubuchse
+1      TFT1: 1.8" TFT Display (128X160)
+1      U1: Nano V3 ATmega328P Board, 5V/16MHz
+1      Audio Verlängerungskabel 3,5mm Klinke
+1      R1, R5: 1KΩ Widerstand (braun-schwarz-rot)
+1      R7: 100Ω Widerstand (braun-schwarz-braun)
+1      1/4W 100KΩ	Widerstand (braun-schwarz-gelb) (Dieser Widerstand ist im MAKE-Artikel parallel zum C8 im Schaltplan. Die Prototypen haben wir ohne aufgebaut. Bisher ohne Befund)
 5      R3, R9, R10, R11, R12: 1/4W 10KΩ	Widerstand (braun-schwarz-orange)
 1      R18: 1/4W 10MΩ Widerstand (braun-schwarz-blau)
-1      1/4W 220Ω	Widerstand (rot-rot-braun)
+1      1/4W 220Ω Widerstand (rot-rot-braun) (Dieser Widerstand ist im MAKE-Artikel für die LED vorgesehen, im Schaltplan zur Platine wird für die LED ein Widerstand mit 1kΩ benutzt)
 2      R2, R8: 1/4W 5,6KΩ Widerstand (grün-blau-rot)
 1      R4: 1/4W 68KΩ Widerstand (grün-grau-orange)
 1      U1: 74HC 4050 Pegelwandler
-4      BL 1X10G 2,54 Buchsenleiste
-1      EBS 35	Klinkenbuchse
-2      C6, C8: KERKO 10N Keramikkondensator
-2      C1, C7: KERKO 100N	Keramikkondensator
-1      LED: LED, 3 mm, gefärbt, 4,5 mcd, rot
-6      S1 - S6: TASTER 3301D	Taster
+4      1X10 2,54 Buchsenleiste
+1      3,5mm Klinkenbuchse
+2      C6, C8: 10nF Keramikkondensator
+2      C1, C7: 100nF Keramikkondensator
+1      LED: LED 5 mm rot
+6      S1 - S6: Taster
 1      IC1: OPA 703 PA	Operationsverstärker
 1      Q2: N-Kanal 2N 7000	MOSFET
 1      Q1: P-Kanal IRF 5305	MOSFET
 1      WELLER RT 1	Lötspitze
-1      MW GS60A12	Netzteil
+1      Netzteil 60W 12V 5A
 
 
 
@@ -55,18 +56,21 @@ Bis die Platinen da sind, kann man einen Teil der Lötstation auf einem Breadboa
 ![Lötstation Prototyp 1](/loet-proto-1.jpg){ width=800 }
 ![Lötstation Prototyp 2](/loet-proto-2.jpg){ width=200 }
 
+Inzwischen sind die Platinen eingetroffen. Bis gestern entstanden daraus 3 funktionierende Prototypen.
+
+![Prototyp](/prototyp1.jpg){ width=800 }
+![Prototyp](/prototyp2.jpg){ width=800 }
+
 ### Aufbau des Prototypen
 
 ![Platine Bauteilseite](/platine-2.png){ width=800 }
 
-- Zur Übertragung der Firmware auf den Arduino NANO steht ein dazu geeignetes Gerät allen Teilnehmern im Workshop zur Verfügung. Beim Prototyp muss man halt die [Arduino-Entwicklungsumgebung](https://www.arduino.cc/en/Main/Software) installieren, die notwendigen Bibliotheken ([Adafruit-GFX](https://github.com/adafruit/Adafruit-GFX-Library/archive/master.zip), [Adafruit-ST7735](https://github.com/adafruit/Adafruit-ST7735-Library/archive/master.zip), [Arduino-PID](https://github.com/br3ttb/Arduino-PID-Library/archive/master.zip) und [TimerOne](https://github.com/PaulStoffregen/TimerOne/archive/master.zip)) dazu laden und nach dem compilieren übertragen. Da auf den Boards kein FTDI seriell-USB Wandler ist, sondern ein CH340, muß man den dafür notwendigen Treiber separat installieren. Den Treiber und weitere Details gibt es [hier](https://www.jens-bretschneider.de/aktuelle-treiber-fur-seriell-zu-usb-adapter/).
-- DC Einbaubuchse einlöten, prüfen ob 12V an den Pins anliegen
-- Buchsenleisten vorbereiten. Der NANO benötigt 2x15, das Display 1x8 Buchsen. Die Buchsenleisten haben jeweils 10 Buchsen. Trenne 2 der 10er Buchsenleisten in eine 5er und eine 4er. Dabei geht eine Buchse verloren. Nun hast du 2x10 + 2x5 für den NANO und 2x4 für das Display.
-- Buchsenleisten einlöten. Prüfe, ob 12V an den Pins Vin und GND anliegt. Ein eingesteckter NANO sollte die Power-LED aufleuchten lassen.
-- R9, R11 und R12 einlöten
-- Beide MOSFETs und die Widerstände R1, R3 und R10 einlöten. Zwischen dem mittleren Pin des IRF 5305 und GND sollte 0V zu messen sein. Nimmt man 5V vom NANO und legt diese an den oberen Anschluss von R1, sollten 12V zu messen sein.
-- Klinkenbuchse einlöten
-- Operationsverstärker, R2, R4, R7, R8, R18, C7 und C8 einlöten.
-- Pegelwandler einlöten, LED und R5 einlöten.
-- Stiftleisten an den Nano löten
-- Nano mit der Firmware flashen, einstecken, Display einstecken
+Es gab natürlich ein paar Probleme beim Aufbau der Prototypen.
+
+- Ein durchgebrannter Arduino Nano (falsch herum eingesteckt und dadurch an 12V Überspannung verstorben)
+- Fehler auf der Platine (die 3,3V Verbindung vom Arduino Nano zum Pegelwandler existiert nicht; eine Drahtbrücke behebt dieses Problem)
+- falsch eingelöteter Operationsverstärker (aus- und richtig herum wieder einlöten)
+- Kontaktprobleme an der Buchsenleiste zum Display
+- zu kleine Löcher für den Pegelwandler
+
+Aber letztlich laufen die drei Lötstationen wie sie sollen.
