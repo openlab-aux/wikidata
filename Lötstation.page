@@ -5,16 +5,9 @@
 
 Es werden zusätzlich noch ein paar Widerstände, Kondensatoren, zwei MOSFETs und zwei ICs benötigt. Der eine IC verstärtkt den Temperaturmesswert, der andere führt eine Pegelanpassung auf 3,3V für das Display durch. Die Platinendateien und der Quellcode sind [hier](https://github.com/ArduinoHannover/Maiskolben) zu finden. Es werden ausschließlich bedrahtete Bauteile verwendet. Damit sollte jeder in der Lage sein, mit seinem *schlechten* Lötkolben diese Lötstation aufzubauen. 
 
-Für das Gehäuse bieten sich zwei Möglichkeiten an - 3D Druck oder lasergeschnittene Gehäuseplatten. Im Augenblick läuft eine Preisanfrage nach den Laserteilen. Das fertige Gehäuse wird ungefähr so aussehen:
+Für das Gehäuse bietet sich 3D Druck an. Im Augenblick konstruiert Adrian ein Gehäuse. Der erste Prototyp sieht so aus:
 
-![Gehäuse Lötstsation](/gehaeuse.jpg)
-
-Frisch aus dem Laser - noch mit Schutzfolie, deswegen der Blaustich:
-
-![Gehäuse Prototyp](/Loetstation-Gehaeuse-Prototyp.jpg){ width=800 }
-
-Leider passt das Gehäuse nicht zur Platine. Im Moment haben wir dafür keine Lösung. Es wird lediglich eine 3D-Druck Alternative zur Zeit entwickelt.
-
+![Gehäuse Prototyp](/gehaeuse-prototyp.jpg){ width=800 }
 
 ## Bauteile
 
