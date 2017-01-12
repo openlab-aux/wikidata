@@ -3,15 +3,30 @@ http://pamm-pamm.de/p/robotik
 
 # Anstehende Termine
 
-## Dienstags ab 20 Uhr : Robotik-Orga-Meeting (wöchentlich)
+## Robotik-Orga-Meeting, Dienstags ab 20 Uhr (wöchentlich)
 Da versuchen wir Arbeitsgruppen zu koordinieren, und Laboranten
 mit gleichen Neigungen (und Zeitfenstern) zusammenzuführen.
-Ausserdem planen wir da Veranstaltungen
+Ausserdem planen wir da Veranstaltungen, Materialbeschaffung und Logistik.
+
+## Shitty Robot Workshop aufm GeheimGeekend
+https://openlab-augsburg.de/events/geheimgeekend/
+
+todos:
+* Zeitslot reservieren
+* Anmeldungen auschreiben
+* Bausätze für T-994 oder ggf. T-993 zusammenstellen
 
 ## Make Munich 2017
 
 ## Easterhegg 2017
 
+## Modular 2017 ???
+todo: Anna anfragen ob wir ein Eck bespielen können wie letztes Jahr,
+vorher abklären wer von uns mitmachen würde.
+
+## Openlab Shitty Robot Event 2017
+
+## SHA 2017
 
 # Roboter
 
@@ -29,5 +44,20 @@ Braucht noch etwas Liebe, fragt einfach :).
 
 ### T-1000 (Einsatzbereit)
 Fährt vorwärts. Sieht keine Notwendigkeit Hindernissen auszuweichen.
-![](http://)
+
+
+# Material
+Neben dem allgemeinen Material (Holz,Schrauben,E-Komponenten) die im Labor zur Verfügung stehen,
+haben wir noch ein paar besondere Kisten mit spezieller Hardware für Robotik.
+## Robotersets
+Ein Karton mit 3D-gedruckten Robotersets und entsprechenden Bauteilen (ausser Kabel und Akkus).
+
+## Shared Robotics
+
+## Workshopmaterial Robotik
+
+## Shitty Robot Kiste
+Liebevoll sortierter Schrott. Platinen,Motoren,Batterien etc. , 
+ein Hardwarehacker kann damit Roboter bauen.
+
 
