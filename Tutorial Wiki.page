@@ -13,6 +13,7 @@ Dieses Wiki verwendet eine verbesserte Version von Markdown, nämlich Pandoc Mar
 Hier ein bisschen aufpassen:
 
 * Unterlisten müssen mit vier Leerzeichen eingerückt sein
+* Lieber zu viele Leerzeilen einbauen, v. a. zwischen Listen und Überschriften
 
 ### Wie geht … in Markdown?
 
