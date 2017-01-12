@@ -6,3 +6,13 @@ Kick-Off-Meeting (tbd)<br>
 
 Details:
 http://pamm-pamm.de/p/robotik
+
+## Roboter
+
+### Seriösliche Roboter
+
+#### Bender
+Cobra RS3 6-Achsen Industrieroboter.
+Braucht noch etwas Liebe, fragt einfach :
+* [Energie] sollte man mal schnließen (Wir haben noch 6 24V Netzteile je 2 A)
+* [Motortreiber] sollte man mal ansteuern
