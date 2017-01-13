@@ -1,7 +1,9 @@
 #Bau' Dir eine eigene Lötstation
 
 ## Vorgeschichte
-![Titelbild Make 5/2016](https://www.heise.de/make/inhalt/thumbnails/2016/05/1.jpg "Titelbild Make 5/2016")In der [Make 5/2016 Seite 12ff](http://www.heise.de/make/inhalt/2016/5/12/) wurde eine Lötstation zum Selberbauen vorgestellt. Sie basiert auf einem Arduino Nano, einem 1,8" TFT Display und einer Weller RT Lötspitze. Der Arduino übernimmt die Ausgaben auf dem Display, regelt die Lötspitzentemperatur und bietet dem Anwender über zwei Tasten ein Benutzerinterface zum Einstellen der Solltemperatur. Weitere Taster wählen vorkonfigurierte Temperaturen an bzw. schalten Ein/Aus oder in Standby mit reduzierter Temperatur.
+![Titelbild Make 5/2016](https://www.heise.de/make/inhalt/thumbnails/2016/05/1.jpg "Titelbild Make 5/2016")
+
+In der [Make 5/2016 Seite 12ff](http://www.heise.de/make/inhalt/2016/5/12/) wurde eine Lötstation zum Selberbauen vorgestellt. Sie basiert auf einem Arduino Nano, einem 1,8" TFT Display und einer Weller RT Lötspitze. Der Arduino übernimmt die Ausgaben auf dem Display, regelt die Lötspitzentemperatur und bietet dem Anwender über zwei Tasten ein Benutzerinterface zum Einstellen der Solltemperatur. Weitere Taster wählen vorkonfigurierte Temperaturen an bzw. schalten Ein/Aus oder in Standby mit reduzierter Temperatur.
 
 Es werden zusätzlich noch ein paar Widerstände, Kondensatoren, zwei MOSFETs und zwei ICs benötigt. Der eine IC verstärtkt den Temperaturmesswert, der andere führt eine Pegelanpassung auf 3,3V für das Display durch. Die Platinendateien und der Quellcode sind [hier](https://github.com/ArduinoHannover/Maiskolben) zu finden. Es werden ausschließlich bedrahtete Bauteile verwendet. Damit sollte jeder in der Lage sein, mit seinem *schlechten* Lötkolben diese Lötstation aufzubauen. 
 
@@ -47,11 +49,13 @@ Anzahl Bauteil
 Bis die Platinen da sind, kann man einen Teil der Lötstation auf einem Breadboard aufbauen, um z.B. an einer Einschaltmeldung herumzuspielen:
 
 ![Lötstation Prototyp 1](/loet-proto-1.jpg){ width=800 }
+
 ![Lötstation Prototyp 2](/loet-proto-2.jpg){ width=200 }
 
 Inzwischen sind die Platinen eingetroffen. Bis gestern entstanden daraus 3 funktionierende Prototypen.
 
 ![Prototyp](/prototyp1.jpg){ width=800 }
+
 ![Prototyp](/prototyp2.jpg){ width=800 }
 
 ### Aufbau des Prototypen
