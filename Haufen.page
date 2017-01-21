@@ -2,7 +2,12 @@ Der **Haufen** enthält Dinge, die im Openlab rumliegen, nur Platz verbraucht ha
 
 ## Aktueller Haufen
 
-Keiner?
+- Init: 21.01.2017 (Init mitsamt allem, was schon drauf war)
+- Dinge dürfen draufgelegt werden bis zum Freeze am 24.02.2017
+- Owner dürfen Dinge entnehmen bis zum Free for All am 05.03.2017
+- Dinge werden dann entsorgt am Scrap zum 15.03.2017
+
+![Bild vom Haufen am 21.01.2017](/haufen-2017-01.jpg)
 
 ## Historische Haufen
 
@@ -35,5 +40,4 @@ Der Haufen kann in 3 Zuständen sein und geht nach festgelegten Zeiten vom aktue
      * Drauflegen: verboten
      * Nehmen: erlaubt für alle
      * Dauer: 1,5 Wochen
-
-Sobald alle drei Zustände durchlaufen sind, wird der Haufen entsorgt.
+4. Scrap: Entsorgung nach Durchlaufen der anderen Status
