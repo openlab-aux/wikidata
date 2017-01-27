@@ -4,12 +4,15 @@
 
 ### Samstag
 
-* Ankunft, Treffen
-* Vorträge
+* Alle kommen an!
+* Entspannen / Hacken
+* Zwischendurch immer wieder [Keysigning](#keysigning party)
+* [Vorträge](#Vorträge)
 
 ### Sonntag
 
-* Workshops / Keysigning
+* Nicht geschaffte Vorträge
+* Entspannen / Hacken
 
 ## Vorträge
 
@@ -44,7 +47,19 @@ sternenseemann und _luc, quasi immer™
 
 ## Keysigning Party
 
-[Prozedur](https://en.wikipedia.org/wiki/Zimmermann%E2%80%93Sassaman_key-signing_protocol)?
+Wird organisiert von Steini.
+
+### Was vorbereiten?
+
+1. Ausweis o. ä. einpacken
+2. Relevante Informationen ausdrucken
+    - Vor- und Nachname
+    - Die Mail-Adresse, die zu deinem Key gehört
+    - Key-ID und Verschlüsselungsart (z. B. 4096R/1A2B3C4D5E6F7G8H)
+    - Der Fingerprint
+    - [Siehe auch](https://wiki.debian.org/Keysigning#Step_4:_Print_your_key)
+    - Geht ganz gut mit `gpg-key2ps` aus [signing-party](https://packages.debian.org/stretch/signing-party), es gibt Drucker im Labor!
+
 
 ## Essen
 
