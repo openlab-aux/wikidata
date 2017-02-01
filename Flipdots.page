@@ -35,3 +35,15 @@ Raspbian:
 1. `apt install git build-essential`, repo clonen
 2. [bcm2836](http://www.airspayce.com/mikem/bcm2835/) installieren
 3. ???
+
+## Deployment
+
+Läuft auf dem Raspberry Pi, der auf der Rückseite montiert ist.
+
+User    Passwort
+------- --------
+flipdot flipdot
+root    openlab
+------- --------
+
+Services laufen nach Möglichkeit als `flipdot`, in `/home/flipdot` liegt der source code.
