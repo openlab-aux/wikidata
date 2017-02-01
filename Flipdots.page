@@ -23,18 +23,10 @@ Service                           Beschreibung                                  
 --------------------------------  ----------------------------------------------------------------------------------    ------------
 `flipdot.service`                 Empfängt die Steuerungspakete per UDP auf Port 2323                                   [flipdots](https://github.com/openlab-aux/flipdots/tree/master/raspberrypi)
 `flipdot-gschichtler.service`     Fragt regelmäßig die Queue der Web-API ab und schickt neuen Text auf die Flipdots     [flipdot-gschichtler/flipper](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/flipper)
-`flipdot-admin.service`           Erlaubt das Löschen von Queue-Einträgen                                               [flipdot-gschichtler/admin](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/admin)
+~~`flipdot-admin.service`~~           ~~Erlaubt das Löschen von Queue-Einträgen~~                                               [flipdot-gschichtler/admin](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/admin)
 --------------------------------  ----------------------------------------------------------------------------------    ------------
 
 Auf einem Server von [sternenseemann](Mensch_sternenseemann) läuft [flipdot-gschichtler/web](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/web).
-
-### Setup
-
-Raspbian:
-
-1. `apt install git build-essential`, repos clonen
-2. [bcm2836](http://www.airspayce.com/mikem/bcm2835/) installieren
-3. `apt install fonts-dejavu`
 
 ## Deployment
 
@@ -47,3 +39,11 @@ root    openlab
 ------- --------
 
 Services laufen nach Möglichkeit als `flipdot`, in `/home/flipdot` liegt der source code.
+
+### Setup-Prozess
+
+1. `apt install git build-essential`, repos clonen
+2. [bcm2836](http://www.airspayce.com/mikem/bcm2835/) installieren
+5. `apt install fonts-dejavu`
+3. In `flipdots/raspberry` `make` ausführen und binaries nach `/opt/flipdot/` kopieren
+4. systemd services nach `/etc/systemd/system` kopieren, anpassen und starten
