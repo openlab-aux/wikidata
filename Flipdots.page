@@ -27,3 +27,11 @@ Service                           Beschreibung                                  
 --------------------------------  ----------------------------------------------------------------------------------    ------------
 
 Auf einem Server von [sternenseemann](Mensch_sternenseemann) läuft [flipdot-gschichtler/web](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/web).
+
+### Setup
+
+Raspbian:
+
+1. `apt install git build-essential`, repo clonen
+2. [bcm2836](http://www.airspayce.com/mikem/bcm2835/) installieren
+3. ???
