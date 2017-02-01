@@ -38,7 +38,7 @@ Raspbian:
 
 ## Deployment
 
-Läuft auf dem Raspberry Pi, der auf der Rückseite montiert ist.
+Läuft auf dem Raspberry Pi (`flipdot.openlab.lan`), der auf der Rückseite montiert ist.
 
 User    Passwort
 ------- --------
