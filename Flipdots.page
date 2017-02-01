@@ -32,9 +32,9 @@ Auf einem Server von [sternenseemann](Mensch_sternenseemann) läuft [flipdot-gsc
 
 Raspbian:
 
-1. `apt install git build-essential`, repo clonen
+1. `apt install git build-essential`, repos clonen
 2. [bcm2836](http://www.airspayce.com/mikem/bcm2835/) installieren
-3. ???
+3. `apt install fonts-dejavu`
 
 ## Deployment
 
