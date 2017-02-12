@@ -1,1 +1,16 @@
 # Details zur Maschine
+![Typenschild des Schneidplotters](/schneidplotter_typenschild.jpg)
+
+|Hersteller|PCUT|
+|--|--|
+|Model|CT630|
+
+# Anschluss am Computer
+# Software
+## Inkscape
+Für Inkscape existiert ein Plugin, mit dem es möglich ist, direkt aus Inkscape heraus zu plotten: Extensions → Export → Plot.
+
+Eventuell muss pySerial nachinstalliert werden.
+
+# Literaturhinweise
+- [Schneidplotter im Fablab Karlsruhe](http://wiki.fablab-karlsruhe.de/doku.php?id=maschinen:schneidplotter)
