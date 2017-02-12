@@ -33,6 +33,7 @@ Dieses Wiki ist eventuell die Zukunft.
 * [Geräte und Werkzeug](Geräte%20und%20Werkzeug)
 * [Werkstatt](Werkstatt)
 * [E-Ecke](E-Ecke)
+	* [Platinen ätzen](ätzen)
 * [Fotolabor](Fotolabor)
 * [SpaceAPI](SpaceAPI)
 * [Sphincter](Sphincter) (Schließanlage)
@@ -58,7 +59,7 @@ Dieses Wiki ist eventuell die Zukunft.
 * Kommunikation
     * [IRC](IRC)
     * [Mailingliste](Mailingliste)
-    * [GitHub Issues (orgafoo)](github.com/openlab-aux/orgafoo/issues)
+    * [GitHub Issues (orgafoo)](http://github.com/openlab-aux/orgafoo/issues)
     * [Website](Website)
     * [Social Media](Social%20Media)
 * [VMs/Server](Server)
