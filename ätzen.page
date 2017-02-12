@@ -1,0 +1,59 @@
+Platinen ätzen, eine Kurzanleitung:
+Benötigt werden:
+* Ätzbecken
+* Platikwannen (2 Stück)
+* Natriumpersulfat
+* Entwickler Natriumhydroxid
+* Ätzmittel Natriumpersulfat
+
+# 1. Vorlage
+Die Vorlage wird auf eine Folie gedruckt. Hierbei ist zu beachten, dass die Platinen Fotopositiv sind:
+
+>Das Layout muss so gestaltet werden, dass im Massstab 1:1 die zukünftigen Kupferleitungen schwarz dargestellt werden, alles was isoliert, also das, was weggeätzt werden soll, bleibt frei. Diese "Darstellung" des Layouts muss in einer Form vorliegen, die an den schwarzen Stellen UV-undurchlässig ist, und an den weissen Stellen UV-Licht bestens durchläßt.
+
+Ein Beispiel:
+
+![](http://i.imgur.com/e1Bd2t2.jpg)
+
+Es kann u.U. empfehlenswert sein, 2 gleiche Vorlagen zu drucken und diese zum Belichten deckungsgleich übereinander zu legen, da das schwarz aus dem Drucker nicht zwingend wirklich 100%ig lichtdicht ist.
+# 2. Belichten
+Zum Belichten wird die Vorlage auf die Platine aufgebracht. Anschließend wird das Paket im Belichter Belichtet.
+
+Messreihe zu Belichtungszeiten:
+
+|Belichtungslänge|Ergebnisqualität|
+|     ---        |     ---        |
+|       a        |    n/10        |
+|       b        |    n/10        |
+|       c        |    n/10        |
+|       d        |    n/10        |
+|       e        |    n/10        |
+(diese Testreihe muss noch unternommen werden)
+
+-> Es ergibt sich eine relativ optimale Belichtungszeit von ???
+
+# 3. Entwickeln
+Zum Entwickeln wird die Belichtete Platine in ein Bad aus Belichter gegeben, Belichter ist in Unserem Fall Natriumhydroxid. (Natriumhydroxid muss immer so luftdicht und trocken wie möglich gelagert werden, nie offen stehen lassen!)
+Mischverhältnis: 0.5 Liter Wasser, 10g Trockensubstanz Natriumhydroxid, anmischen in einer Plastikwanne.
+
+Man wird hier das Abtrennen von Schlieren beobachten können. Entwickeln sollte man je nach gegebenheiten und Temperatur Sekunden bis Minuten. Nachdem keine Schlieren mehr abgehen, Platine herausnehmen und mit Wasser abspülen (optimalerweise in einer weiteren Plastikwanne)
+
+> Die Platine ist fertig entwickelt, wenn die belichteten Bereiche gut kupferglänzend sind, und die unbelichteten (zukünftige Leiterbahnen) braun verfärbt. 
+
+# 4. Ätzen
+Hier ist das Mischverhältnis ca. 200-300g/ℓ Natriumpersulfat auf Wasser. Beim anmischen im Ätzbecken bitte darauf achten, dass nichts überläuft. Eine konstante vergleichsweise hohe Temperatur von ca. 50°C sowie konstante Bewegung während des Vorgangs sind wichtig.
+Der Vorgang dauert etwa ??? Minuten.
+
+# 5. Aufräumen/Entsorgung
+**Weder Natriumhydroxid noch -persulfat dürfen über den Abfluss entsorgt werden!**
+
+Die Verbrauchten Materialien bitte in Passende Flaschen geben (das heißt PET- oder Glasflaschen) und mit Inhalt und nutzungsdatum Beschriftet zum Matieral zurückgeben. Um die Entsorgung wird sich bei Gelegenheit gekümmert.
+# 6. Sicherheit
+Sicherheitsdatenblatt Natriumhydroxid-Entwickler:
+http://cdn-reichelt.de/documents/datenblatt/C900/SICHERHEITSDATENBLATT_ENTWICKLER_E100_E250.pdf
+
+Sicherheitsdatenblatt Natriumpersulfat-Ätzmittel:
+http://cdn-reichelt.de/documents/datenblatt/C900/SDB_NATRIUMPERSULFAT_2012.pdf
+
+**Weder Natriumhydroxid noch -persulfat dürfen über den Abfluss entsorgt werden!**
+
