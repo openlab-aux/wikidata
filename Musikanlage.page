@@ -1,0 +1,45 @@
+Die Musikanlage besteht aus einem 2.1-System, wobei der Subwoofer auch den Verstärker enthält.
+
+Ein kleines Mischpult stellt mehrere Eingangskanäle bereit:
+
+## Klinke
+
+(Recht kurzes) Klinkenkabel zum Anstecken von Geräten.  
+Bitte immer wieder zurücklegen, sonst bricht es schnell.
+
+## hannswurscht (Streaming & mpd)
+
+hannswurscht ist der „Audioserver“.  
+Es ist ein zugeklappter x86-Laptop, das mit einem Klinkenkabel in einen festen Kanal des Mischpults geht.
+
+Aufgesetzt ist er als (headless) NixOS, die komplette Config ist im [`vuizvui`-Repo](https://github.com/openlab-aux/vuizvui/blob/master/machines/labnet/labtops.nix) unter Versionskontrolle. Kümmerer ist [Profpatsch]().
+
+Verschiedene Wege, damit Audio abzuspielen:
+
+### Pulseaudio-Streaming
+
+Man kann aus dem Netzwerk den Ausgang seines Geräts (sogar einzelner Programme) direkt auf die Anlage schicken. Es ist von Vorteil, dafür ein Netzwerkkabel anzustecken, da WLAN teils zu Rucklern führt.
+
+Anleitung zur Aktivierung auf NixOS:
+
+```nix
+hardware.pulseaudio.zeroconf.discovery.enable = true;
+```
+		
+Auf Debianoiden:
+
+```bash
+apt-get install pulseaudio-module-zeroconf
+echo "load-module module-zeroconf-discover" >> /etc/pulse/default.pa
+systemctl --user restart pulseaudio
+```
+		
+Auf anderen Systemen ähnlich (bitte vervollständigen, wenn ihr es rausfindet!).
+
+### mpd
+
+\<wird gerade eingerichtet\>
+
+## Bandgerät
+
+Kümmerer & Doku: [phj]()
