@@ -3,7 +3,7 @@ format: Markdown
 ...
 
 ## Hallo Mensch!
-Dieses Wiki ist eventuell die Zukunft.
+Dieses Wiki ist <s>eventuell</s> die Zukunft.
 
 * [Wie dokumentiere ich etwas?](Tutorial%20Dokumentation)
 * [Wie funktioniert das Wiki?](Tutorial%20Wiki)
