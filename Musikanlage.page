@@ -30,10 +30,13 @@ hardware.pulseaudio.zeroconf.discovery.enable = true;
 		
 Auf Debianoiden:
 
+`avahi-daemon` muss laufen. Dass lässt sich prüfen, indem man `avahi-browse -a` eingibt; es funktioniert, wenn Geräte im Netzwerk angezeigt werden.
+
 ```bash
 apt-get install pulseaudio-module-zeroconf
+# braucht root (/etc)
 echo "load-module module-zeroconf-discover" >> /etc/pulse/default.pa
-systemctl --user restart pulseaudio
+systemctl --user restart pulseaudio || pkill pulseaudio
 ```
 		
 Auf anderen Systemen ähnlich (bitte vervollständigen, wenn ihr es rausfindet!).
