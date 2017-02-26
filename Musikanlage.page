@@ -22,13 +22,13 @@ Verschiedene Wege, damit Audio abzuspielen:
 
 Man kann aus dem Netzwerk den Ausgang seines Geräts (sogar einzelner Programme) direkt auf die Anlage schicken. Es ist von Vorteil, dafür ein Netzwerkkabel anzustecken, da WLAN teils zu Rucklern führt.
 
-Anleitung zur Aktivierung auf NixOS:
+###### Anleitung zur Aktivierung auf NixOS:
 
 ```nix
 hardware.pulseaudio.zeroconf.discovery.enable = true;
 ```
 		
-Auf Debianoiden:
+###### Auf Debianoiden:
 
 `avahi-daemon` muss laufen. Dass lässt sich prüfen, indem man `avahi-browse -a` eingibt; es funktioniert, wenn Geräte im Netzwerk angezeigt werden.
 
@@ -39,9 +39,18 @@ echo "load-module module-zeroconf-discover" >> /etc/pulse/default.pa
 systemctl --user restart pulseaudio || pkill pulseaudio
 ```
 		
-Auf anderen Systemen ähnlich (bitte vervollständigen, wenn ihr es rausfindet!).
+###### Auf Arch:
 
-### mpd
+`pulseaudio-module-zeroconf` muss hier nicht extra installiert werden, da es schon vorhanden ist. 
+
+Es reicht also, `load-module module-zeroconf-discover` in die `/etc/pulse/default.pa` zu schreiben (dies benötigt root-rechte). 
+
+Anschließend pulseaudio per `systemctl --user restart pulseaudio` neu starten.
+
+
+###### Auf anderen Systemen ähnlich (bitte vervollständigen, wenn ihr es rausfindet!).
+
+## mpd
 
 **m**usic **p**layer **d**aemon
 
@@ -53,10 +62,10 @@ Man erreicht ihn unter der Adresse des hannswurscht (`hannswurscht.openlab.lan`)
 
 Es existiert ein Tonbandgerät des Typ Braun TG100/4. Dazu vorhanden ist ein Satz an Band und 2 Bandrollen. Weitere volle Bandrollen lagert phj bei sich zuhause.
 
-### Abspielen
+###### Abspielen
 Das Abspielen ist relativ selbsterklärend, es gibt einen An-/Aus-Schalter und einen Start-Knopf. Beim TG1000/4 handelt es sich um ein Schnellspulgerät. Das heißt, es spult... schnell (im vergleich zu anderen Tonbandgeräten der Zeit). Beim Rück- oder Vorspulen verlässt das Band jeweils (relativ auffällig) die abnehmende Rolle. Das ist normal, erwüscht und kein Grund zur Sorge, auch wenn es so klingt. Wenn das Band danach wieder aufgelegt wird, ist darauf zu achten, dass es sich nur selbst hält. Nicht verkeilen, verkleben, etc. Das Band muss man nur "auf sich selbst fädeln". Zum Abspielen in der Mitte immer "1  4" auswählen!
 
-### Aufnehmen
+###### Aufnehmen
 Aufnahmen könen durch gleichzeitiges Betätigen von "Aufnahme" und "Start" begonnen werden. Aufgenommen wird der Ausgang des Mischpults nach Diagramm, also alle Eingänge von Klinke und Streaming wie sie gerade eingepegelt sind. Der Aufnahmepegel am Gerät muss zusätzlich für die beiden Kanäle an den Reglern links eingestellt werden und kann per darüberliegender VU-Meter überprüft werden. Zum Aufnehmen in der Mitte immer "1+3  4+2" auswählen! Grundsätzlich darf alles überspielt werden. Dabei ist aber darauf zu achten, dass möglichst das ganze Band auf einmal durchgängig bespielt wird, sodass man es später wieder an einem Stück abspielen, ohne dass große Pausen auftreten oder plötztlich die Aufnahme wechselt.
 Eine Bandseite (es gibt 2, rot und grün im lead-in) hat bei 19cm/s ca. 1,5h, bei 9,5cm/s ca. 3h und bei 4,75cm/s ca. 6h (ja, 6h). 19cm/s liefert gute qualität, 9,5cm/s liefert ausreichende Qualität.
 
