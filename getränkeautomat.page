@@ -1,5 +1,8 @@
 Der Getränkeatomat ist ein VF 218 der Marke Vendo
 
+[Datasheet & Serial Interface](http://support.nri.de/download/PDF_Englisch/DB_G40FT_serial_EN.pdf) \
+Es gibt eine [C#-Implementierung](https://github.com/dharillo/cctalk-net) des Protokolls (ccTalk).
+
 ### Getränke auffüllen
 
 Den Schlüssel zum Automaten haben nur die Leute aus dem Matematen-Team. Flaschen werden mit der Krone nach hinten, ergo mit dem Boden nach vorn eingefüllt. Welche Flaschen wo hin kommen, steht im Automaten verzeitchnet, die Nummerierung geht von rechts nach links.
