@@ -113,8 +113,8 @@ Slic3r Config Bundle (kann über „File > Load Config Bundle“ importiert werd
 
 [Slic3r Profil für den Prusa i3 #2](https://github.com/Aelonath/3d-drucker/blob/master/slic3r_config/OpenLab_Slic3r_config_bundle.ini)
 
-Die gleiche Config gibt es auch einmal als Kommandozeile:
+Eine ähnliche Minimalconfig gibt es auch einmal als Kommandozeile:
 
 ```
-slic3r --gcode-flavor reprap --bed-temperature 60 --start-gcode "G28" --temperature 230 --filament-diameter 1.69 --first-layer-bed-temperature 65 --first-layer-temperature 235 --bridge-speed 40 --external-perimeter-speed 40 --first-layer-speed 50% --infill-speed 60 --layer-height 0.3 --perimeter-speed 60 --perimeters 2 --fill-pattern honeycomb --travel-speed 100 --top-solid-infill-speed 40 --nozzle-diameter 0.4 --retract-length 4 --end-gcode "G28 X G28 Y M84
+slic3r --gcode-flavor reprap --bed-temperature 60 --start-gcode "G28" --temperature 230 --filament-diameter 1.69 --first-layer-bed-temperature 65 --first-layer-temperature 235 --bridge-speed 40 --external-perimeter-speed 40 --first-layer-speed 50% --infill-speed 60 --layer-height 0.3 --perimeter-speed 60 --perimeters 2 --fill-pattern honeycomb --travel-speed 100 --top-solid-infill-speed 40 --nozzle-diameter 0.4 --retract-length 4 --end-gcode "G28 X G28 Y M84"
 ```
