@@ -1,24 +1,50 @@
-Der Getränkeatomat ist ein VF 218 der Marke Vendo
+# Sielaff FS 1500
+
+Der neue heiße Scheiß ist ein Sielaff FS 1500. Der Funktioniert quasi einwandfrei, nimmt aber nur Münzgeld.
+
+### Fächer
+
+Der Automat hat verschiedenste Spiralfächer für Snacks und Dinge, daneben 4 (relativ kleine) Getränkeschächte. 3 davon sind für 0.5l Glasflaschen umgebaut, eines für 0.33l Glas:
+
+* Club Mate
+* Mate Cola
+* Flora Mate
+* Apfelsaft
+
+
+### Access
+
+Den Zugang hat neben owner (phjl) jeder, der den Code zum Tresor hat.
+
+### Programmierung, Reset, alles
+
+Im Automaten ist an der Seite in einer Tasche die Betriebsanleitung, in der alles beschrieben ist. Der Automat wird über ein scheußliches 4-Tasten-Feld konfiguriert. Wenn Spiralen oder Schächte spinnen, ist ein Service-Reset notwendig, der Alle Spiralen und Schächte wieder in den Nullzustand setzt.
+
+
+
+# Vendo VF218
+
+Der alte Getränkeatomat ist ein VF 218 der Marke Vendo, der ist inzwischen wegen defeter Kühlung kaputt. Gerne reparieren bitte !
 
 ### Münzer: 
 Scheinbar haben wir die Version mit RS232. Bitte verifizieren.
 [Datasheet & Serial Interface](http://support.nri.de/download/PDF_Englisch/DB_G40FT_serial_EN.pdf) \
 Es gibt eine [C#-Implementierung](https://github.com/dharillo/cctalk-net) des Protokolls (ccTalk).
 
-### Automat
+#### Automat
 
 Der Automat hat 2 Schnittstellen für Kommunikation, wobei noch nicht ganz feststeht, mit welcher man was tun kann:
 * DEX/UCS: Das ist ein 9-Pin verbinder, da ist nichts angeschlossen. DEX/UCS ist scheinbar ein saualtes Protokoll, das bereits damals aus legacy-gründen verbaut worden wäre.
 * MDB/EXE: Hier ist der Münzer angeschlossen, MultiDropBus ist wohl das, was man nutzen will. Alerta: Das ist nicht das selbe wie ccTalk. ccTalk ist quasi eine Weiterentwicklung/Neuerfindung und nutzt andere Pegel und scheiß. Der Stecker hier hat 7 Pins, 5 davon gehen zum Münzer
 
-### Getränke auffüllen
+#### Getränke auffüllen
 
 Den Schlüssel zum Automaten haben nur die Leute aus dem Matematen-Team. Flaschen werden mit der Krone nach hinten, ergo mit dem Boden nach vorn eingefüllt. Welche Flaschen wo hin kommen, steht im Automaten verzeitchnet, die Nummerierung geht von rechts nach links.
 
-### Preise ändern
+#### Preise ändern
 
 Service-Menu (Taster am Controller-Board drücken), Menü PRIC wählen (Taster 2 und 3 für hoch und runter), Passwort aus Doku eingeben (siehe Papier in der Tasche vorn), Fach auswählen (Bedienfeld von oben nach unten gezählt, Fächer von rechts nach links), Enter mit Taste 4. Preis änern mit Tasten 2 und 3, bestätigen mit Enter, Exit mit Taste 1. Schleißen der Tür geht zurück in den Sale-Modus. Fertig.
 
-### Hacks und Extras
+#### Hacks und Extras
 
 Geplant ist ja *irgendwas irgendwas* Getränke kaufen mit Guthaben auf RFID-Tokens *irgendwas irgendwas*
