@@ -2,5 +2,18 @@ Auf dem Server unserer Website läuft folgendes
 
 * [Das Wordpress](https://openlab-augsburg.de)
 * Unser [SpaceAPI](SpaceAPI)-Endpoint
+* Dieses Wiki
 
 Zugriff haben [waaaaargh](Mensch_waaaaargh) (eigentlicher Kümmerer), [sternenseemann](Mensch_sternenseemann) und [Profpatsch](Mensch_profpatsch).
+
+Die Maschine scheint<span style="vertical-align: super; font-size: smaller">[citation needed]</span> Debian “best-practices” zu folgen.
+
+## Nginx
+
+Configs in `/etc/nginx/sites-available` & Symlinks nach `/etc/nginx/sites-enabled`.
+Daten in `/var/www`.
+
+### Let’s Encrypt
+
+Für eine neue Domain den DNS-Record richtig setzen, eine nginx-Config schreiben, `systemctl reload nginx`, dann `certbot run --nginx -d <neue domain>`. \
+Zertifikate sollten zweimal am Tag automatisch geupdated werden, siehe `certbot.timer`.
