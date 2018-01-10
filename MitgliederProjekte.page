@@ -1,4 +1,10 @@
-## haskell-ricochet
+## Ideen
+
+* Mate machen! [http://www.blkg.kanojo.de/index.php/Mate-Lemonade](http://www.blkg.kanojo.de/index.php/Mate-Lemonade)
+
+## Existierende Projekte
+
+### haskell-ricochet
 
 * [GitHub-Projekt](https://github.com/Jugendhackt/haskell-ricochet)
 * Eine Implementation des Protokolls von [Ricochet](https://ricochet.im) als Library in Haskell
@@ -7,7 +13,7 @@
 * sternenseemann schreiben für Informationen und dann am Code rumbasteln (und PRs senden)!
 
 
-## Beispielprojeckt
+### Beispielprojekt
 
 * Link
 * Worum geht es?
