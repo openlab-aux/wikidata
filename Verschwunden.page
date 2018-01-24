@@ -6,10 +6,12 @@
 - 2016/2017: (funktionierende) Drum Machine, Wert ca. 150€
 - Unklar: DIN-Kabelkiste
 
-### 3 oder 4 30+-port Gigabit-Switches
+### Mehrere 30+-port Gigabit-Switches
 
 - 1 Passiv belüfteter mit 20+ Ports
 - 2 oder 3 aktiv belüftete mit bis zu 48 Ports
+- 1 Gigbit 8-Port Switch (nach dem Linux-Infotag nicht mehr aufgetaucht)
+- Die 100Mbit-Switches sind noch da
 
 ### Hanns-G Monitor
 
