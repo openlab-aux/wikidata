@@ -42,6 +42,15 @@ apt install curl htop tmux apt-transport-https net-tools
 
 ## Configuration
 
+### sudo
+
+Add the user `openlab` to the `sudo` group. Edit `/etc/sudoers` and let users
+in this group run sudo with password verification:
+
+```
+%sudo   ALL=(ALL:ALL) NOPASSWD: ALL
+```
+
 ### Network
 
 Edit `/etc/network/interfaces` and add these interfaces:
