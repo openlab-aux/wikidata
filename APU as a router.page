@@ -1,0 +1,55 @@
+# APU as router HowTo
+## Installation
+
+### Debian
+
+Install a regular Debian amd64.
+
+Edit `/etc/default/grub` and add/change the following values:
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="verbose console=ttyS0,115200n8 reboot=bios"
+GRUB_SERIAL_COMMAND="serial --unit=0 --speed=115200"
+GRUB_TERMINAL=serial
+```
+
+Now we'll have to write grub to the MBR again:
+
+```
+sudo update-grub
+```
+
+We'll also add a system service that provides a tty over the serial port.
+Create `/etc/init/ttyS0.conf` and write the following to it:
+
+```
+# ttyS0 - getty
+#
+# Getty on ttyS0
+#
+
+start on stopped rc RUNLEVEL=[2345]
+stop on runlevel [!2345]
+
+respawn
+exec /sbin/getty -8 115200 -L ttyS0
+```
+
+Reboot the system. You should now be able to watch it boot via the serial port
+and login once it's done.
+
+### Some utils
+
+```
+sudo apt install htop tmux
+```
+
+## Configuration
+
+### Network
+
+### Firewall 
+
+### DHCP server
+
+### VPN connection
