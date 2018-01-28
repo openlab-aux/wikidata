@@ -68,6 +68,8 @@ iface enp2s0.25 inet static
         address 10.11.69.196
         netmask 255.255.255.192
 
+        up route add -host 5.254.89.173 gw 10.11.69.193
+
 # Debugging network
 auto enp3s0
 iface enp3s0 inet dhcp
