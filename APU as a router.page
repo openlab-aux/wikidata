@@ -83,7 +83,7 @@ Install `openvpn` as root:
 apt install openvpn ca-certificates
 ```
 
-Copy the VPN configuration to `/etc/openvpn/client/labvpn`. Now edit `/etc/default/openvpn`:
+Copy the VPN configuration to `/etc/openvpn/labvpn.conf`. Now edit `/etc/default/openvpn`:
 
 ```
 AUTOSTART="labvpn"
