@@ -137,3 +137,15 @@ subnet 172.16.0.0 netmask 255.255.0.0 {
         option domain-name-servers 8.8.8.8, 8.4.4.8;
 }
 ```
+
+### Prometheus
+
+Install `prometheus` as root:
+
+```
+apt install prometheus
+```
+
+### SNMP
+
+To be done.
