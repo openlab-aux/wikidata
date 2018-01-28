@@ -185,7 +185,6 @@ apt update
 apt install grafana
 systemctl enable grafana-server
 ufw allow 3000
-ufw allow 9090
 ```
 
 ### SNMP
