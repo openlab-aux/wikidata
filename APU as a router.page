@@ -278,8 +278,9 @@ Create a new bash script called `/usr/local/bin/tcsetup.sh` with the following c
 tc qdisc add dev enp1s0 root handle 1: htb default 5
 
 # define classes
-tc class add dev enp1s0 parent 1:1 classid 1:5 htb rate 4000kbit ceil 50000kbit
-tc class add dev enp1s0 parent 1:1 classid 1:6 htb rate 512kbit ceil 4000kbit
+tc class add dev enp1s0 parent 1: classid 1:1 htb rate 50mbit ceil 50mbit
+tc class add dev enp1s0 parent 1:1 classid 1:5 htb rate 4mbit ceil 40mbit
+tc class add dev enp1s0 parent 1:1 classid 1:6 htb rate 512kbit ceil 4mbit
 
 # prefer SSH
 tc filter add dev enp1s0 protocol ip parent 1:0 prio 0 u32 match ip sport 22 0xffff flowid 1:5
