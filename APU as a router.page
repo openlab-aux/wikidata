@@ -240,10 +240,6 @@ Edit `/etc/prometheus/prometheus.yml` and change the following values:
 
     static_configs:
       - targets: ['localhost:9100']
-
-  # -job_name: node
-  #   static_configs:
-  #     - targets: ['localhost:9100']   
 ```
 
 Next we'll install `grafana` as a frontend for prometheus. Since it's not in the
