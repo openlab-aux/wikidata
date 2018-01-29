@@ -4,6 +4,9 @@
 
 Install a regular Debian amd64.
 
+Make sure you restart/reload a service after you have changed its config
+files. Alternatively, follow this howto and do a clean boot at the very end.
+
 ### Boot Loader
 
 
