@@ -229,6 +229,16 @@ systemctl enable grafana-server
 ufw allow 3000
 ```
 
+### Traffic shaping
+
+Install `tc` (part of `iproute2`) as root:
+
+```
+apt install iproute2
+```
+
+To be done.
+
 ### SNMP
 
 To be done.
