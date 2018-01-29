@@ -43,7 +43,7 @@ and login once it's done.
 ### Basic packages
 
 ```
-apt install apt-transport-https curl htop net-tools tmux unzip
+apt install apt-transport-https curl htop net-tools nmap tmux unzip
 ```
 
 ## Configuration
