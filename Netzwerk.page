@@ -1,3 +1,14 @@
+## Network Services in the OpenLab
+
+* [PulseAudio Sink](Musikanlage): audio.lab (172.16.0.51)
+* [Printer](Drucker): printer.lab (172.16.0.52)
+* [Flipdot](Flipdots)
+* [SpaceAPI](SpaceAPI): https://api.openlab-augsburg.de/data.json
+* [Scanner](Scanner)
+
+## Documentation
+* [Gateway configuration](APU as a router)
 * [Kümmerer](Kümmerer#netzwerk)
+
+## Outdated Resources
 * [Dokumentation auf GitHub](https://github.com/openlab-aux/labnetz-doku)
-* [APU as a router](APU as a router)
