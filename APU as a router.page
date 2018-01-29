@@ -4,11 +4,17 @@
 
 Install a regular Debian amd64.
 
-Make sure you restart/reload a service after you have changed its config
-files. Alternatively, follow this howto and do a clean boot at the very end.
+Note:
+- Make sure you always restart/reload a service after you have changed its
+config files. Alternatively, follow this howto and do a clean boot at the very
+end.
+
+- All commands in this howto need to be executed by root (or via sudo).
 
 ### Boot Loader
 
+The APU doesn't come with a VGA or HDMI output, so for emergency debugging we
+want to enable the serial console.
 
 Edit `/etc/default/grub` and add/change the following values:
 
@@ -18,7 +24,7 @@ GRUB_SERIAL_COMMAND="serial --unit=0 --speed=115200"
 GRUB_TERMINAL=serial
 ```
 
-Now we'll have to write grub to the MBR again (as root):
+Now we'll have to write grub to the MBR again:
 
 ```
 update-grub
@@ -37,10 +43,12 @@ respawn
 exec /sbin/getty -8 115200 -L ttyS0
 ```
 
-Reboot the system. You should now be able to watch it boot via the serial port
+Reboot the system. You should now be able to watch it boot via the serial console
 and login once it's done.
 
 ### Basic packages
+
+Let's install a bunch of common and useful packages.
 
 ```
 apt install apt-transport-https curl htop net-tools nmap tmux unzip
@@ -57,7 +65,15 @@ in this group run sudo without password verification:
 %sudo   ALL=(ALL:ALL) NOPASSWD: ALL
 ```
 
+Everyone with access to this system will have to add their pub-key to `/home/openlab/.ssh/authorized_keys`.
+
 ### Network
+
+The APU has three ethernet interfaces (from left to right: `enp1s0`, `enp2s0` and `enp3s0`).
+
+- `enp1s0` will be physically connected to the LAN
+- `enp2s0.25` (VLAN 25) will be physically connected to the Ubiquiti radio-link to [gamambel](Mensch_mo)
+- `enp3s0` is for debugging purposes only and requests an IP via DHCP
 
 Edit `/etc/network/interfaces` and add these interfaces:
 
@@ -81,9 +97,16 @@ auto enp3s0
 iface enp3s0 inet dhcp
 ```
 
+The static host route is the only route available on startup. It allows us to
+connect to a VPN server with openvpn, which in turn sets up our default route
+to the Internet. See the next paragraph.
+
 ### VPN connection
 
-Install `openvpn` as root:
+We don't want to connect to the Internet via our ISP directly, so we will setup a VPN connection, which
+all traffic will be routed through.
+
+Install `openvpn`:
 
 ```
 apt install openvpn ca-certificates
@@ -97,7 +120,10 @@ AUTOSTART="labvpn"
 
 ### Firewall 
 
-Install `ufw` as root:
+We want to forward packages between ethernet interfaces, but only allow incoming
+connections on specific ports. All outgoing traffic is allowed to pass through.
+
+Install `ufw`:
 
 ```
 apt install ufw
@@ -127,7 +153,10 @@ net/ipv4/ip_forward=1
 
 ### DHCP server
 
-Install `isc-dhcp-server` as root:
+LAN-guests will receive an allocated dynamic IP address, within the range of
+172.16.0.100 through 172.16.0.249, via DHCP.
+
+Install `isc-dhcp-server`:
 
 ```
 apt install isc-dhcp-server
@@ -164,7 +193,9 @@ Download `http://standards.ieee.org/regauth/oui/oui.txt` to
 
 ### DNS server
 
-Install `dnsmasq` as root:
+We run a DNS server so local OpenLab services can be resolved by name.
+
+Install `dnsmasq`:
 
 ```
 apt install dnsmasq
@@ -180,9 +211,12 @@ bogus-priv
 interface=enp1s0
 ```
 
+Add all machines with a static IP to `/etc/hosts`, as `dnsmasq` will parse this
+file for DNS requests.
+
 ### Prometheus
 
-Install `prometheus` as root:
+Install `prometheus`:
 
 ```
 apt install prometheus prometheus-node-exporter
@@ -231,7 +265,7 @@ ufw allow 3000
 
 ### Traffic shaping
 
-Install `tc` (part of `iproute2`) as root:
+Install `tc` (part of `iproute2`):
 
 ```
 apt install iproute2
