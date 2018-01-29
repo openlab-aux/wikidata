@@ -51,7 +51,7 @@ apt install apt-transport-https curl htop net-tools nmap tmux unzip
 ### sudo
 
 Add the user `openlab` to the `sudo` group. Edit `/etc/sudoers` and let users
-in this group run sudo with password verification:
+in this group run sudo without password verification:
 
 ```
 %sudo   ALL=(ALL:ALL) NOPASSWD: ALL
