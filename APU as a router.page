@@ -48,7 +48,7 @@ console and login once it's done.
 
 ### Basic packages
 
-Let's install a bunch of common and useful packages.
+Let's install a bunch of common and useful packages:
 
 ```
 apt install apt-transport-https curl htop net-tools nmap tmux unzip
@@ -153,7 +153,7 @@ net/ipv4/ip_forward=1
 
 ### DHCP server
 
-LAN-guests will receive an allocated dynamic IP address, within the range of
+LAN-guests will receive a dynamically allocated IP address, within the range of
 172.16.0.100 through 172.16.0.249, via DHCP.
 
 Install `isc-dhcp-server`:
