@@ -1,8 +1,11 @@
 ## Installation
 
-### Debian
+### System
 
 Install a regular Debian amd64.
+
+### Boot Loader
+
 
 Edit `/etc/default/grub` and add/change the following values:
 
@@ -34,10 +37,10 @@ exec /sbin/getty -8 115200 -L ttyS0
 Reboot the system. You should now be able to watch it boot via the serial port
 and login once it's done.
 
-### Some utils
+### Basic packages
 
 ```
-apt install curl htop tmux apt-transport-https net-tools
+apt install apt-transport-https curl htop net-tools tmux unzip
 ```
 
 ## Configuration
