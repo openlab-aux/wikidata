@@ -150,6 +150,14 @@ subnet 172.16.0.0 netmask 255.255.0.0 {
 }
 ```
 
+### DNS server
+
+To be done.
+
+```
+ufw allow dns
+```
+
 ### Prometheus
 
 Install `prometheus` as root:
