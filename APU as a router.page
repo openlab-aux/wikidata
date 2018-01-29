@@ -1,15 +1,16 @@
 ## Installation
 
-### System
+Notes:
 
-Install a regular Debian amd64.
-
-Note:
 - Make sure you always restart/reload a service after you have changed its
 config files. Alternatively, follow this howto and do a clean boot at the very
 end.
 
 - All commands in this howto need to be executed by root (or via sudo).
+
+### System
+
+Install a regular Debian amd64.
 
 ### Boot Loader
 
