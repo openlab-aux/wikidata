@@ -98,6 +98,7 @@ apt install ufw
 ufw enable
 ufw default deny incoming
 ufw default allow outgoing
+ufw default allow forward
 ufw allow ssh
 ```
 
