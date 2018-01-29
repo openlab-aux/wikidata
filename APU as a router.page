@@ -237,7 +237,29 @@ Install `tc` (part of `iproute2`) as root:
 apt install iproute2
 ```
 
-To be done.
+Create a new bash script called `/usr/local/bin/tcsetup.sh` with the following content:
+
+```
+#!/bin/sh
+tc qdisc add dev enp1s0 root handle 1: htb default 5
+
+# define classes
+tc class add dev enp1s0 parent 1:1 classid 1:5 htb rate 4000kbps ceil 50000kbps
+tc class add dev enp1s0 parent 1:1 classid 1:6 htb rate 512kbps ceil 4000kbps
+
+# prefer SSH
+tc filter add dev enp1s0 protocol ip parent 1:0 prio 0 u32 match ip sport 22 0xffff flowid 1:5
+tc filter add dev enp1s0 protocol ip parent 1:0 prio 0 u32 match ip dport 22 0xffff flowid 1:5
+
+# de-prioritize external guests
+tc filter add dev enp1s0 protocol ip parent 1:0 prio 5 u32 match ip src 172.16.1.0/24 flowid 1:6
+```
+
+Now make the script executable:
+
+```
+chmod +x /usr/local/bin/tcsetup.sh
+```
 
 ### SNMP
 
