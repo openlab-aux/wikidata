@@ -43,8 +43,8 @@ respawn
 exec /sbin/getty -8 115200 -L ttyS0
 ```
 
-Reboot the system. You should now be able to watch it boot via the serial console
-and login once it's done.
+Once you reboot the system you should now be able to watch it boot via the serial
+console and login once it's done.
 
 ### Basic packages
 
