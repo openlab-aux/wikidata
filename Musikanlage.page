@@ -58,7 +58,7 @@ Anschließend pulseaudio per `systemctl --user restart pulseaudio` neu starten.
 
 Indiziert die Musik auf dem Server und kann mit verschiedenen Clients angesteuert werden. `gmpc` ist ein schönes GUI-Interface, oder `ncmpcpp`, wenn man eher auf Kommandozeile steht.
 
-Man erreicht ihn unter der Adresse des hannswurscht (`hannswurscht.openlab.lan`). 
+Man erreicht ihn unter der Adresse des hannswurscht (`audio.lab`). 
 
 # Bandgerät
 
