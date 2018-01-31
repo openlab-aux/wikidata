@@ -338,6 +338,14 @@ iface enp1s0 inet static
 				up /usr/local/bin/tcsetup.sh
 ```
 
+### Beehive
+
+We'll need to install Go in order to compile `beehive`:
+
+```
+apt install golang
+```
+
 ### SNMP
 
 To be done.
