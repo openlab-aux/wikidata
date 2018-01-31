@@ -119,6 +119,18 @@ Copy the VPN configuration to `/etc/openvpn/labvpn.conf`. Now edit `/etc/default
 AUTOSTART="labvpn"
 ```
 
+### VPN connection via frivpn (alternative multi-threaded VPN client)
+
+Install `frivpn`:
+
+```
+apt install build-essential git lua5.2-dev libssl-dev liblzo2-dev
+cd $HOME/src
+git clone https://github.com/znuh/frivpn
+cd frivpn
+make
+```
+
 ### Firewall 
 
 We want to forward packages between ethernet interfaces, but only allow incoming
