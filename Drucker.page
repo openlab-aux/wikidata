@@ -1,22 +1,37 @@
-Wir haben Drucker.
+# Printserver
 
-# Gute Drucker
+CUPS Printserver, erreichbar unter `print.openlab.lan`. Das Webinterface ist unter `http://print.openlab.lan:631`.
+
+Drucken von der Kommandozeile: `lp -h print.openlab.lan -d lexi myfile.pdf`. Den Namen des Druckers austauschen.
+
+# Aktive Drucker
 Lauffähige Drucker, die im Idealfall immer am Netzwerk hängen.
-TODO: IP Adressen der Geraete ins Wiki aufnehmen!
+
+## lexi (Lexmark T652dn)
+
+Schwarz-/Weiß-Laser
+
+* Primärdrucker, bitte für große Aufträge verwenden und auch sonst bevorzugen!
+* Kann ausschließlich(!) A4 drucken. Skaliert nicht runter!
+* Einige neuere PDFs verursachen Fehler, der Druck stoppt dann mit einer Fehlerseite.
+
+<img width=500 src="/images/lexi.jpg" />
+
+## pupsi (Canon MAXIFY MB5350)
+
+Farbtinte
+
+* Sekundärdrucker
+* Bitte nur verwenden, wenn `lexi` partout nicht geht oder Farbe benötigt.
+* Die Tinte ist alle, wenn sie alle ist. Es gibt (2018-02) keine Nachfüllstrategie.
+
+# Ehemalige (Hall of Fame)
 
 ## gutenberg (Lexmark C910)
 
 Großer Farblaser. Hat manchmal Probleme mit Farbdeckung.
 
 <img width=500 src="/images/gutenberg.jpg" />
-
-## lexi (Lexmark T652dn)
-
-Schwarz-/Weiß-Laser
-
-<img width=500 src="/images/lexi.jpg" />
-
-# Schlechte Drucker
 
 ## laz0rjet (hp irgendwas)
 
