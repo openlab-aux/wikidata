@@ -52,7 +52,7 @@ console and login once it's done.
 Let's install a bunch of common and useful packages:
 
 ```
-apt install apt-transport-https curl htop net-tools nmap tmux unzip
+apt install apt-transport-https build-essential curl git htop net-tools nmap tmux unzip
 ```
 
 ## Configuration
@@ -91,7 +91,7 @@ iface enp2s0.25 inet static
         address 10.11.69.196
         netmask 255.255.255.192
 
-        up route add -host 5.254.89.173 gw 10.11.69.193
+        up route add -host 1.2.3.4 gw 10.11.69.193
 
 # Debugging network
 auto enp3s0
@@ -100,12 +100,13 @@ iface enp3s0 inet dhcp
 
 The static host route is the only route available on startup. It allows us to
 connect to a VPN server with openvpn, which in turn sets up our default route
-to the Internet. See the next paragraph.
+to the Internet. Make sure the IP matches the VPN server's address. See the
+next paragraph for more information.
 
 ### VPN connection
 
-We don't want to connect to the Internet via our ISP directly, so we will setup a VPN connection, which
-all traffic will be routed through.
+We don't want to connect to the Internet via our ISP directly, so we will setup
+a VPN connection, which all traffic will be routed through.
 
 Install `openvpn`:
 
@@ -124,7 +125,7 @@ AUTOSTART="labvpn"
 Install `frivpn`:
 
 ```
-apt install build-essential git lua5.2-dev libssl-dev liblzo2-dev
+apt install lua5.2-dev libssl-dev liblzo2-dev
 cd $HOME/src
 git clone https://github.com/znuh/frivpn
 cd frivpn
@@ -169,10 +170,10 @@ net/ipv4/ip_forward=1
 LAN-guests will receive a dynamically allocated IP address, within the range of
 172.16.0.100 through 172.16.0.249, via DHCP.
 
-Install `isc-dhcp-server`:
+Install `isc-dhcp-server` and tools:
 
 ```
-apt install isc-dhcp-server
+apt install isc-dhcp-server dhcpd-pools
 systemctl enable isc-dhcp-server
 ```
 
@@ -272,6 +273,14 @@ systemctl enable grafana-server
 ufw allow 3000
 ```
 
+#### Additional stats & scrapers
+
+Install `https://github.com/atonkyra/dhcp-stats-prometheus` and its dependencies:
+
+```
+apt install dhcpd-pools python3-bottle
+```
+
 ### Traffic shaping
 
 Install `tc` (part of `iproute2`):
@@ -303,6 +312,18 @@ Now make the script executable:
 
 ```
 chmod +x /usr/local/bin/tcsetup.sh
+```
+
+Edit `/etc/network/interfaces` and amend the following section:
+
+```
+# Local lab network
+auto enp1s0
+iface enp1s0 inet static
+        address 172.16.0.1
+        netmask 255.255.0.0
+
+				up /usr/local/bin/tcsetup.sh
 ```
 
 ### SNMP
