@@ -295,7 +295,7 @@ Create a new bash script called `/usr/local/bin/tcsetup.sh` with the following c
 #!/bin/sh
 
 # setup qdisc
-sudo tc qdisc del dev enp1s0 root handle 1: htb
+tc qdisc del dev enp1s0 root handle 1: htb
 tc qdisc add dev enp1s0 root handle 1: htb default 5
 
 # define classes
