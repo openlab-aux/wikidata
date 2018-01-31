@@ -293,19 +293,31 @@ Create a new bash script called `/usr/local/bin/tcsetup.sh` with the following c
 
 ```
 #!/bin/sh
+
+# setup qdisc
+sudo tc qdisc del dev enp1s0 root handle 1: htb
 tc qdisc add dev enp1s0 root handle 1: htb default 5
 
 # define classes
+# never use more than 50mbit/s total
 tc class add dev enp1s0 parent 1: classid 1:1 htb rate 50mbit ceil 50mbit
+# preferred class
+tc class add dev enp1s0 parent 1:1 classid 1:4 htb rate 8mbit ceil 40mbit
+# standard lab user
 tc class add dev enp1s0 parent 1:1 classid 1:5 htb rate 4mbit ceil 40mbit
+# external guests
 tc class add dev enp1s0 parent 1:1 classid 1:6 htb rate 512kbit ceil 4mbit
 
-# prefer SSH
-tc filter add dev enp1s0 protocol ip parent 1:0 prio 0 u32 match ip sport 22 0xffff flowid 1:5
-tc filter add dev enp1s0 protocol ip parent 1:0 prio 0 u32 match ip dport 22 0xffff flowid 1:5
+# prefer DNS, SSH
+tc filter add dev enp1s0 protocol ip parent 1:0 prio 0 u32 match ip sport 53 0xffff flowid 1:4
+tc filter add dev enp1s0 protocol ip parent 1:0 prio 0 u32 match ip dport 53 0xffff flowid 1:4
+
+tc filter add dev enp1s0 protocol ip parent 1:0 prio 0 u32 match ip sport 22 0xffff flowid 1:4
+tc filter add dev enp1s0 protocol ip parent 1:0 prio 0 u32 match ip dport 22 0xffff flowid 1:4
 
 # de-prioritize external guests
 tc filter add dev enp1s0 protocol ip parent 1:0 prio 5 u32 match ip src 172.16.1.0/24 flowid 1:6
+tc filter add dev enp1s0 protocol ip parent 1:0 prio 5 u32 match ip dst 172.16.1.0/24 flowid 1:6
 ```
 
 Now make the script executable:
