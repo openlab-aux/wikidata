@@ -335,7 +335,7 @@ iface enp1s0 inet static
         address 172.16.0.1
         netmask 255.255.0.0
 
-				up /usr/local/bin/tcsetup.sh
+        up /usr/local/bin/tcsetup.sh
 ```
 
 ### Beehive
