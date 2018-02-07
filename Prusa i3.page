@@ -12,11 +12,11 @@ Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker e
 ### I3 #1
 
 +-------------+------------+
-|IP           |172.16.0.246|
+|IP           |172.16.16.151|
 +-------------+------------+
 |Hostname     |i3-1        |
 +-------------+------------+
-|Weboberfläche|[http://i3-1.openlab.lan](http://i3-1.openlab.lan) |
+|Weboberfläche|[http://i3-1.lab](http://i3-1.lab) |
 +-------------+------------+
 |Bauraum      |200x200x180mm|
 +-------------+------------+
@@ -26,15 +26,17 @@ Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker e
 ### I3 #2
 
 +-------------+------------+
-|IP           |172.16.0.185|
+|IP           |172.16.15.152|
 +-------------+------------+
 |Hostname     |i3-2        |
 +-------------+------------+
-|Weboberfläche|[http://i3-2.openlab.lan]() |
+|Weboberfläche|[http://i3-2.lab](http://i3-2.lab) |
 +-------------+------------+
 |Bauraum      |200x200x180mm|
 +-------------+------------+
 |Filament     |1.75mm (i.d.R PLA)|
++-------------+-------------+
+| Auth        | openlab standard |
 +-------------+------------+
 
 ## Betrieb
