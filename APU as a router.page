@@ -353,3 +353,13 @@ To be done.
 ### Backup
 
 To be done.
+
+## HowTo
+
+### Assign a static IP to a DHCP client
+
+Edit `/etc/dhcp/dhcpd.conf` and add a new host. Restart `isc-dhcp-server`.
+
+### Add a host to the DNS
+
+Edit `/etc/hosts` and add the host. Restart `dnsmasq`.
