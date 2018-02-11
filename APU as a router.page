@@ -85,13 +85,21 @@ iface enp1s0 inet static
         address 172.16.0.1
         netmask 255.255.0.0
 
+# Link to Hotelturm
+auto enp2s0.9
+iface enp2s0.9 inet static
+        address 10.11.66.3
+        netmask 255.255.255.0
+
+        up route add -host 1.2.3.4 gw 10.11.66.11
+
 # Link to gamambel
 auto enp2s0.25
 iface enp2s0.25 inet static
-        address 10.11.69.196
-        netmask 255.255.255.192
+        address 192.168.31.13
+        netmask 255.255.255.0
 
-        up route add -host 1.2.3.4 gw 10.11.69.193
+        up route add -host 1.2.3.4 gw 192.168.31.1
 
 # Debugging network
 auto enp3s0
