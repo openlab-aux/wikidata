@@ -8,7 +8,7 @@ Ein- und Ausgeschaltet können die Flipdots per Schalter an der Mehrfachsteckdos
 
 ### Per UDP-Schnittstelle
 
-* Erreichbar auf `flipdot.openlab.lan`, Port 2323
+* Erreichbar auf `flipdot.lab`, Port 2323
 
 ### Per Web(-API)
 
@@ -30,7 +30,7 @@ Auf einem Server von [sternenseemann](Mensch_sternenseemann) läuft [flipdot-gsc
 
 ## Deployment
 
-Läuft auf dem Raspberry Pi (`flipdot.openlab.lan`), der auf der Rückseite montiert ist.
+Läuft auf dem Raspberry Pi (`flipdot.lab`), der auf der Rückseite montiert ist.
 
 User    Passwort
 ------- --------
