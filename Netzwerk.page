@@ -9,8 +9,8 @@ Please don't manually pick an address from this pool.
 
 ## Network Services in the OpenLab
 
-* [PulseAudio Sink](Musikanlage): audio.lab (172.16.0.51)
-* [Printer](Drucker): printer.lab (172.16.0.52)
+* [PulseAudio Sink](Musikanlage): audio.lab (172.16.16.182)
+* [Printer](Drucker): print.lab (172.16.16.118)
 * [Flipdot](Flipdots)
 * [SpaceAPI](SpaceAPI): https://api.openlab-augsburg.de/data.json
 * [Scanner](Scanner)
