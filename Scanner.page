@@ -4,7 +4,7 @@
 
 * Konventionelle Distros  
 ```
-echo "hannswurscht.openlab.lan" >> /etc/sane.d/net.conf
+echo "scanner.lab" >> /etc/sane.d/net.conf
 ```
 siehe [https://wiki.debian.org/SaneOverNetwork]()
 
@@ -12,7 +12,7 @@ siehe [https://wiki.debian.org/SaneOverNetwork]()
 ```
 hardware.sane = {
   enable = true;
-  netConf = "hannswurscht.openlab.lan";
+  netConf = "scanner.lab";
 };
 # neu einloggen (leider, https://github.com/NixOS/nixpkgs/issues/26727)
 ```
