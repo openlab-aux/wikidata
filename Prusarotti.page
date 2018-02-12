@@ -14,7 +14,7 @@ Zwar ist die Bedienung eines 3D Druckers kein Hexenwerk, doch ist es eine komple
 
 Die Steuerung des Druckers erfolgt über eine OctoPrint-Installation. Diese ist über folgende IP innerhalb des OpenLab Netzwerkes erreichbar:
 
-http://172.16.0.117 bzw. http://prusarotti.openlab.lan
+http://172.16.16.151 bzw. http://octoprint.lab
 
 Das Webinterface ist Passwortgesichert. Accounts werden an diejenigen Vergeben, die eine Einweisung bekommen haben.
 
