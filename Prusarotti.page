@@ -1,7 +1,8 @@
 ![Prusarotti](/prusarotti.png)
 
 Seit Ende Januar 2014 ist das OpenLab im Besitz eines Prusa Mendel 3D-Druckers, der wegen seiner singenden Geräusche den Spitznamen „Prusarotti“ (von Luciano Pavarotti, Opernsänger) bekommen hat.
-Zuständige
+
+### Zuständige
 
 Hast du Fragen oder Probleme mit dem Drucker? Möchtest du eine Einweisung für den Drucker? Dann melde dich bei:
 
@@ -28,7 +29,8 @@ Das Webinterface ist Passwortgesichert. Accounts werden an diejenigen Vergeben, 
 
 
 Für allgemeine Probleme rund um 3D Drucker ist dieser Guide sehr hilfreich: A visual Ultimaker troubleshooting guide
-Konfiguration
+
+# Konfiguration
 
 Slic3r Config Bundle, kann einfach im Slic3r importiert werden.
 
