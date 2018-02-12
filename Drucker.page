@@ -1,8 +1,8 @@
 # Printserver
 
-CUPS Printserver, erreichbar unter `print.openlab.lan`. Das Webinterface ist unter `http://print.openlab.lan:631`.
+CUPS Printserver, erreichbar unter `print.lab`. Das Webinterface ist unter `http://print.lab:631`.
 
-Drucken von der Kommandozeile: `lp -h print.openlab.lan -d lexi myfile.pdf`. Den Namen des Druckers austauschen.
+Drucken von der Kommandozeile: `lp -h print.lab -d lexi myfile.pdf`. Den Namen des Druckers austauschen.
 
 # Aktive Drucker
 Lauffähige Drucker, die im Idealfall immer am Netzwerk hängen.
