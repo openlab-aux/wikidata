@@ -1,10 +1,11 @@
 Name                                                  Info/Rolle
 ----------------------------------------------------- ------------------------------------------------------------
-rantanplan                                            Physikalischer Server im OpenLab, stellt viele VMs bereit
-labctl                                                tbd
-ftp.openlab.lan                                       VM auf dem rantanplan
-flipdot.openlab.lan                                   Raspberry Pi im OpenLab, siehe [Flipdots](Flipdots)
-hannswurst.openlab.lan                                Server-Laptop, der pulseaudio-streaming für die [Musikanlage](Musikanlage) erlaubt
+luke.lab                                              Zentrales Gateway/VPN ins Netz
+rantanplan.lab                                        Physikalischer Server im OpenLab, stellt viele VMs bereit
+labctl.lab                                            tbd
+ftp.lab                                               VM auf dem rantanplan
+flipdot.lab                                           Raspberry Pi im OpenLab, siehe [Flipdots](Flipdots)
+hannswurst.lab                                        Server-Laptop, der pulseaudio-streaming für die [Musikanlage](Musikanlage) erlaubt
 VM der Website                                        tbd
 VM der Mailinglisten                                  gibt es nicht :o
 ----------------------------------------------------- ------------------------------------------------------------
