@@ -96,10 +96,10 @@ iface enp2s0.9 inet static
 # Link to gamambel
 auto enp2s0.25
 iface enp2s0.25 inet static
-        address 192.168.31.13
-        netmask 255.255.255.0
+        address 192.168.0.251
+        netmask 255.255.0.0
 
-        up route add -host 1.2.3.4 gw 192.168.31.1
+        up route add -host 1.2.3.4 gw 192.168.0.1
 
 # Debugging network
 auto enp3s0
