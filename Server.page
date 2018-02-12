@@ -5,7 +5,7 @@ rantanplan.lab                                        Physikalischer Server im O
 labctl.lab                                            tbd
 ftp.lab                                               VM auf dem rantanplan
 flipdot.lab                                           Raspberry Pi im OpenLab, siehe [Flipdots](Flipdots)
-hannswurst.lab                                        Server-Laptop, der pulseaudio-streaming für die [Musikanlage](Musikanlage) erlaubt
+hannswurscht.lab                                      Server-Laptop, der pulseaudio-streaming für die [Musikanlage](Musikanlage) erlaubt
 VM der Website                                        tbd
 VM der Mailinglisten                                  gibt es nicht :o
 ----------------------------------------------------- ------------------------------------------------------------
