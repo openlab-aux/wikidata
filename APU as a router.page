@@ -72,9 +72,9 @@ Everyone with access to this system will have to add their pub-key to `/home/ope
 
 The APU has three ethernet interfaces (from left to right: `enp1s0`, `enp2s0` and `enp3s0`).
 
-- `enp1s0` will be physically connected to the LAN
-- `enp2s0.25` (VLAN 25) will be physically connected to the Ubiquiti radio-link to [gamambel](Mensch_mo)
-- `enp3s0` is for debugging purposes only and requests an IP via DHCP
+- `enp1s0` is physically connected to the LAN
+- `enp2s0` is physically connected to the Ubiquiti radio-link to [gamambel](Mensch_mo)
+- `enp3s0.9` (VLAN 9) is physically connected to the Ubiquiti radio-link to Hotelturm
 
 Edit `/etc/network/interfaces` and add these interfaces:
 
@@ -86,24 +86,20 @@ iface enp1s0 inet static
         netmask 255.255.0.0
 
 # Link to Hotelturm
-auto enp2s0.9
-iface enp2s0.9 inet static
+auto enp3s0.9
+iface enp3s0.9 inet static
         address 10.11.66.3
         netmask 255.255.255.0
 
         up route add -host 1.2.3.4 gw 10.11.66.11
 
 # Link to gamambel
-auto enp2s0.25
-iface enp2s0.25 inet static
+auto enp2s0
+iface enp2s0 inet static
         address 192.168.0.251
         netmask 255.255.0.0
 
         up route add -host 1.2.3.4 gw 192.168.0.1
-
-# Debugging network
-auto enp3s0
-iface enp3s0 inet dhcp
 ```
 
 The static host route is the only route available on startup. It allows us to
