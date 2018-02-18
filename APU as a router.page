@@ -193,8 +193,8 @@ Edit `/etc/dhcp/dhcpd.conf` for all other settings:
 #option domain-name;
 #option domain-name-servers;
 
-default-lease-time 14400;
-max-lease-time 86400;
+default-lease-time 3600;
+max-lease-time 14400;
 
 authoritative;
 
