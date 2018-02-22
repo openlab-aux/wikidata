@@ -132,8 +132,15 @@ Install `frivpn`:
 apt install lua5.2 lua5.2-dev lua-posix lua-luaossl lua-cqueues libssl-dev liblzo2-dev
 cd $HOME/src
 git clone https://github.com/znuh/frivpn.git
-cd frivpn
+mkdir frivpn/build ; cd frivpn/build
+cmake ..
 make
+```
+
+Now you can start frivpn like this:
+
+```
+./frivpn_client.lua config/ipredator
 ```
 
 ### Firewall 
