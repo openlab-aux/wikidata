@@ -129,7 +129,7 @@ AUTOSTART="labvpn"
 Install `frivpn`:
 
 ```
-apt install lua5.2 lua5.2-dev lua-posix lua-luaossl lua-cqueues libssl-dev liblzo2-dev
+apt install cmake lua5.2 lua5.2-dev lua-posix lua-luaossl lua-cqueues libssl-dev liblzo2-dev
 cd $HOME/src
 git clone https://github.com/znuh/frivpn.git
 mkdir frivpn/build ; cd frivpn/build
