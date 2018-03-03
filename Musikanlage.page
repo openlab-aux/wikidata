@@ -47,7 +47,7 @@ Es reicht also, `load-module module-zeroconf-discover` in die `/etc/pulse/defaul
 
 Anschließend pulseaudio per `systemctl --user restart pulseaudio` neu starten.
 
-###### Temporär-Lösung
+###### Nicht-persistenter Ansatz
 
 ```shell
 pactl load-module module-tunnel-sink server=audio.lab
