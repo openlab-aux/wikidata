@@ -28,7 +28,7 @@ Man kann aus dem Netzwerk den Ausgang seines Geräts (sogar einzelner Programme)
 hardware.pulseaudio.zeroconf.discovery.enable = true;
 ```
 		
-###### Auf Debianoiden:
+###### Auf Debian/Ubuntu:
 
 `avahi-daemon` muss laufen. Dass lässt sich prüfen, indem man `avahi-browse -a` eingibt; es funktioniert, wenn Geräte im Netzwerk angezeigt werden.
 
