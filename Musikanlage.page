@@ -22,13 +22,13 @@ Verschiedene Wege, damit Audio abzuspielen:
 
 Man kann aus dem Netzwerk den Ausgang seines Geräts (sogar einzelner Programme) direkt auf die Anlage schicken. Es ist von Vorteil, dafür ein Netzwerkkabel anzustecken, da WLAN teils zu Rucklern führt.
 
-###### Anleitung zur Aktivierung auf NixOS:
+##### Anleitung zur Aktivierung auf NixOS:
 
 ```nix
 hardware.pulseaudio.zeroconf.discovery.enable = true;
 ```
 		
-###### Auf Debian/Ubuntu:
+##### Auf Debian/Ubuntu:
 
 `avahi-daemon` muss laufen. Dass lässt sich prüfen, indem man `avahi-browse -a` eingibt; es funktioniert, wenn Geräte im Netzwerk angezeigt werden.
 
@@ -39,7 +39,7 @@ echo "load-module module-zeroconf-discover" >> /etc/pulse/default.pa
 systemctl --user restart pulseaudio || pkill pulseaudio
 ```
 		
-###### Auf Arch:
+##### Auf Arch Linux:
 
 `pulseaudio-module-zeroconf` muss hier nicht extra installiert werden, da es schon vorhanden ist. 
 
@@ -47,8 +47,16 @@ Es reicht also, `load-module module-zeroconf-discover` in die `/etc/pulse/defaul
 
 Anschließend pulseaudio per `systemctl --user restart pulseaudio` neu starten.
 
+###### Temporär-Lösung
 
-###### Auf anderen Systemen ähnlich (bitte vervollständigen, wenn ihr es rausfindet!).
+```shell
+pactl load-module module-tunnel-sink server=audio.lab
+```
+Dann mit dem Befehl pavucontrol die Audioquellenübersicht anzeigen.
+Dort unter "Playback" die Quelle auswählen (Firefox, audacious, etc.) und dann als Ausgabe pulse@hannswurst auswählen.
+Der Sound sollte jetzt aus den Boxen kommen.
+
+##### Auf anderen Systemen ähnlich (bitte vervollständigen, wenn ihr es rausfindet!).
 
 ## mpd
 
