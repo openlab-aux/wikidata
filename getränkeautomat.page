@@ -20,7 +20,7 @@ Den Zugang hat neben owner (phjl) jeder, der den Code zum Tresor hat.
 
 Im Automaten ist an der Seite in einer Tasche die Betriebsanleitung, in der alles beschrieben ist. Der Automat wird über ein scheußliches 4-Tasten-Feld konfiguriert. Wenn Spiralen oder Schächte spinnen, ist ein Service-Reset notwendig, der Alle Spiralen und Schächte wieder in den Nullzustand setzt.
 
-
+tl;dr: Service-Reset: `C` und `M` gleichzeitig drücken (im Zweifel mehrmals).
 
 # Vendo VF218
 
