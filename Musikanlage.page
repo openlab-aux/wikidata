@@ -9,6 +9,11 @@ Ein kleines Mischpult stellt mehrere Eingangskanäle bereit. Die Anschlüsse vom
 (Recht kurzes) Klinkenkabel zum Anstecken von Geräten.  
 Bitte immer wieder zurücklegen, sonst bricht es schnell.
 
+
+# Bluetooth
+Ihr könnt euch via Bluetooth mit dem Deviece BH100 verbinden. 
+
+
 # hannswurscht (Streaming & mpd)
 
 hannswurscht ist der „Audioserver“.  
@@ -57,6 +62,7 @@ Dort unter "Playback" die Quelle auswählen (Firefox, audacious, etc.) und dann 
 Der Sound sollte jetzt aus den Boxen kommen.
 
 ##### Auf anderen Systemen ähnlich (bitte vervollständigen, wenn ihr es rausfindet!).
+
 
 ## mpd
 
