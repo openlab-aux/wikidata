@@ -1,3 +1,11 @@
+# Inhalt nachkaufen
+
+### Getränke
+
+### Essen
+
+### Items
+
 # Sielaff FS 1500
 
 Der neue heiße Scheiß ist ein Sielaff FS 1500. Der Funktioniert quasi einwandfrei, nimmt aber nur Münzgeld.
@@ -16,7 +24,7 @@ Der Automat hat verschiedenste Spiralfächer für Snacks und Dinge, daneben 4 (r
 
 Den Zugang hat neben owner (phjl) jeder, der den Code zum Tresor hat.
 
-### Programmierung, Reset, alles
+### Programmierung und Wartung
 
 Im Automaten ist an der Seite in einer Tasche die Betriebsanleitung, in der alles beschrieben ist. Der Automat wird über ein scheußliches 4-Tasten-Feld konfiguriert. Wenn Spiralen oder Schächte spinnen, ist ein Service-Reset notwendig, der Alle Spiralen und Schächte wieder in den Nullzustand setzt.
 
