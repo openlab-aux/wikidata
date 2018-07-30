@@ -290,7 +290,7 @@ Edit `/etc/prometheus/prometheus.yml` and change the following values:
 ```
 
 Next we'll install `grafana` as a frontend for prometheus. Since it's not in the
-official repos yet, we'll add a new APT source. Edit `/etc/apt/sources.list' and
+official repos yet, we'll add a new APT source. Edit `/etc/apt/sources.list` and
 add:
 
 ```
