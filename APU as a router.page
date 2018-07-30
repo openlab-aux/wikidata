@@ -57,6 +57,25 @@ apt install apt-transport-https build-essential curl git htop net-tools nmap tmu
 
 ## Configuration
 
+### /etc/fstab
+
+Edit `/etc/fstab` and add `noatime` to the root filesystem's options. This prevents
+unnecessary disk writes.
+
+### Unattended Upgrades
+
+We want to enable unattended-upgrades (at least) for security updates:
+
+```
+apt install unattended-upgrades apt-listchanges
+```
+
+Edit `/etc/apt/apt.conf.d/50unattended-upgrades` and set an email address to be
+notified with `Unattended-Upgrade::Mail`.
+
+Also check `/etc/apt/apt.conf.d/20auto-upgrades` to make sure unatteded upgrades
+are really enabled. Find more info in the [Debian Wiki](https://wiki.debian.org/UnattendedUpgrades).
+
 ### sudo
 
 Add the user `openlab` to the `sudo` group. Edit `/etc/sudoers` and let users
