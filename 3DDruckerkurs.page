@@ -1,6 +1,6 @@
-# 3D-Drucker-Workshop geht in die neunte Runde!
+# 3D-Drucker-Workshop 'X'
 
-Die ersten acht Workshops waren ein voller Erfolg (sogar im Bayerischen Fernsehen). Der nächste Workshop startet im August 2018. Er wird wieder 2 Tage dauern. Die Kosten für den Workshop belaufen sich auf
+Die ersten neun Workshops waren ein voller Erfolg (sogar im Bayerischen Fernsehen). Der nächste Workshop startet im November 2018. Er wird wieder 2 Tage dauern. Die Kosten für den Workshop belaufen sich auf
 
 - € 700,- für Mitglieder des OpenLab Augsburg e.V.
 
@@ -30,7 +30,7 @@ Seid euch bitte darüber im Klaren, dass wir euch *keinen* fertigen Drucker anbi
 
 Prusa hat den MK3 noch weiter verbessert. Hier sind die wesentlichen Änderungen gegenüber dem MK2:
 
-- Der Filamentsensor stellt fest, ob die Rolle zu ende ist oder ob es zu einer Störung im Materialfluss kam. Falls nötig, wird der laufende Druck pausiert und kann nach Beheben der Störung fortgesetzt werden.
+- Der Filamentsensor stellt fest, ob die Rolle zu Ende ist oder ob es zu einer Störung im Materialfluss kam. Falls nötig, wird der laufende Druck pausiert und kann nach Beheben der Störung fortgesetzt werden.
 - Stromausfälle werden erkannt und man kann den Druck an der Stelle fortsetzen, an der der Strom ausgefallen ist.
 - Die Lüfterdrehzahlen werden überwacht.
 - In die Z-Kalibrierung fließt jetzt auch die Umgebungstemperatur mir ein.
@@ -89,10 +89,10 @@ In der Tabelle unten findet ihr die Termine und das jeweilige Anmeldeformular. D
 +===================+=======================================+====================================================================+=================+
 | ~~Februar 2018~~  | ~~4 (2/0)~~                           | ~~Anmeldeformular~~                                                 |  ~~21.01.2018~~     |
 +-------------------+---------------------------------------+--------------------------------------------------------------------+-----------------+
-| August 2018       | 1 (5/5)                               | [Anmeldeformular](/Workshop August 2018 Anmeldung.pdf)              |  05.08.2018     |
+| August 2018       | 1 (5/5)                               | ~~[Anmeldeformular]~~                                               |  ~~05.08.2018~~     |
 +-------------------+---------------------------------------+--------------------------------------------------------------------+-----------------+
-
-
+| November 2018     | 6 (0/0)                               | [Anmeldeformular](/Workshop Herbst - Winter 2018 Anmeldung.pdf)    |  22.10.2018     |
++-------------------+---------------------------------------+--------------------------------------------------------------------+-----------------+
 
 Wir werden von Teilnehmern immer wieder gefragt, ob wir Rechnungen ausstellen können. Dazu ist folgendes festzustellen:
 
