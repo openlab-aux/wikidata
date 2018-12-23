@@ -1,6 +1,6 @@
-# 3D-Drucker-Workshop 'X'
+# 11. 3D-Drucker-Workshop (23.02. u. 24.02.2019)
 
-Die ersten neun Workshops waren ein voller Erfolg (sogar im Bayerischen Fernsehen). Der nächste Workshop startet im November 2018. Er wird wieder 2 Tage dauern. Die Kosten für den Workshop belaufen sich auf
+Die ersten zehn Workshops waren ein voller Erfolg (sogar im Bayerischen Fernsehen). Der nächste Workshop startet im Februar 2019. Er wird wieder 2 Tage dauern. Die Kosten für den Workshop belaufen sich auf
 
 - € 700,- für Mitglieder des OpenLab Augsburg e.V.
 
@@ -12,8 +12,9 @@ Seid euch bitte darüber im Klaren, dass wir euch *keinen* fertigen Drucker anbi
 
 ## Was bekomme ich für mein Geld?
 
-- Wir bestellen für euch alle nötigen Teile um einen RepRap Prusa i3 MK3 zu bauen. Dazu bekommt ihr eine Rolle PLA-Filament und fachliche Unterstützung beim Aufbau. Außerdem stellen wir euch alle benötigten Werkzeuge und ausreichend Arbeitsplatz in den Räumen des OpenLab Augsburg zur Verfügung.
+- Wir bestellen für euch einen original Prusa i3 MK3 Bausatz direkt bei Prusa in Prag. Dazu bekommt ihr eine Rolle PLA-Filament und fachliche Unterstützung beim Aufbau. Außerdem stellen wir euch alle benötigten Werkzeuge und ausreichend Arbeitsplatz in den Räumen des OpenLab Augsburg zur Verfügung.
 - Wir geben euch eine Einweisung in euren neuen Drucker und bringen euch bei, wie ihr selbst qualitativ hochwertige Druckteile herstellen könnt. Ihr lernt auch wie ihr selbst Reparaturen und Einstellungen an einem 3D-Drucker vornehmen könnt. Auch bei der Installation und Bedienung der 3D-Druck-Software sind wir euch behilflich.
+- Nach dem Kurs könnt ihr uns jeden Dienstag im Lab besuchen um mit uns zusammen Erfahrungen auszutauschen oder bei Problemen Hilfe zu bekommen.
 
 ## Überblick über den Drucker
 
@@ -25,7 +26,7 @@ Seid euch bitte darüber im Klaren, dass wir euch *keinen* fertigen Drucker anbi
 - Bauraum ~250x210x200mm (LxBxH)
 - automatische Bettnivellierung
 - LC-Display
-- Die Bausätze kommen mit fertig konfigurierter und druckfertiger Firmware. Außerdem werden slic3r-configs vorliegen.
+- Die Bausätze kommen mit fertig konfigurierter und druckfertiger Firmware und Slic3r.
 - Der Bausatz an sich beinhaltet den vollständigen Drucker. Allerdings lässt der sich immer noch erweitern. Z.B mit einer Beleuchtung um Druckfehler besser zu erkennen oder generell um den Druck zu beobachten, oder man baut einen Raspberry Pi und Octoprint an um den Drucker netzwerkfähig zu machen ...
 
 Prusa hat den MK3 noch weiter verbessert. Hier sind die wesentlichen Änderungen gegenüber dem MK2:
@@ -73,7 +74,7 @@ Der Workshop beginnt Samstag früh (genaue Zeiten folgen noch) und endet Sonntag
 
 Es kann immer etwas schief gehen - sollte euer Drucker aus irgendeinem Grund nicht bis Sonntag Abend fertig werden, könnt ihr ihn entweder daheim fertig bauen oder im OpenLab jeden Dienstag mit uns zusammen weiter bauen. Trotzdem versuchen wir natürlich alle Drucker bis Sonntag Abend fertigzustellen!
 
-Wichtig: Wir brauchen einen Computer um den Drucker zu bedienen. Bitte bringt eure Laptops mit. Wer keinen mobilen Computer zur Verfügung hat, soll sich bitte mit uns in Verbindung setzten, damit wir ein Leihgerät organisieren können. Ohne Computer könnt ihr den Drucker nicht bedienen!
+Wichtig: Wir brauchen einen Computer um den Drucker zu bedienen. Bitte bringt eure Laptops mit. Wer keinen mobilen Computer zur Verfügung hat, soll sich bitte mit uns in Verbindung setzen, damit wir ein Leihgerät organisieren können. Ohne Computer könnt ihr den Drucker nicht bedienen!
 
 In der Tabelle unten findet ihr die Termine und das jeweilige Anmeldeformular. Die Platzvergabe läuft so:
 
@@ -87,12 +88,15 @@ In der Tabelle unten findet ihr die Termine und das jeweilige Anmeldeformular. D
 +-------------------+---------------------------------------+--------------------------------------------------------------------+-----------------+
 | Termin            | verfügbare Plätze (geblockt/vergeben) | Anmeldeformular                                                    | Anmeldeschluss  |
 +===================+=======================================+====================================================================+=================+
-| ~~Februar 2018~~  | ~~4 (2/0)~~                           | ~~Anmeldeformular~~                                                 |  ~~21.01.2018~~     |
+| ~~Februar 2018~~  | ~~4 (2/0)~~                           | ~~Anmeldeformular~~                                                |  ~~21.01.2018~~ |
 +-------------------+---------------------------------------+--------------------------------------------------------------------+-----------------+
-| ~~August 2018~~   | ~~1 (5/5)~~                           | ~~[Anmeldeformular]~~                                               |  ~~05.08.2018~~     |
+| ~~August 2018~~   | ~~1 (5/5)~~                           | ~~[Anmeldeformular]~~                                              |  ~~05.08.2018~~ |
 +-------------------+---------------------------------------+--------------------------------------------------------------------+-----------------+
-| ~~November 2018~~ | ~~3 (2/1)~~                           | ~~[Anmeldeformular]~~                                               |  ~~28.10.2018~~     |
+| ~~November 2018~~ | ~~3 (2/1)~~                           | ~~[Anmeldeformular]~~                                              |  ~~28.10.2018~~ |
 +-------------------+---------------------------------------+--------------------------------------------------------------------+-----------------+
+| Februar 2019      | 6 (0/0)                               | [Anmeldeformular](/Workshop Feb 2019 Anmeldung.pdf)                |  15.02.2019     |
++-------------------+---------------------------------------+--------------------------------------------------------------------+-----------------+
+
 
 Wir werden von Teilnehmern immer wieder gefragt, ob wir Rechnungen ausstellen können. Dazu ist folgendes festzustellen:
 
