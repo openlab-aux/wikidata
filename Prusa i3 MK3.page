@@ -2,12 +2,29 @@
 ## Allgemeines
 Mit dem Original Prusa i3 MK3 steht dem Openlab ein einfach zu bedienender und zuverlässig arbeitender 3D Drucker zur Verfügung. Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker eine komplexe Maschine, bei der einige Stolpersteine lauern. Um Defekte vorzubeugen und um die Verfügbarkeit des Druckers für alle Mitglieder des OpenLab zu ermöglichen wird für den Drucker eine einmalige Einweisung benötigt.
 
-
++-------------+------------+
+|IP           | - todo -   |
++-------------+------------+
+|Hostname     | i3-1       |
++-------------+------------+
+|Weboberfläche|[http://i3-1.lab](http://i3-1.lab) |
++-------------+------------+
+|Bauraum (BTH)| 210 x 250 x 200 mm|
++-------------+------------+
+|Filament     |1.75mm (i.d.R PLA)|
++-------------+------------+
 
 ## Howto
 
 ### Filamentwechsel
 
 1. Aufheizen (Menü > Preheat > PLA/ABS/PETG)
-2. Warten bis die Temperatur der Düse erreicht wurde
-3. Filament entladen (Menü > Unload Filament)
+2. Filament etwa 1 - 1,5cm über dem Extruder abschneiden.
+3. Spule aus der Spulenhalterung nehmen und losen Filamentstrang sichern.
+3. Warten bis die Temperatur der Düse erreicht wurde
+4. Filament entladen (Menü > Unload Filament)
+5. Filamentstück entsorgen
+6. Sicherstellen, dass der Filamentstrang der neuen Rolle glatt abgeschnitten wurde
+7. Filament einführen, bei Piepton leicht drucken bis der Extruder das Filament einzieht
+8. Warten bis die Frage im Display erscheint, ob die richtige Farbe aus der Düse kommt.
+9. Frage beantworten (Ohne Antwort druckt der Drucker nicht!)
