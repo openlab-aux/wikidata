@@ -1,0 +1,13 @@
+# Prusa i3 MK3
+## Allgemeines
+Mit dem Original Prusa i3 MK3 steht dem Openlab ein einfach zu bedienender und zuverlässig arbeitender 3D Drucker zur Verfügung. Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker eine komplexe Maschine, bei der einige Stolpersteine lauern. Um Defekte vorzubeugen und um die Verfügbarkeit des Druckers für alle Mitglieder des OpenLab zu ermöglichen wird für den Drucker eine einmalige Einweisung benötigt.
+
+
+
+## Howto
+
+### Filamentwechsel
+
+1. Aufheizen (Menü > Preheat > PLA/ABS/PETG)
+2. Warten bis die Temperatur der Düse erreicht wurde
+3. Filament entladen (Menü > Unload Filament)
