@@ -2,12 +2,17 @@
 ## Allgemeines
 Mit dem Original Prusa i3 MK3 steht dem Openlab ein einfach zu bedienender und zuverlässig arbeitender 3D Drucker zur Verfügung. Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker eine komplexe Maschine, bei der einige Stolpersteine lauern. Um Defekte vorzubeugen und um die Verfügbarkeit des Druckers für alle Mitglieder des OpenLab zu ermöglichen wird für den Drucker eine einmalige Einweisung benötigt.
 
+Hinweis: Am Drucker wird nichts verändert oder herumgeschraubt. Sollte etwas nicht in Ordnung sein, wende dich bitte an einen der beiden Verantwortlichen:
+
+- [Stefan Krister](Mensch_Aelonath)
+- [Adrian Rauth](Mensch_bastard)
+
 +-------------+------------+
-|IP           | - todo -   |
+|IP           | 0.0.0.0    |
 +-------------+------------+
 |Hostname     | i3-1       |
 +-------------+------------+
-|Weboberfläche|[http://i3-1.lab](http://i3-1.lab) |
+|Weboberfläche|[http://prusa-mk3.local](http://prusa-mk3.local) |
 +-------------+------------+
 |Bauraum (BTH)| 210 x 250 x 200 mm|
 +-------------+------------+
