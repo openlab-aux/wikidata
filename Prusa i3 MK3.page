@@ -28,3 +28,11 @@ Mit dem Original Prusa i3 MK3 steht dem Openlab ein einfach zu bedienender und z
 7. Filament einführen, bei Piepton leicht drucken bis der Extruder das Filament einzieht
 8. Warten bis die Frage im Display erscheint, ob die richtige Farbe aus der Düse kommt.
 9. Frage beantworten (Ohne Antwort druckt der Drucker nicht!)
+
+### Pflege des Druckbettes
+
+Das Druckbett des i3 ist mit PEI Beschichtet und benötigt keine weitere manuelle Beschichtung vor dem Druck. Es muss lediglich sichergestellt sein, dass die Druckfläche fettfrei ist.
+
+Am besten lässt sich dies mit IPA sicherstellen.
+
+Vom Reinigen der Fläche mit Aceton sollte Abstand genommen werden. Nur in extremen Härtefällen, wenn IPA nicht helfen sollte kann das Druckbett auch mit Aceton gereinigt werden.
