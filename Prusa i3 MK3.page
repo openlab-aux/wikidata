@@ -21,6 +21,10 @@ Hinweis: Am Drucker wird nichts verändert oder herumgeschraubt. Sollte etwas ni
 
 ## Howto
 
+### Drucker ausschalten
+
+Der RaspberryPi (Octoprint) wird vom Drucker mit Strom versorgt. **Deswegen darf der Drucker nicht einfach so ausgeschalten werden!** Octoprint (und damit der RaspberryPi) müssen vorher ordnungsgemäß über die Weboberfläche heruntergefahren werden. Erst dann kann der Drucker ausgeschaltet werden.
+
 ### Filamentwechsel
 
 1. Aufheizen (Menü > Preheat > PLA/ABS/PETG)
