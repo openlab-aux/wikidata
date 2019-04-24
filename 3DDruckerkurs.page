@@ -43,7 +43,7 @@ Seit ein paar Wochen gibt es das Model MK3S.
 
 - Der optische Filamentsensor wird nun durch einen mechanischen Hebel ausgelöst. Dadurch sind die optischen Eigenschaften des Filaments nicht mehr relevant.
 - Durch den komplett überarbeiteten Extruder ist der Düsenwechsel so einfach wie nie zuvor. Außerdem sind die Düse und der Extrudermotor viel näher an der X-Achse, was weniger Resonanz und bessere Druckergebnisse bedeutet. Der MK3S ist auch besser für den Druck flexibler Materialien geeignet.
-- Der MK3S beinhaltet alle kumulativen Upgrades aus dem gesamten Lebenszyklus des MK3 wie original Gates Zahnriemen, Textilschläuche, ein neues Einsy-Gehäuse für eine einfachere Raspberry Pi-Verbindung, eine Anti-Rost-Beschichtung der PEI-Druckplatten und natürlich Dutzende Änderungen an der Firmware und den Kunststoffteilen.
+- Der MK3S beinhaltet alle kumulativen Upgrades aus dem gesamten Lebenszyklus des MK3 wie original Gates Zahnriemen, Textilschläuche, ein neues Einsy-Gehäuse für eine einfachere Raspberry Pi-Verbindung, eine Anti-Rost-Beschichtung der PEI-Druckplatten und natürlich dutzende Änderungen an der Firmware und den Kunststoffteilen.
 
 ![Bausatz ausgepackt](/small prusa i3 unboxed.JPG)
 
