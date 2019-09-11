@@ -81,7 +81,7 @@ An HannswurschtII hängt eine Creative SoundBlaster Play3 USB Soundkarte für ho
 HannswurschtII hat pulseaudio mit aktiviertem Netzwerk Streaming und avahi am Laufen und kann genauso wie der originale Hannswurscht angesprochen werden.
 Wenn der Wechsel vollzogen ist, wird auch die IP umgestellt (derzeit 172.16.0.195, DCHP)
 
-Wer Zugriff auf den pi haben möchte, fragt am Besten DasPhantom um Hinzufügen eines SSH Keys.
+Admin: zur Zeit DasPhantom. Wer Zugriff auf den pi haben möchte, einfach anfragen, dann adde ich euren SSH Key.
 
 ### Install Changelog
 Starting point is a newly setup Raspbean OS.
@@ -95,7 +95,11 @@ In file `vim /etc/pulse/default.pa` uncomment and adapt the following lines:
 
 	load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1;172.16.0.1/24
 	load-module module-zeroconf-publish
-
+	
+Start pulseaudio daemon at reboot (I'm sure there is a better way :D)
+	
+	crontab -e
+	@reboot pulseaudio -D
 
 # Bandgerät
 
