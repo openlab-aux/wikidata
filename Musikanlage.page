@@ -74,6 +74,29 @@ Indiziert die Musik auf dem Server und kann mit verschiedenen Clients angesteuer
 
 Man erreicht ihn unter der Adresse des hannswurscht (`audio.lab`). 
 
+# Hannswurscht II
+HannswurschtII ist ein RaspberryPi, der das Pulseaudio Streaming über Netzwerk übernommen hat und Hannswurscht ablösen soll (da dieser in die Jahre gekommen ist, recht heiß läuft und unter Last ziemlich rödelt). Ein Raspi ist wohl stromsparender und tut genauso.
+An HannswurschtII hängt eine Creative SoundBlaster Play3 USB Soundkarte für hochwertigen Sound (dem Raspi-eigenen 3.5 mm Audioausgang traut man nicht so recht...)
+
+HannswurschtII hat pulseaudio mit aktiviertem Netzwerk Streaming und avahi am Laufen und kann genauso wie der originale Hannswurscht angesprochen werden.
+Wenn der Wechsel vollzogen ist, wird auch die IP umgestellt (derzeit 172.16.0.195, DCHP)
+
+Wer Zugriff auf den pi haben möchte, fragt am Besten DasPhantom um Hinzufügen eines SSH Keys.
+
+### Install Changelog
+Starting point is a newly setup Raspbean OS.
+
+Install necessary software:
+
+	sudo apt-get install pulseaudio pulseaudio-module-zeroconf alsa-utils avahi-daemon
+
+Configure pulseaudio for network:
+In file `vim /etc/pulse/default.pa` uncomment and adapt the following lines:
+
+	load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1;172.16.0.1/24
+	load-module module-zeroconf-publish
+
+
 # Bandgerät
 
 Es existiert ein Tonbandgerät des Typ Braun TG100/4. Dazu vorhanden ist ein Satz an Band und 2 Bandrollen. Weitere volle Bandrollen lagert phj bei sich zuhause.
