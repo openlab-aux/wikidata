@@ -90,6 +90,13 @@ Add a systemd unit file:
 	
 Enable and start the service using systemctl.
 
+Disable the standard 3.5mm audio jack so that it gets not listed or used accidentially.
+Add /etc/modprobe.d/alsa-blacklist.conf:
+
+	blacklist snd_bcm2835
+	
+Save and reboot the system.
+
 
 # ~~Hannswurscht (Legacy)~~
 Hannswurscht ist ein zugeklappter x86-Laptop, das mit einem Klinkenkabel in einen festen Kanal des Mischpults geht.
