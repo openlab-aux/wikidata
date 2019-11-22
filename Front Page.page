@@ -92,9 +92,10 @@ format: Markdown
 ## Maschinen
 
 * [Analoges Oszilloskop](Analoges%20Oszilloskop)
-* [Prusarotti](Prusarotti)
-* [Prusa i3](Prusa%20i3)
-* [Original Prusa i3 MK3s](https://wiki.openlab-augsburg.de/Prusa%20i3%20MK3)
+* 3D Drucker
+    * [Original Prusa i3 MK3s](Prusa%20i3%20MK3) (Einsatzbereit)
+    * [Prusarotti](Prusarotti) (bedingt Einsatzbereit)
+    * [Prusa i3](Prusa%20i3) (nicht Einsatzbereicht)
 * [Schneidplotter](Schneidplotter) (Leihgabe, momentan nicht im Lab)
 * [Mikroskop](Mikroskop)
 
