@@ -15,23 +15,26 @@ format: Markdown
 
 ## Projekte
 
-* [Aufgaben](https://github.com/openlab-aux/orgafoo/issues)
-* [GitHub Organisation](https://github.com/openlab-aux)
+* [Aufgaben](https://github.com/openlab-aux/orgafoo/issues) <
+* [GitHub Organisation](https://github.com/openlab-aux) 
 * [Projekte von Mitgliedern](MitgliederProjekte)
 
 ## Kurse und Workshops
 
 * [3D-Druckerkurs](3DDruckerkurs)
 * [Pad für neue Workshops](https://freepad.erdgeist.org/p/ola_workshops)
-* [Lötstation](Lötstation)
+* [Lötstation](Lötstation) (nicht aktuell)
+
+* Forscherkurse Augsburg(https://forscherkurse-augsburg.de/)
+* Programmierkurse in Minecraft für Kinder(https://forscherkurse-augsburg.de/programmieren-lernen-in-minecraft-2/)
+
+* Veranstaltungsreihe zum Thema Nachhaltigkeit & Zukunft (Infos folgen, aktuelle Events (https://openlab-augsburg.de/veranstaltungen/)
+* Veranstaltungsreihe zum Thema Sicherheit (Infos folgen)
 
 ## Veranstaltungen
 
-* [GRODEN'19](https://openlab-augsburg.de/groden19/)
-
 * [Termine](https://openlab-augsburg.de/veranstaltungen/)
 * [Veransteltungen - externe Events](Veranstaltungen)
-* [Historie](Veranstaltungen - Historie)
 
 ### Chaos (CCC)
 
@@ -53,30 +56,28 @@ format: Markdown
 * [Pfand sortieren](pfand)
 
 ## Infrastruktur
-* [Geräte und Werkzeug](Geräte%20und%20Werkzeug)
-* [Werkstatt](Werkstatt)
-* [E-Ecke](E-Ecke)
-* [Fotolabor](Fotolabor)
+* [Geräte und Werkzeug](Geräte%20und%20Werkzeug) <
+* [Werkstatt](Werkstatt) <
+* [E-Ecke](E-Ecke) <
+* [Fotolabor](Fotolabor) - Umbau zu Chemielabor - zurzeit nicht nutzbar
 * [SpaceAPI](SpaceAPI)
 * [Sphincter](Sphincter) (Schließanlage)
 * [Netzwerk](Netzwerk)
-* [Drucker](Drucker)
-* [Scanner](Scanner)
+* [Drucker](Drucker) <
+* [Scanner](Scanner) <
 * [Musikanlage](Musikanlage)
 * [Bodenkabel](Bodenkabel)
-* [Dummrumleuchte](Dummrumleuchte)
-* [BlinkenLine](BlinkenLine)
-* [Flipdots](Flipdots)
-* [InfoBeamer](InfoBeamer)
-* [PanaBoard](PanaBoard)
-* [Telefon](Telefon)
-* [Packstation](Packstation)
-* [WandBrett](WandBrett)
+* [Dummrumleuchte](Dummrumleuchte) <
+* [BlinkenLine](BlinkenLine) <
+* [Flipdots](Flipdots) <
+* [InfoBeamer](InfoBeamer) <
+* [PanaBoard](PanaBoard) <
+* [Telefon](Telefon) <
 * Lagerung und Ordnung
-    * [Regal](Regal)
-    * [Inventarsystem](Inventarsystem)
+    * [Regal](Regal) <
+    * [Inventarsystem](Inventarsystem) (nicht aktuell - SUPPORT NEEDED!!!)
     * [Haufen](Haufen)
-    * [Ordnung](Ordnung)
+    * [Ordnung](Ordnung) <
 * Verpflegung
     * [Getränke](Getränke) & [Getränkeautomat](getränkeautomat)
     * [Küche](Küche)
@@ -93,11 +94,10 @@ format: Markdown
 
 * [Analoges Oszilloskop](Analoges%20Oszilloskop)
 * 3D Drucker
-    * [Original Prusa i3 MK3s](Prusa%20i3%20MK3) (Einsatzbereit)
-    * [Prusarotti](Prusarotti) (bedingt Einsatzbereit)
-    * [Prusa i3](Prusa%20i3) (nicht Einsatzbereicht)
+    * [Original Prusa i3 MK3s](Prusa%20i3%20MK3) (einsatzbereit)
+    * [Prusarotti](Prusarotti) (bedingt einsatzbereit)
+    * [Prusa i3](Prusa%20i3) (nicht einsatzbereicht)
 * [Schneidplotter](Schneidplotter) (Leihgabe, momentan nicht im Lab)
-* [Mikroskop](Mikroskop)
 
 ## Verein
 
@@ -105,4 +105,6 @@ format: Markdown
 * [Mitgliederversammlungen](Mitgliederversammlungen)
 * [Plena](Plenum)
 * [Mitglieder](Mitglieder)
+
+< eventuell nicht aktuell
 
