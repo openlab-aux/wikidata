@@ -15,6 +15,39 @@ Das Passwort sollte keine Sonderzeichen enthalten (zur Not auf Mattermost änder
 
 Danach gibt `/list` eine Liste aller existierenden Channels aus.
 
+#### Beispiel weechat
+
+Für den IRC-Client [`weechat`](https://www.weechat.org) schaut die obengenannte Anleitung so aus:
+
+Neuen Server namens `openlab` hinzufügen:
+
+```
+/server add openlab chat.openlab-augsburg.de/9997 -ssl -autoconnect
+```
+
+Unser Zertifikat kann nicht überprüft werden, deshalb deaktivieren wir den Check:
+
+```
+/set irc.server.openlab.ssl_verify off
+```
+
+Dann sagen wir `weechat` wie man sich einloggt:
+
+```
+/set irc.server.openlab.command /msg mattermost login openlab <email> <passwort>
+```
+
+`<email>` und `<passwort>` hier respektive durch die Nutzeremail und das Mattermost-Passwort ersetzen.
+
+Und am Ende verbinden wir uns zum fertig konfigurierten Server:
+
+```
+/connect openlab
+```
+
+Der Server sollte sich nach einigen Sekunden verbinden und der `mattermost` Nutzer sollte als private Nachricht `Login OK` schreiben.
+
+
 # IRC-Kanäle auf freenode
 
 Bevor wir den Chat hatten, gab es Channels auf freenode, in denen auch noch ein paar Leute rumhängen:
