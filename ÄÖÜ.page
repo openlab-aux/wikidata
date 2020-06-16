@@ -1,1 +1,3 @@
 umlaut-test
+
+das geht obwohl nichtmal C locale in locale.gen steht
