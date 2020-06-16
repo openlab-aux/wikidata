@@ -1,5 +1,5 @@
 Wir haben nutzen zur formlosen, alltäglichen Kommunikation einen Chat, der ziemlich aktiv ist, sodass man einiges mitbekommt:
-https://openlab-augsburg.de/chat/
+<https://openlab-augsburg.de/chat/>
 
 ### Anleitung für die IRC-Bridge
 
@@ -26,5 +26,3 @@ Channel: `#augsburg`, `#openlab`
 `#openlab` ist ein OpenLab-spezifischer low-traffic Kanal, der ehemals für die Vereinsverwaltung gedacht war, wurde aber jetzt durch unseren Chat ersetzt.
 
 Wenn du IRC ausprobieren willst, einfach im Chat fragen (z.B. im Channel `#softwareentwicklung`), auch wenn der Openlab-Chat einen Webclient hat, findet man viele der alteingesessenen Hacker außerhalb des Labs auch heute oft noch im IRC, es lohnt sich also, sich damit zu beschäftigen.
-
-¹: Das Kommunikationsmedium der Zukunft! Und der Vergangenheit!
