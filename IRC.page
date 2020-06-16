@@ -1,15 +1,3 @@
-Wir haben nutzen zur formlosen, alltäglichen Kommunikation IRC¹ Channel auf Freenode, die ziemlich aktiv sind, sodass man einiges mitbekommt:
-
-Server: `irc.freenode.net` \
-Channel: `#augsburg`, `#openlab`
-
-`#augsburg` ist der aktive Kanal für allgemeine Gespräche, auch Off-Topic. Der Kanal ist nicht offiziell vom OpenLab, sondern für alle Augsburger Hacker/Häcksen und Technikaffine gedacht. \
-`#openlab` ist ein OpenLab-spezifischer low-traffic Kanal für die Vereinsverwaltung und das [Social Media Team](Social Media).
-
-Falls du dich mit IRC nicht auskennst oder keinen IRC-Client hast kannst du auch den viel simpleren [Webchat](https://openlab-augsburg.de/kontakt/chat/) benutzen.
-
-ACHTUNG: Der Webchat ist ein Medium für asynchrone Kommunikation! Manchmal liest der Empfänger die Nachricht erst nach einigen Stunden.
-Wenn du auf eine Antwort wartest, dann SCHLIEßE NICHT das entsprechende Browser-Fenster.
-Es gibt mittlerweile auch modernere Webclients wie die [Lounge](https://github.com/thelounge/lounge), vielleicht setzt mal jemand etwas auf.
-
-¹: Das Kommunikationsmedium der Zukunft! Und der Vergangenheit!
+---
+redirect: Chat
+...
