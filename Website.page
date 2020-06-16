@@ -63,3 +63,4 @@ Hier sollte es bald mal eine automatische Lösung geben und der Abschnitt aktual
 * `/home/gitit/gitit-db/wikidata` enthält alle Wikiseiten und ist selbst eine git repository. Man kann also git selbst verwenden, um ein Backup von ihr an einem anderen Ort zu erstellen (z. B. zu einer anderen remote pushen)
 * `/home/gitit/gitit-db/{static,templates}` kann man ganz klassisch als Dateien kopieren.
 * Änderungen in `gitit.config` am besten [im Repository](https://github.com/openlab-aux/gitit/blob/master/data/default.conf) angleichen, da wir sowieso schon den Fork maintainen müssen.
+* `/home/gitit/gitit-db/gitit-users` ist die user Datenbank, die personenbezogene Daten enthält (email adressen), und dementsprechend gesichert werden sollte
