@@ -1,7 +1,7 @@
 Wir haben nutzen zur formlosen, alltäglichen Kommunikation einen Chat, der ziemlich aktiv ist, sodass man einiges mitbekommt:
 <https://openlab-augsburg.de/chat/>
 
-### Anleitung für die IRC-Bridge
+## Anleitung für die IRC-Bridge
 
 Wenn du einen [Bouncer](https://de.wikipedia.org/wiki/Bouncer) hast kannst du auch über die IRC-Bridge joinen. Dazu zum IRC-Server `chat.openlab-augsburg.de` auf Port `9997` (SSL aktivieren) connecten. Dazu musst du dich vorher [registrieren](https://openlab-augsburg.de/chat/).
 
@@ -15,7 +15,7 @@ Das Passwort sollte keine Sonderzeichen enthalten (zur Not auf Mattermost änder
 
 Danach gibt `/list` eine Liste aller existierenden Channels aus.
 
-#### Beispiel weechat
+### Beispiel weechat
 
 Für den IRC-Client [`weechat`](https://www.weechat.org) schaut die obengenannte Anleitung so aus:
 
@@ -48,7 +48,7 @@ Und am Ende verbinden wir uns zum fertig konfigurierten Server:
 Der Server sollte sich nach einigen Sekunden verbinden und der `mattermost` Nutzer sollte als private Nachricht `Login OK` schreiben.
 
 
-# IRC-Kanäle auf freenode
+## IRC-Kanäle auf freenode
 
 Bevor wir den Chat hatten, gab es Channels auf freenode, in denen auch noch ein paar Leute rumhängen:
 
