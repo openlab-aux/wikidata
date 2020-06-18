@@ -47,6 +47,11 @@ Und am Ende verbinden wir uns zum fertig konfigurierten Server:
 
 Der Server sollte sich nach einigen Sekunden verbinden und der `mattermost` Nutzer sollte als private Nachricht `Login OK` schreiben.
 
+Nicht vergessen, die geänderten Einstellungen zu speichern:
+
+```
+/save
+```
 
 ## IRC-Kanäle auf freenode
 
