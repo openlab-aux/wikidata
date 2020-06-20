@@ -118,6 +118,7 @@ Die einfachste Möglichkeit ist also einfach die Tür mit dem Browser oder `curl
 
 ### Clients
 
+* [Trigger-Android-App](https://github.com/mwarning/trigger) - Trigger is an Android App to unlock/lock doors, show the door status and ring a bell.
 * [Sphincter-Android-App](https://github.com/openlab-aux/sphincter-remote/releases) ([Source Code](https://github.com/openlab-aux/sphincter-remote/))
 
 ### Bedienung von innen
