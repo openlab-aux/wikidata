@@ -3,7 +3,7 @@ Wir haben nutzen zur formlosen, alltäglichen Kommunikation einen Chat, der ziem
 
 ## Anleitung für die IRC-Bridge
 
-Wenn du einen [Bouncer](https://de.wikipedia.org/wiki/Bouncer) hast kannst du auch über die IRC-Bridge joinen. Dazu zum IRC-Server `chat.openlab-augsburg.de` auf Port `9997` (SSL aktivieren) connecten. Dazu musst du dich vorher [registrieren](https://chat.openlab-augsburg.de/signup_email).
+Wenn du einen [Bouncer](https://de.wikipedia.org/wiki/Bouncer) hast kannst du auch über die IRC-Bridge joinen. Dazu zum IRC-Server `chat.openlab-augsburg.de` auf Port `9997` (SSL aktivieren) connecten. Dazu musst du dich vorher [registrieren](https://chat.openlab-augsburg.de/signup_user_complete/?id=yrxsan98iidetruxh951pgixhe).
 
 SASL wird leider nicht unterstützt, man muss dem `mattermost` Bot eine Nachricht schreiben, die die Logindaten enthält:
 
