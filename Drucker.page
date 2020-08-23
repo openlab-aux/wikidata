@@ -7,6 +7,16 @@ Drucken von der Kommandozeile: `lp -h print.lab -d lexi myfile.pdf`. Den Namen d
 # Aktive Drucker
 Lauffähige Drucker, die im Idealfall immer am Netzwerk hängen.
 
+## pupsi (Canon MAXIFY MB5350)
+
+Farbtinte
+
+* Sekundärdrucker
+* Bitte nur verwenden, wenn `lexi` partout nicht geht oder Farbe benötigt.
+* Die Tinte ist alle, wenn sie alle ist. Es gibt (2018-02) keine Nachfüllstrategie.
+
+# Ehemalige (Hall of Fame)
+
 ## lexi (Lexmark T652dn)
 
 Schwarz-/Weiß-Laser
@@ -17,15 +27,6 @@ Schwarz-/Weiß-Laser
 
 <img width=500 src="/images/lexi.jpg" />
 
-## pupsi (Canon MAXIFY MB5350)
-
-Farbtinte
-
-* Sekundärdrucker
-* Bitte nur verwenden, wenn `lexi` partout nicht geht oder Farbe benötigt.
-* Die Tinte ist alle, wenn sie alle ist. Es gibt (2018-02) keine Nachfüllstrategie.
-
-# Ehemalige (Hall of Fame)
 
 ## gutenberg (Lexmark C910)
 
