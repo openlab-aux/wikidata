@@ -10,7 +10,7 @@ Ein- und Ausgeschaltet können die Flipdots per Schalter an der Mehrfachsteckdos
 
 * Erreichbar auf `flipdot.lab`, Port 2323
 
-### Per Web(-API)
+### Per flipdot-gschichtler (Web-Interface oder API)
 
 * [flipdot.openlab-augsburg.de](http://flipdot.openlab-augsburg.de)
 * [API-Dokumentation](https://github.com/openlab-aux/flipdot-gschichtler#api-documentation)
@@ -22,11 +22,11 @@ Auf dem Raspberry Pi laufen diese drei relevanten [systemd](http://systemd.org/)
 Service                           Beschreibung                                                                          Source-Code
 --------------------------------  ----------------------------------------------------------------------------------    ------------
 `flipdot.service`                 Empfängt die Steuerungspakete per UDP auf Port 2323                                   [flipdots](https://github.com/openlab-aux/flipdots/tree/master/raspberrypi)
-`flipdot-gschichtler.service`     Fragt regelmäßig die Queue der Web-API ab und schickt neuen Text auf die Flipdots     [flipdot-gschichtler/flipper](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/flipper)
-~~`flipdot-admin.service`~~           ~~Erlaubt das Löschen von Queue-Einträgen~~                                               [flipdot-gschichtler/admin](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/admin)
+`flipdot-gschichtler.service`     Fragt regelmäßig die Queue der Web-API ab und schickt neuen Text auf die Flipdots     [flipdot-gschichtler/anzeigetafel](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/anzeigetafel)
 --------------------------------  ----------------------------------------------------------------------------------    ------------
 
-Auf einem Server von [sternenseemann](Mensch_sternenseemann) läuft [flipdot-gschichtler/web](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/web).
+Auf einem Server von [sternenseemann](Mensch_sternenseemann) läuft [flipdot-gschichtler/warteraum](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/warteraum)
+und das [web interface](https://github.com/openlab-aux/flipdot-gschichtler/tree/master/bahnhofshalle).
 
 ## Deployment
 
