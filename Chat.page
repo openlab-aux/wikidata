@@ -25,10 +25,10 @@ Neuen Server namens `openlab` hinzufügen:
 /server add openlab chat.openlab-augsburg.de/9997 -ssl -autoconnect
 ```
 
-Unser Zertifikat kann nicht überprüft werden, deshalb deaktivieren wir den Check:
+Unser Zertifikat ist von keiner trusted Authority signiert ist, also pinnen wir das Zertifikat mit dem folgenden Fingerprint:
 
 ```
-/set irc.server.openlab.ssl_verify off
+/set irc.server.openlab.ssl_fingerprint "B34E886B3AD8B2021CA1B446223CCF8E362154C4730BE3F5C71B262AE68F1D7E"
 ```
 
 Dann sagen wir `weechat` wie man sich einloggt:
