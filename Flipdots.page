@@ -76,6 +76,6 @@ Services laufen nach Möglichkeit als `flipdot`, in `/home/flipdot` liegt der so
 
 1. `apt install git build-essential`, repos clonen
 2. [bcm2836](http://www.airspayce.com/mikem/bcm2835/) installieren
-5. `apt install fonts-dejavu`
+5. `apt install fonts-dejavu unifont`
 3. In `flipdots/raspberry` `make` ausführen und binaries nach `/opt/flipdot/` kopieren
 4. systemd services nach `/etc/systemd/system` kopieren, anpassen und starten
