@@ -6,12 +6,13 @@
 
 ### BlumenBrudi (GrowBro)
 * Bewässerungs- und Licht-Automatik für kleine Pflanzen
-* Als Testbalon und zum Erfahrungen sammeln mit Sensoren und Aktoren rund um die Gewächshausautomatisierung
+* BlumenBrudi muss nie weg. Wenn du mit machen willst, einfach mal im Chat vorbei kommen.
+* Als Test, zum sammeln von Erfahrungen mit Sensoren und Aktoren rund um die Gewächshausautomatisierung
 	* BME280: Temperatur, Luftdruck, Luftfeuchtigkeit
 	* Chirp!: Kapaziativer Erdfeuchte-Fühler, mit i2c interface
 	* DS18b20: OneWire-Temperatur-Sensoren für die Substrattemperatur
-	* Sonoff 4CH Pro: ESP-Releais-Board zum schalden der 3 Pflanzenlichtlampen und der Heizmatte
-	* Peristaltikpumpe: DC-Motor, über Motorcontroller vom ESP Zum Wässern der Pflanzen.
+	* Sonoff 4CH Pro: ESP-Releais-Board zum schalten der 3 Pflanzenlichtlampen und der Heizmatte [esphome web](http://pflanzenlicht.local)
+	* Peristaltikpumpe: DC-Motor, über Motorcontroller vom ESP [esphome web](http://gaertnerbot.local), Wässern der Pflanzen.
 	* alles mit esphome %)
 
 ### haskell-ricochet
