@@ -4,6 +4,16 @@
 
 ## Existierende Projekte
 
+### BlumenBrudi (GrowBro)
+* Bewässerungs- und Licht-Automatik für kleine Pflanzen
+* Als Testbalon und zum Erfahrungen sammeln mit Sensoren und Aktoren rund um die Gewächshausautomatisierung
+	* BME280: Temperatur, Luftdruck, Luftfeuchtigkeit
+	* Chirp!: Kapaziativer Erdfeuchte-Fühler, mit i2c interface
+	* DS18b20: OneWire-Temperatur-Sensoren für die Substrattemperatur
+	* Sonoff 4CH Pro: ESP-Releais-Board zum schalden der 3 Pflanzenlichtlampen und der Heizmatte
+	* Peristaltikpumpe: DC-Motor, über Motorcontroller vom ESP Zum Wässern der Pflanzen.
+	* alles mit esphome %)
+
 ### haskell-ricochet
 
 * [GitHub-Projekt](https://github.com/Jugendhackt/haskell-ricochet)
