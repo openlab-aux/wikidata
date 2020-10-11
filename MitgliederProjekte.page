@@ -4,7 +4,7 @@
 
 ## Existierende Projekte
 
-### BlumenBrudi (GrowBro)
+### BlumenBrudi (GrowBro/PlantPal)
 * Bewässerungs- und Licht-Automatik für kleine Pflanzen
 * BlumenBrudi muss nie weg. Wenn du mit machen willst, einfach mal im Chat vorbei kommen.
 * Als Test, zum sammeln von Erfahrungen mit Sensoren und Aktoren rund um die Gewächshausautomatisierung
@@ -14,6 +14,7 @@
 	* Sonoff 4CH Pro: ESP-Releais-Board zum schalten der 3 Pflanzenlichtlampen und der Heizmatte [esphome web](http://pflanzenlicht.local)
 	* Peristaltikpumpe: DC-Motor, über Motorcontroller vom ESP [esphome web](http://gaertnerbot.local), Wässern der Pflanzen.
 	* alles mit esphome %)
+	* [GitHub-Projekt](https://github.com/openlab-aux/blumenbrudi)
 
 ### haskell-ricochet
 
