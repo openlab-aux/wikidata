@@ -3,6 +3,7 @@
 * ca. 17,5m lang
 * über 1000 einzeln ansteuerbare RGB LEDs
 * Ansteuerung über ESP8266 mit NodeMCU-Firmware
+* WS2812 LED Streifen
 
 ## Aufbau
 
