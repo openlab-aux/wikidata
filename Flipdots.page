@@ -34,6 +34,19 @@ Es gibt alles von statischen Animationen (wie `invaderflip.py`), Simulationen (w
 
 Der `scripts`-Ordner enthält auch eine Python-„Library“, um mit den Flipdots zu interagieren: [FlipdotAPI](https://github.com/openlab-aux/flipdots/tree/master/scripts/FlipdotAPI)
 
+### buchstabensuppe
+
+buchstabensuppe ist eine Library, die ausgefeilteres font rendering implementiert als `PIL.ImageFont`, was die meisten flipdots Python-Skripte benutzen.
+Daneben gibt es auch (noch recht spärlichen) Support-Code, um mit den Flipdots zu interagieren.
+
+Zusätzlich enthält es das tool `bs-renderflipdot`, mit dem man Strings auf die flipdots rendern kann:
+
+![bs-renderflipdot rendert text mit emoji und text shaping auf flipdotsim](/flipdot-render.png)
+
+* [Code auf GitHub](https://github.com/sternenseemann/buchstabensuppe)
+* [Doku zum Thema Flipdots](https://github.com/sternenseemann/buchstabensuppe/blob/main/README.md#flipdot-interaction)
+* Mit `nix`: `nix run -f https://github.com/sternenseemann/buchstabensuppe/archive/main.tar.gz`
+
 ### flong
 
 `flong` ist eine Pong-Implementation für zwei Spieler, die das flipdot als Display benutzt. Wurde vermutlich zuletzt auf dem LIT 2017 gespielt, müsste aber noch funktionieren.
