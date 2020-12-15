@@ -45,6 +45,7 @@ Zusätzlich enthält es das tool `bs-renderflipdot`, mit dem man Strings auf die
 
 * [Code auf GitHub](https://github.com/sternenseemann/buchstabensuppe)
 * [Doku zum Thema Flipdots](https://github.com/sternenseemann/buchstabensuppe/blob/main/README.md#flipdot-interaction)
+* [bs-renderflipdot man page](https://sternenseemann.github.io/buchstabensuppe/man/bs-renderflipdot.1.html)
 * Mit `nix`: `nix run -f https://github.com/sternenseemann/buchstabensuppe/archive/main.tar.gz`
 
 ### flong
