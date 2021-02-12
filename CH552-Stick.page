@@ -1,6 +1,6 @@
 # Der CH552
 
-hier werden Informationen für den CH552 Stick hinterlegt.
+hier werden Informationen für den CH552 Stick hinterlegt. (Wird kontinuierlich erweitert)
 
 ## Software (Compiler)
 ### Arduino
@@ -10,8 +10,8 @@ Hier der Link zur [Board-Erweiterung mit Beschreibung](https://github.com/Deqing
 ## Boards
 ### V0.1 Test-Stick
 #### Belegung
-* Taste 1
-* Taste 2
-* WS2812
-* Programmier Tasste
+* P3.2 = Taste 1
+* P3.3 = Taste 2
+* P3.4 = WS2812
+* Programmier Taste (nahe USB-Port)
 
