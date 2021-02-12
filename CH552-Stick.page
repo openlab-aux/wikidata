@@ -5,7 +5,7 @@ hier werden Informationen für den CH552 Stick hinterlegt. (Wird kontinuierlich 
 ## Software (Compiler)
 ### Arduino
 Der CH552 ist über Arduino am einfachsten zu Programmieren, es wird aber eine Board-Erweiterung benötigt und es sind nicht alle Arduino Funktionen möglich.
-Hier der Link zur [Board-Erweiterung mit Beschreibung](https://github.com/DeqingSun/ch55xduino).
+Hier der Link zur [Board-Erweiterung mit Beschreibung](https://github.com/DeqingSun/ch55xduino). Diese enthält auch einige Beispiele.
 
 ## Boards
 ### V0.1 Test-Stick
