@@ -56,3 +56,13 @@ Vom Reinigen der Fläche mit Aceton sollte Abstand genommen werden. Nur in extre
 ### Kalibrierung
 
 Der Drucker muss **nicht** kalibriert werden! Der Drucker kalibriert sich vor jedem Druck selbst.
+
+### Login für OctoPi
+
+OctoPi ist das Web Interface des Prusa i3 MK3. Die Login Informationen dafür sind folgende:
+
++-------------+-------------+
+| User        | openlab     |
++-------------+-------------+
+| Passwort    | openlab (OctoPi)|
++-------------+-------------+
