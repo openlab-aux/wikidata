@@ -1,0 +1,130 @@
+# Talks und Kurse im Openlab
+Nachdem auf Mattermost einige von uns angeboten haben, Talks über interessante Themen zu halten, hier eine Zusammenfassung des über "daumen hoch" gegebenen Feedbacks.
+Dieses Feedback soll den Mitgliedern, die Vorträge halten können und möchten, bei der Priorisierung helfen. So kann jeder selbst entscheiden, ob und wann er einen Talk halten möchte.
+
+Hier die gesammelten Ideen:
+
+## Ideen von craftamap
+### Bild-/Foto-bearbeitung mit Open-Souce Software
+Idee: craftamap
+Votes: 5
+
+## Ideen von mahartma
+### Kubernetes Einstieg (Theorie und Beispiele)
+Idee: mahartma
+Votes: 4
+
+### High Availability Kubernetes Cluster Setup und Administration
+Idee: mahartma
+Votes: 1
+
+### Language Agnostic Microservice Architecture mit asynchronem Messaging (Beispiele an dotnet core, golang) optional auch mit Kubernetes deployment
+Idee: mahartma
+Votes: 0
+
+### Ideen von muesli
+### Go Crash-Course für Programmierer mit Vorkenntnissen in anderen Sprachen
+Idee: muesli
+Votes: 5
+
+### Debian auf einem Remote Server mit Vollverschlüsselung installieren
+Idee: muesli
+Votes: 1
+
+### 3D Design mit OpenSCAD (Einführung & Grundkenntnisse)
+Idee: muesli
+Votes: 7
+
+### Linux Server & Service Management mit Docker
+Idee: muesli
+Votes: 5
+
+### Automatisierung & Event-Handling mit Beehive
+Idee: muesli
+Votes: 3
+
+### ArchLinux mit Vollverschlüsselung installieren
+Idee: muesli
+Votes: 4
+
+### Einstieg in Qt & QML Programmierung (C++ Vorkenntnisse nötig)
+Idee: muesli
+Votes: 4
+
+### Versionsverwaltung & Source-Control mit Git
+Idee: muesli
+Votes: 8
+
+### Web-Anwendungen mit Ember.js & JSON API entwickeln
+Idee: muesli
+Votes: 3
+
+### Sichere Kommunikation mit OpenPGP und YubiKey
+Idee: muesli
+Votes: 5
+
+### Einführung in gopass, einem Team-fähigen Passwort Manager mit Git & PGP Support
+Idee: muesli
+Votes: 1
+
+### Elvish, eine nutzerfreundliche und (bewusst) POSIX-inkompatible Bash-Alternative
+Idee: muesli
+Votes: 2
+
+### dotfiles & Config Management mit Git
+Idee: muesli
+Votes: 3
+
+### Workflow Automatisierung, CI & Testing mit GitHub Actions
+Idee: muesli
+Votes: 4
+
+### Arduino & ESP Programmierung (Einführung & Grundkenntnisse)
+Idee: muesli
+Votes: 5
+
+### Linux from Scratch installieren, inkl. kurzer Erklärung zu den einzelnen Komponenten (Dauer ca. 8 Stunden )
+Idee: muesli
+Votes: 4
+
+## Ideen von krobin
+### rootless podman Einführung
+Idee: krobin
+Votes: 2
+
+### Cryptoparty (Sicherer surfen im Web, Kommunikation verschlüsseln, praktische Datensparsamkeit, ...)
+Idee: krobin
+Votes: 7
+
+### 23kg Tomaten mit 23€ Gettho-Hydroponics ernten
+Idee: krobin
+Votes: 5
+
+### Was ist org-mode? (Einführung/Überblick)
+Idee: krobin
+Votes: 3
+
+### Projektvorstellung: WiFi-Garten-Bewässerung
+Idee: krobin
+Votes: 3
+
+### homeassistant Einführung/Überblick (Eigene und gekaufte IOT-Geräte "smart" unter einen Hut bekommen, ganz ohne Cloud)
+Idee: krobin
+Votes: 5
+
+### esphome Einführung (Eigene IOT-Geräte kinderleicht programmieren und steuern)
+Idee: krobin
+Votes: 3
+
+### Mit MatterMost mehr machen (Einführung in den Chat, persönliche Einstellungen machen, Überblick behalten)
+Idee: krobin
+Votes: 3
+
+## Ideen von privi
+### Windows API, wo überall RPC zu finden ist (z.B. Samba/NFS)... 
+Idee: privi
+Votes: 4
+
+### Posix erklären, SQL, Webstandards ("web1.0", ajax, geschichte, serverseitiges Grundverständniss, ...)
+Idee: privi
+Votes: 5
