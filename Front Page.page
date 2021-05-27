@@ -14,6 +14,13 @@ format: Markdown
 * [Kümmerer/Arbeitsgruppen](Kümmerer)
 * [Einkaufsliste](Einkaufsliste)
 
+## Kommunikation
+* [Chat](Chat)
+* [Mailingliste](Mailingliste)
+* [GitHub Issues (orgafoo)](http://github.com/openlab-aux/orgafoo/issues)
+* [Website](Website)
+* [Social Media](Social%20Media)
+
 ## Projekte
 
 * [Aufgaben](https://github.com/openlab-aux/orgafoo/issues) <
@@ -84,14 +91,8 @@ format: Markdown
     * [Getränke](Getränke) & [Getränkeautomat](getränkeautomat)
     * [Küche](Küche)
     * [Essen/Bestellen](Anreise%20und%20Umgebung#umgebung-des-labs)
-* Kommunikation
-    * [Chat](Chat)
-    * [Mailingliste](Mailingliste)
-    * [GitHub Issues (orgafoo)](http://github.com/openlab-aux/orgafoo/issues)
-    * [Website](Website)
-    * [Social Media](Social%20Media)
-    * [Design](Design)
 * [VMs/Server](Server)
+* [Design](Design)
 
 ## Maschinen
 
