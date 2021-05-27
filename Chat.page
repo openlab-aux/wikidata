@@ -53,14 +53,14 @@ Nicht vergessen, die geänderten Einstellungen zu speichern:
 /save
 ```
 
-## IRC-Kanäle auf freenode
+## IRC-Kanäle auf libera.chat
 
-Bevor wir den Chat hatten, gab es Channels auf freenode, in denen auch noch ein paar Leute rumhängen:
+Bevor wir den Chat hatten, gab es Channels auf [libera.chat](https://libera.chat/), in denen auch noch ein paar Leute rumhängen:
 
-Server: `irc.freenode.net` \
-Channel: `#augsburg`, `#openlab`
+Server: `irc.libera.chat` \
+Channel: `#augsburg`
 
 `#augsburg` ist der aktive Kanal für allgemeine Gespräche, auch Off-Topic. Der Kanal ist nicht offiziell vom OpenLab, sondern für alle Augsburger Hacker/Häcksen und Technikaffine gedacht. \
-`#openlab` ist ein OpenLab-spezifischer low-traffic Kanal, der ehemals für die Vereinsverwaltung gedacht war, wurde aber jetzt durch unseren Chat ersetzt.
+Für vereinsinterne Kanäle, siehe oben, die Mattermost IRC-Bridge.
 
 Wenn du IRC ausprobieren willst, einfach im Chat fragen (z.B. im Channel `#softwareentwicklung`), auch wenn der Openlab-Chat einen Webclient hat, findet man viele der alteingesessenen Hacker außerhalb des Labs auch heute oft noch im IRC, es lohnt sich also, sich damit zu beschäftigen.
