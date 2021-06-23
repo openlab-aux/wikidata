@@ -6,13 +6,13 @@ Sehr oft genügt ein kleinerer Bauraum völlig. Das hat Prusa erkannt und den Mi
 
 > ... denn eigentlich ist das der 3D-Drucker, den man haben will – speziell für Einsteiger ist er ideal, weil er vom Fleck weg sehr schöne Drucke zu einem vernünftigen Preis liefert."
 
-Das Openlab will, sobald es die Pandemie erlaubt, einen Tageskurs zum Bau eines Prusa Mini anbieten. Die Anmeldumg zum Kurs findet ihr unten auf dieser Seite, sobald wir einen geeigneten Termin haben. Da der Mini in 3 vormontierten Baugruppen geliefert wird, genügt ein Tag zum Bau und Einweisung in die Bedienung. Die Kosten für den Workshop belaufen sich auf
+Die Anmeldumg zum Kurs findet ihr unten auf dieser Seite, sobald wir einen geeigneten Termin haben. Die Kosten für den Workshop belaufen sich auf
 
 - € 420,- für Mitglieder des OpenLab Augsburg e.V. (incl. 2 beschichtete Druckplatten im Wert von 30,- €)
 
 und
 
-- € 470,-  für externe Teilnehmer. (incl. 2 beschichtete Druckplatten im Wert von 30,- € und 50,- € Aufwandspauschale für den Tageskurs im LAB)
+- € 470,-  für externe Teilnehmer. (incl. 2 beschichtete Druckplatten im Wert von 30,- € und 50,- € Aufwandspauschale für den Kurs im LAB)
 
 Die Versandkosten von 32,70 € sind ebefalls bereits enthalten.
 
@@ -46,12 +46,12 @@ Seid euch bitte darüber im Klaren, dass wir euch *keinen* fertigen Drucker anbi
 
 ## Ablauf
 
-Der Workshop wird an einem Samstag gehalten. Wir fangen so gegen 10:00 Uhr an und werden am späten Nachmittag fertig werden.
+Der Workshop wird an einem Samstag und Sonntag gehalten. Wir fangen jeweils so gegen 10:00 Uhr an. Ihr könnt solange bauen wie ihr wollt. Gegen Sonntag Mittag werden die ersten Drucker in Betrieb gehen. Vorher gibt's noch eine Einweisung in die Bedienung des Druckers und der Software.
 
-- 3D-Drucker-Vortrag von Stefan um die Basics zu vermitteln (Was ist "RepRap"?, Bestandteile eines RepRap 3D Druckers, Software Workflow, Historie/Wie alles begann)
+- 3D-Drucker-Vortrag von Stefan um die Basics zu vermitteln (Was ist "RepRap"?, Bestandteile eines RepRap 3D Druckers, Software Workflow, Historie / Wie alles begann, Sicherheit beim 3D-Druck)
 - Einführung in den Prusa Mini
 - Bauphase nach Anleitung und mit Hilfestellung  
-- Einführung in die Software (slic3r, Pronterface)  
+- Einführung in die Software (Prusaslicer, Pronterface)  
 - Test- und Abstimmphase
 - häufige Fehler ansprechen, allgemeines 3D-Drucker-Troubleshooting 
 - (eventuell) Upgrades einbauen
@@ -60,9 +60,9 @@ Der Workshop wird an einem Samstag gehalten. Wir fangen so gegen 10:00 Uhr an un
 
 Wenn ihr jetzt Lust bekommen habt mitzumachen - super. Hier die Details zum Workshop:
 
-Der Workshop beginnt Samstag früh (genaue Zeiten folgen per E-Mail) und endet am späten Nachmittag. Gegen Mittag sollte der Drucker in Betrieb gehen, den Rest des Tages verbringen wir mit Einstellen, Drucken und Optimieren.
+Der Workshop beginnt Samstag früh (genaue Zeiten folgen per E-Mail) und endet Sonntag am späten Nachmittag. Gegen Sonntag Mittag sollte der Drucker in Betrieb gehen, den Rest des Tages verbringen wir mit Einstellen, Drucken und Optimieren.
 
-Es kann immer etwas schief gehen - sollte euer Drucker aus irgendeinem Grund nicht bis Samstag Abend fertig werden, könnt ihr ihn entweder daheim fertig bauen, oder im OpenLab jeden Dienstag mit uns zusammen weiter bauen. Trotzdem versuchen wir natürlich alle Drucker bis zum Abend fertigzustellen!
+Es kann immer etwas schief gehen - sollte euer Drucker aus irgendeinem Grund nicht bis Sonntag Abend fertig werden, könnt ihr ihn entweder daheim fertig bauen, oder im OpenLab jeden Dienstag mit uns zusammen weiter bauen. Trotzdem versuchen wir natürlich alle Drucker bis zum Abend fertigzustellen!
 
 Wichtig: Ihr braucht einen mobilen Computer. Neben der Online-Bauanleitung benötigt ihr auch noch die Prusa-Software zur Druckvorbereitung sowie einen USB-Speicherstick. Bitte bringt eure Laptops mit. Wer keinen mobilen Computer zur Verfügung hat, soll sich bitte mit uns in Verbindung setzen, wir versuchen ein Leihgerät zu organisieren.
 
