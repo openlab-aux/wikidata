@@ -48,24 +48,24 @@ Der Sound sollte jetzt aus den Boxen kommen.
 
 Zum anschließen per Klinke kann das auf dem Verstärker liegende Kabel genutzt werden. Es ist nicht besonders lang, am ehesten würde man also z.B. das Smartphone auf dem Verstärker liegen lassen. Hier ist die Quelle "AUX" zu wählen.
 
-## Anders (z.B. Bluetooth, Pi-Zero-Mediadings, etc.)
+#### Anders (z.B. Bluetooth, Pi-Zero-Mediadings, etc.)
 
 Auch weitere Konfigurationsmöglichkeiten sind denkbar, aber im Moment nicht umgesetzt. Entweder hatte noch niemand Lust oder sie haben sich in der Vergangenheit als nicht nützlich gezeigt. Hierzu zählt ein Pi-Zero-Musikplayer mit Webfrontend, ein Bluetoothdongle ("BH100"), ein Plattenteller, ein Tonbandgerät, ...
 
 # Hardware
 
-### Hardware-Aufbau
+##### Hardware-Aufbau
 
 Die Musikanlage besteht aus einem Yamaha RX-360 und zwei CANTON SAT2 (8 Ohm)
 
-### Hanswurst II
+##### Hanswurst II
 
 Hannswurscht der II. ist der "Audioserver": ein RaspberryPi 3 mit externer USB Soundkarte (Creative SoundBlaster Play3), die mit einem Klinkenkabel in einen festen Kanal des Mischpults geht.
 
 Es läuft ein raspbean mit pulseaudio und aktiviertem UDP Streaming und avahi. HannswurschtII ersetzt den hannswurscht Laptop (s. unten).
 Kümmerer ist [DasPhantom](). Wer Zugriff haben möchte, Bescheid sagen, dann adde ich euren SSH Key.
 
-##### Install Changelog
+###### Install Changelog
 Starting point is a newly setup Raspbean OS.
 
 Install necessary software:
