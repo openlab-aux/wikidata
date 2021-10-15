@@ -18,6 +18,17 @@ VEREIN - TERMINE - BLOG
 
 
 {{ContentGrid
+| content =
+
+A
+
+B
+
+C
+
+}}
+
+{{ContentGrid
 |content = 
 <!--
 nowiki markers are added so the first bullet in the list are rendered correctly!
