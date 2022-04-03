@@ -1,0 +1,16 @@
+# Air Lock
+
+Wenn wir in die Bäckergasse umziehen, ergeben sich für den Zugang ins Lab eine große Reihe neuer anforderungen. Es wir notwendig sein, ein neu konzipiertes Zuganssystem zu entwerfen.
+
+## Die Anforderungen
+* Das Ola hat in der Bäckergasse
+	* Zwei Türen
+		* Die Haustür außen, hier können wir baulich nichts tun
+		* Die Tür innen, ab hier können wir modifizieren
+		* Beide Türen sind mit einem Türöffner versehen. Wie die jeweils angesteuert sind, ist unklar
+	* Eine Türklingel, drückbar von ganz außen
+		* Die könnte man als Zugangssteuerung verwenden, muss aber stets beachten, dass hier ahnungslose gäste klingeln können
+	* Eine Gegensprechanlage
+* Wir dürfen gemäß Günther Modifikationen an der Anlage vornehmen. Es ist aber davon auszugehen, dass alles außerhal der Ola-Räumlichkeiten natürlich Off-Limits ist
+* Das neue System braucht mehr Stati als das alte. Durch die verteilteren Räumlichkeiten ist es oft möglich, nicht mitzubekommen, wenn jemand ungeahnt zur Tür rein kommt, zum Beispiel weil man hackend im Keller sitzt oder eine abgeteilte Workshopgruppe produktiv arbeitet. Das neue System muss das abbilden
+* Aus Erfahrung ist es förderlich, die Verwaltung der Schließberechtigung in ein modifikaionsresistenteres Modell zu überführen. Auch dem soll das neue System rechnung tragen, zum Beispiel durch erhöhte physikalische Sicherheit der Steuerelektronik
