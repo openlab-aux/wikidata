@@ -2,72 +2,49 @@
 format: Markdown
 ...
 
-## Hallo Mensch!
+# Wo ist das OpenLab?
+* [Bäckergasse 32, 86150 Augsburg](https://www.openstreetmap.org/way/89645828)
+* Erreichbarkeit mit [Öffis](öffis)
+* Erreichbarkeit per [Auto/Parken](parken)
 
+# Wie ist das alles organisiert?
+* Die Kommunikation passiert über den [Mattermost-Chat](chat)
+* Ab und zu werden auch noch Mails über die [Mailinglisten](mailingliste) geschrieben
+* Aufgaben verwalten wir über [GitHub Issues](https://github.com/openlab-aux/orgafoo/issues)
+* Einige wichtige Repos liegen auch bei [GitHub](https://github.com/openlab-aux) 
+
+# Was passiert aktuell?
+* Wir [ziehen um](Umzug), und zwar in die Bäckergasse. Die Elisenstraße müssen wir nach über 10 Jahren leider verlassen
+* Unter dem Projektnamen [AirLock](AirLock) wird ein neues Schließsystem für die neuen Räume entwickelt
+* Im OpenLab finden regelmäßig [Programmierkurse in Minecraft für Kinder](https://forscherkurse-augsburg.de/programmieren-lernen-in-minecraft-2/) statt
+* Jede Woche trifft sich die [Interessengruppe zum Thema 3D-Druck](3D-Drucker-Gruppe). Das sind dieselben, die auch die [3D-Drucker-Bau-Kurse](3D-Kurse) veranstalten
+
+# Und was gibts noch? (Diese Sektion ist... stark in Arbeit)
 * [FAQ](FAQ)
 * [Wie funktioniert das Wiki?](Tutorial%20Wiki)
-
-## Allgemeines
-
 * Generelle Informationen findest du auf der [normalen Website des OpenLabs](https://openlab-augsburg.de/)
 * [Wie funktioniert das OpenLab?](Regeln)
 * [Kümmerer/Arbeitsgruppen](Kümmerer)
 * [Einkaufsliste](Einkaufsliste)
-
-## Kommunikation
-* [Chat](Chat)
-* [Mailingliste](Mailingliste)
-* [GitHub Issues (orgafoo)](http://github.com/openlab-aux/orgafoo/issues)
 * [Website](Website)
 * [Social Media](Social%20Media)
-
-## Das Ola
-* [AirLock](AirLock)
-
-## Projekte
-
 * [Aufgaben](https://github.com/openlab-aux/orgafoo/issues) <
 * [GitHub Organisation](https://github.com/openlab-aux) 
 * [Projekte von Mitgliedern](MitgliederProjekte)
-
-## Kurse und Workshops
-
 **[Talks & Kurse Ideensammlung](Talks und Kurse Ideensammlung)**
-
 * [3D-Druckerkurs (Prusa MK3S)](3DDruckerkurs)
 * [3D-Druckerkurs (Prusa Mini)](3DDruckerkurs-Mini)
 * [Pad für neue Workshops](https://freepad.erdgeist.org/p/ola_workshops)
 * [Forscherkurse Augsburg](https://forscherkurse-augsburg.de/)
-* [Programmierkurse in Minecraft für Kinder](https://forscherkurse-augsburg.de/programmieren-lernen-in-minecraft-2/)
 * [Lötstation](Lötstation) (nicht aktuell)
-
-
-
-## Veranstaltungen
-
 * [Termine](https://openlab-augsburg.de/veranstaltungen/)
 * [Veransteltungen - externe Events](Veranstaltungen)
-
-### Chaos (CCC)
-
 * [CCC Events](https://pads.ccc.de/termine)
 * [Internationale CCC-nahe Events](http://pads.ccc.de/events)
-
-### Bahntickets
-
 * CCC Eventticket (99€ für eine zuggebundene Rundreise zu CCC Events): [bahn.events.ccc.de](https://bahn.events.ccc.de/)
 * Europäische Fahrten (kennt mehrere Anbieter): [The Trainline](https://www.thetrainline.com/)
 * Preiskalender (billigster Zug über mehrere Tage) [Bahn Guru](https://bahn.guru/) (alternativ: [bahn.jetzt](https://bahn.jetzt/))
-
-## Anleitungen
-
-* [Newsletter erstellen]()
-* Sauberkeit
-	* [Boden schrubben](Boden putzen)
-* [Platinen ätzen](ätzen)
-* [Pfand sortieren](pfand)
-
-## Infrastruktur (das alte Lab)
+* Infrastruktur (das alte Lab)
 * [Geräte und Werkzeug](Geräte%20und%20Werkzeug) <
 * [Werkstatt](Werkstatt) <
 * [E-Ecke](E-Ecke) <
@@ -97,9 +74,6 @@ format: Markdown
     * [Essen/Bestellen](Anreise%20und%20Umgebung#umgebung-des-labs)
 * [VMs/Server](Server)
 * [Design](Design)
-
-## Maschinen
-
 * [Analoges Oszilloskop](Analoges%20Oszilloskop)
 * 3D Drucker
     * [Original Prusa i3 MK3s](Prusa%20i3%20MK3) (einsatzbereit)
@@ -107,12 +81,10 @@ format: Markdown
     * [Prusa i3](Prusa%20i3) (nicht einsatzbereicht)
 * [Schneidplotter](Schneidplotter) (Leihgabe, momentan nicht im Lab)
 
-## Verein
+## Vereinsdinge
 
 * [Satzung](https://openlab-augsburg.de/verein/satzung/)
 * [Mitgliederversammlungen](Mitgliederversammlungen)
 * [Plena](Plenum)
 * [Mitglieder](Mitglieder)
-
-< eventuell nicht aktuell
 
