@@ -1,6 +1,16 @@
-# AirLock
+# AirLock, Übersicht
 
-Wenn wir in die Bäckergasse umziehen, ergeben sich für den Zugang ins Lab eine große Reihe neuer anforderungen. Es wir notwendig sein, ein neu konzipiertes Zuganssystem zu entwerfen.
+Wenn wir in die Bäckergasse umziehen, ergeben sich für den Zugang ins Lab eine große Reihe neuer anforderungen. Es wir notwendig sein, ein neu konzipiertes Zuganssystem zu entwerfen. Aurlock Quest soll die endgültige Version dieser Lösung sein. Gut durchdacht, sicher, benutzerfreundlich, sorfältig ausgeführt. Anfang Mai 2022 wurden aber schon stimmen nach einer temporären Lösung laut. Hierraus entstand der Anstoß zu Airlock Zvezda.
+
+# AirLock Zvezda
+Prinzipiell sind die Grundanforderungen an dieses System sehr überschaubar: Das Haustelefon von Seidle wird noch nicht ersetzt, Zvezda ist nur eine temporäre addition an dieses System. 
+
+Zvezda basiert auf einem Pi 3 B. Über die GPIOs werden zwei Relays bedient, die tasten die 12VAC Schaltspannungen für Buzzer außen und innen (tbc)
+
+
+# AirLock Quest
+
+Die dauerhafte Lösung, AirLock Quest, bildet deutlich mehr ab als Zvezda, braucht aber deswegen auch ein wenig Zeit in der Entwicklung. Die Hardware soll von der Außenwelt geschützt im Serverrack hausen, in einem eigens dazu angepassten 2HE Gehäuse. Die Bedienung soll über sinnvoll verschlüsselte Keyfobs möglich sein, z.b. Desfire EV3.
 
 ## Die Anforderungen
 * Das Ola hat in der Bäckergasse
