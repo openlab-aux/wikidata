@@ -11,7 +11,9 @@ Wir haben gerade Chip-Knappheit. Daher wird das mit dem umgesetzt, was zur verf�
 * Ein Teenzy Board als absolut overkill pegelwandler (phjl)
 * Ein Raspberry Pi 3B (krobin)
 
-craftamap hat eine kleine Software in Go entwickelt, die per basic auth eine webseite bereitstellt, mit der über zwei schaltflächen "Innentür" und "Außentür" am Pi zwei GPIOs geschaltet werden können. Die Ausgänge (3.3V) des Pi gehen an die analog-Eingänge des Teenzy-Board, an den Digitalausgängen kommen dann anständige 5V Pegel raus. Daran ist das Relay-Bard angeschlossen, das schaltet dann die 
+craftamap hat eine kleine Software in Go entwickelt, die per basic auth eine webseite bereitstellt, mit der über zwei schaltflächen "Innentür" und "Außentür" am Pi zwei GPIOs geschaltet werden können. Die Ausgänge (3.3V) des Pi gehen an die analog-Eingänge des Teenzy-Board, an den Digitalausgängen kommen dann anständige 5V Pegel raus. Daran ist das Relay-Bard angeschlossen, das schaltet dann die buzzer.
+
+**Die Klingel geht genauso wie vorher weiterhin. Die Verbindung von Klingel Innen zum Buzzer innen wurde getrennt und durch Airlock ersetzt. Auch das wird mit Quest wieder schöner.**
 
 ### Der Aufbau
 
