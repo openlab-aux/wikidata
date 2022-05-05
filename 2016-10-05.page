@@ -1,0 +1,168 @@
+Meta #1
+Plenumsritualsänderungsvorschlagsidee von phjllipp: In die Runde fragen, an welchen Projekten gearbeitet wird. Gute Idee, aber kann zur Zerflederung führen, also nicht direkt besprechen.
+
+Mo:
+
+Eine Runde Projekte
+
+Eine Runde Tops
+
+Meta #2
+
+Projektvorstellungen am Offenen Mondwoch.
+
+Crowd Interaction am offenen Mondwoch: Durch Labping eine Runde Projektvorstellungen zu starten.
+
+Plus mikrotalks.
+
+Bericht vom Salzburger Geekend
+Neo erzählt vom Vernetzungstreffen. Gemeinsame Assembly "Süddeutschland" für 33c3? LKW-Transport wird organisiert, man könnte einsteigen.
+Infos im Salzburg-Wiki https://wiki.sbg.chaostreff.at/geekend16
+
+Hardware-Mechatronik-Vernetzungstreffen
+Neo plant Hardware-Mechatronik-Vernetzungstreffen Bayern/Süddeutschland. Veranschlagung von Tagen?
+
+Mögliche Mitwirkende: alex, Hannes
+
+Planungstreffen: 12.10.2016 19:00
+
+3d-Drucker-Kurs
+Nur noch einer dieses Jahr, dass es finanziell keinen Stress gibt. Bei genug interesse nächster Kurs direkt anfang nächstes jahr, AZ hat noch nichts gedruckt, steht noch aus
+
+Getränketransport 33c3
+Julian aus dem Internet: Getränke kann ich bei Bedarf mit zum 33c3 nehmen, da ich ab Paderborn mit nem Transporter fahr und dieser vor ort bleibt bis zum 1.1.17 - wo die Getränke gekauft werden macht ja kaum einen unterschied
+
+Entscheidung der Anzahl von Kästen um 1 Plenum vertagt.
+
+Vorschlag phjlipp: 4 Paletten Kästen
+
+Verschwundene SSD
+Ein hilfsbereiter Laborant hat vor einiger Zeit die SSD einer anderen Person ausgebaut und zur Fehlerbehebung mit nach Hause genommen und danach in die HDD Kiste gelegt. Seit dem ist die SSD verschwunden.
+
+Sie ist halt weg und das ist doof.
+
+Es folgt eine Mail auf die Liste durch uwap, mal sehen was passiert.....
+
+Verbleib des WandBretts 1.0
+
+Gesponsertes Tablet vom Falk ist verschwunden bevor es sinnvoll an die Wand geklebt werden konnte. Weiterhin weg https://github.com/openlab-aux/orgafoo/issues/231
+
+Neues Tablet von salomonderossi, wessen Android neulich kaputtiert worden ist (aber gefixt wieder).
+
+Es ist halt weg und das ist doof.
+
+Mailinglistensituation
+https://openlab-augsburg.de/2016/10/neue-mailinglisten-bitte-neu-anmelden/
+
+Plan war: läuft bei aszlig, maintained von Profpatsch mit NixOS.
+
+waaaaargh hat es bei sich aufgesetzt mit bewährtem™ deployment-skript, hat noch alle Probleme der letzten Instanz (kaputtes Archiv z. B.)
+
+Mo hat mit einem Skript alle bisherigen Poster auf openlab-alle wieder auf newsletter und openlab-alle subscribed (175 Leute).
+
+Übergangslösung! Schlechter Server, kann langsam sein. Wird privat von Hannes bezahlt im Moment.
+
+Langfristig: Migration der Infrastruktur auf Vereinsserver. Bitte: Besseres System als einen OpenVZ-Container zu haben. Mit einer ordentlichen VM könnte man Komponenten in verschiedene Container packen und diese einfacher migrieren und backupen kann.
+
+Server ist bezahlt bis 22.12.
+
+Infrastrukturbackups
+
+Plan: Backup-VM auf dem rantanplan, die regelmäßige Backups von $Infrastruktur macht. sternenseemann und waaaaargh wollen sich kümmern.
+
+Nächsten Mittwoch (12.10.) Infrastrukturmeeting (?!)
+
+Säuberung der vorderen Türe und Redekorierung
+
+phjlipp will die große Tür säubern und die Papieraushänge entfernen und durch ästhetisch wertvolles™ ersetzen. Plenum approves.
+
+Werkstatt
+
+Werkzeughaltesystem der Werkstatt (?) neu machen. Altes verschoben in die E-Ecke. phjlipp commited sich.
+
+alex und neo sind aktuell Kümmerer der Werkstatt und würden sich über Unterstützung freuen.
+
+alex wünscht sich Gaderobe in der Werkstatt.
+
+Neues Wiki
+
+Gibt neues Wiki auf: http://wiki.openlab-augsburg.de
+Altes Wiki (für migration): http://oldwiki.openlab-augsburg.de
+
+Liste von Kümmeren: https://wiki.openlab-augsburg.de/K%C3%BCmmerer
+Bitte von sternenseemann: bitte eintragen und ergänzen.
+
+Getränkeautomat
+
+Momo wollte diesen organisieren. Momo antwortet nicht auf Anfragen.
+
+phjlipp versucht sich darum zu kümmern, aber es ist schwierig.
+
+Probleme:
+
+    Getränkelager
+
+    Idee zur Lösung des Zugangs: Nur ganze Kästen einräumen, somit fällt es auf, wenn jemand sich illegal bedient
+
+    Zahlungsmoral
+
+    These: Leute bedienen sich ohne zu zahlen nicht böswillig
+
+    Hochsicherheisverfahren machen unter umständen wenig sinn, weil sie das allgemeine vertrauensverhältnis zu mitgliedern bricht (wie stark vertraut man mitgliedern?)
+
+    Münzenzähler umtrainieren - alles über 50ct gibt 1 credit für 1 getränk (was ist das für 1 getränk), so realisiert man das "mindestpreis plus spende"??
+
+    Für weitere Diskussion ist auf den Automat zu warten
+
+    Automat selber kaufen? Selbst bei Thorbräu anfragen? Aufgeben? Alles anzünden?
+
+
+Werbemöglichkeit an der FH
+
+Grillen mit der Fachschaft Informatik an der FH, Möglichkeit Propaganda zu verteilen. 
+
+Ersti-Community-Grillen von der Studierndenvertretung
+
+Datum: 9.11.2016 16:30
+Location: waaaaargh wird bescheid geben
+
+Leute vom OpenLab, die Dinge erzählen würden, sind gerne gesehen,
+
+Werbematerial
+
+Neue Sticker- und Flyeroffensive! Also drucken.
+
+phjlipp & waaaaargh wollen Änderung des Flyertextes:
+
+    Man kann sich es nicht vorstellen
+
+    Kunst passt nicht (Was ist das für 1 Kunst im OLA?)
+
+
+Mo will sofort bestellen, weil wir keine Flyer mehr haben, und parallel sollen Flyer re-formuliert werden (keine Abhängigkeit, sonst dauert es ewig!).
+
+=> Aufruf für neue Flyertexte starten
+
+SNES-Demo-Vortag
+
+waaaaargh stellt einen Vortrag über SNES in Aussicht, da er gerade eine SNES-Demo baut.
+
+Veranstaltungshinweis von waaaaargh
+
+8. Nov 18:00 Uni Augsburg HS 2045N (Multimediahörsaal)
+
+Katharina Nocun über Informatik und Verantwortung
+
+Plenumsannouncements auf Mailingliste
+
+phjlipp: Plenumsdigests waren nicht wirksam
+
+Mo: Will einzelne Mail mit einzelnen Themen, um Themen noch zusätzlich besprechen und die Reichweite der besprochenen Inhalte zu Erhöhen.
+
+Sauberkeit und Ordnung
+
+phjlipp hat das Bad geputzt und den Haufen entsorgt. Ewige Blumenkraft verdient!
+
+
+Im Durchschnitt waren 7-11 Leute da, danke fürs erscheinen!
+
