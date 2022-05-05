@@ -1,0 +1,70 @@
+# Protokoll 2021-10-07, 19:00 Uhr
+
+## Wo finde ich alles?
+- Das Plenum trifft sich hier: https://meet.ffmuc.net/OpenLabPlenum
+- Das Protokoll ist hier: https://hackmd.io/@kingbbq/OpenLabPlenum
+
+## Wer ist da?
+- krobin
+- craftamap
+- midzer
+- paul
+- waaaaargh
+- masmartma
+
+## Agenda
+
+### KidsLab - Kurse im Openlab (Gregor)
+
+- kurz vorstellen
+- Vorschlag für "Miete" offen diskutieren
+- -> niemand weiß so ganz genau um was es geht -> wir verschieben aufs nächste Plenum mit Gregor
+
+
+### Foodsharing ("vorstand")
+Wollen wir das aktiviieren
+
+> Hallo Gregor,
+> 
+> ich hoffe ihr habt das letzte Jahr, trotz der ganzen Corona-Lage gut verbracht. Nachdem ich aus der Foodsharing-Community ein paar Nachrichten zum Open Lab Fairteiler bekommen habe, melde ich mich wieder bei euch.
+> Die gute Nachricht: ich hätte zwei Foodsaverinnen 'an der Hand', die sich gerne um den Fairteiler kümmern würden. Das heißt, ihr hättet weniger Arbeit (den feste "Einsatzplan" würden sie übernehmen) und wenn eure Leute, ab und zu nach dem Rechten sehen, wenn sie gerade im Lab sind, umso besser :)
+> 
+> Würde euch eine Wieder-eröffnung des Fairteilers unter diesen Umständen zusagen? Ich würde mich freuen, wenn es klappt!
+> 
+> Viele Grüße,
+> Irena
+> 
+> P.S.: Falls ihr den Fairteiler auch wieder eröffnen wollt: stehen die Kommoden denn noch da oder müssten wir da was organisieren?
+
+  - alle finden es gut
+  - TODO: Schrank reinigen
+  - krobin schreibt irena, auch zum status des schranks
+
+
+### Steuererklärung/Freistellungsbescheid (krobin)
+  - ist da, passt
+  - krobin passt vorlagen (einfache spende, etc.) an
+  - Gregor kennt eine sehr gut erreichbare, hilfsbereite Steuerberaterin (Vogt) - würden wieder!
+
+### In aller Kürze
+  - Chemie-/Foto-Labor ist jetzt abschließbar
+      - Große Entsorgungstour am Sondermülltag ist passiert
+      - Zugang zunächst über Kilian besorgen
+  - HeyAlter läuft weiter. i7-Workstations mit 32G RAM nach Ahrweiler geschickt
+  - Es wurde geputzt und umgeräumt
+      - Leute im Lab finden es gut
+  - Am 23.10. ist Putz- und Umräumtag, erscheint gerne!
+  - KidsLab läuft jetzt wieder
+  - LUGA trifft sich bald wieder, hatte per Mail angefragt
+  - Go-Abend formiert sich wieder, vielleicht trotzdem erstmal per Stream
+      - das anwesende Plenum ist überwiegend interessiert
+  - Der OLA-µC³-Pokerabend hat am 15.9. stattgefunden
+      - Sechs Spieler waren dabei, war smooth und lustig
+      - Das Pad (Link siehe unten) gibts weiterhin. >=1 Münchner ist interessiert es wieder oder gleich regelmäßig zu machen
+  - muesli und mahartma richten einen Schafkopfabend ein, aber erst müssen es Leute lernen
+  - lsmsd wurde gebaut, aber niemand hat bock das mongodb zu maintainen
+      - mehrere interessenten die umbauen könnten (postgres, gorm, ...)
+  - Es gibt neue (größere) Inventurlabelvorlagen und selbstklebende A4-Label
+
+## Ende um 19:26
+
