@@ -145,8 +145,8 @@ An der Hausanlage steckt ein Seidle 811. Gegeben der Herstellerspezifikation erg
 
 Anfangs übergeben wir die Signale zwischen Anlage des Hauses und Airlock über einen Klemmblock mit bezeichnungen, die 1:1 der Vorlage von Seidle entsprechen. So kann selbst ein fremder Haustechniker, der sich nur mit Seidle-Anlagen auskennt, irgendwas tun. Breaking Changes durch Änderungen an der Hausanlage wären natürlich ärgerlich, aber mit den Herstellernahen Übergabepunkt ist auch für einen fremden Techniker einfach zu erkennen, dass wir uns lediglich an die Anlage angehängt haben, die Anlage dabei aber nicht in irgend einer Weise stören wollen.
 
-Das Haustelefon ist auf einer normalen Unterputzdose montiert, also 60mm Lochabstand an den Montagelöchern. Eine selbst gedruckte Dose stellt die Verbidnungen gemäß dem Originalzustand her und ermöglicht es, eine eigene Leitung anzufügen. Das passiert nach folgendem Schema, wobei die Adernfarben in der Hausanlage schön mehrdeutig sind.
-Weiter geht es mit Klingeldraht (?)
+Das Haustelefon ist auf einer normalen Unterputzdose montiert, also 60mm Lochabstand an den Montagelöchern. Eine selbst gedruckte Dose stellt die Verbidnungen gemäß dem Originalzustand her und ermöglicht es, eine eigene Leitung anzufügen. Das passiert nach dem Anschlusschema von weiter unten, wobei die Adernfarben in der Hausanlage schön mehrdeutig sind. es gilt darauf zu achten, hier keine Verwirrung herzustellen.
+Nach oben weg, in einem Kabelkanal gerade richtung zwischendecke geht es mit 7 Netzwerkleitungen, die belegung ist im Bild dokumentiert.
 
 ### Anschlussschema Übergabepunkt
 
