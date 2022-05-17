@@ -17,15 +17,21 @@ Die Software ist auf github: [https://github.com/openlab-aux/airlock/tree/master
 
 **Die Klingel geht genauso wie vorher weiterhin. Die Verbindung von Klingel Innen zum Buzzer innen wurde getrennt und durch Airlock ersetzt. Auch das wird mit Quest wieder schöner.**
 
-### Der Aufbau
-
-![](https://www.openlab-augsburg.de/wp-content/uploads/2022/05/rn_image_picker_lib_temp_ae098c2a-a79a-42ba-9967-6e3bf9de745d.jpg)
+### Eine Zusammenfassung
 
 * Der Pi 3B hängt mit craftamaps software per LAN im Netz und ist über [http://172.16.0.248:3000/](http://172.16.0.248:3000/) erreichbar
 * Für einen account krobin anschreiben
 * Der Pi gibt Logikpegel an GPIO 12 und 16 aus, die gehen weiter zum Tennzy auf dem Breadboard
 * Weil die Logikpegel genau falsch rum sind, werden die vom Teenzy einmal umgedreht und mit 5V Pegel weiter gegeben
 * Das Relay Board schaltet dann die tatsächlichen Kontakte. Die sind im Gehäuse des Seidle Haustelefons verstaut, Belegung steht weiter unten.
+
+
+### Ein Bild vom Aufbau
+
+Es ist wunderschön!
+
+![](https://www.openlab-augsburg.de/wp-content/uploads/2022/05/rn_image_picker_lib_temp_ae098c2a-a79a-42ba-9967-6e3bf9de745d.jpg)
+
 
 # AirLock Quest
 
