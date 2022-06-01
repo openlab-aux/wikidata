@@ -1,6 +1,8 @@
 # Talks und Kurse im Openlab
-Nachdem auf Mattermost einige von uns angeboten haben, Talks über interessante Themen zu halten, hier eine Zusammenfassung des über "daumen hoch" gegebenen Feedbacks.
-Dieses Feedback soll den Mitgliedern, die Vorträge halten können und möchten, bei der Priorisierung helfen. So kann jeder selbst entscheiden, ob und wann er einen Talk halten möchte.
+~~Nachdem auf Mattermost einige von uns angeboten haben, Talks über interessante Themen zu halten, hier eine Zusammenfassung des über "daumen hoch" gegebenen FeedbacksNachdem auf Mattermost einige von uns angeboten haben, Talks über interessante Themen zu halten, hier eine Zusammenfassung des über "daumen hoch" gegebenen Feedbacks.
+Dieses Feedback soll den Mitgliedern, die Vorträge halten können und möchten, bei der Priorisierung helfen. So kann jeder selbst entscheiden, ob und wann er einen Talk halten möchte.~~
+
+Um das Konzept einer Ideensammlung für Talks zu verfestigen, kann hier jeder uns immer Ideen zu Talks sammeln und beisteuern.
 
 Hier die gesammelten Ideen:
 
@@ -120,11 +122,10 @@ Votes: 3
 Idee: krobin
 Votes: 3
 
-## Ideen von privi
-### Windows API, wo überall RPC zu finden ist (z.B. Samba/NFS)... 
-Idee: privi
-Votes: 4
+## Ideen von phjl
 
-### Posix erklären, SQL, Webstandards ("web1.0", ajax, geschichte, serverseitiges Grundverständniss, ...)
-Idee: privi
-Votes: 5
+### FreeCad, eine Kurzeinführung (was macht man Grundsätlich mit dieser Software?)
+
+### Vom Schaltplan bis zur Platine, KiCad
+
+### Die magische Welt der Steckverbinder und was man damit tut
