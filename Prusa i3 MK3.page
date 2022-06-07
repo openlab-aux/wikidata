@@ -80,3 +80,17 @@ OctoPi ist das Web Interface des Prusa i3 MK3. Die Login Informationen dafür si
 +-------------+-------------+
 | Passwort    | openlab (OctoPi)|
 +-------------+-------------+
+
+## Software
+
+Damit der Drucker drucken kann, benötigt dieser GCODE Dateien. Diese können prinzipiell mit jedem Slicer erstellt werden. Da Prusa jedoch für den Prusa Slicer (Nachfolger von Slic3r) verantwortlich ist und dort gleich passende Profile mitgeliefert werden, bietet es sich an diesen zu verwenden: [Download Prusa Slicer](https://www.prusa3d.com/de/page/prusaslicer_424).
+
+### Direkte Verbindung mit dem Drucker
+
+TODO
+
+## Beleuchtung
+
+Der Prusa i3 ist mit der darüber angebrachten RGB-LED-Leiste (WS2812 RGBW-LED) indirekt verbunden. Die LED-Leiste ist ansich unabhängig vom Drucker ([Weboberfläche](http://172.16.0.214/)), wird jedoch über die API von Octoprint gesteuert. Verantwortlich hierfür ist das Plugin [WLED-Connection](https://plugins.octoprint.org/plugins/wled/).
+
+Wird der Drucker also benutzt, wird die Beleuchtung automatisch von diesem übernommen. Möchte man danach einen anderen Effekt / Beleuchtung haben, muss dieser wieder über die Weboberfläche aktiviert werden. (Nicht zwingend so, nur grade nicht anders konfiguriert).
