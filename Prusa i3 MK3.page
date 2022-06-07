@@ -1,18 +1,20 @@
 # Prusa i3 MK3
 ## Allgemeines
-Mit dem Original Prusa i3 MK3 steht dem Openlab ein einfach zu bedienender und zuverlässig arbeitender 3D Drucker zur Verfügung. Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker eine komplexe Maschine, bei der einige Stolpersteine lauern. Um Defekte vorzubeugen und um die Verfügbarkeit des Druckers für alle Mitglieder des OpenLab zu ermöglichen wird für den Drucker eine einmalige Einweisung benötigt.
+Mit dem Original Prusa i3 MK3 steht dem Openlab ein einfach zu bedienender und zuverlässig arbeitender 3D Drucker zur Verfügung. Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker eine komplexe Maschine, bei der einige Stolpersteine lauern. Um Defekte vorzubeugen und um die Verfügbarkeit des Druckers für alle Mitglieder des OpenLab zu ermöglichen wird eine Einweisung für Menschen ohne 3D Druck erfahrung vorgeschlagen.
 
-Hinweis: Am Drucker wird nichts verändert oder herumgeschraubt. Sollte etwas nicht in Ordnung sein, wende dich bitte an einen der beiden Verantwortlichen:
+> 👉 Hinweis:
+> 
+> Am Drucker wird nichts verändert oder herumgeschraubt. Sollte etwas nicht in Ordnung sein, wende dich bitte an einen der beiden Verantwortlichen:
 
-- [Stefan Krister](Mensch_Aelonath)
-- [Adrian Rauth](Mensch_bastard)
+- [Stefan Krister](Mensch_bastard) - @bastard im Chat
+- [Adrian Rauth](Mensch_Aelonath) - @aelonath im Chat
 
 +-------------+------------+
-|IP           | 172.16.16.100|
+|IP           | 172.16.0.140|
 +-------------+------------+
-|Hostname     | i3-1       |
+|Hostname     | derzeit keine DNS auflösung |
 +-------------+------------+
-|Weboberfläche|[http://prusa-mk3.local](http://prusa-mk3.local) |
+|Weboberfläche|[http://172.16.0.140](Octoprint) |
 +-------------+------------+
 |Bauraum (BTH)| 210 x 250 x 200 mm|
 +-------------+------------+
@@ -26,7 +28,19 @@ Das Original Benutzerhandbuch zum Drucker befindet sich hier:
 - [Prusa i3 MK3 3D Printing Handbook (englisch)](https://www.prusa3d.com/downloads/manual/prusa3d_manual_mk3s_en_3_10.pdf)
 - [Prusa i3 MK3 3D Printing Handbook (deutsch)](https://www.prusa3d.com/downloads/manual/prusa3d_manual_mk3s_de_3_10.pdf)
 
+> 👉 Hilfe gibts auch hier
+> 
+> Hilfe bekommst du auch im Chat des OpenLabs [Chat des OpenLab Augsburg](https://chat.openlab.augsburg.de) im Kanal "[3d-drucker](https://chat.openlab-augsburg.de/openlab/channels/3d-drucker)".
+
 ## Howto
+
+### Drucker einschalten
+
+Schalter auf der rechten Seite. Drucker startet sofort, nach etwa 1 Minuten bootet Octoprint automatisch und verbindet sich mit dem Drucker.
+
+> 👉 Tipp
+> 
+> Die aktuelle IP-Adresse wird dann automatisch im Display des Druckers angezeigt.
 
 ### Drucker ausschalten
 
