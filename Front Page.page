@@ -33,7 +33,15 @@ format: Markdown
 
 
 # Welche Geräte gibt es?
-* 3D Drucker
+## 3D Drucker
+Die 3D Drucker stehen derzeit im Hauptraum vor dem Schaufenster.
+
+* 🟢 [Original Prusa i3 MK3s](Prusa%20i3%20MK3)
+* 🟡 [German Reprap](GermanRepRap) (im Aufbau)
+* 🔴 ~~[Prusarotti](Prusarotti)~~ (abgebaut)
+* 🔴 ~~[Prusa i3](Prusa%20i3)~~ (abgebaut)
+
+## Sonstige
 * CNC Fräse
 * Lötstation
 * A0 Drucker
@@ -99,11 +107,6 @@ format: Markdown
 * [VMs/Server](Server)
 * [Design](Design)
 * [Analoges Oszilloskop](Analoges%20Oszilloskop)
-* 3D Drucker
-    * [Original Prusa i3 MK3s](Prusa%20i3%20MK3) (einsatzbereit)
-    * ~~[Prusarotti](Prusarotti)~~ (abgebaut einsatzbereit)
-    * ~~[Prusa i3](Prusa%20i3)~~ (nicht einsatzbereicht)
-    * [German Reprap](GermanRepRap) (im Aufbau)
 * [Schneidplotter](Schneidplotter) (Leihgabe, momentan nicht im Lab)
 * [Mitglieder](Mitglieder)
 
