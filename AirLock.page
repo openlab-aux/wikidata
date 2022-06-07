@@ -37,6 +37,11 @@ Es ist wunderschön!
 
 Die dauerhafte Lösung, AirLock Quest, bildet deutlich mehr ab als Zvezda, braucht aber deswegen auch ein wenig Zeit in der Entwicklung. Die Hardware soll von der Außenwelt geschützt im Serverrack hausen, in einem eigens dazu angepassten 2HE Gehäuse. Die Bedienung soll über sinnvoll verschlüsselte Keyfobs möglich sein, z.b. Desfire EV3.
 
+## Systemüberblick
+
+[](https://www.openlab-augsburg.de/wp-content/uploads/2022/06/Übersicht-Schema.png)
+
+
 ## Die Anforderungen
 * Das Ola hat in der Bäckergasse
 	* Zwei Türen
