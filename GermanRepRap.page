@@ -1,0 +1,14 @@
+# German RepRap X400CE
+## Umbau
+### Hilfreiche Links
+[eine Dokumentation der Hochschule Hamm-Lippstadt](https://wiki.hshl.de/wiki/index.php/3D-Druck_mit_dem_German_RepRap_X400)
+
+### Stromversorgung
+
+Zwei dreipolige Kaltgerätekabel:
+* Einer geht direkt in die Elektronik-Box und landet auf einer Platine, die über ein Relais geschaltet wird und direkt das Heizbett versorgt.
+* Der zweite geht in ein PC-Netzteil. Dort werden 4 adern am großen [24 poligen ATX-Stecker](http://static.irisnetwork.de/openlab/atx_stecker.jpg) über einen Adapter abgezweigt:
+	* Pin 3: GND
+	* Pin 6: 5V
+	* Pin 20: -5v
+	* Pin 21: +5v
