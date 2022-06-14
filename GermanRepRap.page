@@ -1,5 +1,5 @@
 # German RepRap X400CE
-> ⚠ Achtung: Die Doku ist im Moment als fortlaufende Projektdokumentation genutzt und unterliegt starken Änderungen. Außerdem ist vieles evtl. noch nicht korrekt, da hier Elektroniknoobs am Werk sind.
+**⚠ Achtung: Die Doku ist im Moment als fortlaufende Projektdokumentation genutzt und unterliegt starken Änderungen. Außerdem ist vieles evtl. noch nicht korrekt, da hier Elektroniknoobs am Werk sind.**
 
 ## Umbau
 
@@ -28,6 +28,10 @@ Arduino mit R.A.M.P.S Board.
 * [RAMPS-Board](http://static.irisnetwork.de/openlab/20220531_204308.jpg)
 * [Platine fürs Heizbett](http://static.irisnetwork.de/openlab/20220531_205816.jpg)
 
+#### Extruder
+
+Dual-Schrott-Extruder - wird nicht weiter verwendet. Kabelbaum bleibt erstmal, den müssen wir vorerst nicht auseinanderrupfen.
+
 ### Neue Hardware
 
 #### Stromversorgung
@@ -37,3 +41,10 @@ Bleibt erstmal / wird wiederverwendet.
 #### Elektronik
 
 * Rambo Board ([Dokumentation](https://reprap.org/wiki/EinsyRambo)). (Bereits vorhanden)
+* Endstops werden vorerst nicht genutzt, wir versuchen die Motortreiber des Rambo-Boards dafür zu verwenden (Plastikendstops, gegen die der Drucker dagegenfahren kann)
+
+#### Extruder / Hotend
+
+Auf jeden Fall neuer Extruder / Hotend + Sonde für automatische Kalibrierung.
+
+TODO: Recherche was passt + bestellen.
