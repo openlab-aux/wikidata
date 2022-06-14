@@ -2,8 +2,11 @@
 > ⚠ Achtung: Die Doku ist im Moment als fortlaufende Projektdokumentation genutzt und unterliegt starken Änderungen. Außerdem ist vieles evtl. noch nicht korrekt, da hier Elektroniknoobs am Werk sind.
 
 ## Umbau
+
 ### Hilfreiche Links
-[eine Dokumentation der Hochschule Hamm-Lippstadt](https://wiki.hshl.de/wiki/index.php/3D-Druck_mit_dem_German_RepRap_X400)
+
+* [eine Dokumentation der Hochschule Hamm-Lippstadt](https://wiki.hshl.de/wiki/index.php/3D-Druck_mit_dem_German_RepRap_X400)
+* [Marlin Firmware (bugfix-1.1 für Rambo)](https://github.com/MarlinFirmware/Marlin/tree/bugfix-1.1.x)
 
 ### Alte Hardware
 
@@ -27,10 +30,10 @@ Arduino mit R.A.M.P.S Board.
 
 ### Neue Hardware
 
-### Stromversorgung
+#### Stromversorgung
 
 Bleibt erstmal / wird wiederverwendet.
 
-### Elektronik
+#### Elektronik
 
 * Rambo Board ([Dokumentation](https://reprap.org/wiki/EinsyRambo)). (Bereits vorhanden)
