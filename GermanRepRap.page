@@ -6,7 +6,10 @@
 ### Hilfreiche Links
 
 * [eine Dokumentation der Hochschule Hamm-Lippstadt](https://wiki.hshl.de/wiki/index.php/3D-Druck_mit_dem_German_RepRap_X400)
+* [Original Anleitung des X400 Druckers von German RepRap](http://cdn.billiger.com/dynimg/A6bg6Q-piD0Gz-8L9Zr5x3t4H9rycHjeBa9LTdXG2DAPBs_qCr9KtethBKC5CNdfZUIFj6CqvOc3NBYZsOPYpY/German-RepRap-X400Pro-Bedienungsanleitung-615743.pdf)
 * [Marlin Firmware (bugfix-1.1 für Rambo)](https://github.com/MarlinFirmware/Marlin/tree/bugfix-1.1.x)
+* [Fork von Marlin für dieses Projekt](https://github.com/openlab-aux/german-reprap)
+* [Anleitung zum kompilieren mit Arduino](https://marlinfw.org/docs/basics/install_arduino.html)
 
 ### Alte Hardware
 
