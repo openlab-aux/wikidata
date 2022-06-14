@@ -6,6 +6,7 @@
 ### Stromversorgung
 
 Zwei dreipolige Kaltgerätekabel:
+
 * Einer geht direkt in die Elektronik-Box und landet auf einer Platine, die über ein Relais geschaltet wird und direkt das Heizbett versorgt.
 * Der zweite geht in ein PC-Netzteil. Dort werden 4 adern am großen [24 poligen ATX-Stecker](http://static.irisnetwork.de/openlab/atx_stecker.jpg) über einen Adapter abgezweigt:
 	* Pin 3: GND
