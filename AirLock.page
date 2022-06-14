@@ -1,5 +1,5 @@
 Wenn wir in die Bäckergasse umziehen, ergeben sich für den Zugang ins Lab eine große Reihe neuer anforderungen. Es wir notwendig sein, ein neu konzipiertes Zuganssystem zu entwerfen. Aurlock Quest soll die endgültige Version dieser Lösung sein. Gut durchdacht, sicher, benutzerfreundlich, sorfältig ausgeführt. Anfang Mai 2022 wurden aber schon stimmen nach einer temporären Lösung laut. Hierraus entstand der Anstoß zu Airlock Zvezda.
-
+https://www.openlab-augsburg.de/wp-content/uploads/2022/05/Schema-Seidle-Interface.png
 # AirLock Zvezda
 Prinzipiell sind die Grundanforderungen an dieses System sehr überschaubar: Das Haustelefon von Seidle wird noch nicht ersetzt, Zvezda ist nur eine temporäre addition an dieses System. 
 
@@ -30,7 +30,7 @@ Die Software ist auf github: [https://github.com/openlab-aux/airlock/tree/master
 
 Es ist wunderschön!
 
-![](https://www.openlab-augsburg.de/wp-content/uploads/2022/05/rn_image_picker_lib_temp_ae098c2a-a79a-42ba-9967-6e3bf9de745d.jpg)
+![](https://www.openlab-augsburg.de/wp-content/uploads/2022/05/rn_image_picker_lib_temp_ae098c2a-a79a-42ba-9967-6e3bf9de745d.jpg){width=500}
 
 
 # AirLock Quest
@@ -39,7 +39,7 @@ Die dauerhafte Lösung, AirLock Quest, bildet deutlich mehr ab als Zvezda, brauc
 
 ## Systemüberblick
 
-![](https://www.openlab-augsburg.de/wp-content/uploads/2022/06/Übersicht-Schema.png)
+![](https://www.openlab-augsburg.de/wp-content/uploads/2022/06/Übersicht-Schema.png){width=750}
 
 
 ## Die Anforderungen
@@ -161,4 +161,4 @@ Nach oben weg, in einem Kabelkanal gerade richtung zwischendecke geht es mit 7 N
 
 ### Anschlussschema Übergabepunkt
 
-![](https://www.openlab-augsburg.de/wp-content/uploads/2022/05/Schema-Seidle-Interface.png)
+![](https://www.openlab-augsburg.de/wp-content/uploads/2022/05/Schema-Seidle-Interface.png){width=750}
