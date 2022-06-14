@@ -26,7 +26,8 @@ Zwei dreipolige Kaltgerätekabel:
 Arduino mit R.A.M.P.S Board.
 
 * [RAMPS-Board](http://static.irisnetwork.de/openlab/20220531_204308.jpg)
-* [Platine fürs Heizbett](http://static.irisnetwork.de/openlab/20220531_205816.jpg)
+* [Platine fürs Heizbett](http://static.irisnetwork.de/openlab/20220531_205816.jpg)  
+  Mit [crydom-halbleiterrelais](https://asset.conrad.com/media10/add/160267/c1/-/en/000180863DS01/datenblatt-180863-crydom-halbleiterrelais-cx380d5-5-a-schaltspannung-max-530-vac-nullspannungsschaltend-1-st.pdf)
 
 #### Extruder
 
