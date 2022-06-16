@@ -8,6 +8,8 @@ Standardmarkup ist [Markdown](http://daringfireball.net/projects/markdown/), das
 
 Dieses Wiki verwendet eine verbesserte Version von Markdown, nämlich Pandoc Markdown, die im [Handbuch von pandoc](http://pandoc.org/MANUAL.html#pandocs-markdown) dokumentiert ist.
 
+Wie es dann am Ende ausschaut, wird unter dem Editor angezeigt und live alle paar Sekunden aktualisiert.
+
 ### Fallen
 
 Hier ein bisschen aufpassen:
