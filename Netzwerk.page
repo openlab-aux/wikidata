@@ -1,4 +1,4 @@
-## LAN
+## Local network (WiFi and cabled) with internet access
 
 A DHCP server is handing out IPs within the range of 172.16.0.100 through 172.16.0.249.
 Please don't manually pick an address from this pool.
@@ -6,19 +6,23 @@ Please don't manually pick an address from this pool.
 - Netmask: 255.255.0.0
 - Gateway: 172.16.0.1
 - DNS: 172.16.0.1
+- WiFi ESSID: Labor 2.0
+
+## Internet of Things
+
+- 172.16.2.0/24
+
 
 ## Network Services in the OpenLab
 
-* [PulseAudio Sink](Musikanlage): audio.lab (172.16.16.182)
-* [Printer](Drucker): print.lab (172.16.16.118)
 * [Flipdot](Flipdots)
 * [SpaceAPI](SpaceAPI): https://api.openlab-augsburg.de/data.json
 * [Scanner](Scanner)
-
-## Documentation
-* [Gateway configuration](APU as a router)
-* [Kümmerer](Kümmerer#netzwerk)
-* [Netzwerktopologie-2018-Fasching](/LabNetGraph.odg) [(PDF)](/LabNetGraph.pdf)
+* Home Assistant http://172.16.2.23:8123
 
 ## Outdated Resources
+* [Gateway configuration](APU as a router)
+* [PulseAudio Sink](Musikanlage): audio.lab (172.16.16.182)
+* [Printer](Drucker): print.lab (172.16.16.118)
+* [Netzwerktopologie-2018-Fasching](/LabNetGraph.odg) [(PDF)](/LabNetGraph.pdf)
 * [Dokumentation auf GitHub](https://github.com/openlab-aux/labnetz-doku)
