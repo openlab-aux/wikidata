@@ -52,3 +52,9 @@ Bleibt erstmal / wird wiederverwendet.
 Auf jeden Fall neuer Extruder / Hotend + Sonde für automatische Kalibrierung.
 
 TODO: Recherche was passt + bestellen.
+
+## Status
+* 07.06.2022  
+Druckerelektronik auseinandergerupft, RAMPS gefunden ...
+* 21.06.2022  
+Netzteil zum laufen gebracht, Marlin software ausgecheckt und die Konfigurationsdatei notdürftig aufgesetzt. Software kompiliert und geflashed.
