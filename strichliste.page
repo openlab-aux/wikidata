@@ -69,3 +69,8 @@ Zur Kompensation von Schwund und für einen kleinen Gewinn für den Verein (da M
 * Einkaufspreis = Genauer Preis pro Flasche = Genauer Preis (Kasten) / Flaschenzahl; incl. Pfand
 * Strichlistepreis = Einkaufspreis x1,2, aufgerundet auf die nächsten 20ct
 * Bargeldpreis = Einkaufspreis x1,6, aufgerundet auf die nächsten 50ct
+
+
+# Dehnungsziele
+
+* Die Strichliste soll, irgendwann, den Automaten steuern können. Ding in der Strichliste auswählen, kauf im Automaten, katsching. 
