@@ -24,7 +24,7 @@ Zum Aufladen von Guthaben in der Strichliste:
 
 # Geld ausgeben
 
-## Dinge Kaufen per Scanner (! Der Scanner ist noch nicht installiert !)
+## Dinge Kaufen per Scanner
 
 * Account auswählen
 * Produkt abscannen
@@ -78,3 +78,4 @@ Wir verkaufen mit einer kleinen Marge für den Verein. Details sind hier aufgef�
 # Dehnungsziele
 
 * Die Strichliste soll, irgendwann, den Automaten steuern können. Ding in der Strichliste auswählen, kauf im Automaten, katsching. 
+* Bessere Scanner Performance experimentieren mit dem Metrologic MS700i (https://www.barcode-fonts.de/metrologic/Ms700.pdf) (https://www.vvvsystem.cz/metrolog/pdf/iu700.pdf)
