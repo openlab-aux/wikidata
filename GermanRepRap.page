@@ -45,13 +45,27 @@ Bleibt erstmal / wird wiederverwendet.
 #### Elektronik
 
 * Rambo Board ([Dokumentation](https://reprap.org/wiki/EinsyRambo)). (Bereits vorhanden)
-* Endstops werden vorerst nicht genutzt, wir versuchen die Motortreiber des Rambo-Boards dafür zu verwenden (Plastikendstops, gegen die der Drucker dagegenfahren kann)
+* Endstops werden vorerst nicht genutzt, wir versuchen die Motortreiber des Rambo-Boards dafür zu verwenden (Plastikendstops, gegen die der Drucker dagegenfahren kann) 
+* Können das die Old School Treiber die ohne UART laufen?
+* Vorschlag: smarteres Mainboard oder das Rambo als Klipper laufen lassen (RPi als "Brain")
 
 #### Extruder / Hotend
 
 Auf jeden Fall neuer Extruder / Hotend + Sonde für automatische Kalibrierung.
 
 TODO: Recherche was passt + bestellen.
+
+Vorschläge: 
+
+[Bondtech & Slice Engineering LGX ACE Extruder (Large Gear Extruder, besser als BMG) mit integriertem Mosquito Hotend (schneller als z.B. Copperhead), 255€](https://www.3djake.de/bondtech/lgx-ace-mosquito-printhead)
+
+[BMG Extruder + Mosquito Magnum Hotend, höherer Volumenfluss als mit standard Mosquito (fraglich ob sich dafür Aufpreis und älterer Extruder lohnt), 369€](https://www.3djake.de/bondtech/bmg-m-mosquito-magnum-set)
+
+[LGX ACE Extruder mit dem schnellsten Filament Hotend auf dem Markt (dank bis zu 2 Stück 50W Cartridges), 400€](https://www.3djake.de/bondtech/lgx-ace-magnum-printhead)
+
+#### Mechanik
+
+Linearlager sind ein paar am Ende, sollten alle getauscht werden, zumindes für x und y. Maße? Am besten Misumi oder HIWIN nehmen.
 
 ## Status
 * 07.06.2022  
