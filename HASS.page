@@ -1,0 +1,4 @@
+Wir betreiben im lokalen Netz des OpenLabs einen Home Assistant Server. 
+
+Dieser läuft als VM auf luke und wurde via NixOS von w. deployed und in Betrieb genommen. 
+Das Web-Interface findet man unter [hass.lab](http://hass.lab/).
