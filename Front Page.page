@@ -34,8 +34,7 @@ format: Markdown
 * In der [Infrastrukturecke](infrastruktur-oben) steht das Server-Rack, Kühlschrank und Getränkeautomat, etc.
 
 
-# Welche Geräte gibt es?
-## 3D Drucker
+# 3D Drucker
 Die 3D Drucker stehen derzeit im Hauptraum vor dem Schaufenster.
 
 * 🟢 [Original Prusa i3 MK3s](Prusa%20i3%20MK3)
@@ -48,7 +47,7 @@ Zudem bieten wir immer wieder Kurse an, in denen wir mit den Teilnehmern 3D Druc
 * [3D-Druckerkurs (Prusa MK3S)](3DDruckerkurs)
 * [3D-Druckerkurs (Prusa Mini)](3DDruckerkurs-Mini)
 
-## Sonstige
+# Weitere Geräte
 * [CNC Fräse](cnc_fraese)
 * 🟡 Lötstation (funktionsbereit, aber in einer Kiste ohne festen Arbeitsplatz)
 * 🟡 A0 Drucker (ist seit dem Umzug nicht in Betrieb genommen/gewartet worden)
