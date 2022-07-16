@@ -11,20 +11,16 @@ Verlasse das Lab bitte wie du es vorgefunden hast oder gerne auch besser. Hinter
 		- Die LEDs und das Flipdot am Schaufenster
 	- TODO Home Assistant sobald vorhanden erklären
 - [ ] **Alle Fenster schließen**
-- [ ] **Heizungen ausmachen** (im Winter)
 	- Hinweis: Im Sommer können die **Kippfenster** am Schaufenster und im Sofaraum und E-Labor gelegentlich **gekippt bleiben**.
-- [ ] Alle **Geräte ausmachen**, die benutzt wurden
-- [ ] Den **Labstatus ausschalten** (schalter befindet sich am schwarzen Kästchen, welches am Türrahmen der Küche zur Wohnungstür zeigend befestigt ist und auf einem Screen den Status anzeigt)
-	- TODO Bild vom Labstatus
+- [ ] **Heizungen ausmachen** (im Winter)
+- [ ] **Geräte ausschalten**, die benutzt wurden
+	- Lötkolben, 3D-Drucker, ...
+	- TV, Beamer, Musikanlage, ...
+	- Herd, Backofen, Küchengeräte, ...
+- [ ] Den **Labstatus ausschalten**
+	- Schalter befindet sich am schwarzen Kästchen, welches am Türrahmen der Küche zur Wohnungstür zeigend befestigt ist und auf einem Screen den Status anzeigt
+		- TODO Bild vom Labstatus
 - [ ] Die **Wohnungstüre hinter sich schließen**
-
-
-[Für übervorsichtige](für-übervorsichtige)
-
-## Für übervorsichtige
-- [ ] Lötkolben aus?
-- [ ] Herd und Backofen aus?
-- [ ] 3D-Drucker sicher?
 
 ## Haustüre
 Wenn beispielsweise MV oder Tag der offenen Tür ist, kann die Wohnungstür offen bleiben.
@@ -32,7 +28,8 @@ Wenn beispielsweise MV oder Tag der offenen Tür ist, kann die Wohnungstür offe
 Die Haustüre selbst muss immer geschlossen sein, weil die Hauskatze nicht entwischen soll. 
 Der Schnapper darf verwendet werden, sofern er danach wieder rausgenommen wird.
 
-## Wenn du Zeit hast
-- Müll rausbringen (Geht aktuell noch nicht, weil kein Müllschlüssel vorhanden ist und das Müllhäußchen im Innenhof zugesperrt ist)
+## Für Fortgeschrittene oder Engagierte
+- Müll rausbringen 
+	- Geht aktuell noch nicht, weil kein Müllschlüssel vorhanden ist und das Müllhäußchen im Innenhof zugesperrt ist. Hier wurde bereits richtung Vermieter kommuniziert, eine Lösung wird gefunden werden.
 - Staubsaugerroboter anwerfen
 - Spülmaschine in Betrieb nehmen, wenn sie voll ist
