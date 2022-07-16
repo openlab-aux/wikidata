@@ -1,5 +1,0 @@
-umlaut-test
-
-das geht obwohl nichtmal C locale in locale.gen steht
-
-  — joah, weil C.UTF-8 ist in neueren glib-Versionen fest verbaut.
