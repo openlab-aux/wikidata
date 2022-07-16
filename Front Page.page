@@ -36,7 +36,6 @@ format: Markdown
 Der Staubsaugerroboter [Staubbrudi](staubbrudi) saugt die Räumlichkeiten.
 Bitte lasse deswegen möglichst keine Kleinteile oder Kabel am Boden liegen.
 
-
 # 3D Drucker
 Die 3D Drucker stehen derzeit im Hauptraum vor dem Schaufenster.
 
@@ -60,6 +59,10 @@ Zudem bieten wir immer wieder Kurse an, in denen wir mit den Teilnehmern 3D Druc
 * 🟢 [Musikanlage](Musikanlage)
 * 🟢 [Home Assistant](HASS)
 * ...
+
+# Umzug
+Das OpenLab ist seit dem kürzlichen Umzug aktuell noch in der Gestaltungs- und Umbauphase.
+Da viele Leute gleichzeitig an Ideen zur Gestaltung arbeiten, ist das Einpflegen dieser Ideen und Vorschläge auf den einzelnen Wiki-Seiten der Räume und evtl. zusätzlicher Austausch über Mattermost sinnvoll. So können Konflikte vorgebeugt werden.
 
 
 # Alles ab hier bitte irgnorieren, das Wiki ist gerade in Überarbeitung :)
