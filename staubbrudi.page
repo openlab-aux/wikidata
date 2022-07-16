@@ -8,7 +8,7 @@ Er verfügt über einen Lidar-Sensor und diverse Sensoren am Boden und vorne am 
 Der Roboter erstellt eine [Map](#map) von den Räumen und kann Räume einzeln und nach einem Zeitplan automatisch saugen.
 Er fährt die Flächen im Rastermuster ab und hat 4 unterschiedliche Saugstärken.
 
-Bitte allgemein darauf achten, dass keine Kabel und Kleinteile am Boden sind, weil der Roboter hängen bleiben oder aufsaugen könnten.
+Bitte allgemein darauf achten, dass keine Kabel und Kleinteile am Boden sind, weil der Roboter hängen bleiben oder etwas aufsaugen könnte.
 Der Roboter freut sich manchmal über Unterstützung, indem Stühle im Hauptraum auf die Tische gestellt werden, um z.B. beim Verlassen des Labs den Raum zu saugen und über [Maintenance](#maintenance)
 
 Es sind noch einige [TODOs](#todos) offen.
