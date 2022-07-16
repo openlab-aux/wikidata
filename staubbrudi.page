@@ -11,6 +11,8 @@ Er fährt die Flächen im Rastermuster ab und hat 4 unterschiedliche Saugstärke
 Bitte allgemein darauf achten, dass keine Kabel und Kleinteile am Boden sind, weil der Roboter hängen bleiben oder aufsaugen könnten.
 Der Roboter freut sich manchmal über Unterstützung, indem Stühle im Hauptraum auf die Tische gestellt werden, um z.B. beim Verlassen des Labs den Raum zu saugen und über [Maintenance](#maintenance)
 
+Es sind noch einige [TODOs](#todos)
+
 ## Benutzung
 Ein Knopf auf dem Roboter kann gedrückt werden, um das ganze OG zu saugen.
 Es gibt außerdem einen Knopf, um zum Dock zurückzukehren.
