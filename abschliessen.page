@@ -20,6 +20,7 @@ Hinterlasse keine Gegenstände, solange sie nicht mit einem Aufkleber markiert s
 	- Herd, Backofen, Küchengeräte, ...
 - [ ] Den **Labstatus ausschalten**
 	- Schalter befindet sich am schwarzen Kästchen, welches am Türrahmen der Küche zur Wohnungstür zeigend befestigt ist und auf einem Screen den Status anzeigt
+	- Der Labstatus ist über eine API abrufbar und soll anzeigen, ob das Lab offen oder geschlossen ist
 		- TODO Bild vom Labstatus
 - [ ] Die **Wohnungstüre hinter sich schließen**
 
