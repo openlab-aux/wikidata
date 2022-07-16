@@ -24,9 +24,6 @@ Verlasse das Lab bitte wie du es vorgefunden hast oder gerne auch besser.
 	- Lötkolben, 3D-Drucker, ...
 	- TV, Beamer, Musikanlage, ...
 	- Herd, Backofen, Küchengeräte, ...
-- [ ] Den **Labstatus ausschalten**
-	- Schalter befindet sich am schwarzen Kästchen, welches am Türrahmen der Küche zur Wohnungstür zeigend befestigt ist und auf einem Screen den Status anzeigt
-	- Der Labstatus ist über eine API abrufbar und soll anzeigen, ob das Lab offen oder geschlossen ist
 - [ ] Kein (hilfloser) Mensch außer dir ist mehr im lab
 - [ ] Die **Wohnungstüre hinter sich schließen**
 </div>
