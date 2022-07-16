@@ -5,21 +5,21 @@ Er ist Juli 2022 geboren und wurde von @Phjl gestellt.
 TODO Bild von Staubbrudi im Dock
 
 Er verfügt über einen Lidar-Sensor und diverse Sensoren am Boden und vorne am Bumper.
-Der Roboter erstellt eine [Map](##Map) von den Räumen und kann Räume einzeln und nach einem Zeitplan automatisch saugen.
+Der Roboter erstellt eine [Map](#Map) von den Räumen und kann Räume einzeln und nach einem Zeitplan automatisch saugen.
 Er fährt die Flächen im Rastermuster ab und hat 4 unterschiedliche Saugstärken.
 
 Bitte allgemein darauf achten, dass keine Kabel und Kleinteile am Boden sind, weil der Roboter hängen bleiben oder aufsaugen könnten.
-Der Roboter freut sich manchmal über Unterstützung, indem Stühle im Hauptraum auf die Tische gestellt werden, um z.B. beim Verlassen des Labs den Raum zu saugen und über [Maintenance](##Maintenance)
+Der Roboter freut sich manchmal über Unterstützung, indem Stühle im Hauptraum auf die Tische gestellt werden, um z.B. beim Verlassen des Labs den Raum zu saugen und über [Maintenance](#Maintenance)
 
 ## Benutzung
 Ein Knopf auf dem Roboter kann gedrückt werden, um das ganze OG zu saugen.
 Es gibt außerdem einen Knopf, um zum Dock zurückzukehren.
 
-Siehe [Wissenswert](##Wissenswert)
+Siehe [Wissenswert](#Wissenswert)
 
 Alle anderen Funktionen kann man nur mit der App nutzen.
 In Zukunft soll ein Tablet zur Verfügung stehen, auf dem der Roboter mit der (leider kommerziellen) 360Robot App von jedem gesteuert werden kann. Ist jedoch noch in Arbeit.
-Siehe [App](##App), um mit eigenem Account Zugriff auf Staubbrudi zu bekommen.
+Siehe [App](#App), um mit eigenem Account Zugriff auf Staubbrudi zu bekommen.
 
 ## Wissenswert
 - Die Türe zum Keller muss man nicht schließen, er ist so klug, da nicht runter zu fallen. (Bis jetzt zumindest)
