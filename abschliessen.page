@@ -12,35 +12,33 @@ Verlasse das Lab bitte wie du es vorgefunden hast oder gerne auch besser.
 <div style="padding:1em; border:6px solid red">
 - [ ] **Lichter im Keller ausmachen**
 - [ ] **Lichter im OG ausmachen** (alle Schalter an den Wänden)
-	- Hinweis: **An bleiben dürfen** und sollen 24/7: 
+	- Hinweis: **An bleiben dürfen** (weil [automatisiert](HASS): 
 		- Die LEDs am Fenster über dem Sofa
 		- Die LEDs an den 3D-Druckern und am Schaufenster
 		- Der LED Strahler oben beim Beamer
 		- Die LEDs und das Flipdot am Schaufenster
-	- TODO Home Assistant sobald vorhanden erklären
 - [ ] **Alle Fenster schließen**
 	- Hinweis: Im Sommer können die **Kippfenster** am Schaufenster und im Sofaraum und E-Labor gelegentlich **gekippt bleiben**.
 - [ ] **Heizungen ausmachen** (im Winter)
-- [ ] **Geräte ausschalten**, die benutzt wurden
+- [ ] **Geräte ausschalten**:
 	- Lötkolben, 3D-Drucker, ...
 	- TV, Beamer, Musikanlage, ...
 	- Herd, Backofen, Küchengeräte, ...
 - [ ] Den **Labstatus ausschalten**
 	- Schalter befindet sich am schwarzen Kästchen, welches am Türrahmen der Küche zur Wohnungstür zeigend befestigt ist und auf einem Screen den Status anzeigt
 	- Der Labstatus ist über eine API abrufbar und soll anzeigen, ob das Lab offen oder geschlossen ist
-		- TODO Bild vom Labstatus
 - [ ] Die **Wohnungstüre hinter sich schließen**
 </div>
 
 ## Haustüre
-Wenn beispielsweise MV oder Tag der offenen Tür ist, kann die Wohnungstür offen bleiben.
+Für öffentliche Events kann die Wohnungstür offen bleiben.
 
 Die Haustüre selbst muss immer geschlossen sein, weil die Hauskatze nicht entwischen soll. 
 Der Schnapper darf verwendet werden, sofern er danach wieder rausgenommen wird.
 
 ## Für Fortgeschrittene oder Engagierte
 - Müll rausbringen 
-	- Geht aktuell noch nicht, weil kein Müllschlüssel vorhanden ist und das Müllhäußchen im Innenhof zugesperrt ist. Hier wurde bereits richtung Vermieter kommuniziert, eine Lösung wird gefunden werden.
+	- Geht aktuell nur, wenn Gregor, phjl oder krobin da sind, weil wir noch keinen Müllschlüssel für das Müllhäuschen im Innenhof haben. Hier wurde bereits Richtung Vermieter kommuniziert, notfalls könnten wir uns natürlich auch unseren Zugang hacken.
 - Staubsaugerroboter anwerfen
-- Spülmaschine in Betrieb nehmen, wenn sie voll ist oder anfängt zu leben
+- Spülmaschine anschalten, wenn sie voll ist oder anfängt zu leben
 - Getränke im Kühlschrank nachfüllen
