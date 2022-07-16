@@ -1,5 +1,5 @@
-# OpenLab schließen und verlassen für Dummies
-Folgendes solltest du tun, wenn du das OpenLab als letzter Mensch verlässt. Bitte versuche, niemanden in den Räumlichkeiten zurückzulassen.
+# OpenLab schließen und verlassen für Dummies und Klugies
+Folgendes solltest du tun, wenn du das OpenLab als letzter Mensch verlässt: Bitte lasse niemanden in den Räumlichkeiten zurück, der diese Liste nicht selbst umsetzen kann!
 Falls du zurückgelassen wurdest, keine Panik! Folge einfach den Schritten im roten Kasten und schließe am Ende die Wohnungstüre hinter dir.
 
 Verlasse das Lab bitte wie du es vorgefunden hast oder gerne auch besser.
@@ -27,6 +27,7 @@ Verlasse das Lab bitte wie du es vorgefunden hast oder gerne auch besser.
 - [ ] Den **Labstatus ausschalten**
 	- Schalter befindet sich am schwarzen Kästchen, welches am Türrahmen der Küche zur Wohnungstür zeigend befestigt ist und auf einem Screen den Status anzeigt
 	- Der Labstatus ist über eine API abrufbar und soll anzeigen, ob das Lab offen oder geschlossen ist
+- [ ] Kein (hilfloser) Mensch außer dir ist mehr im lab
 - [ ] Die **Wohnungstüre hinter sich schließen**
 </div>
 
