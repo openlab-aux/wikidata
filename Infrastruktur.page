@@ -13,3 +13,9 @@ Das Setup basiert auf Docker und den offizielen Images und docker-compose-files 
 Die zuletzt deployten Definitions und Configs wurden [im IaC Repository](https://github.com/openlab-aux/IaC/tree/main/mattermost) hinterlegt.
 
 Upgrade-Guides sind in der [Dokumentation von Mattermost](https://docs.mattermost.com/upgrade/prepare-to-upgrade-mattermost.html#prepare-to-upgrade-mattermost) zu finden.
+
+### IRC bridge
+Es ist eine IRC bridge für Mattermost im Einsatz.
+Es handelt sich dabei um einen Fork von [matterircd](https://github.com/muesli/matterircd).
+Mattermost ist inzwischen auf Version 7.1, mit der matterircd laut docs nicht verfügbar sind.
+TODO intervention und fixen
