@@ -67,6 +67,11 @@ Wenn du das OpenLab als letzter verlässt, solltest du vorgehen, wie in folgende
 Das OpenLab ist seit dem kürzlichen Umzug aktuell noch in der Gestaltungs- und Umbauphase.
 Da viele Leute gleichzeitig an Ideen zur Gestaltung arbeiten, ist das Einpflegen dieser Ideen und Vorschläge auf den einzelnen Wiki-Seiten der Räume und evtl. zusätzlicher Austausch über Mattermost sinnvoll. So können Konflikte vorgebeugt werden.
 
+# Infrastruktur und Server
+Siehe:
+
+* [Infrastruktur](infra)
+* [Server](server)
 
 # Alles ab hier bitte irgnorieren, das Wiki ist gerade in Überarbeitung :)
 * [FAQ](FAQ)
