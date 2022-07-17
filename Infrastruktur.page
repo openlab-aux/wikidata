@@ -1,0 +1,5 @@
+# Infrastruktur
+Für Config-Files gibt es ein [Infrastructure as Code](https://github.com/openlab-aux/IaC) Git Repository, welches noch nicht Single Source of Truth ist sondern manuell deployt wird. Es dient Dokumentationszwecken.
+
+
+Server und VMs mit den darauf gehosteten Applikationen sind unter [Server](server) aufgelistet.
