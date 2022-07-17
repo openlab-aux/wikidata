@@ -19,5 +19,5 @@ Die Anleitung zum Chat und Nutzen der IRC bridge findet sich [hier](chat#anleitu
 ### IRC bridge
 Es ist eine IRC bridge für Mattermost im Einsatz.
 Es handelt sich dabei um einen Fork von [matterircd](https://github.com/muesli/matterircd).
-Mattermost ist inzwischen auf Version 7.1, mit der matterircd laut docs nicht verfügbar sind.
+Mattermost ist inzwischen auf Version 7.1, mit der matterircd laut docs nicht kompatibel ist.
 TODO intervention und fixen
