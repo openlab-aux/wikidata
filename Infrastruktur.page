@@ -9,9 +9,7 @@ Das OpenLab betreibt einen eigenen Mattermost Server: [https://chat.openlab-augs
 
 Der Mattermost Server wurde im Juli 2022 von Version 5 auf Version 7.1 aktualisiert.
 
-Das Setup basiert auf Docker und den offizielen Images und docker-compose-files von https://github.com/mattermost/docker.
-Die zuletzt deployten Definitions und Configs wurden unter https://github.com/openlab-aux/IaC/tree/main/mattermost hinterlegt.
-(Vorher wurde https://github.com/mattermost/mattermost-docker genutzt)
+Das Setup basiert auf Docker und den offizielen Images und docker-compose-files von [mattermost/docker](https://github.com/mattermost/docker).
+Die zuletzt deployten Definitions und Configs wurden [im IaC Repository](https://github.com/openlab-aux/IaC/tree/main/mattermost) hinterlegt.
 
-Upgrade-Guides sind in der Dokumentation von Mattermost zu finden.
-https://docs.mattermost.com/upgrade/prepare-to-upgrade-mattermost.html#prepare-to-upgrade-mattermost
+Upgrade-Guides sind in der [Dokumentation von Mattermost](https://docs.mattermost.com/upgrade/prepare-to-upgrade-mattermost.html#prepare-to-upgrade-mattermost) zu finden.
