@@ -2,6 +2,21 @@
 
 Jeder kann einen Account anlegen und Seiten bearbeiten sowie anlegen. Das geht [hier](https://wiki.openlab-augsburg.de/_register?destination=).
 
+## Weiterleitungen zwischen Artikeln (Redirects)
+
+Zuallererst: **Bitte keine Seiten löschen wenn etwas umstrukturiert wird.** Sonst gehen alle Links darauf kaputt, z.B. von der Website.
+Auch bei Überschriften etwas darauf achten, dass sie mehr oder weniger stabil bleiben (sonst gehen etwagige Anchors darauf kaputt (aber wir sollten eine Lösung finden, wie man stabile Anchors in einen Artikel einbauen kann)).
+
+Wenn du einen Artikel `Foo` löschen willst, weil er z.B. jetzt `Bar` heißt, kannst du den Text in `Foo` durch die magische Formel
+
+```
+---
+redirect: Bar
+...
+```
+
+ersetzen, dann wird jeder, der auf `/Foo` zugreift direkt nach `/Bar` umgeleitet, und alte Links gehen weiterhin.
+
 ## Markup-Syntax
 
 Standardmarkup ist [Markdown](http://daringfireball.net/projects/markdown/), das [hier](http://daringfireball.net/projects/markdown/syntax) dokumentiert ist. Markdown kennt man sicherlich schon z. B. von GitHub.
