@@ -17,7 +17,7 @@ redirect: Bar
 
 ersetzen, dann wird jeder, der auf `/Foo` zugreift direkt nach `/Bar` umgeleitet, und alte Links gehen weiterhin.
 
-Ein Beispiel, `Profpatsch` wird auf `Mensch_Profpatsch` umgeleitet. Auf https://wiki.openlab-augsburg.de/Profpatsch?redirect=no siehst du, wie das funktioniert, wenn du auf `edit` klickst.
+Ein Beispiel, `Profpatsch` wird auf `Mensch_Profpatsch` umgeleitet. Auf [https://wiki.openlab-augsburg.de/Profpatsch?redirect=no]() siehst du, wie das funktioniert, wenn du auf `edit` klickst.
 
 ## Markup-Syntax
 
