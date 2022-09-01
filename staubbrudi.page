@@ -1,5 +1,5 @@
 # Staubbrudi (Staubsaugerroboter)
-Staubbrudi ist ein **360 S7 Saugroboter**, der aktuell im Hauptraum seinen Dock hat.
+Staubbrudi ist ein **360 S7 Saugroboter**, der aktuell im Gang seinen Dock hat.
 Er ist Juli 2022 geboren und wurde von @Phjl gestellt.
 
 TODO Bild von Staubbrudi im Dock
@@ -9,7 +9,10 @@ Der Roboter erstellt eine [Map](#map) von den Räumen und kann Räume einzeln un
 Er fährt die Flächen im Rastermuster ab und hat 4 unterschiedliche Saugstärken.
 
 Bitte allgemein darauf achten, dass keine Kabel und Kleinteile am Boden sind, weil der Roboter hängen bleiben oder etwas aufsaugen könnte.
-Der Roboter freut sich manchmal über Unterstützung, indem Stühle im Hauptraum auf die Tische gestellt werden, um z.B. beim Verlassen des Labs den Raum zu saugen und über [Maintenance](#maintenance)
+Der Roboter freut sich manchmal über Unterstützung, indem Stühle im Hauptraum auf die Tische gestellt werden, um z.B. beim Verlassen des Labs den Raum zu saugen und über [Maintenance](#maintenance).
+
+Aktuell fährt der Staubsauger jeden Montag, Mittwoch, Freitag und Samstag um 09:15 Uhr automatisch das OG ab.
+Bitte achtet darauf, nicht in den Ruhezeiten zu saugen.
 
 Es sind noch einige [TODOs](#todos) offen.
 
@@ -51,6 +54,8 @@ Wer unbedingt seine Daten an 360Robot geben will, um Staubbrudi über die kommer
 
 ## TODOs
 - [ ] Aufgang im Klo an der Türschwelle ermöglichen
-- [ ] E-Labor mappen
+- [x] E-Labor mappen
 - [ ] Keller mappen
 - [ ] Tablet mit App zur Verfügung stellen
+- [ ] Prüfen ob Firmware ersetzbar
+- [ ] Wischaufsatz nachbestellen
