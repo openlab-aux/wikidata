@@ -21,3 +21,7 @@ Es ist eine IRC bridge für Mattermost im Einsatz.
 Es handelt sich dabei um einen Fork von [matterircd](https://github.com/muesli/matterircd).
 Mattermost ist inzwischen auf Version 7.1, mit der matterircd laut docs nicht kompatibel ist.
 TODO intervention und fixen
+
+## BI Suite
+
+Mehr unter [Business Intelligence](Infrastruktur/Business Intelligence)
