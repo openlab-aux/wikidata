@@ -5,11 +5,11 @@
 
 ### Hilfreiche Links
 
+* [GitHub Projekt für den Drucker](https://github.com/openlab-aux/german-reprap)
 * [eine Dokumentation der Hochschule Hamm-Lippstadt](https://wiki.hshl.de/wiki/index.php/3D-Druck_mit_dem_German_RepRap_X400)
 * [Original Anleitung des X400 Druckers von German RepRap](http://cdn.billiger.com/dynimg/A6bg6Q-piD0Gz-8L9Zr5x3t4H9rycHjeBa9LTdXG2DAPBs_qCr9KtethBKC5CNdfZUIFj6CqvOc3NBYZsOPYpY/German-RepRap-X400Pro-Bedienungsanleitung-615743.pdf)
-* [Marlin Firmware (bugfix-1.1 für Rambo)](https://github.com/MarlinFirmware/Marlin/tree/bugfix-1.1.x)
-* [Fork von Marlin für dieses Projekt](https://github.com/openlab-aux/german-reprap)
-* [Anleitung zum kompilieren mit Arduino](https://marlinfw.org/docs/basics/install_arduino.html)
+* ~~[Marlin Firmware (bugfix-1.1 für Rambo)](https://github.com/MarlinFirmware/Marlin/tree/bugfix-1.1.x)~~
+* ~~[Anleitung zum kompilieren mit Arduino](https://marlinfw.org/docs/basics/install_arduino.html)~~
 
 ### Alte Hardware
 
@@ -26,7 +26,7 @@ Zwei dreipolige Kaltgerätekabel:
 
 #### Elektronik
 
-Arduino mit R.A.M.P.S Board.
+Arduino mit R.A.M.P.S Board. 
 
 * [RAMPS-Board](http://static.irisnetwork.de/openlab/20220531_204308.jpg)
 * [Platine fürs Heizbett](http://static.irisnetwork.de/openlab/20220531_205816.jpg)  
@@ -40,7 +40,7 @@ Dual-Schrott-Extruder - wird nicht weiter verwendet. Kabelbaum bleibt erstmal, d
 
 #### Stromversorgung
 
-Bleibt erstmal / wird wiederverwendet.
+150 Watt Meanwell HLG-150H-24B ersetzt das umgewandelte PC Netzteil.
 
 #### Elektronik
 
@@ -57,18 +57,22 @@ TODO: Recherche was passt + bestellen.
 
 Vorschläge: 
 
-[Bondtech & Slice Engineering LGX ACE Extruder (Large Gear Extruder, besser als BMG) mit integriertem Mosquito Hotend (schneller als z.B. Copperhead), 255€](https://www.3djake.de/bondtech/lgx-ace-mosquito-printhead)
-
-[BMG Extruder + Mosquito Magnum Hotend, höherer Volumenfluss als mit standard Mosquito (fraglich ob sich dafür Aufpreis und älterer Extruder lohnt), 369€](https://www.3djake.de/bondtech/bmg-m-mosquito-magnum-set)
-
-[LGX ACE Extruder mit dem schnellsten Filament Hotend auf dem Markt (dank bis zu 2 Stück 50W Cartridges), 400€](https://www.3djake.de/bondtech/lgx-ace-magnum-printhead)
+* [Bondtech & Slice Engineering LGX ACE Extruder (Large Gear Extruder, besser als BMG) mit integriertem Mosquito Hotend (schneller als z.B. Copperhead), 255€](https://www.3djake.de/bondtech/lgx-ace-mosquito-printhead)
+* [BMG Extruder + Mosquito Magnum Hotend, höherer Volumenfluss als mit standard Mosquito (fraglich ob sich dafür Aufpreis und älterer Extruder lohnt), 369€](https://www.3djake.de/bondtech/bmg-m-mosquito-magnum-set)
+* [LGX ACE Extruder mit dem schnellsten Filament Hotend auf dem Markt (dank bis zu 2 Stück 50W Cartridges), 400€](https://www.3djake.de/bondtech/lgx-ace-magnum-printhead)
 
 #### Mechanik
 
-Linearlager sind ein paar am Ende, sollten alle getauscht werden, zumindes für x und y. Maße? Am besten Misumi oder HIWIN nehmen.
+~~Linearlager sind ein paar am Ende, sollten alle getauscht werden, zumindes für x und y. Maße? Am besten Misumi oder HIWIN nehmen.~~
+
+Lager wurden durch Misumi Lager ersetzt.
 
 ## Status
 * 07.06.2022  
 Druckerelektronik auseinandergerupft, RAMPS gefunden ...
 * 21.06.2022  
 Netzteil zum laufen gebracht, Marlin software ausgecheckt und die Konfigurationsdatei notdürftig aufgesetzt. Software kompiliert und geflashed.
+* 01.11.2022  
+Firmware angepasst, Achsen fahren nun.
+* 08.11.2022  
+Neues Netzteil eingebaut, Solid State Relay angeschlossen, Heizbett heizt nun.
