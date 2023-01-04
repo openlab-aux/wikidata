@@ -20,6 +20,130 @@ Please don't manually pick an address from this pool.
 * [Scanner](Scanner)
 * Home Assistant http://172.16.2.23:8123
 
+## "Core" Switch
+
+* MiroTik [CRS 125-24G-1S-RM](https://mikrotik.com/product/crs125_24g_1s_rm)
+* Ports: 24 x 1 Gbps / RJ45
+* RouterOS [Documentation](https://help.mikrotik.com/docs/display/ROS/RouterOS) 
+
+### Serial console settings
+
+* baud: 115200
+* parity: none
+* data bits: 8
+* stop bits: 1
+
+Exmaple: `picocom --baud 115200 --parity n --databits 8 --stopbits 1 /dev/ttyUSB0`
+
+### Software update
+
+* Pre/Post- upgrade Verification: `/system routerboard print`
+* Update software: `/system package update`
+* Update booloader: `/system routerboard upgrade`
+* Reboot
+
+### Current configuration
+
+* Management interface IP via DHCP
+* Runs Rapid-Spanning-Tree
+* Ports are configured for "Edge-Discover" mode and immediately transition to STP Forwarding state
+	* Unless a BDPU has been received, which disables the Edge status
+
+```
+/system/identity/set name=grantlr
+
+/lcd/set enabled=no
+
+!! Disable CDP, LLDP, MNDP
+/ip neighbor/discovery-settings/set discover-interface-list=none
+
+!! Disable unused services
+/tool/mac-server/set allowed-interface-list=none
+/tool bandwidth-server set enabled=no
+/ip/service/disable telnet,ftp,www,api,winbox,api-ssl
+
+/ip/ssh/set strong-crypto=yes
+
+/ip/settings/set ip-forward=no send-redirects=no
+/interface/bridge/settings set allow-fast-path=no
+
+/interface/bridge
+add
+set bridge1 vlan-filtering=yes
+set bridge1 protocol-mode=rstp
+set priority=0 0
+port add bridge=bridge1 interface=ether1 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether2 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether3 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether4 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether5 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether6 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether7 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether8 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether9 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether10 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether11 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether12 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether13 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether14 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether15 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether16 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether17 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether18 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether19 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether20 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether21 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether22 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether23 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+port add bridge=bridge1 interface=ether24 edge=yes-discover pvid=100 frame-types=admit-only-untagged-and-priority-tagged
+
+/interface/vlan add interface=bridge1 name=MGMT vlan-id=100
+/interface bridge vlan add bridge=bridge1 tagged=bridge1 vlan-ids=100
+
+/ip dhcp-client/add interface=MGMT disabled=no use-peer-dns=yes use-peer-ntp=yes
+
+/certificate
+add name=root-cert common-name=bogus-root-ca days-valid=3650 key-usage=key-cert-sign,crl-sign
+sign root-cert
+
+add name=https-cert common-name=bogus-router days-valid=3650
+sign ca=root-cert https-cert
+
+/ip service
+set www-ssl certificate=https-cert disabled=no
+```
+
+
+### Add users
+
+Admin account: `/user add name=myname password=mypassword group=full`
+Read-only user: `/user add name=myname password=mypassword group=read`
+
+
+### Wipe config
+
+`/system reset-configuration no-defaults=yes skip-backup=yes`
+
+
+### Monitoring
+
+
+MAC Table: `/interface/bridge/host print`
+Log buffer: `/log print`
+
+
+### REST API
+
+REST API URL equivalent for `/interface/bridge/host print` would be `https://INSERT_SWITCH_IP/interface/bridge/host`
+
+Voltage / Temperature Example:
+
+> curl -k -u someuser:Geheim23 https://INSERT_SWITCH_IP/rest/system/health
+
+CPU Load / Memory / Uptime / Software version
+
+> curl -k -u someuser:Geheim23 https://INSERT_SWITCH_IP/rest/system/resource
+
 ## Outdated Resources
 * [Gateway configuration](APU as a router)
 * [PulseAudio Sink](Musikanlage): audio.lab (172.16.16.182)
