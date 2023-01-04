@@ -116,8 +116,13 @@ set www-ssl certificate=https-cert disabled=no
 
 ### Add users
 
-Admin account: `/user add name=myname password=mypassword group=full`
-Read-only user: `/user add name=myname password=mypassword group=read`
+Admin account:
+
+> /user add name=myname password=mypassword group=full
+
+Read-only user:
+
+> /user add name=myname password=mypassword group=read
 
 
 ### Wipe config
