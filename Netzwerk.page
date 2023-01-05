@@ -48,6 +48,7 @@ Exmaple: `picocom --baud 115200 --parity n --databits 8 --stopbits 1 /dev/ttyUSB
 * Runs Rapid-Spanning-Tree
 * Ports are configured for "Edge-Discover" mode and immediately transition to STP Forwarding state
 	* Unless a BDPU has been received, which disables the Edge status
+* Display on the switch has been disabled
 
 ```
 /system/identity/set name=grantlr
