@@ -30,20 +30,18 @@ Config:
 
 ### WLAN AP - Erni (auf Server Rack)
 
-TP-Link Archer C5 AC 1200 v1
-Ethernet MAC Address: 30:B5:C2:56:D6:66
-
-2.4 GHz: Channel 11
-5   GHz: Channel 120
+* TP-Link Archer C5 AC 1200 v1
+* Ethernet MAC Address: 30:B5:C2:56:D6:66
+* 2.4 GHz: Channel 11
+* 5   GHz: Channel 120
 
 
 ### WLAN AP - Bert
 
-TP-Link Archer C7 AC 1750 v5
-Ethernet MAC Address: B0:95:75:48:E7:82
-
-2.4 GHz: Channel 6
-5   GHz: Channel 140
+* TP-Link Archer C7 AC 1750 v5
+* Ethernet MAC Address: B0:95:75:48:E7:82
+* 2.4 GHz: Channel 6
+* 5   GHz: Channel 140
 
 
 ## "Core" Switch
@@ -160,8 +158,13 @@ Read-only user:
 ### Monitoring
 
 
-MAC Table: `/interface/bridge/host print`
-Log buffer: `/log print`
+MAC Table:
+
+> /interface/bridge/host print
+
+Log buffer:
+
+> /log print
 
 
 ### REST API
