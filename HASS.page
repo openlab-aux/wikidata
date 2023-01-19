@@ -2,3 +2,17 @@ Wir betreiben im lokalen Netz des OpenLabs einen Home Assistant Server.
 
 Dieser läuft als VM auf luke und wurde via NixOS von w. deployed und in Betrieb genommen. 
 Das Web-Interface findet man unter [hass.lab](http://hass.lab/).
+
+## Heizungen steuern
+Im Sofaraum und im Saal haben wir ZigBee-Heizkörperthermostate. TODO: User-Doku zur Automatisierung, anpassung für eigene Bedürfnisse und zerstörungsfeie Nutzung
+
+## Lichter nutzen
+Die meisten bunten LEDs in unseren Räumen sind per WLED-Firmware eingebunden. Im Saal und Sofaraum haben wir auch RGBW-ZigBee-Leuchtmittel von IKEA. TODO: User-Doku zur Automatisierung, anpassung für eigene Bedürfnisse und zerstörungsfeie Nutzung
+
+## Schaltbare Mess-Steckdosen
+Wir haben 8 schaltbare Zwischenstecker, diese können Strom und Spannung messen und geschaltet werden.
+
+TODO: User-Doku zur Automatisierung, anpassung für eigene Bedürfnisse und zerstörungsfeie Nutzung
+
+## Sonstiges
+### SpaceAPI-Statusupdates
