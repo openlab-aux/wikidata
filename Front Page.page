@@ -4,8 +4,9 @@ format: Markdown
 
 
 
-## Aktuell findet ein [Haufen](Haufen) statt. Das ist unsere Art, altes Zeug loszuwerden und Müll zu entsorgen. Weiter Infos gibts [hier](Haufen)
-
+# Was ist aktuell?
+* Am 25. bzw. 26.03. feiern wir unseren [zehnten Geburtstag](10jahre)
+* Über den [Haufen](Haufen) werden wir altes Zeug los. Weiter Infos gibts [hier](Haufen)
 
 
 
@@ -26,7 +27,7 @@ format: Markdown
 * Mit der [Strichliste](strichliste) buchen Mitglieder ihre [Getränkeeinkäufe](Getränke-Logistik) im Lab
 
 # Was passiert aktuell?
-* Wir sind umgezogen und zwar in die Bäckergasse. Es gibt noch viel zu tun: [Umzug](Umzug) 
+* Wir sind umgezogen und zwar in die Bäckergasse. Es gibt noch viel zu tun: 
 * Unter dem Projektnamen [AirLock](AirLock) wird ein neues Schließsystem für die neuen Räume entwickelt, an vielen anderen Stellen wird fleissig an Licht, Netz und anderen Projekten gebastelt
 * Im OpenLab finden regelmäßig [Programmier- und Bastel-Kurse für Kinder vom Kidslab](https://kidslab.de/) statt
 * Jede Woche trifft sich die [Interessengruppe zum Thema 3D-Druck](3D-Drucker-Gruppe). Das sind dieselben, die auch die [3D-Drucker-Bau-Kurse](3DDruckerkurs) veranstalten
@@ -83,57 +84,17 @@ Siehe:
 * [Server](Server)
 * [Wie funktioniert das Wiki?](Tutorial%20Wiki)
 
-# Alles ab hier bitte irgnorieren, das Wiki ist gerade in Überarbeitung :)
-* [FAQ](FAQ)
-* Generelle Informationen findest du auf der [normalen Website des OpenLabs](https://openlab-augsburg.de/)
-* [Wie funktioniert das OpenLab?](Regeln)
-* [Kümmerer/Arbeitsgruppen](Kümmerer)
-* [Einkaufsliste](Einkaufsliste)
-* [Website](Website)
-* [Social Media](Social%20Media)
-* [Aufgaben](https://github.com/openlab-aux/orgafoo/issues) <
-* [GitHub Organisation](https://github.com/openlab-aux) 
-* [Projekte von Mitgliedern](MitgliederProjekte)
-**[Talks & Kurse Ideensammlung](Talks und Kurse Ideensammlung)**
-* [Pad für neue Workshops](https://freepad.erdgeist.org/p/ola_workshops)
-* [Forscherkurse Augsburg](https://forscherkurse-augsburg.de/)
-* [Lötstation](Lötstation) (nicht aktuell)
-* [Termine](https://openlab-augsburg.de/veranstaltungen/)
-* [Veransteltungen - externe Events](Veranstaltungen)
-* [CCC Events](https://pads.ccc.de/termine)
-* [Internationale CCC-nahe Events](http://pads.ccc.de/events)
-* CCC Eventticket (99€ für eine zuggebundene Rundreise zu CCC Events): [bahn.events.ccc.de](https://bahn.events.ccc.de/)
-* Europäische Fahrten (kennt mehrere Anbieter): [The Trainline](https://www.thetrainline.com/)
-* Preiskalender (billigster Zug über mehrere Tage) [Bahn Guru](https://bahn.guru/) (alternativ: [bahn.jetzt](https://bahn.jetzt/))
-* Infrastruktur (das alte Lab)
-* [Geräte und Werkzeug](Geräte%20und%20Werkzeug) <
-* [Werkstatt](Werkstatt) <
-* [E-Ecke](E-Ecke) <
-* [Fotolabor](Fotolabor) - Umbau zu Chemielabor - zurzeit nicht nutzbar
-* [Chemielabor](Chemielabor)
-* [SpaceAPI](SpaceAPI)
-* [Sphincter](Sphincter) (Schließanlage)
-* [Drucker](Drucker) <
-* [Scanner](Scanner) <
-* [Bodenkabel](Bodenkabel)
-* [Dummrumleuchte](Dummrumleuchte) <
-* [BlinkenLine](BlinkenLine) <
-* [Flipdots](Flipdots)
-* [InfoBeamer](InfoBeamer) <
-* [PanaBoard](PanaBoard) <
-* [Telefon](Telefon) <
-* Lagerung und Ordnung
-    * [Regal](Regal) <
-    * [Inventarsystem](Inventarsystem) (nicht aktuell - SUPPORT NEEDED!!!)
-    * [Haufen](Haufen)
-    * [Ordnung](Ordnung) <
-* Verpflegung
-    * [Getränke](Getränke) & [Getränkeautomat](getränkeautomat)
-    * [Küche](Küche)
-    * [Essen/Bestellen](Anreise%20und%20Umgebung#umgebung-des-labs)
-* [Design](Design)
-* [Analoges Oszilloskop](Analoges%20Oszilloskop)
-* [Schneidplotter](Schneidplotter) (Leihgabe, momentan nicht im Lab)
-* [Mitglieder](Mitglieder)
-* [LogoLötBadge](LogoLötBadge)
+# Legacy-Shit
+[FAQ](FAQ)  [normalen Website des OpenLabs](https://openlab-augsburg.de/)  [Wie funktioniert das OpenLab?](Regeln)   [Kümmerer/Arbeitsgruppen](Kümmerer)
+[Einkaufsliste](Einkaufsliste)   [Website](Website)   [Social Media](Social%20Media)   [Aufgaben](https://github.com/openlab-aux/orgafoo/issues)
+[GitHub Organisation](https://github.com/openlab-aux)    [Projekte von Mitgliedern](MitgliederProjekte)   [Talks & Kurse Ideensammlung](Talks und Kurse Ideensammlung)
+[Pad für neue Workshops](https://freepad.erdgeist.org/p/ola_workshops)   [Forscherkurse Augsburg](https://forscherkurse-augsburg.de/)
+[Lötstation](Lötstation) (nicht aktuell)   [Termine](https://openlab-augsburg.de/veranstaltungen/)   [Veransteltungen - externe Events](Veranstaltungen)
+[CCC Events](https://pads.ccc.de/termine)   [Internationale CCC-nahe Events](http://pads.ccc.de/events)   CCC Eventticket (99€ für eine zuggebundene Rundreise zu CCC Events): [bahn.events.ccc.de](https://bahn.events.ccc.de/)   Europäische Fahrten (kennt mehrere Anbieter): [The Trainline](https://www.thetrainline.com/)
+Preiskalender (billigster Zug über mehrere Tage) [Bahn Guru](https://bahn.guru/) (alternativ: [bahn.jetzt](https://bahn.jetzt/))   Infrastruktur (das alte Lab)   [Geräte und Werkzeug](Geräte%20und%20Werkzeug)   [Werkstatt](Werkstatt)   [E-Ecke](E-Ecke)   [Fotolabor](Fotolabor) - Umbau zu Chemielabor - zurzeit nicht nutzbar   [Chemielabor](Chemielabor)[SpaceAPI](SpaceAPI)   [Sphincter](Sphincter) (Schließanlage)   [Drucker](Drucker) [Scanner](Scanner)    [Bodenkabel](Bodenkabel)   [Dummrumleuchte](Dummrumleuchte) 
+[BlinkenLine](BlinkenLine)   [Flipdots](Flipdots)   [InfoBeamer](InfoBeamer)    [PanaBoard](PanaBoard)    [Telefon](Telefon)
+Lagerung und Ordnung    [Regal](Regal)    [Inventarsystem](Inventarsystem) (nicht aktuell - SUPPORT NEEDED!!!)    [Haufen](Haufen)  [Ordnung](Ordnung) 
+[Getränke](Getränke) & [Getränkeautomat](getränkeautomat)   [Küche](Küche)   [Essen/Bestellen](Anreise%20und%20Umgebung#umgebung-des-labs)
+[Design](Design)   [Analoges Oszilloskop](Analoges%20Oszilloskop)   [Schneidplotter](Schneidplotter) (Leihgabe, momentan nicht im Lab)   [Mitglieder](Mitglieder)
+[LogoLötBadge](LogoLötBadge)    [Umzug](Umzug) 
 
