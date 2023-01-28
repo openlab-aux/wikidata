@@ -7,6 +7,11 @@ format: Markdown
 # Was ist aktuell?
 * Am 25. bzw. 26.03. feiern wir unseren [zehnten Geburtstag](10jahre)
 * Über den [Haufen](Haufen) werden wir altes Zeug los. Weiter Infos gibts [hier](Haufen)
+* Das neue Zugangssystem [AirLock](AirLock) ist gerade in Entwicklung
+* Jede Woche trifft sich die [Interessengruppe zum Thema 3D-Druck](3D-Drucker-Gruppe). Das sind dieselben, die auch die [3D-Drucker-Bau-Kurse](3DDruckerkurs) veranstalten
+* Im OpenLab finden regelmäßig [Programmier- und Bastel-Kurse für Kinder vom Kidslab](https://kidslab.de/) statt
+
+
 
 
 
@@ -14,6 +19,8 @@ format: Markdown
 * [Bäckergasse 32, 86150 Augsburg](https://www.openstreetmap.org/way/89645828)
 * Erreichbarkeit mit [Öffis](öffis)
 * Erreichbarkeit per [Auto/Parken](parken)
+
+
 
 # Wie ist das alles organisiert?
 * [Das OpenLab fußt auf der Arbeit von unseren Mitgliedern. Werde auch du Mitglied!](mitglied-werden)
@@ -26,12 +33,8 @@ format: Markdown
 * Den Zugang zu den Räumen regelt das [Airlock](AirLock), so können Mitglieder die Räume ständig nutzen
 * Mit der [Strichliste](strichliste) buchen Mitglieder ihre [Getränkeeinkäufe](Getränke-Logistik) im Lab
 
-# Was passiert aktuell?
-* Wir sind umgezogen und zwar in die Bäckergasse. Es gibt noch viel zu tun: 
-* Unter dem Projektnamen [AirLock](AirLock) wird ein neues Schließsystem für die neuen Räume entwickelt, an vielen anderen Stellen wird fleissig an Licht, Netz und anderen Projekten gebastelt
-* Im OpenLab finden regelmäßig [Programmier- und Bastel-Kurse für Kinder vom Kidslab](https://kidslab.de/) statt
-* Jede Woche trifft sich die [Interessengruppe zum Thema 3D-Druck](3D-Drucker-Gruppe). Das sind dieselben, die auch die [3D-Drucker-Bau-Kurse](3DDruckerkurs) veranstalten
-* Der [Haufen](Haufen) ist die Lab-eigene Möglichkeit der Entmüllung und findet nach Bedarf hin und wieder statt
+
+
 
 # Welche Räume gibt es?
 * Im [Lagerkeller](lagerkeller) stehen einige Schwerlastregale und sehr viel Zeug. Hier ist es immer viel zu chaotisch.
@@ -44,6 +47,8 @@ format: Markdown
 
 Der Staubsaugerroboter [Staubbrudi](staubbrudi) saugt die Räumlichkeiten.
 Bitte lasse deswegen möglichst keine Kleinteile oder Kabel am Boden liegen.
+
+
 
 # 3D Drucker
 Die 3D Drucker stehen derzeit im Hauptraum vor dem Schaufenster.
@@ -58,6 +63,8 @@ Zudem bieten wir immer wieder Kurse an, in denen wir mit den Teilnehmern 3D Druc
 * [3D-Druckerkurs (Prusa MK3S)](3DDruckerkurs)
 * [3D-Druckerkurs (Prusa Mini)](3DDruckerkurs-Mini)
 
+
+
 # Weitere Geräte
 * [CNC Fräse](cnc_fraese)
 * 🟡 Lötstation (funktionsbereit, aber in einer Kiste ohne festen Arbeitsplatz)
@@ -69,12 +76,18 @@ Zudem bieten wir immer wieder Kurse an, in denen wir mit den Teilnehmern 3D Druc
 * 🟢 [Home Assistant](HASS)
 * ...
 
+
+
 # Räumlichkeiten abschließen und verlassen
 Wenn du das OpenLab als letzter verlässt, solltest du vorgehen, wie in folgendem Artikel beschrieben: [OpenLab schließen und verlassen für Dummies](abschliessen)
+
+
 
 # Umzug
 Das OpenLab ist seit dem kürzlichen Umzug aktuell noch in der Gestaltungs- und Umbauphase.
 Da viele Leute gleichzeitig an Ideen zur Gestaltung arbeiten, ist das Einpflegen dieser Ideen und Vorschläge auf den einzelnen Wiki-Seiten der Räume und evtl. zusätzlicher Austausch über Mattermost sinnvoll. So können Konflikte vorgebeugt werden.
+
+
 
 # Infrastruktur und Server
 Siehe:
