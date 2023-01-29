@@ -163,3 +163,20 @@ Das Haustelefon ist auf einer normalen Unterputzdose montiert, also 60mm Lochabs
 
 ### Anschlussschema Übergabepunkt
 
+## Airlock Quest Module
+
+### Türmodul 
+
+ESP32 NodeMCU Clone + 2x Relais Modul + CAN Transceiver 
+
+#### PinOut
+
+| ESP32 PIN | Funktion |
+|-----------|----------|
+| 26 | Buzzer Außen |
+| 27 | Buzzer Innen |
+| 12 | Klingel Außen Active High |
+| 13 | Kilngel Außen Active High |
+| 4 | CAN RX | 
+| 5 | CAN TX |
+
