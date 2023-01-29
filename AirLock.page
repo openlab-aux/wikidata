@@ -155,6 +155,18 @@ An der Hausanlage steckt ein Seidle 811. Gegeben der Herstellerspezifikation erg
 | 22            | Buzzer innen AC B  |
 +---------------+--------------------+
 
+
+## Signale
+
+Spannung von 10 zu c (also Klingel innen gegen GND) bei nicht-klingeln
+
+![alt text](/10-to-c-at_rest.png)
+
+
+Spannung von 10 zu c (also Klingel innen gegen GND) bei klingeln. Gleiches Bild bei b gegen c.
+
+![alt text](/10-to-c-ringing.png)
+
 ## Übergabepunkt Seidle -> AirLock
 
 Anfangs übergeben wir die Signale zwischen Anlage des Hauses und Airlock über einen Klemmblock mit bezeichnungen, die 1:1 der Vorlage von Seidle entsprechen. So kann selbst ein fremder Haustechniker, der sich nur mit Seidle-Anlagen auskennt, irgendwas tun. Breaking Changes durch Änderungen an der Hausanlage wären natürlich ärgerlich, aber mit den Herstellernahen Übergabepunkt ist auch für einen fremden Techniker einfach zu erkennen, dass wir uns lediglich an die Anlage angehängt haben, die Anlage dabei aber nicht in irgend einer Weise stören wollen.
