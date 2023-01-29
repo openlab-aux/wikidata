@@ -65,19 +65,12 @@ Im Gegensatz zu Sphincter wird die Tür bei Airlock nicht abgesperrt, sondern f�
 Auch die Fenster, aus denen man flüchten kann, kann man in der selben weise überwachen. Das sind die zwei fenster in die passage und das Fluchtfenster aus der Küche.
 
 
-## Klingeln
-
-* Die Außenklingel und die Innenklingel sind bekannt.
-* Die Klingelsignale kommen nicht mehr aus dem Haustelefon laut raus. Wir müssen die Klingelsignale selbst erzeugen
-* phjl hat die Idee, kleine Lautsprecher strategisch im Space zu verteilen, die dann verschiedene Klingelsignale mit verschiednener Bedeutung abspielen können. Dann kann man die Klingel auch überall gut hören, ohne dass sie super laut sein muss.
-
 
 ## Raumstati
 
-Prinzipiell gibt es, wie unter Anforderungen beschrieben, den Bedarf nach mehreren Raumstati.
+~~Prinzipiell gibt es, wie unter Anforderungen beschrieben, den Bedarf nach mehreren Raumstati.
 Die folgende Auflistung ist ein erster Vorschlag von phjl, offen zur Debatte.
 Prinzipiell gilt: Wenn jemand außen reingelassen wird, sollte er auch innen reingelassen werden. 
-
 * Public "Grün"
 	* Leute sind anwesend und wollen den Space explitiz offen haben. Jeder soll einfach so rein können.
 	* Außentür: Buzzert auf, wenn man die Außenklingel drückt.
@@ -86,7 +79,6 @@ Prinzipiell gilt: Wenn jemand außen reingelassen wird, sollte er auch innen rei
 	* phjl hat die Idee, den public-status wegen des Sicherheitsrisiko zeitlich begrenzt zu bauen. Man müsste public-state quasi "nachtriggern" und wenn man ihn z.B. eine stunde nicht nachgetriggered hat, fällt es auf restircted zurück oder sowas. Wir wollen verhindern, dass irgendwer den space offen stehen lassen kann, und die sorgfalt der keyholder technisch zu unterstützen ist sicher keine schlechte idee.
 	* Member können sich immer mit RFID-Token rein lassen. Die erfolgreiche eingabe des RFID-Token wird an der Ecke des Schaufensters, wo der Leser (und Statusanzeige) ist, optisch bestätigt. Der darauffolgende Ablauf ist immer gleich: einige Sekunden - Außentür - einige Sekunden - Innentür.
 	* Der Status "Public" muss aktiv ausgewählt werden. Nach einer Stunde fällt er auf "active" zurück, esseidenn jemand bestätigt ihn für eine weitere stunde.
-
 * Active "Blau"
 	* Der Space ist offen, es ist aber niemand gewillt, die ankommenden Personen wirklich aktiv zu überblicken. Die meiste geöffnete Zeit ist der Space sinngemäß in diesem Zustand.
 	* Klingelt man außen mit einem definieten Klingelcode, buzzert zuerst die außentür, dann mit einer kleinen zeitverzögerung die innentür auf. Der klingelcode funktioniert genauso an der innentür, dann buzzert natürlich nur die innentür (z.B. weil man es nicht zeitig on außentür nach innentür geschafft hat, weil man z.B. einen scooter dabei hat oder so)
@@ -94,7 +86,6 @@ Prinzipiell gilt: Wenn jemand außen reingelassen wird, sollte er auch innen rei
 	* Klingelt jemand, und es wird nicht als Klingelcode erkannt (es könnte ein Gast, Essenslieferant, Paketbote, Nachbar sein), spielt ein normaler Tür-Klingelton über die Anlage. Man kann dann reagieren, tür Tür gehen, leute reinlassen. Oder eben nicht.
 	* Der Status "Active" ist der standardzustand, wenn der space "locked" war und jemand rein kommt.
 	* Der Status "Active" hat, wie public, eine Zeitbegrenzung. Das Buzzern per Klingelcode ist zwar deutlich weniger gefährlich, aber trotzdem ein gewisses Risiko. Das Limit ist 6 Stunden, die Funktionalität mit nachtriggern genauso wie bei public. Wird nicht nachgetriggerd, fällt das system auf "restricted" zurück.
-
 * Restricted "Orange"
 	* Dieser Zustand ist z.B. für den Fall gedacht, das jemand im Space explizit abseits arbeiten will, eingeschlafen ist, etc.
 	* Prinzipell gelten sie selben Anforderungen wie "Locked", aber die Tür wird nicht aktiv überwacht. Es könnte ja sein, dass die anwesende Person raus geht. Das wäre kein Anlass zum Alarm.
@@ -102,12 +93,11 @@ Prinzipiell gilt: Wenn jemand außen reingelassen wird, sollte er auch innen rei
 	* Der Status Restricted wird per Taster ausgewählt und hat keine Zeitbegrenzung. 
 	* Der Status "restricted" bleibt bestehen, auch wenn jemand per RFID rein kommt.
 	* Kommt jemand in den Raum und es ist ohne ersichtlichen Grund "Restricted" statt "active" nach dem öffnen, hat jemand das korrekte schließen versäumt.
-
 * Locked "Rot"
 	* Das letzte Member geht, wählt "Locked" als Zustand und verlässt den space. 
 	* Dafür wird Locked am Bedienpanel ausgewählt und nach einer gewissen zeitverzögerung aktiv gesetzt. 
-	* Im Zustand "Locked" werden Klingelversuche in den Raum durchgeleitet und zusätzlich in den Chat geschrieben.
-	* Die Tür wird überwacht, sollte sich die Tür öffnen (alarm!) bekommen definierte Telefonnummern nachrichten und können entsprechend nachforschen.
+	* Im Zustand "Locked" werden Klingelversuche in den Raum durchgeleitet und zusätzlich in den Chat geschriebe
+	* Die Tür wird überwacht, sollte sich die Tür öffnen (alarm!) bekommen definierte Telefonnummern nachrichten und können entsprechend nachforschen.~~
 
 
 
@@ -172,8 +162,6 @@ Spannung von 10 zu c (also Klingel innen gegen GND) bei klingeln. Gleiches Bild 
 Anfangs übergeben wir die Signale zwischen Anlage des Hauses und Airlock über einen Klemmblock mit bezeichnungen, die 1:1 der Vorlage von Seidle entsprechen. So kann selbst ein fremder Haustechniker, der sich nur mit Seidle-Anlagen auskennt, irgendwas tun. Breaking Changes durch Änderungen an der Hausanlage wären natürlich ärgerlich, aber mit den Herstellernahen Übergabepunkt ist auch für einen fremden Techniker einfach zu erkennen, dass wir uns lediglich an die Anlage angehängt haben, die Anlage dabei aber nicht in irgend einer Weise stören wollen.
 
 Das Haustelefon ist auf einer normalen Unterputzdose montiert, also 60mm Lochabstand an den Montagelöchern. Eine selbst gedruckte Dose stellt die Verbidnungen gemäß dem Originalzustand her und ermöglicht es, eine eigene Leitung anzufügen. Das passiert nach dem Anschlusschema von weiter unten, wobei die Adernfarben in der Hausanlage schön mehrdeutig sind. es gilt darauf zu achten, hier keine Verwirrung herzustellen.
-Nach oben weg, in einem Kabelkanal gerade richtung zwischendecke geht es mit 7 Netzwerkleitungen, die belegung ist im Bild dokumentiert.
 
 ### Anschlussschema Übergabepunkt
 
-![](https://www.openlab-augsburg.de/wp-content/uploads/2022/05/Schema-Seidle-Interface.png){width=750}
