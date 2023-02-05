@@ -33,7 +33,7 @@ Config:
 * TP-Link Archer C5 AC 1200 v1
 * Ethernet MAC Address: 30:B5:C2:56:D6:66
 * 2.4 GHz: Channel 11 MHz
-* 5   GHz: Channel 36 / Channel widht: 40 
+* 5   GHz: Channel 36 / Channel width: 40 
 
 
 ### WLAN AP - Bert
@@ -41,7 +41,7 @@ Config:
 * TP-Link Archer C7 AC 1750 v5
 * Ethernet MAC Address: B0:95:75:48:E7:82
 * 2.4 GHz: Channel 6
-* 5   GHz: Channel 140
+* 5   GHz: Channel 44 / Channel width: 40
 
 
 ## "Core" Switch
