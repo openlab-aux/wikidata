@@ -1,12 +1,13 @@
 ---
 format: Markdown
+toc: false
 ...
 
 
-# [Für Infos zum 10. Geburtstag am 25.03.2023 hier klicken!](10Jahre)
+> # **[Für Infos zum 10. Geburtstag am 25.03.2023 hier klicken!](10Jahre)**
 
 
-# Was ist aktuell?
+## Was ist aktuell?
 * Am 25. bzw. 26.03. feiern wir unseren [zehnten Geburtstag](10jahre)
 * Über den [Haufen](Haufen) werden wir altes Zeug los. Weiter Infos gibts [hier](Haufen)
 * Das neue Zugangssystem [AirLock](AirLock) ist gerade in Entwicklung
@@ -18,14 +19,14 @@ format: Markdown
 
 
 
-# Wo ist das OpenLab?
+## Wo ist das OpenLab?
 * [Bäckergasse 32, 86150 Augsburg](https://www.openstreetmap.org/way/89645828)
 * Erreichbarkeit mit [Öffis](öffis)
 * Erreichbarkeit per [Auto/Parken](parken)
 
 
 
-# Wie ist das alles organisiert?
+## Wie ist das alles organisiert?
 * [Das OpenLab fußt auf der Arbeit von unseren Mitgliedern. Werde auch du Mitglied!](mitglied-werden)
 * Die Kommunikation passiert über den [Mattermost-Chat](chat)
 * Ab und zu werden auch noch Mails über die [Mailinglisten](mailingliste) geschrieben
@@ -39,7 +40,7 @@ format: Markdown
 
 
 
-# Welche Räume gibt es?
+## Welche Räume gibt es?
 * Im [Lagerkeller](lagerkeller) stehen einige Schwerlastregale und sehr viel Zeug. Hier ist es immer viel zu chaotisch.
 * Im [Hauptraum](hauptraum) passiert immer irgendwas. Hier treffen sich die Interessensgruppen, hier ist Plenum, hier finden Vorträge und Workshops statt
 * Im [Sofaraum](sofaraum) kann man sich zurückziehen oder in kleiner Gruppe entspannt versammeln
@@ -53,7 +54,7 @@ Bitte lasse deswegen möglichst keine Kleinteile oder Kabel am Boden liegen.
 
 
 
-# 3D Drucker
+## 3D Drucker
 Die 3D Drucker stehen derzeit im Hauptraum vor dem Schaufenster.
 
 * 🟢 [Original Prusa i3 MK3s](Prusa%20i3%20MK3)
@@ -68,7 +69,7 @@ Zudem bieten wir immer wieder Kurse an, in denen wir mit den Teilnehmern 3D Druc
 
 
 
-# Weitere Geräte
+## Weitere Geräte
 * [CNC Fräse](cnc_fraese)
 * 🟡 Lötstation (funktionsbereit, aber in einer Kiste ohne festen Arbeitsplatz)
 * 🟡 A0 Drucker (ist seit dem Umzug nicht in Betrieb genommen/gewartet worden)
@@ -81,18 +82,18 @@ Zudem bieten wir immer wieder Kurse an, in denen wir mit den Teilnehmern 3D Druc
 
 
 
-# Räumlichkeiten abschließen und verlassen
+## Räumlichkeiten abschließen und verlassen
 Wenn du das OpenLab als letzter verlässt, solltest du vorgehen, wie in folgendem Artikel beschrieben: [OpenLab schließen und verlassen für Dummies](abschliessen)
 
 
 
-# Umzug
+## Umzug
 Das OpenLab ist seit dem kürzlichen Umzug aktuell noch in der Gestaltungs- und Umbauphase.
 Da viele Leute gleichzeitig an Ideen zur Gestaltung arbeiten, ist das Einpflegen dieser Ideen und Vorschläge auf den einzelnen Wiki-Seiten der Räume und evtl. zusätzlicher Austausch über Mattermost sinnvoll. So können Konflikte vorgebeugt werden.
 
 
 
-# Infrastruktur und Server
+## Infrastruktur und Server
 Siehe:
 
 * [Infrastruktur](Infrastruktur)
@@ -100,7 +101,7 @@ Siehe:
 * [Server](Server)
 * [Wie funktioniert das Wiki?](Tutorial%20Wiki)
 
-# Legacy-Shit
+## Legacy-Shit
 [FAQ](FAQ)  [normalen Website des OpenLabs](https://openlab-augsburg.de/)  [Wie funktioniert das OpenLab?](Regeln)   [Kümmerer/Arbeitsgruppen](Kümmerer)
 [Einkaufsliste](Einkaufsliste)   [Website](Website)   [Social Media](Social%20Media)   [Aufgaben](https://github.com/openlab-aux/orgafoo/issues)
 [GitHub Organisation](https://github.com/openlab-aux)    [Projekte von Mitgliedern](MitgliederProjekte)   [Talks & Kurse Ideensammlung](Talks und Kurse Ideensammlung)
