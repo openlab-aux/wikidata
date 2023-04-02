@@ -16,3 +16,13 @@ TODO: User-Doku zur Automatisierung, anpassung für eigene Bedürfnisse und zers
 
 ## Sonstiges
 ### SpaceAPI-Statusupdates
+## Maintenance Tasks
+
+### Reset (wenn Zigbee-Geräte die Verbindung verlieren)
+
+1. Login auf `luke`
+2. `virsh shutdown --mode acpi hass`
+3. Zigbee-Stick trennen
+4. 10s warten
+5. Zigbee-Stick verbinden
+6. `virsh start hass`
