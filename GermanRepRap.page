@@ -44,7 +44,7 @@ Dual-Schrott-Extruder - wird nicht weiter verwendet. Kabelbaum bleibt erstmal, d
 
 #### Elektronik
 
-* Rambo Board ([Dokumentation](https://reprap.org/wiki/EinsyRambo)). (Bereits vorhanden)
+* Rambo Einsy 1.1b Board ([Dokumentation](https://reprap.org/wiki/EinsyRambo)). (Bereits vorhanden)
 * Endstops werden vorerst nicht genutzt, wir versuchen die Motortreiber des Rambo-Boards dafür zu verwenden (Plastikendstops, gegen die der Drucker dagegenfahren kann) 
 * Können das die Old School Treiber die ohne UART laufen?
 * Vorschlag: smarteres Mainboard oder das Rambo als Klipper laufen lassen (RPi als "Brain")
