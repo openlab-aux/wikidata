@@ -7,7 +7,8 @@ ftp.lab                                               VM auf dem rantanplan
 flipdot.lab                                           Raspberry Pi im OpenLab, siehe [Flipdots](Flipdots)
 hannswurscht.lab                                      Server-Laptop, der pulseaudio-streaming für die [Musikanlage](Musikanlage) erlaubt
 mail.openlab-augsburg.de                              Mailinglisten, LXC setup
-web23.openlab-augsburg.de                             NGINX mit PHP-FPM für Wordpress, MariaDB für Wordpress, LabAPId deamon
+web23.openlab-augsburg.de                             NGINX mit PHP-FPM für Wordpress, MariaDB für Wordpress, LabAPId daemon
 momomost.openlab-augsburg.de                          Mattermost, Postgres für Mattermost, Mattermost IRC bridge
 wiki.openlab-augsburg.de                              soll sterben, hosted aktuell noch gitit für Wiki
+ola.lol                                               cryptpad hinter nginx in VM auf luke. SSH via luke:22223
 ----------------------------------------------------- ------------------------------------------------------------
