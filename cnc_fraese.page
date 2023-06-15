@@ -7,7 +7,8 @@ Die Fräse stammt von blechtalers Arbeitgeber und ist ein vollständiger undokum
 - China-Spindel mit Frequenzumrichter (evtl. Spindel-GDZ100-3.0B)
 - Board BSMCE04U
 - Frequenzumrichter Siemens sinamics G110
-## Stand Juni 23
+
+## Stand
 - Die Verkabelung ist bis auf den Notaus der Spindel abgeschlossen
 - Über Drufel-CNC lässt sich die Fräse steuern. gcode wird abgearbeitet
 
