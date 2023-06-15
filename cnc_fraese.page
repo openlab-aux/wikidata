@@ -1,16 +1,25 @@
 ## Herkunft
 Die Fräse stammt von blechtalers Arbeitgeber und ist ein vollständiger undokumentierter Eigenbau. Sie wurde über eine OpenLab-interne Crowdfunding-Aktion finanziert.  
-Es handelt sich um eine Portalfräse mit folgenden Arbeitsraumabmessungen:  
-* Länge Y 100 cm
-* Breite X 80 cm
-* Höhe Z
  
 ## Aufbau
-1. Das Gestell besteht aus Aluprofilen:  Profil X 8 80x80 4N90 - XMS, natur 0.0.649.40 
-Quelle: item Industrietechnik GmbH, Friedenstraße 107-109, 42699 Solingen [(https://www.item24.com/de-de/profil-x-8-80x80-4n90-xms-natur-64940/)] 
-und einer T-Nuten-Arbeitsplatte. 
-2. Seitlich sind an dem Gestell mit jeweils ? Schrauben M1? x ? und Muttern auf Aluminiumprofilen montierte Linearführungen angeschraubt. An die Schlitten der Linearführungen sind jeweils Stahlzuschnitte geschraubt, die an ihrer Oberseite über jeweils ? Schrauben M8 x ? mit dem Querbalken des Portals verschraubt sind. An ihrer Unterseite sind die Stahlzuschnitte mit einem weiteren Querbalken aus einem aus Aluminiumprofil über ? Schrauben M1? x ? verschraubt. Der untere Querbalken verläuft unterhalb der Arbeitsplatte und ist mittig über einen Gewindeblock mit einer Zugspindel verbunden.         
- 
+- Portalfräse 
+- Länge Y 100 cm * Breite X 80 cm * Höhe Z- 2,5D
+- China-Spindel mit Frequenzumrichter (evtl. Spindel-GDZ100-3.0B)
+- Board BSMCE04U
+- Frequenzumrichter Siemens sinamics G110
+## Stand Juni 23
+- Die Verkabelung ist bis auf den Notaus der Spindel abgeschlossen
+- Über Drufel-CNC lässt sich die Fräse steuern. gcode wird abgearbeitet
 
+## ToDos
 
-
+### Absaugung: 
+- Bürsten für Saugkopf beschaffen
+- zusätzlichen Adapter für Schaluch von Industriestaubsauger konstruieren und drucken
+- Schlauchschelle beschaffen 
+### Kühlung
+- jetzige Kühlung ist unzureichend, daher Alternative suchen
+### Führungen
+- Schmierung sicherstellen, Adapter, Schmiernippel etc.
+- Führungen abdecken, über langes Blech oder Druckteile oder käufliche Faltenbälge
+- CAM kapieren und implementieren, ESTLcam, FreeCad, Fusion360 und/oder Onshape mit Plugin
