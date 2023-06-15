@@ -18,7 +18,7 @@ Die Fräse stammt von blechtalers Arbeitgeber und ist ein vollständiger undokum
 - Bürsten für Saugkopf beschaffen
 - zusätzlichen Adapter für Schaluch von Industriestaubsauger konstruieren und drucken
 - Schlauchschelle beschaffen 
-- 
+
 ### Kuehlung
 - jetzige Kühlung ist unzureichend, daher Alternative suchen
 
@@ -26,4 +26,4 @@ Die Fräse stammt von blechtalers Arbeitgeber und ist ein vollständiger undokum
 - Schmierung sicherstellen, Adapter, Schmiernippel etc.
 - Führungen abdecken, über langes Blech oder Druckteile oder käufliche Faltenbälge
 - CAM kapieren und implementieren, ESTLcam, FreeCad, Fusion360 und/oder Onshape mit Plugin
-- 
+ 
