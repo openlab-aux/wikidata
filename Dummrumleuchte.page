@@ -12,7 +12,7 @@ Man kann sich per UDP über IP <code>172.16.0.116</code> und Port <code>5000</co
 
 Danach einfach <code>blink</code> schicken und die leuchte geniesen.
 
-Beispiel NetCat:
+Beispiel NetCat:<br />
 <code>
 $ netcat -u 172.16.0.116 5000<br />
 blink<br />
