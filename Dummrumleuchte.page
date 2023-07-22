@@ -2,7 +2,15 @@
 
 Die Dummrumleuchte ist ein normales, oranges Blinklicht, wie es z. B. auf Müllabfuhren ist.
 
+### Mit IRC
+
 Unser Exemplar kann allerdings über den [IRC](IRC) angesteuert, werden, indem man dort `.labping` schreibt. Damit kann man z. B. die Anwesenden auf den IRC aufmerksam machen oder einfach Spaß haben.
+
+### Mit UDP
+
+Man kann sich per UDP über IP 172.16.0.116 und Port 5000 mit der Dummrumleuchte verbinden.
+
+Danach einfach ´blink´ schicken und die leuchte geniesen.
 
 ## Funktionsweise
 
