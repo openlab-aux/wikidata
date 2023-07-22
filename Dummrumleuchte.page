@@ -14,8 +14,8 @@ Danach einfach <code>blink</code> schicken und die leuchte geniesen.
 
 Beispiel NetCat:
 <code>
-$ netcat -u 172.16.0.116 5000
-blink
+$ netcat -u 172.16.0.116 5000<br />
+blink<br />
 OK
 </code>
 
