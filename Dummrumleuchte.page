@@ -12,6 +12,12 @@ Man kann sich per UDP über IP 172.16.0.116 und Port 5000 mit der Dummrumleuchte
 
 Danach einfach ´blink´ schicken und die leuchte geniesen.
 
+Beispiel NetCat:
+´´´
+netcat -u 172.16.0.116 5000
+> blink
+´´´
+
 ## Funktionsweise
 
 Es läuft eine eigene Firmware auf einem ESP8266-Modul, deren [Source Code sowie Schaltplan](https://github.com/fabianhu/Dummrumleuchte) und [Dokumentation](https://github.com/fabianhu/Dummrumleuchte/blob/master/README.md) auf GitHub liegen.
