@@ -8,15 +8,16 @@ Unser Exemplar kann allerdings über den [IRC](IRC) angesteuert, werden, indem m
 
 ### Mit UDP
 
-Man kann sich per UDP über IP 172.16.0.116 und Port 5000 mit der Dummrumleuchte verbinden.
+Man kann sich per UDP über IP <code>172.16.0.116</code> und Port <code>5000</code> mit der Dummrumleuchte verbinden.
 
-Danach einfach ´blink´ schicken und die leuchte geniesen.
+Danach einfach <code>blink</code> schicken und die leuchte geniesen.
 
 Beispiel NetCat:
-´´´
-netcat -u 172.16.0.116 5000
-> blink
-´´´
+<code>
+$ netcat -u 172.16.0.116 5000
+blink
+OK
+</code>
 
 ## Funktionsweise
 
