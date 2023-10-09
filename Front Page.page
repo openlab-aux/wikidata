@@ -23,7 +23,7 @@ toc: false
 
 ## Wie ist das alles organisiert?
 * [Das OpenLab fußt auf der Arbeit von unseren Mitgliedern. Werde auch du Mitglied!](mitglied-werden)
-* Die Kommunikation passiert über den [Mattermost-Chat](chat)
+* <s>Die Kommunikation passiert über den Mattermost-Chat</s> Wir steigen gerade auf Matrix um, mehr Infos auf der [Chatseite](chat).
 * Ab und zu werden auch noch Mails über die [Mailinglisten](mailingliste) geschrieben
 * Aufgaben verwalten wir über [GitHub Issues](https://github.com/openlab-aux/orgafoo/issues)
 * Einige wichtige Repos liegen auch bei [GitHub](https://github.com/openlab-aux) 
@@ -85,7 +85,7 @@ Wenn du das OpenLab als letzter verlässt, solltest du vorgehen, wie in folgende
 
 ## Umzug
 Das OpenLab ist seit dem kürzlichen Umzug aktuell noch in der Gestaltungs- und Umbauphase.
-Da viele Leute gleichzeitig an Ideen zur Gestaltung arbeiten, ist das Einpflegen dieser Ideen und Vorschläge auf den einzelnen Wiki-Seiten der Räume und evtl. zusätzlicher Austausch über Mattermost sinnvoll. So können Konflikte vorgebeugt werden.
+Da viele Leute gleichzeitig an Ideen zur Gestaltung arbeiten, ist das Einpflegen dieser Ideen und Vorschläge auf den einzelnen Wiki-Seiten der Räume und evtl. zusätzlicher Austausch über [den Chat](chat) sinnvoll. So kann Konflikten vorgebeugt werden.
 
 
 
