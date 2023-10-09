@@ -1,3 +1,16 @@
+**Wir steigen gerade auf Matrix um. Ein Server, der die Channels verwaltet, ist bereits eingerichtet.**
+
+Die Matrix-Migration [wurde auf dem Plenum am 2023-10-05 beschlossen](Plenum/2023-10-05#umzug-vereinschat-abschaltung-mattermost-krobin).
+
+Die Stichdaten hier sind der 
+
+* **1. November 2023**: Offizieller Umstieg, die Kanäle im Matrix sind ab jetzt die offiziellen Kanäle. Eine Bridge nach Signal oder Telegram soll zu diesem Zeitpunkt existieren. Nach Mattermost wird aus Aufwandsgründen *nicht* gebridged.
+* **1. Dezember 2023**: Abschaltung des Mattermost Servers.
+
+# Matrix (die Zukunft!)
+
+TODO
+
 # Mattermost (Alter Chat, der bald abgeschaltet wird)
 
 Wir betreiben einen Mattermost-Chatserver für alle möglichen Themen im und rund ums OpenLab.
