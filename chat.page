@@ -1,27 +1,29 @@
+# Mattermost (Alter Chat, der bald abgeschaltet wird)
+
 Wir betreiben einen Mattermost-Chatserver für alle möglichen Themen im und rund ums OpenLab.
 Er steht Mitgliedern und Gästen offen und erfreut sich hoher Beliebtheit bei formloser, alltäglicher Kommunikation.
 
 <https://openlab-augsburg.de/chat/>
 
-# Ich habe noch keinen Account
+## Ich habe noch keinen Account
 [Wenn du noch keinen Account hast, kannst du dich über diesen Link einen anlegen.](https://chat.openlab-augsburg.de/signup_user_complete/?id=yrxsan98iidetruxh951pgixhe)
 
-# Ich hab bereits einen Account
+## Ich hab bereits einen Account
 
 [Der Chat ist unter https://chat.openlab-augsburg.de zu finden.](https://chat.openlab-augsburg.de)
 
 
-# Kann ich den Chat noch anders als übers Web nutzen?
+## Kann ich den Chat noch anders als übers Web nutzen?
 
 Neben dem [Webbrowser](https://chat.openlab-augsburg.de/) gibts auch eine Android-App ( [F-Droid](https://f-droid.org/packages/com.mattermost.mattermost/) / [Play Store](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjzleGgtsjpAhXy8KYKHYGfB_wQFjADegQIBRAB&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.mattermost.rn%26hl%3Den&usg=AOvVaw1dPNQin_V10f5tuTuhVWrQ) ), eine [iOS-App](https://apps.apple.com/us/app/mattermost/id1257222717) und eine [IRC-Bridge](https://wiki.openlab-augsburg.de/Chat#anleitung-für-die-irc-bridge).
 
 
-# Gibts auch noch Legacy-Kommunikationswege?
+## Gibts auch noch Legacy-Kommunikationswege?
 
 [Ja, hier ist unser Mailman und Archive](https://lists.openlab-augsburg.de/listinfo)
 
 
-# Anleitung für die IRC-Bridge
+## Anleitung für die IRC-Bridge
 
 Wenn du einen [Bouncer](https://de.wikipedia.org/wiki/Bouncer) hast kannst du auch über die IRC-Bridge joinen. Dazu zum IRC-Server `chat.openlab-augsburg.de` auf Port `9997` (SSL aktivieren) connecten. Dazu musst du dich vorher [registrieren](https://chat.openlab-augsburg.de/signup_user_complete/?id=yrxsan98iidetruxh951pgixhe).
 
@@ -35,7 +37,7 @@ Das Passwort sollte keine Sonderzeichen enthalten (zur Not auf Mattermost änder
 
 Danach gibt `/list` eine Liste aller existierenden Channels aus.
 
-## Beispiel weechat
+### Beispiel weechat
 
 Für den IRC-Client [`weechat`](https://www.weechat.org) schaut die obengenannte Anleitung so aus:
 
@@ -73,7 +75,7 @@ Nicht vergessen, die geänderten Einstellungen zu speichern:
 /save
 ```
 
-# IRC-Kanäle auf libera.chat
+# IRC-Kanäle auf libera.chat (sehr, sehr alter Chat)
 
 Bevor wir den Chat hatten, gab es Channels auf [libera.chat](https://libera.chat/), in denen auch noch ein paar Leute rumhängen:
 
