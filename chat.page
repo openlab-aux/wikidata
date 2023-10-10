@@ -4,12 +4,14 @@ Die Matrix-Migration [wurde auf dem Plenum am 2023-10-05 beschlossen](Plenum/202
 
 Die Stichdaten hier sind der 
 
-* **1. November 2023**: Offizieller Umstieg, die Kanäle im Matrix sind ab jetzt die offiziellen Kanäle. Eine Bridge nach Signal oder Telegram soll zu diesem Zeitpunkt existieren. Nach Mattermost wird aus Aufwandsgründen *nicht* gebridged.
+* **1. November 2023**: Offizieller Umstieg, die Kanäle im Matrix sind ab jetzt die offiziellen Kanäle. Eine Bridge nach Signal oder Telegram <s>soll zu diesem Zeitpunkt existieren</s>[existiert bereits][telegram-bridge]. Nach Mattermost wird aus Aufwandsgründen *nicht* gebridged.
 * **1. Dezember 2023**: Abschaltung des Mattermost Servers.
 
 # Matrix (die Zukunft!)
 
-Die Anleitung fehlt noch (TODO) aber falls du schon einen Matrix account hast, komm in unseren [Matrix-Space](https://openlab-augsburg.de/matrix). Alternativ haben wir für unseren öffentlichen Anlaufpunkt auch noch eine [Telegram-Bridge](https://t.me/+6cWUrXyywRAwZDli) eingerichtet.
+Die Anleitung fehlt noch (TODO) aber falls du schon einen Matrix account hast, komm in unseren [Matrix-Space](https://openlab-augsburg.de/matrix). Alternativ haben wir für unseren öffentlichen Anlaufpunkt auch noch eine [Telegram-Bridge][telegram-bridge] eingerichtet.
+
+[telegram-bridge]: https://t.me/+6cWUrXyywRAwZDli
 
 # Mattermost (Alter Chat, der bald abgeschaltet wird)
 
