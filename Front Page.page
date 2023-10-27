@@ -25,14 +25,13 @@ toc: false
 * [Das OpenLab fußt auf der Arbeit von unseren Mitgliedern. Werde auch du Mitglied!](mitglied-werden)
 * <s>Die Kommunikation passiert über den Mattermost-Chat</s> Wir steigen gerade auf Matrix um, mehr Infos auf der [Chatseite](chat).
 * Ab und zu werden auch noch Mails über die [Mailinglisten](mailingliste) geschrieben
+* Auf der [Einkaufsliste](Einkaufsliste) stehen Sachen, die aktuell gekauft werden müssen.
 * Aufgaben verwalten wir über [GitHub Issues](https://github.com/openlab-aux/orgafoo/issues)
 * Einige wichtige Repos liegen auch bei [GitHub](https://github.com/openlab-aux) 
 * Die Aktiven im Verein kommen regelmäßig zum [Plenum](Plenum/Infos) zusammen
 * Die [Formalien des Vereins](Formales) regelt einmal pro Jahr die [Mitgliederversammlung](Mitgliederversammlungen) und zwei mal im Jahr die [Vorstandssitzung](Vorstandssitzung)
 * Den Zugang zu den Räumen regelt das [Airlock](AirLock), so können Mitglieder die Räume ständig nutzen
 * Mit der [Strichliste](strichliste) buchen Mitglieder ihre [Getränkeeinkäufe](Getränke-Logistik) im Lab
-
-
 
 
 ## Welche Räume gibt es?
@@ -102,9 +101,8 @@ Siehe:
 
 * [Programmier- und Bastel-Kurse für Kinder vom Kidslab](https://kidslab.de/)
 
-## Legacy-Shit
-[FAQ](FAQ)  [normalen Website des OpenLabs](https://openlab-augsburg.de/)  [Wie funktioniert das OpenLab?](Regeln)   [Kümmerer/Arbeitsgruppen](Kümmerer)
-[Einkaufsliste](Einkaufsliste)   [Website](Website)   [Social Media](Social%20Media)   [Aufgaben](https://github.com/openlab-aux/orgafoo/issues)
+## Legacy-Shit / Bitte aktualisieren und wieder einsortieren
+[FAQ](FAQ)  [normalen Website des OpenLabs](https://openlab-augsburg.de/)  [Wie funktioniert das OpenLab?](Regeln)   [Kümmerer/Arbeitsgruppen](Kümmerer)  [Website](Website)   [Social Media](Social%20Media)   [Aufgaben](https://github.com/openlab-aux/orgafoo/issues)
 [GitHub Organisation](https://github.com/openlab-aux)    [Projekte von Mitgliedern](MitgliederProjekte)   [Talks & Kurse Ideensammlung](Talks und Kurse Ideensammlung)
 [Pad für neue Workshops](https://freepad.erdgeist.org/p/ola_workshops)   [Forscherkurse Augsburg](https://forscherkurse-augsburg.de/)
 [Lötstation](Lötstation) (nicht aktuell)   [Termine](https://openlab-augsburg.de/veranstaltungen/)   [Veransteltungen - externe Events](Veranstaltungen)
