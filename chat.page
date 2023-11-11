@@ -1,17 +1,29 @@
 **Wir steigen gerade auf Matrix um. Ein Server, der die Channels verwaltet, ist bereits eingerichtet.**
 
-Die Matrix-Migration [wurde auf dem Plenum am 2023-10-05 beschlossen](Plenum/2023-10-05#umzug-vereinschat-abschaltung-mattermost-krobin).
+# Chat: Allgemeine Infos
 
-Die Stichdaten hier sind der 
+Die Kommunikation im Space läuft über das offene Kommunikationsprotokoll [Matrix](https://de.wikipedia.org/wiki/Matrix_(Kommunikationsprotokoll)). Einen dafür eingerichteter Space ist mit dem Invite-Link weiter unten erreichbar. In der Vergangenheit haben wir über verscheidenste Wege kommuniziert, das chatten im Space hat inzwischen eine ziemlich bunte Geschichte.
 
-* **1. November 2023**: Offizieller Umstieg, die Kanäle im Matrix sind ab jetzt die offiziellen Kanäle. Eine Bridge nach Signal oder Telegram <s>soll zu diesem Zeitpunkt existieren</s>[existiert bereits][telegram-bridge]. Nach Mattermost wird aus Aufwandsgründen *nicht* gebridged.
-* **1. Dezember 2023**: Abschaltung des Mattermost Servers.
 
-# Matrix (die Zukunft!)
+# Matrix: Invite-Link
 
-Die Anleitung fehlt noch (TODO) aber falls du schon einen Matrix account hast, komm in unseren [Matrix-Space](https://openlab-augsburg.de/matrix). Alternativ haben wir für unseren öffentlichen Anlaufpunkt auch noch eine [Telegram-Bridge][telegram-bridge] eingerichtet.
+Wenn du dir einen Account auf einem homeserver erstellt hast (also z.B. "@franznord:matrix.org), kannst du den "Space" des OpenLab über folgenden Link erreichen: 
 
-[telegram-bridge]: https://t.me/+6cWUrXyywRAwZDli
+> [https://matrix.to/#/#space:matrix.openlab-augsburg.de](https://matrix.to/#/#space:matrix.openlab-augsburg.de) 
+
+In diesem Space sind einzelne Räume verlinkt, die sich ähnlich wie die Chat-Räume in Mattermost oder z.B. Gruppenchats in Telegram verhalten. 
+
+
+# Anleitungen zur Einrichtung
+
+[PDF von Element "Element User Guide" auf deutsch](https://static.element.io/pdfs/element-user-guide-german.pdf)
+
+[Eine Einführung ins Thema "Matrix" auf freuburg.social](https://wir.freiburg.social/angebote/matrix/)
+
+[Die Einrichtungshilfe der TU Dresden](https://doc.matrix.tu-dresden.de/first-steps/)
+
+
+# Details zum Matrix-Space
 
 Übersicht der öffentlichen Chatgruppen:
 
@@ -27,32 +39,54 @@ Die Anleitung fehlt noch (TODO) aber falls du schon einen Matrix account hast, k
 | Ops | Homeassistant, Space-Automation und co. | [#ops:matrix.openlab-augsburg.de](https://matrix.to/#/#ops:matrix.openlab-augsburg.de)  |
 | C3A/Chaostreff | Chaos Computer Club | [#c3a:matrix.openlab-augsburg.de](https://matrix.to/#/#c3a:matrix.openlab-augsburg.de)  |
 
-# Mattermost (Alter Chat, der bald abgeschaltet wird)
 
-Wir betreiben einen Mattermost-Chatserver für alle möglichen Themen im und rund ums OpenLab.
-Er steht Mitgliedern und Gästen offen und erfreut sich hoher Beliebtheit bei formloser, alltäglicher Kommunikation.
+# Telgram-Bridge
 
-<https://openlab-augsburg.de/chat/>
-
-## Ich habe noch keinen Account
-[Wenn du noch keinen Account hast, kannst du dich über diesen Link einen anlegen.](https://chat.openlab-augsburg.de/signup_user_complete/?id=yrxsan98iidetruxh951pgixhe)
-
-## Ich hab bereits einen Account
-
-[Der Chat ist unter https://chat.openlab-augsburg.de zu finden.](https://chat.openlab-augsburg.de)
+[telegram-bridge]: https://t.me/+6cWUrXyywRAwZDli
 
 
-## Kann ich den Chat noch anders als übers Web nutzen?
+# Der Umzug zu Matrix
+
+Die Matrix-Migration [wurde auf dem Plenum am 2023-10-05 beschlossen](Plenum/2023-10-05#umzug-vereinschat-abschaltung-mattermost-krobin).
+
+Die Stichdaten hier sind der 
+
+* **1. November 2023**: Offizieller Umstieg, die Kanäle im Matrix sind ab jetzt die offiziellen Kanäle. Eine Bridge nach Signal oder Telegram <s>soll zu diesem Zeitpunkt existieren</s>[existiert bereits][telegram-bridge]. Nach Mattermost wird aus Aufwandsgründen *nicht* gebridged.
+* **1. Dezember 2023**: Abschaltung des Mattermost Servers.
+
+
+
+# Die Vergangenheit: Frühere Kommunikationswege
+
+
+In der Vergangenheit haben wir [IRC](https://de.wikipedia.org/wiki/Internet_Relay_Chat) für die Kommunikation rund um Space und Community genutzt. Teil waren auch verschiedene [Mailinglisten](https://de.wikipedia.org/wiki/Mailingliste) aktiv. 
+
+In der Geschichte des OpenLab 2.0 haben wir uns dann entschieden, eine standalone-Chat-Lösung, in unserem Fall [Mattermost](https://de.wikipedia.org/wiki/Mattermost), zu verwenden. Diese Lösung hatte Vor- und Nachteile. 
+
+Schlussendlich haben wir uns in letzter Zeit gemeinsam dazu entschlossen, die gesamte Kommunikation des Vereins und der Community auf  umzuziehen. 
+
+Das Kommunikationsprotokoll Matrix kann man inzwischen aus Nutzer-Sich in einer beliebigen Tiefe der technischen komplexität bespielen: Im einfachsten Fall richtet man sich einen Account auf einem der "großen" Server wie matrix.org (Clients wie "Element" unterstützen eine solche Registrierung auch gleich in der Einrichtung per GUI, weiter unten sind Anleitungen hierzu verlinkt), genauso kann man aber auch eine eigene Instanz betreiben, vor der aus man dann mit anderen Servern "föderiren" kann.
+
+
+### Mattermost (20??-2023)
+
+Wir haben bis 2023 einen Mattermost-Chatserver für alle möglichen Themen im und rund ums OpenLab betrieben.
+Er stand Mitgliedern und Gästen offen und erfreute sich hoher Beliebtheit bei formloser, alltäglicher Kommunikation.
+
+Mattermost war unter <https://openlab-augsburg.de/chat/> erreichbar, der Invite-Link war [folgender Link](https://chat.openlab-augsburg.de/signup_user_complete/?id=yrxsan98iidetruxh951pgixhe)
 
 Neben dem [Webbrowser](https://chat.openlab-augsburg.de/) gibts auch eine Android-App ( [F-Droid](https://f-droid.org/packages/com.mattermost.mattermost/) / [Play Store](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjzleGgtsjpAhXy8KYKHYGfB_wQFjADegQIBRAB&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.mattermost.rn%26hl%3Den&usg=AOvVaw1dPNQin_V10f5tuTuhVWrQ) ), eine [iOS-App](https://apps.apple.com/us/app/mattermost/id1257222717) und eine [IRC-Bridge](https://wiki.openlab-augsburg.de/Chat#anleitung-für-die-irc-bridge).
 
 
-## Gibts auch noch Legacy-Kommunikationswege?
+### Mailman Archive (2013-heute)
+
+Die Mailinglisten haben und seit Gründung begleitet. In ganz spezifischen Fällen sind sie heute noch relevant, alltägliche Kommunikation passiert hier nicht.
 
 [Ja, hier ist unser Mailman und Archive](https://lists.openlab-augsburg.de/listinfo)
 
 
-## Anleitung für die IRC-Bridge
+### IRC (20??-20??)
+##### Anleitung für die IRC-Bridge
 
 Wenn du einen [Bouncer](https://de.wikipedia.org/wiki/Bouncer) hast kannst du auch über die IRC-Bridge joinen. Dazu zum IRC-Server `chat.openlab-augsburg.de` auf Port `9997` (SSL aktivieren) connecten. Dazu musst du dich vorher [registrieren](https://chat.openlab-augsburg.de/signup_user_complete/?id=yrxsan98iidetruxh951pgixhe).
 
@@ -66,7 +100,7 @@ Das Passwort sollte keine Sonderzeichen enthalten (zur Not auf Mattermost änder
 
 Danach gibt `/list` eine Liste aller existierenden Channels aus.
 
-### Beispiel weechat
+##### Beispiel weechat
 
 Für den IRC-Client [`weechat`](https://www.weechat.org) schaut die obengenannte Anleitung so aus:
 
@@ -104,7 +138,7 @@ Nicht vergessen, die geänderten Einstellungen zu speichern:
 /save
 ```
 
-# IRC-Kanäle auf libera.chat (sehr, sehr alter Chat)
+##### IRC-Kanäle auf libera.chat (sehr, sehr alter Chat)
 
 Bevor wir den Chat hatten, gab es Channels auf [libera.chat](https://libera.chat/), in denen auch noch ein paar Leute rumhängen:
 
