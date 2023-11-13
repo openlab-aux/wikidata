@@ -83,6 +83,14 @@ OctoPi ist das Web Interface des Prusa i3 MK3. Die Login Informationen dafür si
 | Passwort    | openlab (OctoPi)|
 +-------------+-------------+
 
+SSH Login:
+
++-------------+-------------+
+| User        | pi     |
++-------------+-------------+
+| Passwort    | raspberry |
++-------------+-------------+
+
 ## Software
 
 Damit der Drucker drucken kann, benötigt dieser GCODE Dateien. Diese können prinzipiell mit jedem Slicer erstellt werden. Da Prusa jedoch für den Prusa Slicer (Nachfolger von Slic3r) verantwortlich ist und dort gleich passende Profile mitgeliefert werden, bietet es sich an diesen zu verwenden: [Download Prusa Slicer](https://www.prusa3d.com/de/page/prusaslicer_424).
