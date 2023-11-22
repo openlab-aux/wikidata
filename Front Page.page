@@ -9,7 +9,9 @@ toc: false
 
 * Unsere Kommunikationskanäle werden besser! In Zukunft tauschen wir uns im Space via [Matrix](Matrix) aus. 
 * Das neue Zugangssystem [AirLock](AirLock) ist gerade in der Testphase
-* Jede Woche trifft sich die [Interessengruppe zum Thema 3D-Druck](3D-Drucker-Gruppe). Das sind dieselben, die auch die [3D-Drucker-Bau-Kurse](3DDruckerkurs) veranstalten
+* Jeden Dienstag trifft sich die [Interessengruppe zum Thema 3D-Druck](3D-Drucker-Gruppe), Mittwochs zum Thema Microcontroller
+* Fast jeden Donnerstag haben wir öffentliche Termine, zum kennenlernen, manchmal mit Vortrag oder Thema.
+* Gelgentlich treffen sich [Bits&Bäume Aux muc](https://aux-muc.bits-und-baeume.org/)
 
 
 ## Wo ist das OpenLab?
@@ -64,9 +66,8 @@ Zudem bieten wir immer wieder Kurse an, in denen wir mit den Teilnehmern 3D Druc
 
 
 ## Weitere Geräte
-* [CNC Fräse](cnc_fraese)
-* 🟡 Lötstation (funktionsbereit, aber in einer Kiste ohne festen Arbeitsplatz)
-* 🟡 A0 Drucker (ist seit dem Umzug nicht in Betrieb genommen/gewartet worden)
+* 🟡[CNC Fräse](cnc_fraese)
+* 🟢 Lötstation (funktionsbereit, aber in einer Kiste ohne festen Arbeitsplatz)
 * 🟢 [Drucker/Scanner](Drucker#aktive-drucker)
 * 🟢 [Zugangssystem](AirLock)
 * 🟢 Panaboard (hat keine IP)
