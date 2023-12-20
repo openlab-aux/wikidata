@@ -1,5 +1,14 @@
 # Die Musikanlage
-Zur Beschallung im OpenLab steht ein Verstärker und Boxen rum, die regelmäßig bespielt werden. Es spielt Musik, wer gerade Lust darauf hat. Zum Einschalten der Anlage den Netzschalter am Verstärker drücken, am Ende des Tages wieder ausschalten. Aktuell ist eine Bespielung entweder per pulseaudio streaming über das Netzwerk oder per Kabel direkt am Klnkeanschluss möglich.
+Zur Beschallung im OpenLab steht ein Verstärker und Boxen rum, die regelmäßig bespielt werden. Es spielt Musik, wer gerade Lust darauf hat. Zum Einschalten der Anlage den Netzschalter am Verstärker drücken, am Ende des Tages wieder ausschalten. Aktuell ist ein [Moode](https://moodeaudio.org/) darauf installiert. Dies ermöglicht folgende Musikquellen:
+- Bluetooth aptX, LDAC, SBC XQ+
+- AirPlay 2
+- Spotify Connect
+- pulseaudio streaming
+- Kabel direkt am Klnkeanschluss
+- Netzwerkradios per Streaming-URL
+Außerdem lassen sich per SMB und NFS Dateien hochladen und diese abspielen.
+
+Moode bietet ein hübsches Web-UI zur Steuerung unter http://audio.lab
 
 # Benutzung
 ## Per Pulse-Audio
@@ -52,10 +61,18 @@ Spotify-Nutzer/innen sollten `hannswurscht` als Device im jeweiligen Spotify-Cli
 
 Zum anschließen per Klinke kann das auf dem Verstärker liegende Kabel genutzt werden. Es ist nicht besonders lang, am ehesten würde man also z.B. das Smartphone auf dem Verstärker liegen lassen. Hier ist die Quelle "AUX" zu wählen.
 
-#### Anders (z.B. Bluetooth, Pi-Zero-Mediadings, etc.)
+## Bluetooth
 
-Auch weitere Konfigurationsmöglichkeiten sind denkbar, aber im Moment nicht umgesetzt. Entweder hatte noch niemand Lust oder sie haben sich in der Vergangenheit als nicht nützlich gezeigt. Hierzu zählt ein Pi-Zero-Musikplayer mit Webfrontend, ein Bluetoothdongle ("BH100"), ein Plattenteller, ein Tonbandgerät, ...
+Per Bluetooth einfach mit dem Gerät "audio.lab #1" verbinden. Irgendwie überlebt eine Umbenennung leider keinen reboot. Feel free to fix that if you read this.
 
+
+# Troubleshooting/Fehlerbehandlung
+## Kein Ton
+
+Sollte kein Ton kommen, prüfe folgendes:
+- Am Verstärker ist "AUX" ausgewählt 
+- ob die Lautstärke im Web-UI auf 0 gestellt ist
+- Ob in den Einstellungen der richtige AUX Ausgang ausgewählt ist. Drücke hierfür auf das Moode Symbol rechts oben und wähle Audio. Beim AUX Anschluss sollte "Soundblaster ..." ausgewählt sein.
 # Hardware
 
 ##### Hardware-Aufbau
