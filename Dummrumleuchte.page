@@ -24,3 +24,7 @@ OK
 Es läuft eine eigene Firmware auf einem ESP8266-Modul, deren [Source Code sowie Schaltplan](https://github.com/fabianhu/Dummrumleuchte) und [Dokumentation](https://github.com/fabianhu/Dummrumleuchte/blob/master/README.md) auf GitHub liegen.
 
 Wenn der labping nicht mehr geht, kann es daran liegen, dass die Firmware gecrasht ist (es gab (gibt?) ein Problem in der verwendeten Grundfirmware), da hilft es oft, einfach das zugehörige PC-Netzteil [aus- und wieder anzuschalten](https://youtu.be/5UT8RkSmN4k).
+
+## Homeassistant-Integration
+
+Die Leuchte ist mit Homeassistant gekoppelt. Wenn der C02 Wert 1500ppm übersteigt geht sie in regelmäßigen Abständen an um zu signalisieren, dass gelüftet werden soll. Nachdem sich der Wert wieder gesenkt hat hört sie damit wieder auf.
