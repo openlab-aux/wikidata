@@ -1,13 +1,10 @@
-**Wir steigen gerade auf Matrix um. Ein Server, der die Channels verwaltet, ist bereits eingerichtet.**
-
 # Chat: Allgemeine Infos
 
-Die Kommunikation im Space läuft über das offene Kommunikationsprotokoll [Matrix](https://de.wikipedia.org/wiki/Matrix_(Kommunikationsprotokoll)). Einen dafür eingerichteter Space ist mit dem Invite-Link weiter unten erreichbar. In der Vergangenheit haben wir über verscheidenste Wege kommuniziert, das chatten im Space hat inzwischen eine ziemlich bunte Geschichte.
-
+Die Kommunikation im Space läuft viel über das offene Kommunikationsprotokoll [Matrix](https://de.wikipedia.org/wiki/Matrix_(Kommunikationsprotokoll)). Ein dafür eingerichteter "Space" ist mit dem Invite-Link weiter unten erreichbar. In der Vergangenheit haben wir über verscheidenste Wege kommuniziert, alles ging im IRC los, über die Corona-Pandemie nutzten wir MatterMost und jetzt sind wir dazu übergegangen Vereins/Space-relevante Channels auf einem eigenen Matrix-Server zu betreiben.
 
 # Matrix: Invite-Link
 
-Wenn du dir einen Account auf einem homeserver erstellt hast (also z.B. "@franznord:matrix.org), kannst du den "Space" des OpenLab über folgenden Link erreichen: 
+Wenn du dir einen Account auf einem homeserver (nicht dem OpenLab-Server) erstellt hast (also z.B. "@franznord:matrix.org), kannst du den "Space" des OpenLab über folgenden Link erreichen: 
 
 > [https://matrix.to/#/#space:matrix.openlab-augsburg.de](https://matrix.to/#/#space:matrix.openlab-augsburg.de) 
 
@@ -42,18 +39,7 @@ In diesem Space sind einzelne Räume verlinkt, die sich ähnlich wie die Chat-R�
 
 # Telgram-Bridge
 
-Die Telegram Bridge ist unter folgendem Link nutzbar: [telegram-bridge]: https://t.me/+6cWUrXyywRAwZDli
-
-
-# Der Umzug zu Matrix
-
-Die Matrix-Migration [wurde auf dem Plenum am 2023-10-05 beschlossen](Plenum/2023-10-05#umzug-vereinschat-abschaltung-mattermost-krobin).
-
-Die Stichdaten hier sind der 
-
-* **1. November 2023**: Offizieller Umstieg, die Kanäle im Matrix sind ab jetzt die offiziellen Kanäle. Eine Bridge nach Signal oder Telegram <s>soll zu diesem Zeitpunkt existieren</s>[existiert bereits][telegram-bridge]. Nach Mattermost wird aus Aufwandsgründen *nicht* gebridged.
-* **1. Dezember 2023**: Abschaltung des Mattermost Servers.
-
+Wer nur eine kurze Frage hat und dafür kein Matrix einrichten möchte, aber Telegram nutzt kann die Telegram Bridge unter folgendem Link nutzen: [telegram-bridge]: https://t.me/+6cWUrXyywRAwZDli
 
 
 # Die Vergangenheit: Frühere Kommunikationswege
@@ -76,6 +62,11 @@ Er stand Mitgliedern und Gästen offen und erfreute sich hoher Beliebtheit bei f
 Mattermost war unter <https://openlab-augsburg.de/chat/> erreichbar, der Invite-Link war [folgender Link](https://chat.openlab-augsburg.de/signup_user_complete/?id=yrxsan98iidetruxh951pgixhe)
 
 Neben dem [Webbrowser](https://chat.openlab-augsburg.de/) gibts auch eine Android-App ( [F-Droid](https://f-droid.org/packages/com.mattermost.mattermost/) / [Play Store](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjzleGgtsjpAhXy8KYKHYGfB_wQFjADegQIBRAB&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.mattermost.rn%26hl%3Den&usg=AOvVaw1dPNQin_V10f5tuTuhVWrQ) ), eine [iOS-App](https://apps.apple.com/us/app/mattermost/id1257222717) und eine [IRC-Bridge](https://wiki.openlab-augsburg.de/Chat#anleitung-für-die-irc-bridge).
+
+#### Der Umzug zu Matrix
+
+Die Matrix-Migration [wurde auf dem Plenum am 2023-10-05 beschlossen](Plenum/2023-10-05#umzug-vereinschat-abschaltung-mattermost-krobin). und zum 1.12.2023 erfolgreich beendet.
+
 
 
 ### Mailman Archive (2013-heute)
