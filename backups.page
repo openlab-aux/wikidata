@@ -35,4 +35,15 @@ Example command:
 kopia repository create s3 --endpoint dockerirgendwas.lab:9000 --bucket=openlab-example-bucket --access-key=9udNasHBLLACZb5Y5o5U --secret-access-key=XY8RaUYTS5GbrqlpH7MIebwuGibdBScZw5p9n5yq --disable-tls
 ```
 
+### Create Snapshot
 
+```
+kopia snapshot create /your/path
+```
+
+
+### Create Cronjob
+
+```
+0 0 * * * /usr/bin/kopia snapshot create --all
+```
