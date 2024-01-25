@@ -18,12 +18,21 @@ password: `openlabopenlab` (passwort policy von minio, deshalb kein openlab)
 Dort befinden sich mehrere S3 Buckets für die Edge Devices.
 Es sollte jeweils ein eigener Bucket pro device angelegt werden.
 
-## Kopia
-Als Backup Software wird [Kopia](https://kopia.io/docs/getting-started/) verwendet.
-Das Verschlüsselungspasswort ist hierbei auch wieder `openlab`
-
-## Access Keys
+### Access Keys
 
 9udNasHBLLACZb5Y5o5U
 
 XY8RaUYTS5GbrqlpH7MIebwuGibdBScZw5p9n5yq
+
+## Kopia
+Als Backup Software wird [Kopia](https://kopia.io/docs/getting-started/) verwendet.
+Das Verschlüsselungspasswort ist hierbei auch wieder `openlab`
+
+### Create Repo
+
+Example command:
+```
+kopia repository create s3 --endpoint dockerirgendwas.lab:9000 --bucket=openlab-example-bucket --access-key=9udNasHBLLACZb5Y5o5U --secret-access-key=XY8RaUYTS5GbrqlpH7MIebwuGibdBScZw5p9n5yq --disable-tls
+```
+
+
