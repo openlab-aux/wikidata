@@ -17,6 +17,7 @@ password: `openlabopenlab` (passwort policy von minio, deshalb kein openlab)
 
 Dort befinden sich mehrere S3 Buckets für die Edge Devices.
 Es sollte jeweils ein eigener Bucket pro device angelegt werden.
+Macht am besten auch direct Versioning und Object Locking an. Man weiß nie...
 
 ### Access Keys
 
