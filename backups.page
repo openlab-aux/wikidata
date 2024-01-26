@@ -47,3 +47,9 @@ kopia snapshot create /your/path
 ```
 0 0 * * * /usr/bin/kopia snapshot create --all
 ```
+
+## Backuped Hosts
+
+- [x] Druckbrudi.lab
+- [x] octopi.lab
+- [ ] neetboot.lab
