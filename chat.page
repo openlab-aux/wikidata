@@ -36,6 +36,16 @@ In diesem Space sind einzelne Räume verlinkt, die sich ähnlich wie die Chat-R�
 | Ops | Homeassistant, Space-Automation und co. | [#ops:matrix.openlab-augsburg.de](https://matrix.to/#/#ops:matrix.openlab-augsburg.de)  |
 | C3A/Chaostreff | Chaos Computer Club | [#c3a:matrix.openlab-augsburg.de](https://matrix.to/#/#c3a:matrix.openlab-augsburg.de)  |
 
+Wenn die Channel nicht im Space angezeigt werden, könnnen diese auch folgendermaßen in `Element/Schildichat` erkundet werden:
+
+1. Space wechseln auf "Alle Unterhaltungen"
+2. Schreiben Button
+3. Räume erkunden
+4. 3-Punkte-Menu
+5. Netzwerk wechseln
+6. Neuen Server hinzufügen
+7. Dort `matrix.openlab-augsburg.de` hinterlegen
+8. Den Server auswählen
 
 # Telgram-Bridge
 
