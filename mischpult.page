@@ -1,0 +1,13 @@
+# Mischpult
+
+Das Mischpult wurde von Yonggan gedroppt.
+Es handelt sich hierbei um ein Reloop Terminal Mix 8 und ist schon ein bischen älter.
+
+Es bietet eine Serato Integration für Serato Pro. Einfach Serato installieren und das Mischpult anstecken und die Lizenz gilt dann automatisch.
+
+Für Mixxx gibt es hier ein Midi Mapping:
+
+[link label](/Terminal Mix 8 Reloop.midi.xml)
+[link label](/Reloop-TerminalMix8-scripts.js)
+
+Geh einfach zum Controller Ordner und schmeiß die Dateien rein. Dann steck das Mischpult an und starte Mixxx und Wähle in den Einstellungen das Mapping aus.
