@@ -7,7 +7,7 @@ Es bietet eine Serato Integration für Serato Pro. Einfach Serato installieren u
 
 Für Mixxx gibt es hier ein Midi Mapping:
 
-[link label](/Terminal Mix 8 Reloop.midi.xml)
-[link label](/Reloop-TerminalMix8-scripts.js)
+[Midi.xml](/Terminal Mix 8 Reloop.midi.xml)
+[scripts.js](Reloop-TerminalMix8-scripts.js)
 
 Geh einfach zum Controller Ordner und schmeiß die Dateien rein. Dann steck das Mischpult an und starte Mixxx und Wähle in den Einstellungen das Mapping aus.
