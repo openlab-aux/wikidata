@@ -12,9 +12,9 @@ Mit dem Original Prusa i3 MK3 steht dem Openlab ein einfach zu bedienender und z
 +-------------+------------+
 |IP           | 172.16.0.140|
 +-------------+------------+
-|Hostname     | derzeit keine DNS auflösung |
+|Hostname     | octopi.lab/mk3 |
 +-------------+------------+
-|Weboberfläche|[http://172.16.0.140](Octoprint) |
+|Weboberfläche|[Octoprint](http://octopi.lab/mk3) openlab/openlab |
 +-------------+------------+
 |Bauraum (BTH)| 210 x 250 x 200 mm|
 +-------------+------------+
