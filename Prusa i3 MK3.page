@@ -4,7 +4,7 @@ Mit dem Original Prusa i3 MK3 steht dem Openlab ein einfach zu bedienender und z
 
 > 👉 Hinweis:
 > 
-> Am Drucker wird nichts verändert oder herumgeschraubt. Sollte etwas nicht in Ordnung sein, wende dich bitte an einen der beiden Verantwortlichen:
+> Am Drucker wird möglichst nichts verändert oder herumgeschraubt. Sollte etwas nicht in Ordnung sein, wende dich bitte an jemand, der sich mit den Druckern auskennt, z.B.
 
 - [Stefan Krister](Mensch_bastard) - @bastard im Chat
 - [Adrian Rauth](Mensch_Aelonath) - @aelonath im Chat
@@ -14,7 +14,7 @@ Mit dem Original Prusa i3 MK3 steht dem Openlab ein einfach zu bedienender und z
 +-------------+------------+
 |Hostname     | octopi.lab/mk3 |
 +-------------+------------+
-|Weboberfläche|[Octoprint](http://octopi.lab/mk3) openlab/openlab |
+|Weboberfläche|[Octoprint](http://octopi.lab/mk3) (Login siehe unten) |
 +-------------+------------+
 |Bauraum (BTH)| 210 x 250 x 200 mm|
 +-------------+------------+
@@ -44,9 +44,16 @@ Schalter auf der rechten Seite. Drucker startet sofort, nach etwa 1 Minuten boot
 > 
 > Die aktuelle IP-Adresse wird dann automatisch im Display des Druckers angezeigt.
 
+### Verschiedene Druckbleche
+
+Derzeit sind zwei Druckbleche einkalibriert, diese müssen beim Wechsel dem Drucker mitgeteilt werden.
+
+- Texturiert
+- Glatt
+
 ### Drucker ausschalten
 
-Der RaspberryPi (Octoprint) wird vom Drucker mit Strom versorgt. **Deswegen darf der Drucker nicht einfach so ausgeschalten werden!** Octoprint (und damit der RaspberryPi) müssen vorher ordnungsgemäß über die Weboberfläche heruntergefahren werden. Erst dann kann der Drucker ausgeschaltet werden.
+Erst ausschalten, wenn die Düsentemperatur 50 Grad erreicht und sich der Lüfter vorne selbst abgeschaltet hat.
 
 ### Filamentwechsel
 
@@ -77,18 +84,18 @@ Der Drucker muss **nicht** kalibriert werden! Der Drucker kalibriert sich vor je
 
 OctoPi ist das Web Interface des Prusa i3 MK3. Die Login Informationen dafür sind folgende:
 
-+-------------+-------------+
-| User        | openlab     |
-+-------------+-------------+
++-------------+-----------------+
+| User        | openlab         |
++-------------+-----------------+
 | Passwort    | openlab (OctoPi)|
-+-------------+-------------+
++-------------+-----------------+
 
 SSH Login:
 
 +-------------+-------------+
-| User        | pi     |
+| User        | pi          |
 +-------------+-------------+
-| Passwort    | raspberry |
+| Passwort    | raspberry   |
 +-------------+-------------+
 
 ## Software
