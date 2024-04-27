@@ -12,6 +12,5 @@ Wenn du vorhast, teilzunehmen, [melde dich bitte vorher an](https://cryptpad.dig
 Bereits angekündigte Talks:
 
 * Bertram Wirth: Entwicklung und Anwendungsfälle einer RDF-GUI mit interaktiven geo-Positions-Grafiken
-  Es wird ein Projekt vorgestellt, mit dem er RDF für private Personen einfach einsetzbar gemacht werden soll. Der aktuelle Prototyp läuft auf einem Samsung S9 unter Termux mit einem Fuseki- und einem Tomcat-Server und einem Java-Servlet.
-  Die HTML-Oberfläche versucht, vorhandene RDF- und OWL-Klassenbeschreibungen zu nutzen, um Instanzen darzustellen und zu editieren, und wird aktuell noch um eine Stufe erweitert, um Daten, die mit geo-Positionen verknüpft sind, als SVG anzuzeigen und dadurch sowohl Objekte in der größeren räumlichen Umgebung als auch innerhalb einer Wohnung per Position anklickbar zu machen.  Es wird ein Projekt vorgestellt, mit dem er RDF für private Personen einfach einsetzbar gemacht werden soll. Der aktuelle Prototyp läuft auf einem Samsung S9 unter Termux mit einem Fuseki- und einem Tomcat-Server und einem Java-Servlet.
-  Die HTML-Oberfläche versucht, vorhandene RDF- und OWL-Klassenbeschreibungen zu nutzen, um Instanzen darzustellen und zu editieren, und wird aktuell noch um eine Stufe erweitert, um Daten, die mit geo-Positionen verknüpft sind, als SVG anzuzeigen und dadurch sowohl Objekte in der größeren räumlichen Umgebung als auch innerhalb einer Wohnung per Position anklickbar zu machen.
+
+  Der aktuelle Prototyp läuft auf einem Samsung S9 unter Termux mit einem Fuseki- und einem Tomcat-Server und einem Java-Servlet.
