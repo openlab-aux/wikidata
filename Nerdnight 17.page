@@ -13,4 +13,4 @@ Bereits angekündigte Talks:
 
 * Bertram Wirth: Entwicklung und Anwendungsfälle einer RDF-GUI mit interaktiven geo-Positions-Grafiken
 
-  Der aktuelle Prototyp läuft auf einem Samsung S9 unter Termux mit einem Fuseki- und einem Tomcat-Server und einem Java-Servlet.
+  Der aktuelle Prototyp läuft lokal auf einem Smartphone mit Android 10 und 64GB-Speicher unter Termux mit einem Fuseki- und einem Tomcat-Server und einem Java-Servlet.
