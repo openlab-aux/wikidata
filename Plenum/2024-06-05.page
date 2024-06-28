@@ -1,0 +1,146 @@
+# OpenLab Plenum 6. Juni 2024
+
+Beginn: 21:00 Uhr
+
+Ende: 22:16 Uhr
+
+Teilnehmer: 13 Menschis
+
+# Was steht an
+
+## NerdNight 17
+
+  - 15. Juni (nächster Samstag!!
+  - https://wiki.openlab-augsburg.de/Nerdnight%2017
+
+  
+### Schnitzeljagd (Yonggan)
+  * Wieviele Octopoden gibt es im lab?
+  * Wieviele Benchys gibt es im lab?
+
+### Nerdnight Giveaways (Yonggan)
+  * Fidget-Items für Schlüsselanhänger oder anpassbarer Bottleclip
+  
+
+## Ulrichfest (Profpatsch) 
+ - 8 Leute von uns
+ - Viele Details in https://pads.c3w.at/code/#/2/code/edit/AMruLR6YmKUKaYAEGVayyWcM/
+ - Meldet euch, wenn ihr auch mithelfen wollt! 
+ - Flyer basteln -> Stellt eure Community im Lab vor (3D-Drucker, Home-Automation, Bits und Bäume etc.) -> Siehe Ulrichspad
+  
+  
+## Elektronikkurs für Kinder/Jugendliche (via Patsch)
+  - Wissen alle um was es geht?
+  - Es soll ein Eletronik-Kurs für Kinder/Jugendliche stattfinden
+  - "Anfang der Sommerferien"
+  - Termin festlegen vor dem Ulrichsfest, um besser Werbung zur machen
+    - paulele spricht mit bastard
+  - Ferienprogramm (Jump^WTschamp) kann gut helfen den Kurs (mit dankbaren Teilnehmis) zu füllen
+  - S. ist leider nicht da, Rian erklärt sich bereit die Terminfindung und weitere Anbahnung (via Matrix) zu übernehmen, auch mal Tschamp anzuquatschen.
+
+
+## Vorstands-Update
+* Eintragung ins Vereinsregister ist bestätigt worden
+* Wir haben eine einmalige Spende über 500€ bekommen von Baramundi
+  * Da müssen wir eine Spendenbescheinigung losschicken
+* Mietkostenzuschussantrag wurde gesendet
+* Steuererklärung
+  
+
+## Kurzbericht von der GPN
+
+* Soo viele Leute aus Aux waren da!
+  * Profpatsch: Können wir noch mehr davon ins Lab kriegen? :)
+  * Profpatsch schlägt vor, dass leute aus der Mathe-/Klima-Bubble eingeladen werden
+
+## Projektboard (Yonggan)
+  * Steckbrett neben Display in Hauptraum
+  * Jeder kann Projekte auf einem Steckbrief hinzufügen (Titel, Beschreibung, ..)
+  * Crowdfunding/Finanzierung kann über Strichlisten-Funktionsaccounts genutzt werden
+  * Es gibt die Kategorien (KanBan-like):
+    * Sollte man mal machen
+    * Unterstützung gesucht
+    * Maintainer gesucht
+    * Abgeschlossen
+  * Außerdem gibt es eine Area für "Aktuelle Nachrichten"
+
+## Wahl der vorläufigen Vertrauenspersonen (Yonggan)
+  * Heute steht die vorläufige Wahl an - Yonggan fragt ein Veto ab?
+    * Niemand hat was dagegen
+  * Zukünftigen Aufgabenbereich definieren
+    * Bis zur nächsten regulären MV im Amt. Dann "richtig" legitimierte Dauerhafte Wahl.
+    * Ansprechpartner für neue bei Problemen/Konflikten/Fragen sein, oder z.B. auch wenn man mal ein Problem mit dem Vorstand hat.
+    * CoC etablieren (in Zusammenarbeit mit CoC-Team).
+    * CoC-Team soll auch gemeinsam mit den Vertrauensperson Aufgabenbereich der Vertrauenspersonen bis zur nächsten MV erarbeiten
+    * Workshops veranstalten
+  * Kandidaten:
+    * lis/derpy
+    * andre/yonggan
+    * hannes/waaaaargh
+  * Wahl:
+    * Modus: nicht geheim, zwei personen mit meisten stimmen gewinnen
+    * wahlmöglichkeiten: ja/enthaltung
+    * lis: 6 dafür
+    * andre: 7 dafür
+    * hannes: 4 dafür
+  * Herzlichen Glückwunsch Andre und Lisbeth, vielen Dank fürs Herz nehmen!
+  
+## Periodenprodukte fürs Bad (Yonggan)
+  * Würde es in Space Maintenance schreiben für jemanden der mal einkaufen geht
+  
+## Anschaffung einer Crepe-Maschine für Veranstaltungen (Yonggan)
+  * Auf der GPN kam der Vorschlag eine Crepe-Maschine anzuschaffen um damit eine Slush-Maschine zu finanzieren, da beides vermutlich sehr gut funktioniert auf Veranstaltungen
+  * Gute Resonanz hinsichtlich Crepe-Maschine (Gemeinsame Finanzierung?)
+    * Auch geil für Events im Space
+  * yonggan will sich um internes Crowdfunding-Projekt kümmern
+  
+# Allgemeine Themen
+
+## Inventarversicherung über Offene Werkstätten (Profpatsch)
+
+https://www.offene-werkstaetten.org/de/seite/inventarversicherung
+
+Sollen wir so eine abschließen?
+  - krobin: Als ersten Schritt würde ich sehen, dass sich jemand der Vertragsdetails und Kostenfrage annimmt und wir dann basierend auf dieser Information mal darüber reden. In unsere Aufmerksamkeit kam das Thema dadurch, dass Spaces nach (größeren, eindeutig mit Gewinnabsicht kriminellen) Diebstählen jetzt solche Versicherungen abschließen.
+  - Hat jemand Lust sich reinzunerden und uns aufzuklären? Hannes \o/
+  
+## Die elendige Wikidiskussion (Profpatsch)
+
+* Ich würde gerne demnächst mal Nägel mit Köpfisieren, ob wir das Wiki jetzt ersetzen, durch was, und wenn ja wie viele. 
+ * OPS-treffen besprechen (Git-It) -> w5rgh würde das Thema mitnehmen
+    * Kalender eintragen!
+    * xwiki fragwürdig
+    * Was gibt es für Alternativen zu unserer Wiki?
+
+## Matrix-Verwaltung (Profpatsch)
+
+* Profpatsch: Kann man es irgendwie demokratisieren, wie Kanäle angelegt werden? bzw wer wo welche Rechte hat. Idealerweise Wildwuchs vermeiden aber auch gleichzeitig anarchische Strukturen ermöglichen.
+  * yonggan empfiehlt elementx als Client
+  * Nachvollziehbarkeit hinsichtlich Channelanlegung? -> Synapse, aber tricky
+  * Als eigentlich Problem stellt sich raus, dass nicht klar ist, wen man fragt, wenn man einen Channel will -> Ops-Channel.
+  * Profpatsch will einen Wiki-Artikel anlegen für Matrix-Nutzung (Channel-Anlegung etc.)
+
+Profpatsch: Ich kann manchen Channels nicht joinen, und anderen geht es glaub ich auch so
+
+## Mittwochs/Donnerstagsverwaltung (Profpatsch)
+
+Wir wollten den Donnerstag etwas auftrennen, dass Events im Wechsel passieren sollen.
+Wie ist da der Status? Finden alle diese Events statt? Muss da nachgearbeitet werden?
+  
+
+# Projektantrag Renovierung CCCFFM (krobin)
+Projektantrag Renovierung/Ausbau Hackspace
+
+Der Erfa Chaos Computer Club Frankfurt e.V. beantragt 10380 € für Ausbau und Instandsetzung seines neuen Hackspaces.
+Einleitung
+
+Abstimmung:
+  - Dagegen: 
+  - enthaltung: 1
+  - dafür: 16
+
+
+# Kurznachrichten
+  * 200 Organspendeausweise und Flyer mit Ständer wurden bestellt
+  * Viel Detailierter oben im Protokoll
+  * GPN war toll.
