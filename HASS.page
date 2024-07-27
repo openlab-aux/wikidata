@@ -12,7 +12,9 @@ Die meisten bunten LEDs in unseren Räumen sind per WLED-Firmware eingebunden. I
 ## Schaltbare Mess-Steckdosen
 Wir haben 8 schaltbare Zwischenstecker, diese können Strom und Spannung messen und geschaltet werden.
 
-TODO: User-Doku zur Automatisierung, anpassung für eigene Bedürfnisse und zerstörungsfeie Nutzung
+Hinweis: Fliegt die Sicherung, ist im Sicherungskasten wieder der Schalter zu betätigen. Die schaltbare Messsteckdose sollte sich nach einer gewissen Zeit wieder mit dem WLAN verbinden.
+
+TODO: User-Doku zur Automatisierung, anpassung für eigene Bedürfnisse und zerstörungsfeie Nutzung, und Stromverbaucher Fensterbereich und Audio-Beamer Setup auf mehrere Bodentanks verteilen (Sicherung (F30) fliegt hier mal öfter )
 
 ## Sonstiges
 ### SpaceAPI-Statusupdates
