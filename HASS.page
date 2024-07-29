@@ -1,7 +1,7 @@
 Wir betreiben im lokalen Netz des OpenLabs einen Home Assistant Server. 
 
 Dieser läuft als VM auf luke und wurde via NixOS von w. deployed und in Betrieb genommen. 
-Das Web-Interface findet man unter <a href="http://hass.lab" target="_blank">hass.lab</a>.
+Das Web-Interface findet man unter [http://homeassistant.lab:8123/]()
 
 ## Heizungen steuern
 Im Sofaraum und im Saal haben wir ZigBee-Heizkörperthermostate. TODO: User-Doku zur Automatisierung, anpassung für eigene Bedürfnisse und zerstörungsfeie Nutzung
