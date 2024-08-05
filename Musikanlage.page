@@ -1,5 +1,15 @@
 # Die Musikanlage
-Zur Beschallung im OpenLab steht ein Verstärker und Boxen rum, die regelmäßig bespielt werden. Es spielt Musik, wer gerade Lust darauf hat. Zum Einschalten der Anlage den Netzschalter am Verstärker drücken, am Ende des Tages wieder ausschalten. Aktuell ist ein [Moode](https://moodeaudio.org/) darauf installiert. Dies ermöglicht folgende Musikquellen:
+Zur Beschallung im OpenLab steht ein Verstärker und Boxen rum, die regelmäßig bespielt werden. Es spielt Musik, wer gerade Lust darauf hat. Zum Einschalten der Anlage im Home Assistant “Audio & Beamer” aktivieren, am Ende des Tages wieder ausschalten. 
+
+Die Steuerung erfolgt über HASS (Seitenmenü “Music Assistant”).
+
+Man kann alternativ auch über Bluetooth Musik spielen, das Device heißt „Vorstand“.
+
+Alternativ alternativ kann man direkt die Klinke benutzen, sie ist allerdings nicht besonders lang.
+
+TODO: bitte updaten!
+<s>
+Aktuell ist ein [Moode](https://moodeaudio.org/) darauf installiert. Dies ermöglicht folgende Musikquellen:
 - Bluetooth aptX, LDAC, SBC XQ+
 - AirPlay 2
 - Spotify Connect
@@ -7,12 +17,15 @@ Zur Beschallung im OpenLab steht ein Verstärker und Boxen rum, die regelmäßig
 - Kabel direkt am Klnkeanschluss
 - Netzwerkradios per Streaming-URL
 Außerdem lassen sich per SMB und NFS Dateien hochladen und diese abspielen.
-
 Moode bietet ein hübsches Web-UI zur Steuerung unter http://audio.lab
+</s>
 
 # Benutzung
 ## Per Pulse-Audio
 
+Momentan geht pulse-audio Streaming nicht.
+
+<s>
 Hauptsächlich wird die Anlage per pulseaudio bespielt. Zur Nutzung der Musikanlage per pulseaudio ist eine LAN-Verbindung von Vorteil, WLAN könnte ruckeln.
 
 #### Einrichtung von Pulse-Audio-Streaming unter verschiedenen OS
@@ -60,10 +73,6 @@ Spotify-Nutzer/innen sollten `hannswurscht` als Device im jeweiligen Spotify-Cli
 ## Per Klinke
 
 Zum anschließen per Klinke kann das auf dem Verstärker liegende Kabel genutzt werden. Es ist nicht besonders lang, am ehesten würde man also z.B. das Smartphone auf dem Verstärker liegen lassen. Hier ist die Quelle "AUX" zu wählen.
-
-## Bluetooth
-
-Per Bluetooth einfach mit dem Gerät "audio.lab #1" verbinden. Irgendwie überlebt eine Umbenennung leider keinen reboot. Feel free to fix that if you read this.
 
 
 # Troubleshooting/Fehlerbehandlung
