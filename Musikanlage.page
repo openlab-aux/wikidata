@@ -1,7 +1,7 @@
 # Die Musikanlage
 Zur Beschallung im OpenLab steht ein Verstärker und Boxen rum, die regelmäßig bespielt werden. Es spielt Musik, wer gerade Lust darauf hat. Zum Einschalten der Anlage im Home Assistant “Audio & Beamer” aktivieren, am Ende des Tages wieder ausschalten. 
 
-Die Steuerung erfolgt über HASS (Seitenmenü “Music Assistant”).
+Die Steuerung erfolgt über [HASS](HASS) (Seitenmenü “Music Assistant”).
 
 Man kann alternativ auch über Bluetooth Musik spielen, das Device heißt „Vorstand“.
 
