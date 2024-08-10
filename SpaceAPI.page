@@ -1,7 +1,0 @@
-Das OpenLab hat auch eine [SpaceAPI](http://spaceapi.net/), sodass man den Laborstatus jederzeit abfragen kann.
- 
-> The purpose of the Space API is to define a unified specification across the hackerspaces that can be used to expose information to web apps or any other application.
-
-Unsere SpaceAPI wird vom [labapid](https://github.com/openlab-aux/labapid) bereitgestellt und bezieht den Status von [Sphincter](Sphincter).
-
-Die API ist unter <https://api.openlab-augsburg.de/data.json> erreichbar, außerdem lässt sie sich im [IRC](IRC) durch das Schreiben von `.status` ebenfalls abfragen.
