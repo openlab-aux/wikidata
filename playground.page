@@ -1,0 +1,86 @@
+---
+format: html
+toc: no
+title: Spielplatz für Formate
+...
+
+
+.boxed {
+  border: 1px solid green ;
+}
+
+
+
+
+<h1> Boxen Textboxen Eingabeboxen CSS? </h1>
+
+<hr>
+<hr>
+
+<div class="boxed">
+  This text is enclosed in a box.
+</div>
+
+<label for="Name">Name:</label>
+<input type="text" id="Name" name="Name" placeholder="Jane Doe">
+
+
+
+<h1> In Line CSS </h1>
+
+
+<h1 style="color:blue;">A Blue Heading</h1>
+
+<p style="color:red;">A red paragraph.</p>
+
+
+
+<h1> This is Heading 1 </h1>
+
+
+<p>This is a normal paragraph:</p>
+
+<pre><code>This is a code block.
+</code></pre>
+
+
+
+<h1> This is Heading 1 </h1>
+
+
+<p>Here is an example of AppleScript:</p>
+
+<pre><code>tell application "Foo"
+    beep
+end tell
+</code></pre>
+
+
+
+
+<h1> This is Heading 1 </h1>
+
+
+<em>single asterisks</em> 
+
+<br>
+
+<em>single underscores</em>
+
+<br>
+
+<strong>double asterisks</strong>
+
+<br>
+
+<strong>double underscores</strong>
+
+
+
+
+
+
+
+
+
+<h1> This is Heading 1 </h1>
