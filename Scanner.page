@@ -1,0 +1,22 @@
+# Aktuell
+# Ehemalige (Hall of Fame)
+## HP Scanjet G4050
+
+[Hängt an hannswurscht](https://github.com/openlab-aux/vuizvui/blob/master/machines/labnet/labtops.nix#L37), lässt sich übers Netzwerk steuern:
+
+* Konventionelle Distros  
+```
+echo "scanner.lab" >> /etc/sane.d/net.conf
+```
+siehe [https://wiki.debian.org/SaneOverNetwork]()
+
+* Nix  
+```
+hardware.sane = {
+  enable = true;
+  netConf = "scanner.lab";
+};
+# neu einloggen (leider, https://github.com/NixOS/nixpkgs/issues/26727)
+```
+	
+Extended goals sind [Button-Support](https://wiki.archlinux.org/index.php/Scanner_Button_Daemon), müsste ins `sane.nix`-Modul eingepflegt werden.
