@@ -1,0 +1,85 @@
+# 3D-Druckerkurs (Prusa Mini) (11.12. u. 12.12.2021 fällt leider aus)
+
+Der nächste Workshop startet im Dezember 2021. Er wird wieder 2 Tage dauern.
+Sehr oft genügt ein kleinerer Bauraum völlig. Das hat Prusa erkannt und den Mini seit ein paar Monaten im Angebot. Der Mini kann Objekte bis zu 18cm x 18cm x 18cm drucken. In der Zeitschrift "Make", Ausgabe 5/2020 ab Seite 18 wird der Mini vorgestellt und getestet. Das Fazit lautet: 
+
+> "Anfang des Jahres war noch der Prusa i3MK3S der beste FDM-Drucker, den wir je im Testlabor hatten – jetzt muss er sich den ersten Platz mit dem Prusa Mini teilen. Denn mit diesem gelingen 3D-Drucke genauso einfach und genauso gut und dank des Farbdisplays mit der Datei-Voransicht sogar noch einen Tick komfortabler. ...
+
+> ... denn eigentlich ist das der 3D-Drucker, den man haben will – speziell für Einsteiger ist er ideal, weil er vom Fleck weg sehr schöne Drucke zu einem vernünftigen Preis liefert."
+
+Die Anmeldumg zum Kurs findet ihr unten auf dieser Seite, sobald wir einen geeigneten Termin haben. Die Kosten für den Workshop belaufen sich auf
+
+- € 420,- für Mitglieder des OpenLab Augsburg e.V. (incl. 2 beschichtete Druckplatten im Wert von 30,- €)
+
+und
+
+- € 470,-  für externe Teilnehmer. (incl. 2 beschichtete Druckplatten im Wert von 30,- € und 50,- € Aufwandspauschale für den Kurs im LAB)
+
+Die Versandkosten von 32,70 € sind ebefalls bereits enthalten.
+
+Seid euch bitte darüber im Klaren, dass wir euch *keinen* fertigen Drucker anbieten. Wir übernehmen die Beschaffung und Logistik, stellen euch einen Arbeitsplatz und Werkzeug zur Verfügung und unterstützen euch beim Aufbau - aber bauen müsst ihr selbst! Ihr braucht zwar keine speziellen Vorkenntnisse, aber etwas handwerkliches Geschick hilft.
+
+## Was bekomme ich für mein Geld?
+
+- Wir bestellen für euch einen original Prusa Mini Bausatz direkt bei Prusa in Prag. Dazu bekommt ihr ein Sample PLA-Filament, 2 PEI beschichtete Federstahl-Druckplatten und fachliche Unterstützung beim Aufbau. Außerdem stellen wir euch alle benötigten Werkzeuge und ausreichend Arbeitsplatz in den Räumen des OpenLab Augsburg zur Verfügung.
+- Ein etwa 1-stündiger Vortrag führt in die 3D-Drucker-Welt ein. Nach dem Zusammenbau bekommt ihr die Druckersoftware erklärt und wir werden die ersten Objekte zusammen ausdrucken.
+- Wir geben euch eine Einweisung in euren neuen Drucker und bringen euch bei, wie ihr selbst qualitativ hochwertige Druckteile herstellen könnt. Ihr lernt auch wie ihr selbst Reparaturen und Einstellungen an einem 3D-Drucker vornehmen könnt. Auch bei der Installation und Bedienung der 3D-Druck-Software sind wir euch behilflich.
+- Im OpenLab Augsburg wurden seit März 2015 15 Druckerkurse abgehalten. Dabei wurden fast 70 3D-Drucker gebaut. Die Betreuer haben selbst einen oder mehrere 3D Drucker zu Hause - Drucker von Prusa oder auch andere RepRap Drucker. Unsere Expertise ist darüber hinaus fast jeden Dienstag beim 3D-Druckerabend gefragt und wird von uns auch gerne angeboten. Es ist halt auch viel weniger Aufwand, uns zu einem Problem zu befragen, als den Support des Herstellers zu kontaktieren. Jeder hat Fähigkeiten, von denen Andere profitieren können - die Interaktionen unter den Teilnehmern waren immer eine Bereicherung. 
+- Nach dem Kurs könnt ihr uns jeden Dienstag im Lab besuchen um mit uns zusammen Erfahrungen auszutauschen oder bei Problemen Hilfe zu bekommen. Falls ein Problem nicht mündlich gelöst werden kann, bringt den Drucker gleich mit. 
+
+## Überblick über den Drucker
+
+![Prusa Mini](/miniback3.jpg)
+
+- Druckvolumen 18 cm³
+- abnehmbares Federstahlblech
+- Ethernet und vorbereitet für WLan (noch nicht lieferbar)
+- 32-Bit Buddy Mainboard
+- leise 2209 Trinamic Treibern
+- farbiges 2,8", 240×320 LC-Display
+- Vorschau der geslicten Modelle vor dem Druck
+- sensorlose Referenzfahrt
+- automatischer Gitterbettkalibrierung
+- austauschbare Düse
+- Druck vom USB-Speicher
+- Unterstützte Materialien: PLA, PETG, ASA, ABS, Flex
+- Druckerabmessungen (ohne Spulenhalter & externes Netzteil): 38×38×33 cm (T×H×B)
+
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/qDv4jIr1L8Q/0.jpg)](http://www.youtube.com/watch?v=qDv4jIr1L8Q "Prusa Mini+ Kit Aufbau")
+
+## Ablauf
+
+Der Workshop wird an einem Samstag und Sonntag gehalten. Wir fangen jeweils so gegen 10:00 Uhr an. Ihr könnt solange bauen wie ihr wollt. Gegen Sonntag Mittag werden die ersten Drucker in Betrieb gehen. Vorher gibt's noch eine Einweisung in die Bedienung des Druckers und der Software.
+
+- 3D-Drucker-Vortrag von Stefan um die Basics zu vermitteln (Was ist "RepRap"?, Bestandteile eines RepRap 3D Druckers, Software Workflow, Historie / Wie alles begann, Sicherheit beim 3D-Druck)
+- Einführung in den Prusa Mini
+- Bauphase nach Anleitung und mit Hilfestellung  
+- Einführung in die Software (Prusaslicer, Pronterface)  
+- Test- und Abstimmphase
+- häufige Fehler ansprechen, allgemeines 3D-Drucker-Troubleshooting 
+- (eventuell) Upgrades einbauen
+
+## Anmeldung
+
+Wenn ihr jetzt Lust bekommen habt mitzumachen - super. Hier die Details zum Workshop:
+
+Der Workshop beginnt Samstag früh (genaue Zeiten folgen per E-Mail) und endet Sonntag am späten Nachmittag. Gegen Sonntag Mittag sollte der Drucker in Betrieb gehen, den Rest des Tages verbringen wir mit Einstellen, Drucken und Optimieren.
+
+Es kann immer etwas schief gehen - sollte euer Drucker aus irgendeinem Grund nicht bis Sonntag Abend fertig werden, könnt ihr ihn entweder daheim fertig bauen, oder im OpenLab jeden Dienstag mit uns zusammen weiter bauen. Trotzdem versuchen wir natürlich alle Drucker bis zum Abend fertigzustellen!
+
+Wichtig: Ihr braucht einen mobilen Computer. Neben der Online-Bauanleitung benötigt ihr auch noch die Prusa-Software zur Druckvorbereitung sowie einen USB-Speicherstick. Bitte bringt eure Laptops mit. Wer keinen mobilen Computer zur Verfügung hat, soll sich bitte mit uns in Verbindung setzen, wir versuchen ein Leihgerät zu organisieren.
+
+In der Tabelle unten findet ihr die Termine und das jeweilige Anmeldeformular. Die Platzvergabe läuft so:
+
+- Ihr schickt uns das ausgefüllte Formular zu, wir blocken Euch einen Platz.
+- Wenn Ihr innerhalb von 4 Werktagen zahlt, vergeben wir den Platz fest an euch.
+- Kommt nach 4 Werktagen keine Zahlung wird der Platz wieder für Andere freigegeben.
+- Wenn alle Plätze geblockt, aber noch nicht alle vergeben wurden, könnt ihr Euch auf eine Warteliste setzen lassen. Füllt dazu das Formular aus und schickt es uns zu. Wir werden Euch kontaktieren wenn ein Platz frei wird.
+- Solltet ihr den Anmeldeschluss verpasst haben, könnt ihr Euch auch auf die Liste setzen lassen. Dann werdet ihr vor Veröffentlichung des nächsten Kurses informiert. Eine kurze Mail an <stefan.krister@creative.chaos.de> genügt.
+
++-------------------+-------------------------------------------------------+----------------------+
+| Termin            | Anmeldeformular                                       | Anmeldeschluss       |
++===================+=======================================================+======================+
+| Dezember 2021     |                                                       | 1.12.2021 12:00 Uhr  |
++-------------------+-------------------------------------------------------+----------------------+
