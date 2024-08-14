@@ -1,0 +1,105 @@
+# Plenum 2022-05-05
+
+* Start: 19:00 Uhr + Verspätung + Erstmal essen = 20:30 Uhr
+* Anwesend: a.lorenz, krobin, penguwin, phjl, treilik
+
+
+## Chemielabor
+
+* Sven vom Habitat (Vostand) hat mit Kilian kommuniziert
+* Er hätte gerne eine Inventarliste, um zu wissen, was sie sich ins Haus holen, gefährlich, etc.
+* Die haben eine Ecke gefunden im Habitat für Chemie-Labor-Dinge
+* Das Habitat hat gefragt, ob wir Slack oder Mastodon haben, um uns besser vernetzen zu können
+* Mastodon haben wir: @OpenLabAugsburg@chaos.social
+* Wollen wir alternativ auf augsburg.social?
+* Das Habitat hat angeboten, dass die z.B. mit Fräse und Laser unsere 3D-Drucker-Workshops unterstützen können
+* Und allgemein scheinen die ganz lieb zu sein
+* Thematisch dazu passen zu erwähnen ist es, dass auch bei Günther und seinem Sohn werkzeuge nutzbar sind
+* Aber ein gutes Projekt wie das Habitat zu unterstützen ist natürlich besonders cool
+* Kilian sagt, er ist nun erstmal einen Monat nicht verfügbar, nimmt sich dem Thema aber danach an.
+* Das Thema wurde aufs nächste Plenum zur Wiedervorlage gelegt
+
+
+## Update zu altes Lab Übergabe / neuer Mietvertrag
+
+* Am Sonntag den 1. Mai konnten wir das alte Lab fast zurückgeben
+* Nachdem wir am Montag noch einige fragwürdige Nacharbeiten machen mussten (danke gregor, phjl, krobin, mahartma,...), konnten wir dann das alte Lab am Montagabend/Dienstag erfolgreich an Rene zurück geben. Auch Tobi ist zufrieden
+* Im neuen Mietvertrag ist eine 3%-pro-Jahr-Staffel vereinbart. Das wollten wir eigentlich nicht so, wir werden nochmal mit Günther reden. Wenn es so ist, dass die staffel steht, dann ist es eben so. 
+* 3% pro Jahr würden heißen: In Jahr 1 sind es 1200€ kalt/mo, in Jahr 8 sind es knapp über 1500€ kalt/mo
+
+
+## Der Strom
+
+* Wir haben unseren grünwelt-vertrag (ist es grünwelt?) nun auf den neuen zähler im neuen lab umgezogen (danke gregor)
+* Der neue zähler ist in einem Zählerraum, im Haus läuft ein Schlüssel für diesen Zählerraum um, im Zweifel weiß die Hausverwaltung oder so bescheid. 
+* Wir können unseren zähler also nicht spontan immer, sondern nur nach explizier anfrage ablesen.
+* Bitte achtet auf euren Stromverbrauch (mehr monitoring?)
+* Krobin spricht sich für mehr Monitoring aus, vielleicht sogar ein datenlogger an den zähler klemmen? das ist so ein "neuartige messeinrichtung"-Ding mit IR-Schnittstelle
+
+
+## Einrichtung der Räume
+
+* Mahartma und phjl haben vor ein paar tagen im hauptraum die tische in grobe sitzgruppen verschoben
+* Bei der Konfiguration vorher konnte man nirgends richtig durchlaufen oder sitzen, die war warscheinlich nur für kidslab geeignet :P
+* Die Tische müssen zu teilen auch noch in andere räume, die grauen z.B. ins [E-Labor](E-Labor), das kann dann passieren wenn das zugänglich ist.
+* Bis dahin ist alles ein bisschen ein Chaos %)
+* Bis zum nächsten Plenum wird der Vorstandsschrank in den keller transportiert
+* Dann in der Ecke vom Sofaraum ein Arbeitsplatz ordentlich einrichten!?
+* Bis zum nächsten Plenum wird auch der große TV im Sofazimmer aufgehangen
+* Gregor würde gerne den Piratentisch aus dem Hauptraum bewegen
+    * Alle anderen sind dagegen!
+* Gregor würde gerne an der langen Kante des Hauptraum im Stil des Tinkertank Tische mit Kisten drüber und drunter installieren, um dort kreatives Projektbasteln zu ermöglichen
+* Andere sagen, das führe nur dazu, dass man wegen der Kisten kein Platz für Beine hat und sich in der Gegend viel Müll sammeln würde. Ein solches System bräuchte sehr viel Maintanance-Aufwand
+* Das Plenum ist für festhalten am Plan: Im Hofraum Sofaraum und Arbeitsplatz; Im Eckraum [E-Labor](E-Labor) (dort Tische den Umfang entlang!?); Tischgruppen und flexible Nutzung im Hauptraum
+
+
+## Die Schließung des Fairteiler
+
+* In den neuen Räumen können/dürfen wir den Fairteiler leider nicht weiter betreiben
+* Er wurde deshalb im Laufe des Umzugs geschlossen
+* Der Schrank an sich war von Lisanne. In Rücksprache haben wir den zum Sperrmüll gebracht
+
+
+## Status des Zugangssystems "AirLock"
+
+* Mit Airlock Zvezda können nun Mitglieder Accounts bekommen und auf einer Webseite im WLAN per basic auth und knopf die Innen- und Außentür Buzzern.
+* So kommen Mitglieder jetzt wieder jederzeit ins Lab
+* An der guten, schönen, besseren Version Airlock "Quest" wird, u.a. von krobin, fabi, phjl, etc. aktiv gearbeitet. 
+* Falls jemand Ahnung von RFID-Systemen für Crypto-Auth (challenge-response oder so) hat: Help needed!
+
+
+## Ulrichsfest und Ulrichsverein
+
+* Neulich hat eine Bewohnerin des Hauses gekligelt; sie ist aktiv im Ulrichsverein und will uns einladen, auf dem Ulrichsfest einen Stand zu stellen
+* Das ulrichsfest ist das ökumenische Stadtteilfest im Ulrichsviertel
+* Da gibts Essen, Stände, Programm
+* Gregor bietet an, Sachen als Kidslab da zu machen
+* Für Außenwirkung ist es wahrscheinlich eine sehr gute idee, dort dabei zu sein
+* Datum: Ulrichsfest: 2. Juli 2022 (Webseite; Ulrichsverein Augsburg)
+* Plenum sagt; da hin zu gehen ist eine gute Idee und wir sollten das konkret ins Auge fassen
+
+
+## Die umfangreiche Umstrukturierung der Plenarprotokollorganisation
+
+* Plenarprotokolle waren bisher überall verteilt, eine Struktur gab es nicht 
+* Jetzt sind sie im Wiki, ordentlich sortiert
+* phjl war das.
+
+
+## Eröffnungsfeier
+
+* phjl: Wenn wir eine Eröffnungsfeier planen, halte ich es für eine gute Idee, das Haus mit einem Schreiben nicht nur zu Informieren, sondern ihnen quasi demokratisch eine Wahl aus verschiedenen potentiellen Termienen anzubiten. So kann jeder Kommentare einwerfen, an welchem Tag es besonders schlecht passt etc. und wenn wir das früh genug anstoßen, kann man das problemlos in die Planung einbauen. Würde mich da auch um die Papierarbeit kümmern.
+* Kilian: Die Nachfrage im Haus ist mit dem großen Vorlauf gar nicht wirklich produktiv und sinnvoll
+* Plenum: Wir könnten einfach den 6. August beschließen? Ja!
+
+
+## Mitgliederversammlung Termin und Agenda
+
+* Wir (also, der Vorstand eigentlich) müssten mal wieder eine MV machen
+* Es gilt auch, teil des Vorstandteams (eins bis zwei) neu zu wählen
+* Die Einladung zur MV muss gemäß der Satzung regelmäßig mit mindestens 4 Wochen vorlauf mit Ankündigung der Tagesordnung erfolgen
+* Der Termin fällt ggf. in KW 26 / 27 / 28
+
+## Ende
+* Um ca. 21:15
+* Danke :)
