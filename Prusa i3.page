@@ -1,0 +1,126 @@
+# Prusa I3 3D Drucker
+## Allgemeines zum Drucker
+
+Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker eine komplexe Maschine, bei der einige Stolpersteine lauern. Um Defekte vorzubeugen und um die Verfügbarkeit des Druckers für alle Mitglieder des OpenLab zu ermöglichen wird für den Drucker eine einmalige Einweisung benötigt. Die Benutzung erfolgt dann mit einem personalisierten Account über die Weboberfläche des Druckers. Eine Einweisung könnt ihr bei folgenden Personen bekommen:
+
+* [Stephan Schlosser (Salü)](Mensch_salue)
+* [Adrian Rauth (Aelonath)](Mensch_Aelonath)
+* [Stefan Krister (Bastard)](Mensch_bastard)
+
+## Wichtige Eckdaten
+
+### I3 #1
+
++-------------+------------+
+|IP           |172.16.16.151|
++-------------+------------+
+|Hostname     |i3-1        |
++-------------+------------+
+|Weboberfläche|[http://i3-1.lab](http://i3-1.lab) |
++-------------+------------+
+|Bauraum      |200x200x180mm|
++-------------+------------+
+|Filament     |1.75mm (i.d.R PLA)|
++-------------+------------+
+
+### I3 #2
+
++-------------+------------+
+|IP           |172.16.15.152|
++-------------+------------+
+|Hostname     |i3-2        |
++-------------+------------+
+|Weboberfläche|[http://i3-2.lab](http://i3-2.lab) |
++-------------+------------+
+|Bauraum      |200x200x180mm|
++-------------+------------+
+|Filament     |1.75mm (i.d.R PLA)|
++-------------+-------------+
+
+## Betrieb
+### Einschalten
+
+1. Strom für den Drucker am Netzteil.
+2. Der Raspberry muss
+    * mit dem Drucker
+    * Strom
+    * und Netzwerk verbunden sein.
+3. Beachte, dass Octoprint nach einem Kaltstart eine Weile zum Starten braucht.
+
+### Filament
+
+Der i3 verwendet 1.75mm Filament. In der Regel drucken wir im OpenLab mit PLA Filament verschiedener Hersteller.
+Fillament einführen
+
+1. Filamentspule auf den Spulenhalter setzen
+2. Sicherstellen, dass das Ende des Stranges sauber abgetrennt wurde. Evtl. muss es mit einer Zange sauber abgeknipst werden.
+3. Heize das Hotend auf 180 Grad
+4. Öffne den Spanner am Extruder
+5. Führe das Filament vorsichtig durch den Teflonschlauch am Förderrad vorbei in den zweiten Teflonschlauch und schiebe es bis zum Hotend hinab.
+6. Stelle sicher, dass Filament aus dem Hotend austritt.
+7. Schließe nun den Spanner wieder, so dass der Idler das Fillament in die Riffelung drückt.
+
+### Filament wechseln
+
+1. Heize das Hotend auf 100 Grad (Filament von „Das Filament“ bzw. 80 Grad (Filament eines anderen Herstellers).
+2. Öffne den Idler am Extruder
+3. Ziehe das Fillament vorsichtig heraus. Es sollte etwas strenger gehen, da das Filament bei dieser Temperatur nur zähflüssig ist.
+4. Filament einführen (siehe oben)
+
+### Beschichtung des Druckbettes
+
+Damit das Filament auf dem Druckbett haftet, ist die Glasplatte mit Holzleim beschichtet. Von Zeit zu Zeit ist es nötig diese zu erneuern - wenn zum Beispiel das Druckobjekt nicht mehr richtig haftet oder sich Ecken nach oben kräuseln.
+
+1. Nimm die Druckplatte vom Drucker und reinige sie gründlich mit Wasser und Spülmittel.
+2. Lege die Druckplatte wieder auf das Heizbett und klemme sie fest.
+3. Stelle sicher, dass die Druckplatte sauber und fettfrei ist (evtl einmal mit Aceton wischen - vorsicht, Kontakt mit der Haut vermeiden)
+4. heize das Druckbett auf 70 Grad
+5. Tauche ein gefaltetes Blatt von einer Küchenrolle in die vorbereitete Wasser/Holzleim-Lösung
+
+### Vorschubschraube reinigen
+
+Bei gestörtem Vorschub kann es passieren, dass sich in der Riffelung des Vorschubschraube Fillament ablagert. In diesem Fall ist es notwendig diese vor dem nächsten Druck zu reinigen.
+
+1. Öffne den Idler am Extruder
+2. Entferne das Fillament
+3. Reinige die Förderschraube mit einer kleinen Messing- oder Stahlbürste. Es geht auch mit einer spitzen Pinzette o.ä. - das ist dann aber etwas mühsamer.
+
+### Drucken
+
+Genereller Workflow
+
+1. Objekt liegt als STL-Datei vor und eignet sich für den Druck in einem FDM Drucker. Objekte eignen sich dann für den 3D Druck, wenn sie
+    * auf das Druckbett passen (auch die maximale Druckhöhe beachten)
+    * keine zu starken Überhänge besitzen
+    * keine zu weiten Brücken gedruckt werden müssen (ab etwa 30-40mm)
+    * keine Teile gedruckt werden müssen die in der Luft schweben und sonst keine Stütze besitzen.
+2. Objekt wird mit einem Slicer in einzelne Druckbare Schichten zerlegt und als für den Drucker ausführbare gcode-Datei gespeichert.
+    * Objekt(e) im Slicer auf dem Druckbett platzieren
+    * Slicer Einstellungen wählen
+    * gcode-Datei speichern oder direkt zum Drucker schicken
+3. Die gcode-Datei wird an den Drucker geschickt und gedruckt.
+
+### Nach dem Druck
+
+1. Stelle sicher, dass alle Heizelemente abgeschaltet sind und langsam herunterkühlen (Hotend und Druckbett).
+2. Warte bis das Druckbett auf Zimmertemperatur heruntergekühlt ist. Das Druckobjekt kann dann ganz einfach und ohne Kraftaufwand heruntergenommen werden. Versuche nicht, das Druckobjekt vorher mit Werkzeug oder ähnlichem abzulösen. hierbei besteht die Gefahr einer Beschädigung der Glasplatte.
+
+## Slic3r Profil
+
+Slic3r Config Bundle (kann über „File > Load Config Bundle“ importiert werden). Diese Einstellungen sind druckfertig für normale Gegenstände.
+
+[Prusa Slic3r](https://github.com/prusa3d/Slic3r/releases) (Linux, Mac, Windows)
+
+[Slic3r Profil für den Prusa i3 #1](https://github.com/Aelonath/3d-drucker/blob/master/slic3r_config/OpenLab_Slic3r_config_bundle.ini)
+
+[Slic3r Profil für den Prusa i3 #2](https://github.com/Aelonath/3d-drucker/blob/master/slic3r_config/OpenLab_Slic3r_config_bundle.ini)
+
+Eine ähnliche Minimalconfig gibt es auch einmal als Kommandozeile:
+
+```
+slic3r --gcode-flavor reprap --bed-temperature 60 --start-gcode "G28" --temperature 230 --filament-diameter 1.69 --first-layer-bed-temperature 65 --first-layer-temperature 235 --bridge-speed 40 --external-perimeter-speed 40 --first-layer-speed 50% --infill-speed 60 --layer-height 0.3 --perimeter-speed 60 --perimeters 2 --fill-pattern honeycomb --travel-speed 100 --top-solid-infill-speed 40 --nozzle-diameter 0.4 --retract-length 4 --end-gcode "G28 X G28 Y M84"
+```
+
+## Probleme / Optimierungen
+
+* [Hilfe um die Druckqualität zu optimieren](https://www.simplify3d.com/support/print-quality-troubleshooting/)
