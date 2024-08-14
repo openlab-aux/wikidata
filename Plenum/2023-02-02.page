@@ -1,0 +1,88 @@
+# Plenum am 2023-02-02 um 20:00 Uhr
+
+ 👯‍♂️ Es sind 8 Wesen vor Ort, 0 online anwesend.
+
+ ⏳ Es wurde gestartet um 21:10 Uhr
+
+ ⚠️ Bitte beachten: Themen bitte mit Namen und bis einen Tag vor Plenum aufschreiben. Dann für eigene Themen auch zum Plenum da sein. Ansonsten keine Garantie, dass das Thema auch dran kommt!
+
+
+## 📦👾 Kallaxe? Memberboxen? (phjl)
+* Übers Wochenende KW3 haben waaaaargh und phj zwei Kallax-Regal gekauft und aufgebaut, einmal 2x4 im Hauptraum, einmal 3x4 im Flur, unter der Spacemap
+* Hier sollen Kisten sinnvoll platz finden, eine kurze absprache im Plenum ist aber Sinnvoll
+* phjl schlägt vor:
+    * Aktive Member sollen hier ihre eigene Kiste haben können
+    * Daumenregel, nicht deutlich über ein Fach pro Person, außer man macht so viele Projekte, dass man den Platz wirklich sinnvoll nutzt/braucht. Bei Knappheit -> Neu thematisieren 
+    * Außerdem soll es auch infrastrukturelle Kisten wie "Putzen" geben. 
+* Es gilt: BYOK "bring your own kiste" (Euroboxen passen halbwegs gut)
+* Plenum appreciated mit Applaus, phjl nutzt das als Überleitung zum Crowdfunding
+* Es wäre schön, wenn eines davon durch die Crowd refinanziert werden kann: Das wären 100€
+    * phjl schreibt diesen Aufruf, gemeinsam mit der Information, dass es diese Fächer gibt in den Chat.
+
+
+## 🎁🥳 Geburtstagsparty: 10 Jahre (alle!)
+* Safe the date ist raus: 25.03.2023 auf 26.03.2023
+* Aufkleber-, Stempel-, und Flyerdesign ist entstanden und es materialisiert sich Propaganda
+    * HSA, Studentische Vertretung: mahartma
+    * Schwarzes Brett Fachschaft Informatik: krobin
+    * Schaufenster/Flyerhalter: phjl
+    * guter ort: du 
+* Jetzt haben wir noch sieben Wochen um ein tolles Programm (von 18:00 - XX:XX Uhr) aufzustellen:
+    * kingbbq meinte, er könnte "Programmieren in Minecraft", auch für Lehrer, oder etwas ähnliches machen
+    * phjl hofft, mit w5rgh dann einiges über Airlock erzählen zu können
+* Und eine gute Party zu organisieren:
+    * Getränkeeinkauf
+    * Barschichten
+    * DJs/VJs/live performances/etc motivieren
+    * Eigene Ideen einbringen und frühzeitig verfolgen
+* Weitere ToDos:
+    * Nachbarschaft informieren
+    * Werbung an geeignete Stellen bringen
+* Es sind nur noch ca. 6 Wochen bis zur Party, das wäre nur noch ein Plenum.
+    * -> Lasst uns eine AG Party gründen, die trifft sich am Donnerstag, den 16.02. ab frühstens 18 Uhr!
+
+
+## 🗣️🎤 Verantwortung bei public events, Hausrecht und Code of Conduct
+* Bei Public Events sollte ein "Host" anwesend sein, der/die sich um Aliens kümmert
+    * Sollte der/die Host benannt sein? (evtl. mit Schild: "Dein Host ist xyz")?
+    * Was liegt in der Verantwortung des Host, was nicht?
+        * Um Gäste kümmern
+        * Basic safety/Was jede\*r Keyholder immer macht: Ordentlich absperren, Geräte aus, Fenster zu, Licht: https://wiki.openlab-augsburg.de/abschliessen
+        * NICHT: Lab putzen, wenn andere Dreck gemacht haben. Für alle Gäste automatisch Bespaßung machen müssen.
+    * phjl argumentiert, wir brauchen kein großes neues Regelwerk um auf eine einmalige Situation zu reagieren
+    * waaaargh meint, das sind implizit schon geltende Regeln, die man wohl in 2 Sätzen ausformulieren kann. Für ihn soll die Diskussion im Vordergrund stehen, muss nicht zwingend  niedergeschrieben werden.
+    * mahartma bringt wiederholt richtiger Weiße ein, das die detailierten "keyholder"-Regeln sogar schon im Wiki und an der Tür sprechen.
+    * Auch: Man kann den öffentlichen Abend beenden und sich member-intern noch ein Bierchen gönnen. :)
+* Eskalationsstufen bei Problemen mit Verhalten von Membern & Gästen?
+    * Vorschlag: 1) Gegenrede 2) deutliche Ansprache 3) Yeet!
+    * Freundlich bleiben, alle Eskalationsstufen durchlaufen, notfalls mit Polizei eskalieren.
+* Code of Conduct etablieren?
+    * kein "be excellent to each other" Wischiwaschi bitte!
+    * mahartma: "Soll nicht reglementieren, sondern grundlage bieten um Verhalten in Frage stellen zu können.?"
+    * Lösungsvorschlag: Kein Code of Conduct, weil Missbrauchspotenzial hoch und Regulierung aller möglichen Use-Cases nicht möglich.
+    * Krobin: Es gab nach dem letzten Rausschmissszenario einen Entwurf zu Code of Conduct von Momo, Annahme im Verein ist jedoch im Sande verlaufen
+    * Phjl/Krobin: In anderen Spaces negative Erfahrungen mit Regelwerken, weil die Auslegung dieser Missbrauchspotenzial bietet
+    * Wenn man sich nicht sicher ist, alleine zu entscheiden bzw. allgemein: Vor Eskalation mit anderen Anwesenden oder im Chat rückversichern und Konsens finden, um vom Hausrecht gebrauch machen zu können. (Rausschmeißen)
+    * SAGEN und Hilfe bei anwesenden suchen, wenn man sich (auch subjektiv) nicht wohl mit Gästen fühlt.
+
+## ☁️🔐 Airlock
+* Fortschritte!
+    * NFC-Modul: Erfolgreicher Test
+    * Türmodul: Prototyping & Platinendesign
+        * phj stellt nach dem Plenum den aktuellen Schaltplan vor
+* Update zum Systemdesign
+    * User workflow (und die dahinter liegenden state machine) wird beschrieben: du hälst deine karte an die tür, du kannst 60 sekunden lang rein, der status ist dann erstmal: "members only", du kannst dann (vermutlich mit zweitem nfc-reader) auch auf public stellen, wenn du willst. es ist modular gemacht und die features kommen stück für stück ;)
+
+## 🙋‍♀️❓ Dein Thema hier? (Dein Name hier!)
+* Bitte erkläre etwas zu deinem Thema
+
+
+## 🗞️🚨 Kurznachrichten
+~~* Neue Regale! Memberfächer?!~~
+* Würth war wieder da. Hat jemand Lust die Design-Kits durchzugehen und leere an unseren Ansprechpartner zu schicken? Z.B. die Hohlstecker sind komplett leer
+* FräsBrudi: Spindel dreht, FI wird nur gelegentlich beim Abschalten geworfen
+* Rakete: Ist nun per WiFi-Steckdose stromsparend (thx w5rgh) und schaltet nicht mehr selbst ab (thx kingbbq)
+* Der Haufen hat von Phase 0 bis 2 transiiert, bald (wann?) Phase 3 von 4
+* mahartma liest viel zu schnell
+
+## Ende um 22:12 \o/
