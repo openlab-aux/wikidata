@@ -1,0 +1,131 @@
+# Protokoll 2020-12-03, 20:23
+## Ort/Einwahl
+Max. 2 Personen vor Ort, ansonsten online:
+https://public.senfcall.de/OpenLabPlenum
+
+## Agenda
+Bitte schreib hier vorab deine Themen mit deinem Namen rein, wenn du sie im Plenum besprochen haben willst. 
+
+:heavy_exclamation_mark:Was nicht vorher auf der Agenda steht, wird nicht garantiert besprochen. 
+:heavy_exclamation_mark:Wenn du nicht anwesend bist um dein Thema vorzustellen, wird es nicht garantiert besprochen.
+
+:question: Anwesend waren:
+- DasPhantom
+- Fabian
+- Gregor
+- Jörg
+- krobin
+- midzer
+- flip
+- trilik
+
+:question: Gibt es heute "anstrengende Themen", brauchen wir Moderation oder Redezeiten? -> Nein
+
+
+
+### Neues Haufen-Konzept (Josef)
+- Vorschlag: Nach festem Monats-Rhythmus, um antiverpeilen zu erleichtern
+- Bestehendes Konzept: https://wiki.openlab-augsburg.de/Haufen
+- Umstellung ab 2021
+- im Wiki dokumentieren
+- Schedule:
+  > Januar      : Init
+  Februar   : Freeze
+  März         : Free For All
+  April         : Sperrmüll/Wertstoffhof
+  Mai          : Init
+  Juni         : Freeze
+  Juli           : Free For All
+  August         : Sperrmüll/Wertstoffhof
+  September      : Init
+  Oktober         : Freeze
+  November         : Free For All
+  Dezember         : Sperrmüll/Wertstoffho
+ - Überlegungen:
+   - Haufen sollte, wenn er nötig ist, kurz und knackig umgesetzt werden
+   - Regelmäßiger Haufen würde Momentum bei wirklichem Bedarf rausnehmen
+ - Abstimmung:
+   - Aktuellen Modus beibehalten:
+     - craftamap 
+     - trilik
+     - Gregor
+     - DasPhantom
+   - Josefs vorschlag umsetzen:
+     - Jörg
+   - Anderer Vorschlag/Enthaltung:
+     - midzer
+     - krobin
+ - Vorschlag von midzer:
+   - Haufen muss gelabelt werden mit Status und Phasen gekennzeichnet werden :heavy_check_mark: 
+
+### Aktueller Haufen
+- wird heute genotified
+- wird am montag von gregor entsorgt/zum wertstoffhof gebracht
+
+### rC3 (krobin, tina, alle)
+- Ausverkauft :astonished: 
+    - > Momentan prüfen wir, ob und wie es möglich ist mehr Tickets für Euch verfügbar zu machen. Wir halten Euch auf dem Laufenden! (Status heute)
+- NATO Village (DasPhantom hats registriert)
+    - Wenn wir was machen wollen, etwas in Wiki soll, etc: DasPhantom braucht Input ;)
+- Vortragseinreichung von dasphantom, hat leider noch kein Feedback
+- Gregor macht beim Kids-Space mit, kennt sich schon mit Work-Adventure aus
+    - Falls jemand bei einer "NATO-Map" mitbasteln will, gerne Gregor kontaktieren
+- Remote-Synthie-Jam von dasphantom(/curtisanne) (SonicPi-Foo) ?
+    - Beteiligung ist erwünscht, DasPhantom macht es aktuell im alleingang, hofft das er es bis zum rc3 noch irgendwie ne version hinbekommt
+- Theater-Fun mit tina?
+- Was geht sonst? Wer will was machen?
+- Gregor schreibst auf die C3A Liste /CCC Channel - nächsten Donnerstag Meeting zum diskutieren
+- "Schau ma mal, dann seng ma scho"
+
+### shuffle21 (krobin)
+- Mitglieder wollen Räume umgestalten
+    - Chemielabor
+    - ehemalige Bibliotheksfläche nutzbar machen
+    - Getränkeautomaten in ehe. bib fläche.
+    - couch ans fenster, A0-drucker zur stelle der getränke automaten.
+    - E-Ecke und 3D-Drucker neu aufstellen (Mehr lab, weniger Lager-Charakter)
+    - Haupt raum regale umstellen, in die ehemalige werkstatt; Werkstatt wird zu Lager; ggf Zugangskontrolle
+- Vermutlich macht zentrale Sammlung von Ideen Sinn
+- krobin kümmert sich um Floorplan
+- Chat für alle die ihre Ideen, Wünsche, Bedürfnisse oder Veto-Chancen nutzen wollen: https://chat.openlab-augsburg.de/openlab/channels/shuffle2021
+- kilian: brauchen wir konsens
+    - krobin: erstmal in der "arbeitsgruppe" konsens finden. konsens über den ganzen verein wird eher schwer. vielleicht liefert die AG dann eine entscheidungsvorlage.
+
+### Nicht-Zahler auf sphincter / Chat-Mitglieder-Kanal inaktiv schalten? (Vorstand)
+- Finanzierung weiterhin nicht sehr gut. Grob seit Vorstandswechsel:
+    - Aktuell aufgearbeitet: leichtes (ca hoch dreistelliges) Defizit
+    - Prognose bis zum Jahresende (krobins Bauchgefühl): klein dreistelliges Defizit
+    - Wir haben jetzt eine aktuelle Liste mit nicht korrekt zahlenden Mitgliedern und werden diese bald (teils leider nicht zum ersten mal) anschreiben.
+- Viele Mitglieder zahlen voll oder sogar noch mehr - unfair diesen gegenüber, die Nicht-Zahler gleich zu behandeln
+- Sollten Nicht-Zahler stets das Lab nutzen können? 
+    - Welchen Anreiz gibt es sonst noch, das Lab finanziell zu unterstützen, außer es damit zu erhalten? Sollte es denn neben dem genannten Grund überhaupt noch Anreize geben müssen? [name=krobin]
+        - Oft ist es ja nur Verpeilung, da ist "nicht selbst reinkommen" vermutlich ein guter Reminder [name=krobin]
+- Vorschlag: temp. Raumtoken deaktivieren (Mitgliederstatus: inaktiv) bis sie wieder zahlen oder mit dem Vorstand eine persönliche Sonderregelung vereinbart haben.
+- Inaktive Mitglieder aus dem geschlossenen, Mitglieder-vorbehaltenen Teil des Mattermost-Chats (Kanal: Mitglieder) temporär ausschließen
+ - Abstimmung:
+   - Aktuellen Modus beibehalten:
+   - Vorstandsvorschlag umsetzen: 
+       - krobin
+       - craftamap
+       - gregor
+       - jörg 
+   - Anderer Vorschlag/Enthaltung:
+     - midzer
+   - => Vorstandsvorschlag rollt so langsam los
+
+### Berichte // In aller Kürze
+ - Menschen machen bei Advent Of Code mit, Austausch im Chat
+ - flipdot-Implementierung: "announcements" in arbeit - PR Draft liegt vor
+ - Online-Session zu Hugo
+ - heyalter Laptops wurden angenommen, installiert, verteilt
+ - Haben versucht bei der deutsche-stiftung-engagement-und-ehrenamt.de Fördergelder abzugreifen, waren aber sehr wahrscheinlich zu spät. Club hat uns dabei geholfen, vielleicht haben wir in der nächsten Runde mehr Glück. 
+ - Follow-Up: jverein-File defekt. Byro.. Muss customized werden. Gregor weiß mehr. Wer Bock hat django zu hacken ist herzlich eingeladen. Wer Byro kennenlernen will auch!
+ - Lüftungsempfehlungen auf flipdot bei erhöhter CO2-Konzentration.
+ - Blumenbrudi giest unsere Grünlilien
+ - Haufen hat nicht funktioniert, vegetiert wieder.
+ - Seit über 30 Tagen Lockdown, das Lab ist zu. Max 2 Personen/Haushalte in Notfällen :(
+ - Asynchrones Schach in ~gaming - Vielleicht finden sich weitere Spielerinnen?
+
+### Sonst noch was? // Ende
+Ende um 21:08. krobin bereitet nächstes protokoll vor. craftamap schickt das protokoll rum.
+
