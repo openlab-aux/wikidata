@@ -1,0 +1,56 @@
+# Protokoll 2021-09-02, 20:42 Uhr
+
+## Wo finde ich alles?
+- Das Plenum trifft sich hier: https://meet.ffmuc.net/OpenLabPlenum
+- Das Protokoll ist hier: https://hackmd.io/@kingbbq/OpenLabPlenum
+
+## Wer ist da?
+- Gregor
+- krobin
+- lobo
+- midzer
+- rene
+
+## Agenda
+
+### alle@, mal wieder (krobin)
+* Nach den letzten Beiträgen von Josef und Markus steht Markus gerade auf moderiert.
+    * Moderatorenprivileg hat der Vorstand
+    * Kann gerne weiteren Menschen gegeben werden, bei Interesse bitte melden
+* Wie wollen wir weiter machen? Einzelne Leute hängen an der Liste. 
+    * krobin wäre für: 1) Liste lassen, 2) Wiederholte Provokateure moderieren, 3) Mehr schönen Inhalt dort teilen
+    * midzer: Liste ist eher low-traffic, im MatterMost passiert mehr. Um Leuten die nicht im Mattermost sind keinen Anschluss zu nehmen würde aber auch er sie online lassen. Es ist ihm nicht nachvollziehbar, warum man da überhaupt persönlichen Stunk machen muss, dafür ist die Liste nicht da.
+* -> Vorschlag: Wir behalten den aktuellen Modus bei und berichten falls sich was ändert? Veto? -> Konsens des Plenums, wird so gemacht.
+
+### Vorträge (phj)
+* Wie laufen die Talks? Haben Leute bock? Wird vorgetragen? Wo?
+* Die Anwesenden hab nichts mitbekommen. Wiedervorlage im Plenum (wenn phj wieder da ist).
+* midzer kann mal wieder einen Hugo-Vortrag machen, möchte sich aber zunächst vorbereiten und nicht vorab comitten!
+* Werbung (Kalender, Twitter, etc) vorab macht Sinn, könnten Vortragende im Optimalfall eine Woche vorher machen.
+
+### Steuer & Finanzbericht 2020/2021 (kingbbq)
+* Gregor und krobin haben in üblicher Lab-Manier in der letzten Sekunde eine Steuererklärung erstellen und abgeben lassen.
+* Es waren Java-Software, elisp und LibreCalc involviert.
+* Gregor stellt die Jahre 2017-2019 vor:
+    * 2017: 14k€ Mitgliedsbeiträge, 16k€ Miete, Spenden, Getränke, ..
+    * 2020: Ca. auf 0 raus (ohne die Spende von Rene) (Mieterlass, Spenden, ..)
+    * 2021: Dieses Jahr wie die letzten Jahre, ca 1000€ Defizit
+        * Nötig um auf die Plusseite zu kommen wäre:
+            * 5 weitere Vollzahlende oder:
+            * 10 Ermäßigte
+    * Bei Interesse zeigt Gregor auch auf dem nächsten Plenum nochmal die Zahlen
+
+### Berichte // In aller Kürze
+- Sommerfest war gut besucht und sehr schön. Danke allen Helferinnen und Besucherinnen
+- Die Steuererklärung wurde dank erheblicher Krisenmanagementskills von Gregor und seiner sehr coolen Steuerberaterin Vogt fristgerecht abgegeben!
+- Pacman, unser neuer Staubsauger-Roboter hat die erste Arbeit getan. Sein linker Motor scheint aber etwas lahm.
+    - Gerne weiter Debuggen, liegt in der E-Ecke auf dem Tisch.
+- Wir haben uns im Digitalrat auf die "Bildungs" und "Digitale Stadtgesellschafts"-Gruppe subscribed. Gruppenarbeit beginnt schon, will jemand mitwirken?
+    - kingbbq will mitwirken, krobin fragt wie das mit der Vertretung läuft
+- µC3-OLA-Pokerabend Terminfindung https://pads.ccc.de/uc3-ola-pokerabend
+    - Findet statt! Termin wird bekannt gegeben
+- OLAdio Online-Radio http://icecast.schlierf.info:45186/ola danke an momoaux
+    - GEMA kacken!
+
+## Ende um 21:48
+
