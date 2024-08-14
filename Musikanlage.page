@@ -1,0 +1,131 @@
+# Die Musikanlage
+Zur Beschallung im OpenLab steht ein Verstärker und Boxen rum, die regelmäßig bespielt werden. Es spielt Musik, wer gerade Lust darauf hat. Zum Einschalten der Anlage im Home Assistant “Audio & Beamer” aktivieren, am Ende des Tages wieder ausschalten. 
+
+Die Steuerung erfolgt über [HASS](HASS) (Seitenmenü “Music Assistant”).
+
+Man kann alternativ auch über Bluetooth Musik spielen, das Device heißt „Vorstand“.
+
+Alternativ alternativ kann man direkt die Klinke benutzen, sie ist allerdings nicht besonders lang.
+
+TODO: bitte updaten!
+<s>
+Aktuell ist ein [Moode](https://moodeaudio.org/) darauf installiert. Dies ermöglicht folgende Musikquellen:
+- Bluetooth aptX, LDAC, SBC XQ+
+- AirPlay 2
+- Spotify Connect
+- pulseaudio streaming
+- Kabel direkt am Klnkeanschluss
+- Netzwerkradios per Streaming-URL
+Außerdem lassen sich per SMB und NFS Dateien hochladen und diese abspielen.
+Moode bietet ein hübsches Web-UI zur Steuerung unter http://audio.lab
+</s>
+
+# Benutzung
+## Per Pulse-Audio
+
+Momentan geht pulse-audio Streaming nicht.
+
+<s>
+Hauptsächlich wird die Anlage per pulseaudio bespielt. Zur Nutzung der Musikanlage per pulseaudio ist eine LAN-Verbindung von Vorteil, WLAN könnte ruckeln.
+
+#### Einrichtung von Pulse-Audio-Streaming unter verschiedenen OS
+
+##### Nutzung mit NixOS
+
+```nix
+hardware.pulseaudio.zeroconf.discovery.enable = true;
+```
+
+##### Auf Debian/Ubuntu:
+
+`avahi-daemon` muss laufen. Dass lässt sich prüfen, indem man `avahi-browse -a` eingibt; es funktioniert, wenn Geräte im Netzwerk angezeigt werden.
+
+```bash
+apt-get install pulseaudio-module-zeroconf
+# braucht root (/etc)
+echo "load-module module-zeroconf-discover" >> /etc/pulse/default.pa
+systemctl --user restart pulseaudio || pkill pulseaudio
+```
+		
+##### Auf Arch Linux:
+
+`pulseaudio-module-zeroconf` muss hier nicht extra installiert werden, da es schon vorhanden ist. 
+
+Es reicht also, `load-module module-zeroconf-discover` in die `/etc/pulse/default.pa` zu schreiben (dies benötigt root-rechte). 
+
+Anschließend pulseaudio per `systemctl --user restart pulseaudio` neu starten.
+
+###### Nicht-persistenter Ansatz
+
+```shell
+pactl load-module module-tunnel-sink server=audio.lab
+```
+Dann mit dem Befehl pavucontrol die Audioquellenübersicht anzeigen.
+Dort unter "Playback" die Quelle auswählen (Firefox, audacious, etc.) und dann als Ausgabe pi@HannswurschtII auswählen.
+Der Sound sollte jetzt aus den Boxen kommen.
+
+##### Auf anderen Systemen ähnlich (bitte vervollständigen, wenn ihr es rausfindet!).
+
+## Mit Spotify
+
+Spotify-Nutzer/innen sollten `hannswurscht` als Device im jeweiligen Spotify-Client vorfinden. Das "Gruppen"-Feature funktioniert leider nicht.
+
+## Per Klinke
+
+Zum anschließen per Klinke kann das auf dem Verstärker liegende Kabel genutzt werden. Es ist nicht besonders lang, am ehesten würde man also z.B. das Smartphone auf dem Verstärker liegen lassen. Hier ist die Quelle "AUX" zu wählen.
+
+
+# Troubleshooting/Fehlerbehandlung
+## Kein Ton
+
+Sollte kein Ton kommen, prüfe folgendes:
+- Am Verstärker ist "AUX" ausgewählt 
+- ob die Lautstärke im Web-UI auf 0 gestellt ist
+- Ob in den Einstellungen der richtige AUX Ausgang ausgewählt ist. Drücke hierfür auf das Moode Symbol rechts oben und wähle Audio. Beim AUX Anschluss sollte "Soundblaster ..." ausgewählt sein.
+# Hardware
+
+##### Hardware-Aufbau
+
+Die Musikanlage besteht aus einem Yamaha RX-360 und zwei CANTON SAT2 (8 Ohm)
+
+##### Hanswurst II
+
+Hannswurscht der II. ist der "Audioserver": ein RaspberryPi 3 mit externer USB Soundkarte (Creative SoundBlaster Play3), die mit einem Klinkenkabel in einen festen Kanal des Mischpults geht.
+
+Es läuft ein raspbean mit pulseaudio und aktiviertem UDP Streaming und avahi. HannswurschtII ersetzt den hannswurscht Laptop (s. unten).
+Kümmerer ist [DasPhantom](). Wer Zugriff haben möchte, Bescheid sagen, dann adde ich euren SSH Key.
+
+###### Install Changelog
+Starting point is a newly setup Raspbean OS.
+
+Install necessary software:
+
+	sudo apt-get install pulseaudio pulseaudio-module-zeroconf alsa-utils avahi-daemon
+
+Configure pulseaudio for network:
+In file `vim /etc/pulse/system.pa` add the following lines:
+
+	load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1;172.16.0.1/24
+	load-module module-zeroconf-publish
+	
+Add a systemd unit file:
+
+	[Unit]
+	Description=PulseAudio Daemon
+	
+	[Install]
+	WantedBy=multi-user.target
+	
+	[Service]
+	Type=simple
+	PrivateTmp=true
+	ExecStart=/usr/bin/pulseaudio --system --realtime --disallow-exit --no-cpu-limit
+	
+Enable and start the service using systemctl.
+
+Disable the standard 3.5mm audio jack so that it gets not listed or used accidentially.
+Add /etc/modprobe.d/alsa-blacklist.conf:
+
+	blacklist snd_bcm2835
+	
+Save and reboot the system.
