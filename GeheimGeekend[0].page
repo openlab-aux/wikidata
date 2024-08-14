@@ -1,0 +1,67 @@
+[Planungspad](https://pads.reis.asia/p/geheimgeekend-2017-01)
+
+## Ablauf
+
+### Samstag
+
+* Alle kommen an!
+* Entspannen / Hacken
+* Zwischendurch immer wieder [Keysigning](#keysigning party)
+* [Vorträge](#vorträge)
+
+### Sonntag
+
+* Nicht geschaffte Vorträge
+* Entspannen / Hacken
+
+## Vorträge
+
+-------    ---------------------------------------------------
+speaker    topic
+-------    --------------------------------------------------
+glaxx      Matrix, ein dezentralisiertes Kommunikationsprotokoll
+
+
+hunz       Multi-Threaded OpenVPN Client
+
+~~richi~~      ~~Quellcode lesen und verstehen. Am Beispiel ReinhardVPN~~
+
+~~?~~          ~~prctl —  Wie man Privilegien unter Linux loswird~~
+
+~~PatschX~~ ~~Haskell/NixOS~~
+
+_luc       Fliegerei
+
+tbd        Spontane Talks
+-------    ---------------------------------------------------
+
+## Workshops
+
+### Shitty-Robot-Workshop
+
+Unklar
+
+### Nägel lackieren
+
+sternenseemann und _luc, während des ganzen Geekends verfügbar
+
+## Keysigning Party
+
+Wird organisiert von Steini.
+
+### Was vorbereiten?
+
+1. Ausweis o. ä. einpacken
+2. Relevante Informationen ausdrucken
+    - Vor- und Nachname
+    - Die Mail-Adresse, die zu deinem Key gehört
+    - Key-ID und Verschlüsselungsart (z. B. 4096R/1A2B3C4D5E6F7G8H)
+    - Der Fingerprint
+    - [Siehe auch](https://wiki.debian.org/Keysigning#Step_4:_Print_your_key)
+    - Geht ganz gut mit `gpg-key2ps` aus [signing-party](https://packages.debian.org/stretch/signing-party), es gibt Drucker im Labor!
+
+## Essen
+
+* Samstag Abend: Chilli von mwarning vor Ort
+* Sonntag Mittag: unklar, im Zweifel bestellen
+* Sonntag Abend: unklar, im Zweifel bestellen
