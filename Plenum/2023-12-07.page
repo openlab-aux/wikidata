@@ -1,0 +1,87 @@
+# Plenum am 2023-12-07 ab 20:11
+
+*  👯‍♂️ Es sind 5 Wesen vor Ort, 3 Wesen online dabei
+*  ⏳ Es wurde gestartet um 20:11 Uhr
+*  ⚠️ Bitte beachten: 
+  * Themen bitte mit Namen und bis einen Tag vor Plenum aufschreiben. Dann für eigene Themen auch zum Plenum da sein. Ansonsten keine Garantie, dass das Thema auch dran kommt!
+  * Nach dem Plenum neue Seite unter der [Wiki-Seite](https://wiki.openlab-augsburg.de/Plenum/Infos) für das Protokoll anlegen und rüber kopieren. Übernimmt heute: $wesen
+* [Link zum Pad (Sie sind hier)](https://ola.lol/code/#/2/code/edit/Zff5ekKyRFn0QyXU7tzCz5S7/)
+* [Link zum BBB](https://bbb10.senfcall.de/...)
+
+## 37C3:
+
+Ja! Wir freuen uns!
+
+### Update zum Assembly
+  - Wir wurden als Assembly angenommen
+  - "OpenLab Augsburg (Chaostreff Augsburg)"
+  - 18 Sitzplätze angefragt
+  - Befreundete Assemblies verlinkt!
+  - Danke vero! <3
+
+### Projekte für 37c3 ?
+- rakete mitnehmen? 
+- https://ola.lol/pad/#/2/pad/edit/5ktOW93H1foacdTgWV-jD7Mn/
+  - Alte Spacemap mitnehmen?
+  - SpaceMap v2 bauen!
+    - LED-LWL-Übertrager läuft schon
+    - Brett(Plastik-Platte!) (in der Größe) müsste beschafft werden. Dann "Konturen fräsen". Yongan fragt mal nach, ob das möglich wäre. Adrian kennt auch einen Kumpel mit CNC neben dem Lab, könnte ein Plan B sein. Habitat Plan B2
+    - Plan C: Plotten.
+    - Stromversorgung wurde gefunden
+    - Vorab-Propaganda, damit Leute Space-Logos mitbringe?
+    - Oder momo um seinen kleinen Plotter bitten, damit wir alle Logos "einheitlich" plotten können? krobin fragt ihn, auch nach schwarzer Folie.
+    - yongan und krobin gucken anfang nächste woche wegen der outline
+    - muss an aluplatte verschraubt werden, um kraft und biegeradius der leiter aufnehmen
+    - 2mm LWL it is.
+    - Wir gehens an!
+    - Vero bittet alle Interessierten sich die Details im Pad anzusehen!
+    - krobin schlägt vor: Montag Nachmittag/Abend Lab+Online weiter machen -> agreed
+  - Sticker
+  - Automatischer Seidenstraßen Router
+  - Infobeamer Werbung/Fnords
+  - Patsch fragt mal die Klima-&Mathe-Menschis, ob sie etwas beitragen wollen. Mini-Klimacamp?
+  
+### Cargo- & Mitfahrgelegenheiten?
+  - Niemand fährt mit dem Auto, oder kennt jemanden der mit dem Auto fährt
+  - Wenn viel zusammengeht könnte man nen Sprinter mieten
+  - Ansonsten Sprinter der Nachbarstädte nutzen oder Pakete verschicken. 
+  - Wie ist denn die Einschätzung?
+    - krobin hätte so ca 2 eurokisten + 1 koffer zu befördern
+    - krobin hat auch eine noch unklare Menge Material für die SpaceMap
+    - 
+  
+### Sonstiges? Hat noch jemand Fragen? Gibt es jemanden ohne Vorfreude?
+
+## Terminfindung Günter neue location checken? (krobin)
+  - Donnerstag ab 17 Uhr können die meisten meistens
+  - krobin fragt Günter soon, an welchem nächsten wir können und gibt Info rum.
+  - Modus für alle OK? -> paul sagt ja, rest auch oder egal
+  
+
+## Spenden für das MK4 Upgrade + Förderung vom CCC (Yongann & krobin)
+  - Dank Yongans Einsatz, hat sich ein Prusa-MK4-Crowdfunding realisiert
+  - Wir haben den CCC um 50% Beteiligung gebeten und einen positiven Bescheid bekommen
+  - Planen ihn am Dienstag zu bestellen
+  - Überweisung ans labkonto (Verwendungszweck: "Lab-MK4-Beteiligung")
+  - auf dem labkonto ist genug Kohle, um direkt am nächsten Dienstag zu bestellen
+  - Eure Beteiligung könnt ihr hier sehen (und editieren, hihihihi) https://nuudel.digitalcourage.de/m5FmWmfIe9nqKZ2OjX9uUNRV/admin
+  - Danke Andre!
+  
+## Hat jemand den ESP8266 aua meinem fach gesehen? (MatzE)
+  - von Yonngan für wled bereitgestellt, Danke :)
+  - war in meinem fach gelagert
+  - weg
+  - derpy esp 1 bereitgestellt, Danke :)
+  - krobin: bitte genauer spezifizieren, was für ein esp32? wann verschwunden? (nein, ich habe viele esp32s gesehen, aber keinen bewusst sich aus deinem fach bewegen sehen)
+
+## Kurznachrichten
+  - Alter Chatserver abgeschaltet. Weitere Exporte können an Adrian übergeben werden
+     - Channels tauchen nicht immer im Space auf, workaround: Verlinkungen im Wiki
+  - Eine weitere (nice) Filmnacht hat stattgefunden! Wann ist die nächste? Hackers und Wargames sind auf der Liste. Nächster Donnerstag!
+  - 3D-Werkzeugkoffer-Abuse ist weiter ungeklärt. Schade, can't we have nice things?
+  - Im Anschluss wurde große Space geputzt! Vielen lieben Dank an die Ehrenmenschen!
+  - Congress, Congress, Congress!
+  - 3D-gedruckte Schachtel für die Schachfiguren wird geplant (vero hat sich angeboten)
+  
+## Ende: 21:17
+    
