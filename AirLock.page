@@ -7,12 +7,6 @@ https://www.openlab-augsburg.de/wp-content/uploads/2022/05/Schema-Seidle-Interfa
 
 Wenn du bei uns Mitglied bist, bekommst du die Möglichkeit, mit dem Airlock-Zugang jederzeit die Räume zu betreten (24/7!).
 
-Die folgenden Personen können das für dich einrichten:
-
-* [Mensch_waaaaargh]()
-* [Mensch_paulele]()
-* [Mensch_krobin]()
-
 # AirLock Zvezda
 Prinzipiell sind die Grundanforderungen an dieses System sehr überschaubar: Das Haustelefon von Seidle wird noch nicht ersetzt, Zvezda ist nur eine temporäre addition an dieses System. 
 
@@ -33,7 +27,7 @@ Die Software ist auf github: [https://github.com/openlab-aux/airlock/tree/master
 ### Eine Zusammenfassung
 
 * Der Pi 3B hängt mit craftamaps software per LAN im Netz und ist über [http://172.16.0.248:3000/](http://172.16.0.248:3000/) erreichbar
-* Für einen account krobin anschreiben
+* Für einen account profpatsch, waaaaargh, paulele oder krobin anschreiben
 * Der Pi gibt Logikpegel an GPIO 12 und 16 aus, die gehen weiter zum Tennzy auf dem Breadboard
 * Weil die Logikpegel genau falsch rum sind, werden die vom Teenzy einmal umgedreht und mit 5V Pegel weiter gegeben
 * Das Relay Board schaltet dann die tatsächlichen Kontakte. Die sind im Gehäuse des Seidle Haustelefons verstaut, Belegung steht weiter unten.
