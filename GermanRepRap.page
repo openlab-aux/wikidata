@@ -11,7 +11,7 @@ Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker e
 +-------------+------------+
 |Hostname     | druckbrudi.lab |
 +-------------+------------+
-|Weboberfläche| [http://172.16.0.176/diy](Octoprint) |
+|Weboberfläche| [Octoprint](http://172.16.0.176/diy) |
 +-------------+------------+
 |Bauraum (BTH)| 400 x 400 x 400 mm |
 +-------------+------------+
