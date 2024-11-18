@@ -2,7 +2,7 @@
 toc: false
 ...
 
-![](/10-jahre-banner.png)
+![](10-jahre-banner.png)
 
 # Was & Wann
 Das OpenLab hat Geburtstag! Vor zehn Jahren haben die Gründungsmitglieder des Vereins die Satzung gefasst, damals noch in einem kleinen Zimmer in der Elisenstraße, nahe dem Hotelturm. In der Zwischenzeit sind wir zwei mal umgezogen: Einmal ein Stockwerk hoch in den damals neuen Anbau im Hof der Elisenstraße 1, dann vor einigen Monaten ein zweites mal - vom Antonsviertel ins Ulrichsviertel - direkt ins Herz von Augsburg!
@@ -27,7 +27,7 @@ Im Laufe des Abends gehen wir von einem Vortrags- in ein Musik-Programm über. O
 +------------------+--------------------------------------------------------------------------------------------------------+-----------------+
 | 17:30            | Space Map: Bunte Lichter an der Wand, wer hat offen?                                                   | krobin, phjl    |
 +------------------+--------------------------------------------------------------------------------------------------------+-----------------+
-| 18:00            | Haskell in Production ([Notizen zum Talk](/10jahre Talk: Profpatsch – Haskell in Production))          | Profpatsch      |
+| 18:00            | Haskell in Production ([Notizen zum Talk](10jahre Talk: Profpatsch – Haskell in Production))          | Profpatsch      |
 +------------------+--------------------------------------------------------------------------------------------------------+-----------------+
 | 18:30            | Platinendesign mit KiCAD!                                                                              | Strg-V          |
 +------------------+--------------------------------------------------------------------------------------------------------+-----------------+

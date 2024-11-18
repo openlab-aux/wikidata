@@ -7,7 +7,7 @@ Wenn du vorhast, teilzunehmen, [melde dich bitte vorher an](https://cryptpad.dig
 
 ### Flyer
 
-![NerdNight 17 Flyer](/NerdNightFlyer.web.png)
+![NerdNight 17 Flyer](NerdNightFlyer.web.png)
 
 ### Food & Drinks
 

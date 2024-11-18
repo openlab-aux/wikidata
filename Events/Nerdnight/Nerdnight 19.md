@@ -15,7 +15,7 @@ Hier findest du allgemeine Informationen zum Format der Vorträge unter [Call fo
 
 ### Flyer
 
-![NerdNight 19](/flyerNN19_mini2.jpeg)
+![NerdNight 19](flyerNN19_mini2.jpeg)
 
 
 ### Stream

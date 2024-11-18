@@ -29,7 +29,7 @@ Seid euch bitte darüber im Klaren, dass wir euch *keinen* fertigen Drucker anbi
 
 ## Überblick über den Drucker
 
-![Prusa Mini](/miniback3.jpg)
+![Prusa Mini](miniback3.jpg)
 
 - Druckvolumen 18 cm³
 - abnehmbares Federstahlblech

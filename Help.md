@@ -169,8 +169,8 @@ Here are some examples to get you started:
 <td>[external link](http://google.com)</td>
 </tr>
 <tr>
-<td>`![folder](/img/icons/folder.png)`</td>
-<td>![folder](/img/icons/folder.png)</td>
+<td>`![folder](img/icons/folder.png)`</td>
+<td>![folder](img/icons/folder.png)</td>
 </tr>
 <tr>
 <td>Wikilink: `[Front Page]()`</td>
@@ -323,7 +323,7 @@ several pages on wine, you may wish to organize them like so:
 Note that a wiki link `[Burgundy]()` that occurs inside the `Wine`
 directory will link to `Wine/Burgundy`, and not to `Burgundy`.
 To link to a top-level page called `Burgundy`, you'd have to use
-`[Burgundy](/Burgundy)`.
+`[Burgundy](Burgundy)`.
 
 To link to a directory listing for a subdirectory, use a trailing
 slash: `[Wine/]()` will link to a listing of the `Wine` subdirectory.

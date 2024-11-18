@@ -132,9 +132,9 @@ Hier der vollständigkeit halber einige (mehr oder weniger gute) Bilder. Es gilt
 - Free For All: Ist der 2020 MV_Frühjahrs_Termin im März 2020 (vors.erste Märzhälfte) siehe MV  Ankündigung durch den Vorstand 
 - Sperrmülltag: [ca. 2-3 Wochen nach der 1. MV 2020]
 
-![link label](/6263E3E9-7BA6-484A-9D43-B199B13064A1.jpeg)
-![link label](/220E3D62-A70A-4CB8-99A8-BD01DB157CF0.jpeg)
-![link label](/C64F7CBF-4E40-4738-ACE8-AC84660B9A1B.jpeg)
+![link label](6263E3E9-7BA6-484A-9D43-B199B13064A1.jpeg)
+![link label](220E3D62-A70A-4CB8-99A8-BD01DB157CF0.jpeg)
+![link label](C64F7CBF-4E40-4738-ACE8-AC84660B9A1B.jpeg)
 
 
 - Init: 11. August 2019
@@ -142,12 +142,12 @@ Hier der vollständigkeit halber einige (mehr oder weniger gute) Bilder. Es gilt
 - Free For All: 2. September 2019
 - Entsorgung: 10. September 2019
 
-![Bild vom Haufen August 2019](/IMG_1){ width=50% }
-![Bild vom Haufen August 2019](/IMG_0926.JPG){ width=50% }
-![Bild vom Haufen August 2019](/IMG_0925.JPG){ width=50% }
-![Bild vom Haufen August 2019](/IMG_0927.JPG){ width=50% }
-![Bild vom Haufen August 2019](/IMG_0928.JPG){ width=50% }
-![Bild vom Haufen August 2019](/IMG_0929.JPG){ width=50% }
+![Bild vom Haufen August 2019](IMG_1){ width=50% }
+![Bild vom Haufen August 2019](IMG_0926.JPG){ width=50% }
+![Bild vom Haufen August 2019](IMG_0925.JPG){ width=50% }
+![Bild vom Haufen August 2019](IMG_0927.JPG){ width=50% }
+![Bild vom Haufen August 2019](IMG_0928.JPG){ width=50% }
+![Bild vom Haufen August 2019](IMG_0929.JPG){ width=50% }
 
 
 - Init: Ende Juni 2019
@@ -164,10 +164,10 @@ Hier der vollständigkeit halber einige (mehr oder weniger gute) Bilder. Es gilt
 
 - Init: Oktober 2017
 - Freeze: 07.11.2017
-    - ![haufen_1](/IMG_20171107_143323.jpg)
-    - ![haufen_2](/IMG_20171107_143350.jpg)
-    - ![haufen_3](/IMG_20171107_143358.jpg)
-    - ![haufen_4](/IMG_20171107_143411.jpg)
+    - ![haufen_1](IMG_20171107_143323.jpg)
+    - ![haufen_2](IMG_20171107_143350.jpg)
+    - ![haufen_3](IMG_20171107_143358.jpg)
+    - ![haufen_4](IMG_20171107_143411.jpg)
 - Free For All: 18.11.2017
 - Scrap: 29.11.2017
 
@@ -183,19 +183,19 @@ Hier der vollständigkeit halber einige (mehr oder weniger gute) Bilder. Es gilt
 
 #### Inhalt des Haufens am 26.1.2017
 
-![Verschiedene Gehäuse z. T. mit Netzteil/CD-Laufwerk](/images/haufen-2017-01/gehäuse.jpg){ width=70% }
+![Verschiedene Gehäuse z. T. mit Netzteil/CD-Laufwerk](images/haufen-2017-01/gehäuse.jpg){ width=70% }
 
-![Papiershredder, kaputt, Reparierbarkeit unklar](/images/haufen-2017-01/shredder.jpg){ width=35% }
+![Papiershredder, kaputt, Reparierbarkeit unklar](images/haufen-2017-01/shredder.jpg){ width=35% }
 
-![Jutebeutel, Fleecedecke, Schlafsack](/images/haufen-2017-01/schlafsack-etc.jpg){ width=70% }
+![Jutebeutel, Fleecedecke, Schlafsack](images/haufen-2017-01/schlafsack-etc.jpg){ width=70% }
 
-![Elektronikbaukasten, unvollständig](/images/haufen-2017-01/elektronikbaukasten.jpg){ width=70% }
+![Elektronikbaukasten, unvollständig](images/haufen-2017-01/elektronikbaukasten.jpg){ width=70% }
 
-![Druckerkartuschen o. ä. (holt momo ab)](/images/haufen-2017-01/druckerfoo.jpg){ width=70% }
+![Druckerkartuschen o. ä. (holt momo ab)](images/haufen-2017-01/druckerfoo.jpg){ width=70% }
 
-![Verschiedenes Zeug, u. A. Tastatur, Copterteile, Elektronik…](/images/haufen-2017-01/diverses-zeug.jpg){ width=70% }
+![Verschiedenes Zeug, u. A. Tastatur, Copterteile, Elektronik…](images/haufen-2017-01/diverses-zeug.jpg){ width=70% }
 
-![„Upcyclingmaterial“ , also Teilprojekte und Elektronikkompenten die auf Arbeitsflächen herumlagen und niemanden zugeordnet werden konnten.](/images/haufen-2017-01/shitty-robot-material.jpg){ width=70% }
+![„Upcyclingmaterial“ , also Teilprojekte und Elektronikkompenten die auf Arbeitsflächen herumlagen und niemanden zugeordnet werden konnten.](images/haufen-2017-01/shitty-robot-material.jpg){ width=70% }
 
 Weiteres:
 

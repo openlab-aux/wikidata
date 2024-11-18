@@ -9,7 +9,7 @@ Es werden zusätzlich noch ein paar Widerstände, Kondensatoren, zwei MOSFETs un
 
 Für das Gehäuse bietet sich 3D Druck an. Im Augenblick konstruiert Adrian ein Gehäuse. Der erste Prototyp sieht so aus:
 
-![Gehäuse Prototyp](/gehaeuse-prototyp.jpg){ width=800 }
+![Gehäuse Prototyp](gehaeuse-prototyp.jpg){ width=800 }
 
 ## Bauteile
 
@@ -48,19 +48,19 @@ Anzahl Bauteil
 
 Bis die Platinen da sind, kann man einen Teil der Lötstation auf einem Breadboard aufbauen, um z.B. an einer Einschaltmeldung herumzuspielen:
 
-![Lötstation Prototyp 1](/loet-proto-1.jpg){ width=800 }
+![Lötstation Prototyp 1](loet-proto-1.jpg){ width=800 }
 
-![Lötstation Prototyp 2](/loet-proto-2.jpg){ width=200 }
+![Lötstation Prototyp 2](loet-proto-2.jpg){ width=200 }
 
 Inzwischen sind die Platinen eingetroffen. Bis gestern entstanden daraus 3 funktionierende Prototypen.
 
-![Prototyp](/prototyp1.jpg){ width=800 }
+![Prototyp](prototyp1.jpg){ width=800 }
 
-![Prototyp](/prototyp2.jpg){ width=800 }
+![Prototyp](prototyp2.jpg){ width=800 }
 
 ### Aufbau des Prototypen
 
-![Platine Bauteilseite](/platine-2.png){ width=800 }
+![Platine Bauteilseite](platine-2.png){ width=800 }
 
 Es gab natürlich ein paar Probleme beim Aufbau der Prototypen.
 
@@ -70,4 +70,4 @@ Es gab natürlich ein paar Probleme beim Aufbau der Prototypen.
 - Kontaktprobleme an der Buchsenleiste zum Display
 - zu kleine Löcher für den Pegelwandler
 
-Aber letztlich laufen die drei Lötstationen wie sie sollen. Die Erfahrungen aus dem Bau der drei Prototypen habe ich in die [Bauanleitung](/Bauanleitung Lötstation.pdf) (Stand 10.11.2016) eingebaut. Derzeit bin ich dabei, die Firmware ein wenig anzupassen (Logo, PID-Konstanten ...) - die aktuelle Firmware (Stand 06.11.2016) ist [hier](/Maiskolben_TFT.zip). Zur Visualisierung der Regelung kann man ein [Processing](https://processing.org/)-Sketch einsetzen. Dessen [Temperaturkurven](/Maiskolben_GUI.zip) helfen, die richtigen P, I und D Werte zu finden.
+Aber letztlich laufen die drei Lötstationen wie sie sollen. Die Erfahrungen aus dem Bau der drei Prototypen habe ich in die [Bauanleitung](Bauanleitung Lötstation.pdf) (Stand 10.11.2016) eingebaut. Derzeit bin ich dabei, die Firmware ein wenig anzupassen (Logo, PID-Konstanten ...) - die aktuelle Firmware (Stand 06.11.2016) ist [hier](Maiskolben_TFT.zip). Zur Visualisierung der Regelung kann man ein [Processing](https://processing.org/)-Sketch einsetzen. Dessen [Temperaturkurven](Maiskolben_GUI.zip) helfen, die richtigen P, I und D Werte zu finden.

@@ -15,4 +15,4 @@ Der Kurs finden in den Räumen des OpenLab Augsburg e.V. statt. Anfahrt und weit
 
 Die Experimente drehen sich rund um LEDs, Transitoren, es gibt Schaltungen mit einem NE555 Timer-IC sowie Versuche mit einem Operationsverstärker-IC LM358. Begleitet wird der Kurs von erfahrenen Hobby-Elektronikern und zum Thema passenden Videos.
 
-Habt ihr Lust teilzunehmen? Sehr gut! Die Anmeldung findet ihr [hier](/Anmeldung_Elektronik_Kurs.pdf). Der Kurs kostet €60,-
+Habt ihr Lust teilzunehmen? Sehr gut! Die Anmeldung findet ihr [hier](Anmeldung_Elektronik_Kurs.pdf). Der Kurs kostet €60,-

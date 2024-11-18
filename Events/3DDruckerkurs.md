@@ -18,7 +18,7 @@ Seid euch bitte darüber im Klaren, dass wir euch *keinen* fertigen Drucker anbi
 
 ## Überblick über den Drucker
 
-![Prusa i3 MK3](/MK3_poster_V6.jpg)
+![Prusa i3 MK3](MK3_poster_V6.jpg)
 
 - Prusa i3 MK3 mit gefrästem Duralaluminium Rahmen, pulverbeschichtet in schwarz, Rahmenteile aus 20x20mm Aluminiumstrangprofilen
 - Original Rambo-Einsy Drucker-Elektronik mit je 4 Motor- und MosFET-Treibern
@@ -45,7 +45,7 @@ Seit ein paar Monaten gibt es das Model MK3S.
 - Durch den komplett überarbeiteten Extruder ist der Düsenwechsel so einfach wie nie zuvor. Außerdem sind die Düse und der Extrudermotor viel näher an der X-Achse, was weniger Resonanz und bessere Druckergebnisse bedeutet. Der MK3S ist auch besser für den Druck flexibler Materialien geeignet.
 - Der MK3S beinhaltet alle kumulativen Upgrades aus dem gesamten Lebenszyklus des MK3 wie original Gates Zahnriemen, Textilschläuche, ein neues Einsy-Gehäuse für eine einfachere Raspberry Pi-Verbindung, eine Anti-Rost-Beschichtung der PEI-Druckplatten und natürlich dutzende Änderungen an der Firmware und den Kunststoffteilen.
 
-![Bausatz ausgepackt](/small prusa i3 unboxed.JPG)
+![Bausatz ausgepackt](small prusa i3 unboxed.JPG)
 
 ## Was bisher geschah
 
@@ -94,7 +94,7 @@ In der Tabelle unten findet ihr die Termine und das jeweilige Anmeldeformular. D
 +-------------------+-------------------------------------------------------+----------------------+
 | Termin            | Anmeldung                                             | Anmeldeschluss       |
 +===================+=======================================================+======================+
-| Mai 2022          | [Anmeldung](/Workshop Mai 2022 Anmeldung.pdf)         | 18.5.2022 12:00 Uhr  |
+| Mai 2022          | [Anmeldung](Workshop Mai 2022 Anmeldung.pdf)         | 18.5.2022 12:00 Uhr  |
 +-------------------+-------------------------------------------------------+----------------------+
 
 

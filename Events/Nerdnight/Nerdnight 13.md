@@ -1,5 +1,5 @@
 # Nerdnight 13 - There, we fixed it!
-![flyer](/nerdnight13_web.png)
+![flyer](nerdnight13_web.png)
 
 10.02.2024, 13:37 – OpenLab Augsburg – Bäckergasse 32 – Augsburg
 

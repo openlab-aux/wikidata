@@ -1,4 +1,4 @@
-![Prusarotti](/prusarotti.png)
+![Prusarotti](prusarotti.png)
 
 Seit Ende Januar 2014 ist das OpenLab im Besitz eines Prusa Mendel 3D-Druckers, der wegen seiner singenden Geräusche den Spitznamen „Prusarotti“ (von Luciano Pavarotti, Opernsänger) bekommen hat.
 

@@ -1,4 +1,4 @@
-![](/sphincter2.0.jpg)
+![](sphincter2.0.jpg)
 
 Dieser Artikel behandelt Sphincter 2.0, die Schliessanlage des Labors 2.0. Die Neuauflage war nötig, weil im Labor 2.0 eine Paniktür verbaut wurde, die sich auch im abgeschlossenen Zustand von innen öffnen lässt. Außerdem wurden einige Kinderkrankheiten der alten Version beseitigt. Die alte Version ist [hier](Sphincter%201.0) dokumentiert.
 

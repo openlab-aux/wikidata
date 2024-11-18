@@ -1,5 +1,5 @@
 # Details zur Maschine
-![Typenschild des Schneidplotters](/schneidplotter_typenschild.jpg)
+![Typenschild des Schneidplotters](schneidplotter_typenschild.jpg)
 
 |Hersteller|PCUT|
 |--|--|

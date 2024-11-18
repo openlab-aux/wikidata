@@ -27,7 +27,7 @@ Hier der Link zur [Board-Erweiterung mit Beschreibung](https://github.com/Deqing
 
 ## Boards
 ### V0.1 Test-Stick
-![CH552-Belegung](/Stick PCB Pinout.png)
+![CH552-Belegung](Stick PCB Pinout.png)
 
 #### Belegung
 * P3.2 = Taste 1

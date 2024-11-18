@@ -39,7 +39,7 @@ Im Automaten ist an der Seite in einer Tasche die Betriebsanleitung, in der alle
 
 tl;dr: Service-Reset: `C` und `M` gleichzeitig drücken (im Zweifel mehrmals).
 
-[Wartungsanleitung für den Münzer](/MARS-Cashflow-690-Manual.pdf)
+[Wartungsanleitung für den Münzer](MARS-Cashflow-690-Manual.pdf)
 
 # Vendo VF218
 

@@ -1,4 +1,4 @@
-[Link zum Protokoll als textfile]([13.06.2020](/Protokoll-der-außerordentlichen-MV-am-2020-06-13.txt))
+[Link zum Protokoll als textfile]([13.06.2020](Protokoll-der-außerordentlichen-MV-am-2020-06-13.txt))
 
 Außerordentliche Mitgliderversammlung des OpenLab Augsburg e.V. am 13.06.2020
 

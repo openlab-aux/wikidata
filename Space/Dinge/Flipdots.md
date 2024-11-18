@@ -41,7 +41,7 @@ Daneben gibt es auch (noch recht spärlichen) Support-Code, um mit den Flipdots 
 
 Zusätzlich enthält es das tool `bs-renderflipdot`, mit dem man Strings auf die flipdots rendern kann:
 
-![bs-renderflipdot rendert text mit emoji und text shaping auf flipdotsim](/flipdot-render.png)
+![bs-renderflipdot rendert text mit emoji und text shaping auf flipdotsim](flipdot-render.png)
 
 * [Code auf GitHub](https://github.com/sternenseemann/buchstabensuppe)
 * [Doku zum Thema Flipdots](https://github.com/sternenseemann/buchstabensuppe/blob/main/README.md#flipdot-interaction)

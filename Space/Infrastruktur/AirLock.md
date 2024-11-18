@@ -152,12 +152,12 @@ An der Hausanlage steckt ein Seidle 811. Gegeben der Herstellerspezifikation erg
 
 Spannung von 10 zu c (also Klingel innen gegen GND) bei nicht-klingeln
 
-![alt text](/10-to-c-at_rest.png)
+![alt text](10-to-c-at_rest.png)
 
 
 Spannung von 10 zu c (also Klingel innen gegen GND) bei klingeln. Gleiches Bild bei b gegen c.
 
-![alt text](/10-to-c-ringing.png)
+![alt text](10-to-c-ringing.png)
 
 ## Übergabepunkt Seidle -> AirLock
 

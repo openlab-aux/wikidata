@@ -1,7 +1,7 @@
 Die Nerdnight 11 findet am **28. Oktober 2023 ab 13:37** statt, mit einer **Party am Abend des 27. Oktober**.
 
 <img
-  src="/nerdnight_scan.jpg"
+  src="nerdnight_scan.jpg"
   height=500
 	alt="flyer mit daten (weniger als auf dieser seite)"
 	title="flyer mit daten (weniger als auf dieser seite)"

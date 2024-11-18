@@ -1,0 +1,7 @@
+{
+  "opts": {
+    "ignorePatterns": ".*2022-11-03.*"
+  },
+  "timeout": "2s",
+  "retryCount": 1
+}
