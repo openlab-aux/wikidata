@@ -1,1 +1,1 @@
-* [Nerdnight³ am 28.7.](nerdnight3)
+* [Nerdnight³ am 28.7.](Nerdnight/nerdnight3)

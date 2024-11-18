@@ -11,21 +11,21 @@ Du fragst dich bestimmt schon, was man hier alles machen kann?
 * Der [Kellerflur](infrastrukturkeller) behaust Wasch- und Spülmaschine und einige Dinge für den Raumerhalt.
 * In der [Infrastrukturecke](infrastruktur-oben) steht das Server-Rack, Kühlschrank und Getränkeautomat, etc.
 
-Der Staubsaugerroboter [Staubbrudi](staubbrudi) saugt die Räumlichkeiten.
+Der Staubsaugerroboter [Staubbrudi](/Space/Dinge/staubbrudi) saugt die Räumlichkeiten.
 Bitte lasse deswegen möglichst keine Kleinteile oder Kabel am Boden liegen.
 
 
 ## Räumlichkeiten abschließen und verlassen
-Wenn du das OpenLab als letzter verlässt, solltest du vorgehen, wie in folgendem Artikel beschrieben: [OpenLab schließen und verlassen für Dummies](abschliessen)
+Wenn du das OpenLab als letzter verlässt, solltest du vorgehen, wie in folgendem Artikel beschrieben: [OpenLab schließen und verlassen für Dummies](/Space/abschliessen)
 
 ## Geräte und Werkzeug
 
-siehe: [🛠 Geräte und Werkzeug](Geräte%20und%20Werkzeug)
+siehe: [🛠 Geräte und Werkzeug](/Space/Dinge/Werkzeug/Geräte%20und%20Werkzeug)
 
 ## Infrastruktur und Server
 Siehe:
 
-* [Infrastruktur](Infrastruktur)
-* [Netzwerk](Netzwerk)
-* [Server](Server)
+* [Infrastruktur](/Space/Infrastruktur/Infrastruktur)
+* [Netzwerk](/Space/Infrastruktur/Netzwerk)
+* [Server](/Space/Infrastruktur/Server)
 * [Wie funktioniert das Wiki?](Tutorial%20Wiki)

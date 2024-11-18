@@ -155,10 +155,10 @@ Hier der vollständigkeit halber einige (mehr oder weniger gute) Bilder. Es gilt
 - Free For All: 20.7.2019
 - Sperrmüll kommt: 6.8.2019 (am Tag davor rausstellen!)
 
-![Bild vom Haufen Juli 2019](images/haufen-2019-07/haufen_2019-07_IMG_20190708_2138526.jpg){ width=50% }
-![Bild vom Haufen Juli 2019](images/haufen-2019-07/haufen_2019-07_IMG_20190708_2139579.jpg){ width=50% }
-![Bild vom Haufen Juli 2019](images/haufen-2019-07/haufen_2019-07_IMG_20190708_2140272.jpg){ width=50% }
-![Bild vom Haufen Juli 2019](images/haufen-2019-07/haufen_2019-07_IMG_20190708_2141027.jpg){ width=50% }
+![Bild vom Haufen Juli 2019](/images/haufen-2019-07/haufen_2019-07_IMG_20190708_2138526.jpg){ width=50% }
+![Bild vom Haufen Juli 2019](/images/haufen-2019-07/haufen_2019-07_IMG_20190708_2139579.jpg){ width=50% }
+![Bild vom Haufen Juli 2019](/images/haufen-2019-07/haufen_2019-07_IMG_20190708_2140272.jpg){ width=50% }
+![Bild vom Haufen Juli 2019](/images/haufen-2019-07/haufen_2019-07_IMG_20190708_2141027.jpg){ width=50% }
 
 ### Ende 2017
 
@@ -183,19 +183,19 @@ Hier der vollständigkeit halber einige (mehr oder weniger gute) Bilder. Es gilt
 
 #### Inhalt des Haufens am 26.1.2017
 
-![Verschiedene Gehäuse z. T. mit Netzteil/CD-Laufwerk](images/haufen-2017-01/gehäuse.jpg){ width=70% }
+![Verschiedene Gehäuse z. T. mit Netzteil/CD-Laufwerk](/images/haufen-2017-01/gehäuse.jpg){ width=70% }
 
-![Papiershredder, kaputt, Reparierbarkeit unklar](images/haufen-2017-01/shredder.jpg){ width=35% }
+![Papiershredder, kaputt, Reparierbarkeit unklar](/images/haufen-2017-01/shredder.jpg){ width=35% }
 
-![Jutebeutel, Fleecedecke, Schlafsack](images/haufen-2017-01/schlafsack-etc.jpg){ width=70% }
+![Jutebeutel, Fleecedecke, Schlafsack](/images/haufen-2017-01/schlafsack-etc.jpg){ width=70% }
 
-![Elektronikbaukasten, unvollständig](images/haufen-2017-01/elektronikbaukasten.jpg){ width=70% }
+![Elektronikbaukasten, unvollständig](/images/haufen-2017-01/elektronikbaukasten.jpg){ width=70% }
 
-![Druckerkartuschen o. ä. (holt momo ab)](images/haufen-2017-01/druckerfoo.jpg){ width=70% }
+![Druckerkartuschen o. ä. (holt momo ab)](/images/haufen-2017-01/druckerfoo.jpg){ width=70% }
 
-![Verschiedenes Zeug, u. A. Tastatur, Copterteile, Elektronik…](images/haufen-2017-01/diverses-zeug.jpg){ width=70% }
+![Verschiedenes Zeug, u. A. Tastatur, Copterteile, Elektronik…](/images/haufen-2017-01/diverses-zeug.jpg){ width=70% }
 
-![„Upcyclingmaterial“ , also Teilprojekte und Elektronikkompenten die auf Arbeitsflächen herumlagen und niemanden zugeordnet werden konnten.](images/haufen-2017-01/shitty-robot-material.jpg){ width=70% }
+![„Upcyclingmaterial“ , also Teilprojekte und Elektronikkompenten die auf Arbeitsflächen herumlagen und niemanden zugeordnet werden konnten.](/images/haufen-2017-01/shitty-robot-material.jpg){ width=70% }
 
 Weiteres:
 

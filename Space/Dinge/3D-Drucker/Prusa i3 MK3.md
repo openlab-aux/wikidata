@@ -6,8 +6,8 @@ Mit dem Original Prusa i3 MK3 steht dem Openlab ein einfach zu bedienender und z
 > 
 > Am Drucker wird möglichst nichts verändert oder herumgeschraubt. Sollte etwas nicht in Ordnung sein, wende dich bitte an jemand, der sich mit den Druckern auskennt, z.B.
 
-- [Stefan Krister](Mensch_bastard) - @bastard im Chat
-- [Adrian Rauth](Mensch_Aelonath) - @aelonath im Chat
+- [Stefan Krister](Mitglieder/Menschen/Mensch_bastard) - @bastard im Chat
+- [Adrian Rauth](Mitglieder/Menschen/Mensch_Aelonath) - @aelonath im Chat
 
 +-------------+------------+
 |IP           | 172.16.0.140|

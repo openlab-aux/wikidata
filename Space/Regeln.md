@@ -6,7 +6,7 @@ Oberste Regel: **DU gestaltest den Raum so, wie er DIR gefällt.** Los, stell um
 
 Für die absolute Übersicht folgendes Diagramm:
 
-![Darf ich das vergschichteln?](images/darf-ich-das-vergschichteln.png)
+![Darf ich das vergschichteln?](/images/darf-ich-das-vergschichteln.png)
 
 
 * **Schlüssel**: Jedes Mitglied kann vom Vorstand einen Token für die Tür anfordern. Näheres siehe [Sphincter](Sphincter).

@@ -11,4 +11,4 @@ Jeder, der etwas zum Newsletter beitragen will, kommentiert einfach auf das aktu
 
 Nur der Zuständige darf Mails an die Newsletter-Liste schreiben. Alle anderen Abonenten und alle neuen Abonenten sind automatisch "moderiert". Nachrichten von "moderierten" Mitgliedern werden automatisch abgelehnt. Auf die Nutzerverwaltung der Mailinglisten hat in der Regel der Vorstand Zugriff, da kann der "moderiert"-Status geändert werden.
 
-Aktuell zuständig für den Newsletter ist [phj](Mensch_phjllip).
+Aktuell zuständig für den Newsletter ist [phj](/Mitglieder/Menschen/Mensch_phjllip).

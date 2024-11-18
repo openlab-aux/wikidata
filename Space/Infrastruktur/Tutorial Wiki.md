@@ -58,5 +58,5 @@ Unser [Sourcecode lebt auf GitHub](https://github.com/openlab-aux/gitit).
 Falls du Fragen oder Probleme hast, kannst du folgendes tun:
 
 * Ein Issue [öffnen](https://github.com/openlab-aux/gitit/issues/new)
-* [sternenseemann](Mensch_sternenseemann) oder [Profpatsch]() anschreiben (z. B. im [IRC](IRC))
+* [sternenseemann](/Mitglieder/Menschen/Mensch_sternenseemann) oder [Profpatsch]() anschreiben (z. B. im [IRC](IRC))
 * In der nächsten Sektion einen Text hinzufügen

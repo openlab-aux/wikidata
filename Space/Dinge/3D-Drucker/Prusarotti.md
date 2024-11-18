@@ -6,8 +6,8 @@ Seit Ende Januar 2014 ist das OpenLab im Besitz eines Prusa Mendel 3D-Druckers, 
 
 Hast du Fragen oder Probleme mit dem Drucker? Möchtest du eine Einweisung für den Drucker? Dann melde dich bei:
 
-* [Salü (Stephan Schlosser)](Mensch_salue)
-* [Aelonath (Adrian Rauth)](Mensch_Aelonath)
+* [Salü (Stephan Schlosser)](Mitglieder/Menschen/Mensch_salue)
+* [Aelonath (Adrian Rauth)](Mitglieder/Menschen/Mensch_Aelonath)
 
 # Anleitung
 

@@ -4,7 +4,7 @@ Auf dem Server unserer Website läuft folgendes
 * Unser [SpaceAPI](SpaceAPI)-Endpoint
 * Dieses [Wiki](#wiki)
 
-Zugriff haben [waaaaargh](Mensch_waaaaargh) (eigentlicher Kümmerer), [sternenseemann](Mensch_sternenseemann) und [Profpatsch](Mensch_profpatsch).
+Zugriff haben [waaaaargh](/Mitglieder/Menschen/Mensch_waaaaargh) (eigentlicher Kümmerer), [sternenseemann](/Mitglieder/Menschen/Mensch_sternenseemann) und [Profpatsch](/Mitglieder/Menschen/Mensch_profpatsch).
 
 Die Maschine scheint<span style="vertical-align: super; font-size: smaller">[citation needed]</span> Debian “best-practices” zu folgen.
 
@@ -20,7 +20,7 @@ Zertifikate sollten zweimal am Tag automatisch geupdated werden, siehe `certbot.
 
 ## Wiki
 
-Dieses Wiki verwendet eine von [sternenseemann](Mensch_sternenseemann) und [Profpatsch](Mensch_Profpatsch) [gepatchte Version von gitit](https://github.com/openlab-aux/gitit). Sie läuft auch auf dem selben Server wie die restliche Website. Die Änderungen sind folgende:
+Dieses Wiki verwendet eine von [sternenseemann](/Mitglieder/Menschen/Mensch_sternenseemann) und [Profpatsch](Mitglieder/Menschen/Mensch_Profpatsch) [gepatchte Version von gitit](https://github.com/openlab-aux/gitit). Sie läuft auch auf dem selben Server wie die restliche Website. Die Änderungen sind folgende:
 
 * Visueller Markdown Editor ([SimpleMDE](https://github.com/sparksuite/simplemde-markdown-editor))
 * Komplett gehostetes CSS/JS (font awesome, MathJax, SimpleMDE) statt nachladen über CDNs

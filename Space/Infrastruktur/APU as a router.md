@@ -92,7 +92,7 @@ Everyone with access to this system will have to add their pub-key to `/home/ope
 The APU has three ethernet interfaces (from left to right: `enp1s0`, `enp2s0` and `enp3s0`).
 
 - `enp1s0` is physically connected to the LAN
-- `enp2s0` is physically connected to the Ubiquiti radio-link to [gamambel](Mensch_mo)
+- `enp2s0` is physically connected to the Ubiquiti radio-link to [gamambel](/Mitglieder/Menschen/Mensch_mo)
 - `enp3s0` is currently unused
 
 Edit `/etc/network/interfaces` and add these interfaces:

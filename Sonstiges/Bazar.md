@@ -8,6 +8,6 @@ Gerne auch Gesuchtes eintragen.
 
 ## Biete
 
-* Cherry MX Switches Brown (bis zu 10 Stück), für Reparaturen von z.B. Kinesis Advantage --- [Profpatsch](Mensch_Profpatsch)
+* Cherry MX Switches Brown (bis zu 10 Stück), für Reparaturen von z.B. Kinesis Advantage --- [Profpatsch](/Mitglieder/Mensch_Profpatsch)
 
 ## Suche

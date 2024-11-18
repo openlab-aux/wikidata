@@ -3,9 +3,9 @@
 
 Die Bedienung eines 3D Druckers ist kein Hexenwerk. Dennoch ist ein 3D Drucker eine komplexe Maschine, bei der einige Stolpersteine lauern. Um Defekte vorzubeugen und um die Verfügbarkeit des Druckers für alle Mitglieder des OpenLab zu ermöglichen wird für den Drucker eine einmalige Einweisung benötigt. Die Benutzung erfolgt dann mit einem personalisierten Account über die Weboberfläche des Druckers. Eine Einweisung könnt ihr bei folgenden Personen bekommen:
 
-* [Stephan Schlosser (Salü)](Mensch_salue)
-* [Adrian Rauth (Aelonath)](Mensch_Aelonath)
-* [Stefan Krister (Bastard)](Mensch_bastard)
+* [Stephan Schlosser (Salü)](/Mitglieder/Menschen/Mensch_salue)
+* [Adrian Rauth (Aelonath)](/Mitglieder/Menschen/Mensch_Aelonath)
+* [Stefan Krister (Bastard)](/Mitglieder/Menschen/Mensch_bastard)
 
 ## Wichtige Eckdaten
 
