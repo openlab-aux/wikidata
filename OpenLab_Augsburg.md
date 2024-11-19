@@ -1,22 +1,22 @@
 \~\~\~ *Ein Raum für deine Ideen* \~\~\~
 
 [Vorbeikommen](#vorbeikommen)  
-[Mitglied werden](mitglied-werden)
+[Mitglied werden](/Mitglieder/mitglied-werden)
 
 ## ⏳ Was ist aktuell?
 
-**Die [Nerdnight 19 findet wieder statt](Nerdnight%2019) am 16. November 2024**
+**Die [Nerdnight 19 findet wieder statt](/Events/Nerdnight/Nerdnight_2019) am 16. November 2024**
 
-* Unsere Kommunikationskanäle werden besser! In Zukunft tauschen wir uns im Space via [Matrix](chat) aus.
-* Das neue Zugangssystem [AirLock](AirLock) ist gerade in der Testphase
+* Unsere Kommunikationskanäle werden besser! In Zukunft tauschen wir uns im Space via [Matrix](/Space/Infrastruktur/chat) aus.
+* Das neue Zugangssystem [AirLock](/Space/Infrastruktur/AirLock) ist gerade in der Testphase
 
 ## 🛰️🪐 Unser Space 🌌 {#vorbeikommen}
 
 In der Bäckergasse 32 betreiben wir unseren Hackspace, hier gibt es Vorträge, Treffen, gute Gesellschaft, …
 
 * [Bäckergasse 32, 86150 Augsburg](https://www.openstreetmap.org/way/89645828)
-* Erreichbarkeit mit [Öffis](öffis)
-* Erreichbarkeit per [Auto/Parken](parken)
+* Erreichbarkeit mit [Öffis](/Space/öffis)
+* Erreichbarkeit per [Auto/Parken](/Space/parken)
 
 [Mehr Infos zum Space](Space)
 
@@ -26,7 +26,7 @@ Im Kalender sind aktuelle Events wie die offenen Tage, regelmäßige Treffen abe
 
 ### Nächste Events:
 
-16.Nov.2024: [Nerdnight 19](Nerdnight 19)
+16.Nov.2024: [Nerdnight 19](/Events/Nerdnight/Nerdnight 19)
 
 : Anmeldung Vortrag: [Cryptpad-Vortrag](https://cryptpad.digitalcourage.de/form/#/2/form/view/dp7c0edgZu9Ia3WJD7oHST4OYBviq6bav2HLJ+ioATA/)
 
@@ -98,7 +98,7 @@ Internationaler Random-Number-Generator-Tag: 11. Juli 2025
 
 Die Mitglieder und Freunde des Vereins tummeln sich auf unserem Chat-Server.
 
-[Zum Chat](chat)
+[Zum Chat](/Space/Infrastruktur/chat)
 
 ## `</>` Resourcen im Github
 
