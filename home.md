@@ -6,27 +6,25 @@ date: 2024-11-19T12:03:24.203Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
----
-
-\~\~\~ *Ein Raum für deine Ideen* \~\~\~
+---\~\~\~ *Ein Raum für deine Ideen* \~\~\~
 
 [Vorbeikommen](#vorbeikommen)  
-[Mitglied werden](mitglied-werden)
+[Mitglied werden](/Mitglieder/mitglied-werden)
 
 ## ⏳ Was ist aktuell?
 
-**Die [Nerdnight 19 findet wieder statt](Nerdnight%2019) am 16. November 2024**
+**Die [Nerdnight 19 findet wieder statt](/Events/Nerdnight/Nerdnight_2019) am 16. November 2024**
 
-* Unsere Kommunikationskanäle werden besser! In Zukunft tauschen wir uns im Space via [Matrix](chat) aus.
-* Das neue Zugangssystem [AirLock](AirLock) ist gerade in der Testphase
+* Unsere Kommunikationskanäle werden besser! In Zukunft tauschen wir uns im Space via [Matrix](/Space/Infrastruktur/chat) aus.
+* Das neue Zugangssystem [AirLock](/Space/Infrastruktur/AirLock) ist gerade in der Testphase
 
 ## 🛰️🪐 Unser Space 🌌 {#vorbeikommen}
 
 In der Bäckergasse 32 betreiben wir unseren Hackspace, hier gibt es Vorträge, Treffen, gute Gesellschaft, …
 
 * [Bäckergasse 32, 86150 Augsburg](https://www.openstreetmap.org/way/89645828)
-* Erreichbarkeit mit [Öffis](öffis)
-* Erreichbarkeit per [Auto/Parken](parken)
+* Erreichbarkeit mit [Öffis](/Space/öffis)
+* Erreichbarkeit per [Auto/Parken](/Space/parken)
 
 [Mehr Infos zum Space](Space)
 
@@ -36,11 +34,11 @@ Im Kalender sind aktuelle Events wie die offenen Tage, regelmäßige Treffen abe
 
 ### Nächste Events:
 
-16.Nov.2024: [Nerdnight 19](Nerdnight 19)
+16.Nov.2024: [Nerdnight 19](/Events/Nerdnight/Nerdnight 19)
 
 : Anmeldung Vortrag: [Cryptpad-Vortrag](https://cryptpad.digitalcourage.de/form/#/2/form/view/dp7c0edgZu9Ia3WJD7oHST4OYBviq6bav2HLJ+ioATA/)
 
-	Anmeldung Gast für bessere Planung:  [Cryptpad-Gast](https://cryptpad.digitalcourage.de/form/#/2/form/view/VbK+9atGTX3lX11KwCrDl2yXF154YWHD8bY2iCEH+lI/)
+    Anmeldung Gast für bessere Planung:  [Cryptpad-Gast](https://cryptpad.digitalcourage.de/form/#/2/form/view/VbK+9atGTX3lX11KwCrDl2yXF154YWHD8bY2iCEH+lI/)
 
 ### Regelmäßige Events:
 
@@ -48,15 +46,15 @@ __Plenum & offener Donnerstag__: Jeden ersten Donnerstag im Monat ab 19:00 Uhr (
 
 : Am Donnerstag steht das OpenLab jedem offen - ob Mitglied oder nicht.
 
-	Wolltest Du schon lange mal vorbeischauen, um das Lab und seine Bewohner aus der Nähe zu betrachten?
-	Hast du Fragen - zur Mitgliedschaft oder zu den Möglichkeiten?
-	oder einfach mal nur so Hallo sagen?
+    Wolltest Du schon lange mal vorbeischauen, um das Lab und seine Bewohner aus der Nähe zu betrachten?
+    Hast du Fragen - zur Mitgliedschaft oder zu den Möglichkeiten?
+    oder einfach mal nur so Hallo sagen?
 
-	Dann ist das deine Chance! Komm vorbei, wir freuen uns! Voranmeldung ist nicht nötig! Wir sind ab ca. 19:00 Uhr vor Ort und können Euch durch die Räumlichkeiten führen, ab ca. 20:00 starten wir ins Plenum.
-	
-	Im Plenum sprechen wir über alltägliches in unseren Räumen und Projekten, die kommenden Termine und alles was sonst so ansteht.
-	
-	Das Plenum ist ein gutes erstes Treffen, wenn du aktiv werden möchtest!
+    Dann ist das deine Chance! Komm vorbei, wir freuen uns! Voranmeldung ist nicht nötig! Wir sind ab ca. 19:00 Uhr vor Ort und können Euch durch die Räumlichkeiten führen, ab ca. 20:00 starten wir ins Plenum.
+
+    Im Plenum sprechen wir über alltägliches in unseren Räumen und Projekten, die kommenden Termine und alles was sonst so ansteht.
+
+    Das Plenum ist ein gutes erstes Treffen, wenn du aktiv werden möchtest!
 
 __3D-Drucker-Treffen__: Jeden Dienstag ab 19:00 Uhr
 
@@ -65,26 +63,26 @@ __3D-Drucker-Treffen__: Jeden Dienstag ab 19:00 Uhr
 __Open Source Home Automation Stammtisch__: Jeden zweiten Donnerstag im Monat ab 19:00 Uhr
 
 : Wir treffen uns, um uns über Open Source Home Automation auszutauschen und gemeinsam zu basteln.
-	
-	Unser Fokus liegt dabei auf den Themen Home Assistant, ESPHome, Zigbee und anderen relevanten Technologien.
-	
-	Egal, ob ihr bereits Erfahrung in diesem Bereich habt oder ganz neu einsteigt, bei uns seid ihr herzlich willkommen.
-	
-	In einer lockeren und kreativen Atmosphäre wollen wir Ideen teilen, gemeinsam Probleme lösen und voneinander lernen. Bringt gerne eure eigenen Projekte, Fragen oder Herausforderungen mit, um sie mit der Community zu besprechen.
+
+    Unser Fokus liegt dabei auf den Themen Home Assistant, ESPHome, Zigbee und anderen relevanten Technologien.
+
+    Egal, ob ihr bereits Erfahrung in diesem Bereich habt oder ganz neu einsteigt, bei uns seid ihr herzlich willkommen.
+
+    In einer lockeren und kreativen Atmosphäre wollen wir Ideen teilen, gemeinsam Probleme lösen und voneinander lernen. Bringt gerne eure eigenen Projekte, Fragen oder Herausforderungen mit, um sie mit der Community zu besprechen.
 
 __[Chaostreff](https://c3a.de/)__: Jeden dritten Donnerstag im Monat ab 19:42
 
 : Der dritte Donnerstag im Monat ist dem Chaos gewidmet. Durch Vorträge und Diskussionsrunden tauschen wir Erfahrungen und Wissen aus, u.A. zu folgenden Themen
 
-	→ Freies Wissen \
-	→ Netzpolitik \
-	→ Open Data \
-	→ Rechnergestützte Kunst und Schönheit \
-	→ Datensicherheit
-   
-	Erscheint zahlreich!
-   
-	All hail Eris, All hail Discordia!
+    → Freies Wissen \
+    → Netzpolitik \
+    → Open Data \
+    → Rechnergestützte Kunst und Schönheit \
+    → Datensicherheit
+
+    Erscheint zahlreich!
+
+    All hail Eris, All hail Discordia!
 
 __Bits & Bäume Aux-Muc__: Jeden zweiten Mittwoch im Monat ab 19:00 Uhr
 
@@ -108,7 +106,7 @@ Internationaler Random-Number-Generator-Tag: 11. Juli 2025
 
 Die Mitglieder und Freunde des Vereins tummeln sich auf unserem Chat-Server.
 
-[Zum Chat](chat)
+[Zum Chat](/Space/Infrastruktur/chat)
 
 ## `</>` Resourcen im Github
 
