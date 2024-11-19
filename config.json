@@ -1,7 +1,0 @@
-{
-  "opts": {
-    "ignorePatterns": [{ "pattern": ".*2022-11-03.*"}, {"pattern": ".*2021-09-02.*"}]
-  },
-  "timeout": "2s",
-  "retryCount": 1
-}
