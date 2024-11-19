@@ -13,7 +13,7 @@ dateCreated: 2024-11-19T12:03:24.203Z
 
 ## ⏳ Was ist aktuell?
 
-**Die [Nerdnight 19 findet wieder statt](/Events/Nerdnight/Nerdnight_2019) am 16. November 2024**
+**Die [Nerdnight 19 findet wieder statt](/Events/Nerdnight/Nerdnight_19) am 16. November 2024**
 
 * Unsere Kommunikationskanäle werden besser! In Zukunft tauschen wir uns im Space via [Matrix](/Space/Infrastruktur/chat) aus.
 * Das neue Zugangssystem [AirLock](/Space/Infrastruktur/AirLock) ist gerade in der Testphase
@@ -26,7 +26,7 @@ In der Bäckergasse 32 betreiben wir unseren Hackspace, hier gibt es Vorträge, 
 * Erreichbarkeit mit [Öffis](/Space/öffis)
 * Erreichbarkeit per [Auto/Parken](/Space/parken)
 
-[Mehr Infos zum Space](Space)
+[Mehr Infos zum Space](Space/Räume/Space.md)
 
 ## 📅 Kalender
 
