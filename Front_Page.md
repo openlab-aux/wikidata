@@ -44,7 +44,7 @@ Bitte lasse deswegen möglichst keine Kleinteile oder Kabel am Boden liegen.
 
 ## Geräte und Werkzeug
 
-siehe: [🛠 Geräte und Werkzeug](Geräte%20und%20Werkzeug)
+siehe: [🛠 Geräte und Werkzeug](Geräte_und_Werkzeug)
 
 ## Räumlichkeiten abschließen und verlassen
 Wenn du das OpenLab als letzter verlässt, solltest du vorgehen, wie in folgendem Artikel beschrieben: [OpenLab schließen und verlassen für Dummies](abschliessen)
@@ -59,7 +59,7 @@ Siehe:
 * [Infrastruktur](Infrastruktur)
 * [Netzwerk](Netzwerk)
 * [Server](Server)
-* [Wie funktioniert das Wiki?](Tutorial%20Wiki)
+* [Wie funktioniert das Wiki?](Tutorial_Wiki)
 
 ## Freund\*innen des Vereins
 
@@ -71,7 +71,7 @@ Siehe:
 [Wie funktioniert das OpenLab?](Regeln)   
 [Kümmerer/Arbeitsgruppen](Kümmerer)  
 [Website](Website)   
-[Social Media](Social%20Media)   
+[Social Media](Social_Media)   
 [Aufgaben](https://github.com/openlab-aux/orgafoo/issues)  
 [GitHub Organisation](https://github.com/openlab-aux)    
 [Projekte von Mitgliedern](MitgliederProjekte)   

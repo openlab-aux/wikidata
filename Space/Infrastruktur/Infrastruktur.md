@@ -24,4 +24,4 @@ TODO intervention und fixen
 
 ## BI Suite
 
-Mehr unter [Business Intelligence](Infrastruktur/Business Intelligence)
+Mehr unter [Business Intelligence](Infrastruktur/Business_Intelligence)

@@ -20,7 +20,7 @@ Wenn du das OpenLab als letzter verlässt, solltest du vorgehen, wie in folgende
 
 ## Geräte und Werkzeug
 
-siehe: [🛠 Geräte und Werkzeug](/Space/Dinge/Werkzeug/Geräte%20und%20Werkzeug)
+siehe: [🛠 Geräte und Werkzeug](/Space/Dinge/Werkzeug/Geräte_und_Werkzeug)
 
 ## Infrastruktur und Server
 Siehe:
@@ -28,4 +28,4 @@ Siehe:
 * [Infrastruktur](/Space/Infrastruktur/Infrastruktur)
 * [Netzwerk](/Space/Infrastruktur/Netzwerk)
 * [Server](/Space/Infrastruktur/Server)
-* [Wie funktioniert das Wiki?](Tutorial%20Wiki)
+* [Wie funktioniert das Wiki?](Tutorial_Wiki)

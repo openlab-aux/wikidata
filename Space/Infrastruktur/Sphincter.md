@@ -15,7 +15,7 @@ Firmware und Schaltplan gibts [hier](https://github.com/phil-underscore/sphincte
 
 ### Hardware
 
-Um die neuen Anforderungen zu erfüllen musste der Türöffner von [Sphincter 1.0](Sphincter%201.0) von Grund auf neu entwickelt werden. Er besteht jetzt aus einer 3D-gedruckten Platte, die auf den Schließzylinder von innen aufgesetzt wird. Darauf befindet sich ein Zahnrad, in das der Schlüssel eingesetzt wird. Angetrieben wird es über einen Schrittmotor, die Positionsbestimmung erfolgt über einen Reed-Kontakt in der Grundplatte und einen Magneten im Zahnrad.
+Um die neuen Anforderungen zu erfüllen musste der Türöffner von [Sphincter 1.0](Sphincter_1.0) von Grund auf neu entwickelt werden. Er besteht jetzt aus einer 3D-gedruckten Platte, die auf den Schließzylinder von innen aufgesetzt wird. Darauf befindet sich ein Zahnrad, in das der Schlüssel eingesetzt wird. Angetrieben wird es über einen Schrittmotor, die Positionsbestimmung erfolgt über einen Reed-Kontakt in der Grundplatte und einen Magneten im Zahnrad.
 
 Auf der Steuerplatine ist ein ATmega8 verbaut. Die galvanische Trennung von anderen Laborsystemen wurde über Optokoppler realisiert. Außerdem gibt es noch einen 12V Bleiakku mit Ladegerät und Spannungsüberwachung um auch bei einem ausgelösten FI noch Zugang zu den Räumen zu haben.
 
