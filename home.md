@@ -2,14 +2,17 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2024-11-19T12:03:24.203Z
+date: 2024-11-19T14:04:41.181Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
----\~\~\~ *Ein Raum für deine Ideen* \~\~\~
+---
 
-[Vorbeikommen](#vorbeikommen)  
-[Mitglied werden](/Mitglieder/mitglied-werden)
+\~\~\~ *Ein Raum für deine Ideen* \~\~\~
+
+- [Vorbeikommen](#vorbeikommen)  
+- [Mitglied werden](/Mitglieder/mitglied-werden)
+{.links-list}
 
 ## ⏳ Was ist aktuell?
 
