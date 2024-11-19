@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2024-11-19T14:04:41.181Z
+date: 2024-11-19T14:05:40.602Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -29,7 +29,8 @@ In der Bäckergasse 32 betreiben wir unseren Hackspace, hier gibt es Vorträge, 
 * Erreichbarkeit mit [Öffis](/Space/öffis)
 * Erreichbarkeit per [Auto/Parken](/Space/parken)
 
-[Mehr Infos zum Space](Space/Räume/Space.md)
+- [Mehr Infos zum Space](Space/Räume/Space.md)
+{.links-list}
 
 ## 📅 Kalender
 
