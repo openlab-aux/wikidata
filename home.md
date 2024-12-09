@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2024-12-09T17:21:32.210Z
+date: 2024-12-09T17:25:32.904Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -38,17 +38,15 @@ Im Kalender sind aktuelle Events wie die offenen Tage, regelmäßige Treffen abe
 
 ### Nächste Events:
 - 16.Nov.2024: [Nerdnight 19](/Events/Nerdnight/Nerdnight_19)
+- Anmeldung Vortrag: [Cryptpad-Vortrag](https://cryptpad.digitalcourage.de/form/#/2/form/view/dp7c0edgZu9Ia3WJD7oHST4OYBviq6bav2HLJ+ioATA/)
+- Anmeldung Gast für bessere Planung:  [Cryptpad-Gast](https://cryptpad.digitalcourage.de/form/#/2/form/view/VbK+9atGTX3lX11KwCrDl2yXF154YWHD8bY2iCEH+lI/)
 {.links-list}
 
->Anmeldung Vortrag: [Cryptpad-Vortrag](https://cryptpad.digitalcourage.de/form/#/2/form/view/dp7c0edgZu9Ia3WJD7oHST4OYBviq6bav2HLJ+ioATA/)
->Anmeldung Gast für bessere Planung:  [Cryptpad-Gast](https://cryptpad.digitalcourage.de/form/#/2/form/view/VbK+9atGTX3lX11KwCrDl2yXF154YWHD8bY2iCEH+lI/)
-{.is-info}
 
 ### Regelmäßige Events:
 
 #### Plenum & offener Donnerstag
-> Jeden ersten Donnerstag im Monat ab 19:00 Uhr (Plenum ab 20:00 Uhr)
-{.is-info}
+**Jeden ersten Donnerstag im Monat ab 19:00 Uhr (Plenum ab 20:00 Uhr)**
 
 Am Donnerstag steht das OpenLab jedem offen - ob Mitglied oder nicht.
 
@@ -66,14 +64,12 @@ Das Plenum ist ein gutes erstes Treffen, wenn du aktiv werden möchtest!
 
 
 #### 3D-Drucker-Treffen: 
->Jeden Dienstag ab 19:00 Uhr
-{.is-info}
+**Jeden Dienstag ab 19:00 Uhr**
 
 Wöchentlicher Erfahrungsaustausch rund um den 3D-Druck.
 
 #### Open Source Home Automation Stammtisch: 
->Jeden zweiten Donnerstag im Monat ab 19:00 Uhr
-{.is-info}
+**Jeden zweiten Donnerstag im Monat ab 19:00 Uhr**
 
 Wir treffen uns, um uns über Open Source Home Automation auszutauschen und gemeinsam zu basteln.
 
@@ -84,8 +80,7 @@ Egal, ob ihr bereits Erfahrung in diesem Bereich habt oder ganz neu einsteigt, b
 In einer lockeren und kreativen Atmosphäre wollen wir Ideen teilen, gemeinsam Probleme lösen und voneinander lernen. Bringt gerne eure eigenen Projekte, Fragen oder Herausforderungen mit, um sie mit der Community zu besprechen.
 
 #### [Chaostreff](https://c3a.de/): 
->Jeden dritten Donnerstag im Monat ab 19:42
-{.is-info}
+**Jeden dritten Donnerstag im Monat ab 19:42**
 
 Der dritte Donnerstag im Monat ist dem Chaos gewidmet. Durch Vorträge und Diskussionsrunden tauschen wir Erfahrungen und Wissen aus, u.A. zu folgenden Themen
 
@@ -100,11 +95,11 @@ Erscheint zahlreich!
 All hail Eris, All hail Discordia!
 
 #### Bits & Bäume Aux-Muc: 
+**Jeden zweiten Mittwoch im Monat ab 19:00 Uhr**
 
 Offenes Treffen bei dem Nachhaltigkeit und Digitalisierung zusammengedacht werden. Alle willkommen!
 
-> Jeden zweiten Mittwoch im Monat ab 19:00 Uhr
-{.is-info}
+
 
 
 ### Andere Events:
