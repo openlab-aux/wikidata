@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2024-12-09T17:25:32.904Z
+date: 2024-12-09T17:27:22.612Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -98,25 +98,6 @@ All hail Eris, All hail Discordia!
 **Jeden zweiten Mittwoch im Monat ab 19:00 Uhr**
 
 Offenes Treffen bei dem Nachhaltigkeit und Digitalisierung zusammengedacht werden. Alle willkommen!
-
-
-
-
-### Andere Events:
-
-- [Handtuchtag](https://archive.org/details/per-anhalter-ins-all_20220521): Jedes Jahr am 25. Mai
-{.links-list}
-
-Bring dein Handtuch mit :)
-
----
-Remember, Remember, the fifth of November
-
----
-
-Internationaler Random-Number-Generator-Tag: 11. Juli 2025
-
-Jedes Jahr an einem anderen Tag! [https://rngday.com/en/]()
 
 ## 💬 Chat
 
