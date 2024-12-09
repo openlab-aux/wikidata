@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2024-12-09T17:01:39.572Z
+date: 2024-12-09T17:21:32.210Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -12,7 +12,7 @@ dateCreated: 2024-11-19T12:03:24.203Z
 
 - [Vorbeikommen](#vorbeikommen)  
 - [Mitglied werden](/Mitglieder/mitglied-werden)
-{.links-list}
+
 
 ## ⏳ Was ist aktuell?
 
@@ -37,73 +37,91 @@ In der Bäckergasse 32 betreiben wir unseren Hackspace, hier gibt es Vorträge, 
 Im Kalender sind aktuelle Events wie die offenen Tage, regelmäßige Treffen aber auch Vorträge und Workshops im OpenLab. Du bist immer herzlich eingeladen.
 
 ### Nächste Events:
-16.Nov.2024: [Nerdnight 19](/Events/Nerdnight/Nerdnight_19)
+- 16.Nov.2024: [Nerdnight 19](/Events/Nerdnight/Nerdnight_19)
+{.links-list}
 
-: Anmeldung Vortrag: [Cryptpad-Vortrag](https://cryptpad.digitalcourage.de/form/#/2/form/view/dp7c0edgZu9Ia3WJD7oHST4OYBviq6bav2HLJ+ioATA/)
-
-    Anmeldung Gast für bessere Planung:  [Cryptpad-Gast](https://cryptpad.digitalcourage.de/form/#/2/form/view/VbK+9atGTX3lX11KwCrDl2yXF154YWHD8bY2iCEH+lI/)
+>Anmeldung Vortrag: [Cryptpad-Vortrag](https://cryptpad.digitalcourage.de/form/#/2/form/view/dp7c0edgZu9Ia3WJD7oHST4OYBviq6bav2HLJ+ioATA/)
+>Anmeldung Gast für bessere Planung:  [Cryptpad-Gast](https://cryptpad.digitalcourage.de/form/#/2/form/view/VbK+9atGTX3lX11KwCrDl2yXF154YWHD8bY2iCEH+lI/)
+{.is-info}
 
 ### Regelmäßige Events:
 
-__Plenum & offener Donnerstag__: Jeden ersten Donnerstag im Monat ab 19:00 Uhr (Plenum ab 20:00 Uhr)
+#### Plenum & offener Donnerstag
+> Jeden ersten Donnerstag im Monat ab 19:00 Uhr (Plenum ab 20:00 Uhr)
+{.is-info}
 
-: Am Donnerstag steht das OpenLab jedem offen - ob Mitglied oder nicht.
+Am Donnerstag steht das OpenLab jedem offen - ob Mitglied oder nicht.
 
-    Wolltest Du schon lange mal vorbeischauen, um das Lab und seine Bewohner aus der Nähe zu betrachten?
-    Hast du Fragen - zur Mitgliedschaft oder zu den Möglichkeiten?
-    oder einfach mal nur so Hallo sagen?
+Wolltest Du schon lange mal vorbeischauen, um das Lab und seine Bewohner aus der Nähe zu betrachten?
+Hast du Fragen - zur Mitgliedschaft oder zu den Möglichkeiten?
+oder einfach mal nur so Hallo sagen?
 
-    Dann ist das deine Chance! Komm vorbei, wir freuen uns! Voranmeldung ist nicht nötig! Wir sind ab ca. 19:00 Uhr vor Ort und können Euch durch die Räumlichkeiten führen, ab ca. 20:00 starten wir ins Plenum.
+Dann ist das deine Chance! Komm vorbei, wir freuen uns! Voranmeldung ist nicht nötig! Wir sind ab ca. 19:00 Uhr vor Ort und können Euch durch die Räumlichkeiten führen, ab ca. 20:00 starten wir ins Plenum.
 
-    Im Plenum sprechen wir über alltägliches in unseren Räumen und Projekten, die kommenden Termine und alles was sonst so ansteht.
+Im Plenum sprechen wir über alltägliches in unseren Räumen und Projekten, die kommenden Termine und alles was sonst so ansteht.
 
-    Das Plenum ist ein gutes erstes Treffen, wenn du aktiv werden möchtest!
+Das Plenum ist ein gutes erstes Treffen, wenn du aktiv werden möchtest!
 
-__3D-Drucker-Treffen__: Jeden Dienstag ab 19:00 Uhr
 
-: Wöchentlicher Erfahrungsaustausch rund um den 3D-Druck.
 
-__Open Source Home Automation Stammtisch__: Jeden zweiten Donnerstag im Monat ab 19:00 Uhr
 
-: Wir treffen uns, um uns über Open Source Home Automation auszutauschen und gemeinsam zu basteln.
+#### 3D-Drucker-Treffen: 
+>Jeden Dienstag ab 19:00 Uhr
+{.is-info}
 
-    Unser Fokus liegt dabei auf den Themen Home Assistant, ESPHome, Zigbee und anderen relevanten Technologien.
+Wöchentlicher Erfahrungsaustausch rund um den 3D-Druck.
 
-    Egal, ob ihr bereits Erfahrung in diesem Bereich habt oder ganz neu einsteigt, bei uns seid ihr herzlich willkommen.
+#### Open Source Home Automation Stammtisch: 
+>Jeden zweiten Donnerstag im Monat ab 19:00 Uhr
+{.is-info}
 
-    In einer lockeren und kreativen Atmosphäre wollen wir Ideen teilen, gemeinsam Probleme lösen und voneinander lernen. Bringt gerne eure eigenen Projekte, Fragen oder Herausforderungen mit, um sie mit der Community zu besprechen.
+Wir treffen uns, um uns über Open Source Home Automation auszutauschen und gemeinsam zu basteln.
 
-__[Chaostreff](https://c3a.de/)__: Jeden dritten Donnerstag im Monat ab 19:42
+Unser Fokus liegt dabei auf den Themen Home Assistant, ESPHome, Zigbee und anderen relevanten Technologien.
 
-: Der dritte Donnerstag im Monat ist dem Chaos gewidmet. Durch Vorträge und Diskussionsrunden tauschen wir Erfahrungen und Wissen aus, u.A. zu folgenden Themen
+Egal, ob ihr bereits Erfahrung in diesem Bereich habt oder ganz neu einsteigt, bei uns seid ihr herzlich willkommen.
 
-    → Freies Wissen \
-    → Netzpolitik \
-    → Open Data \
-    → Rechnergestützte Kunst und Schönheit \
-    → Datensicherheit
+In einer lockeren und kreativen Atmosphäre wollen wir Ideen teilen, gemeinsam Probleme lösen und voneinander lernen. Bringt gerne eure eigenen Projekte, Fragen oder Herausforderungen mit, um sie mit der Community zu besprechen.
 
-    Erscheint zahlreich!
+#### [Chaostreff](https://c3a.de/): 
+>Jeden dritten Donnerstag im Monat ab 19:42
+{.is-info}
 
-    All hail Eris, All hail Discordia!
+Der dritte Donnerstag im Monat ist dem Chaos gewidmet. Durch Vorträge und Diskussionsrunden tauschen wir Erfahrungen und Wissen aus, u.A. zu folgenden Themen
 
-__Bits & Bäume Aux-Muc__: Jeden zweiten Mittwoch im Monat ab 19:00 Uhr
+- Freies Wissen
+- Netzpolitik
+- Open Data
+- Rechnergestützte Kunst und Schönheit
+- Datensicherheit
 
-: Offenes Treffen bei dem Nachhaltigkeit und Digitalisierung zusammengedacht werden. Alle willkommen!
+Erscheint zahlreich!
+
+All hail Eris, All hail Discordia!
+
+#### Bits & Bäume Aux-Muc: 
+
+Offenes Treffen bei dem Nachhaltigkeit und Digitalisierung zusammengedacht werden. Alle willkommen!
+
+> Jeden zweiten Mittwoch im Monat ab 19:00 Uhr
+{.is-info}
+
 
 ### Andere Events:
 
-[Handtuchtag](https://archive.org/details/per-anhalter-ins-all_20220521): Jedes Jahr am 25. Mai
+- [Handtuchtag](https://archive.org/details/per-anhalter-ins-all_20220521): Jedes Jahr am 25. Mai
+{.links-list}
 
-: Bring dein Handtuch mit :)
+Bring dein Handtuch mit :)
 
+---
 Remember, Remember, the fifth of November
 
-:  …
+---
 
 Internationaler Random-Number-Generator-Tag: 11. Juli 2025
 
-: Jedes Jahr an einem anderen Tag! [https://rngday.com/en/]()
+Jedes Jahr an einem anderen Tag! [https://rngday.com/en/]()
 
 ## 💬 Chat
 
