@@ -2,25 +2,20 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2025-04-02T20:21:46.338Z
+date: 2025-04-02T20:50:13.096Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
 ---
 
-\~\~\~ *Ein Raum für deine Ideen* \~\~\~
-
 - [Vorbeikommen](#vorbeikommen)  
 - [Mitglied werden](/Mitglieder/mitglied-werden)
 
-
 ## ⏳ Was ist aktuell?
 
-**Die [Nerdnight 19 findet wieder statt](/Events/Nerdnight/Nerdnight_19) am 16. November 2024**
-
-* Unsere Kommunikationskanäle werden besser! In Zukunft tauschen wir uns im Space via [Matrix](/Space/Infrastruktur/chat) aus.
-* Das neue Zugangssystem [AirLock](/Space/Infrastruktur/AirLock) ist gerade in der Testphase
-
+* **Frühjahrsputz: Samstag, 6.4.2025**
+  Ab Nachmittag treffen wir uns, um den Space zu grundreinigen.
+  
 ## 🛰️🪐 Unser Space 🌌 {#vorbeikommen}
 
 In der Bäckergasse 32 betreiben wir unseren Hackspace, hier gibt es Vorträge, Treffen, gute Gesellschaft, …
