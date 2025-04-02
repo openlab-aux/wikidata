@@ -1,9 +1,12 @@
-# Printserver
-INFO: Zurzeit existiert kein PrintServer
-
-CUPS Printserver, erreichbar unter `print.lab`. Das Webinterface ist unter `http://print.lab:631`.
-
-Drucken von der Kommandozeile: `lp -h print.lab -d lexi myfile.pdf`. Den Namen des Druckers austauschen.
+---
+title: Drucker
+description: 
+published: true
+date: 2025-04-02T20:34:05.462Z
+tags: 
+editor: markdown
+dateCreated: 2024-11-19T11:57:02.775Z
+---
 
 # Aktive Drucker
 Lauffähige Drucker, die im Idealfall immer am Netzwerk hängen.
