@@ -1,5 +1,19 @@
+---
+title: Essen
+description: 
+published: true
+date: 2025-04-02T20:30:39.394Z
+tags: 
+editor: markdown
+dateCreated: 2024-11-19T12:55:21.406Z
+---
+
 # Essen
 
-[Beisserburger](Beisserburger)
+Folgende Liefer-/Abhol-Services haben wir getestet und für gut befunden:
 
-![](speisekarte-da-mimmo-augsburg-2018-03.pdf)
+- [Beisserburger](Beisserburger)
+	
+- [Sangam](https://www.der-gute-inder.de)
+
+{.links-list}
