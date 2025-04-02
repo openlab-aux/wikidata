@@ -2,7 +2,7 @@
 title: Drucker
 description: 
 published: true
-date: 2025-04-02T20:34:05.462Z
+date: 2025-04-02T20:37:51.706Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T11:57:02.775Z
@@ -15,13 +15,14 @@ Lauffähige Drucker, die im Idealfall immer am Netzwerk hängen.
 
 Kann man als Netzwerkdrucker hinzufügen, wenn man `hplip` und CUPS installiert hat:
 
-Setting      Wert
--------      ----
-Adresse      `socket://172.16.16.127:9100` (IP adresse kann man sich auf dem Touch-Display anzeigen lassen
-Hersteller   HP
-Treiber      HP Officejet Pro X476-X576 MFP Postscript (recommended) (color, 2-sided printing)
+Setting|Wert
+-------|----
+Adresse|`socket://172.16.16.127:9100` (IP adresse kann man sich auf dem Touch-Display anzeigen lassen
+Hersteller|HP
+Treiber|HP Officejet Pro X476-X576 MFP Postscript (recommended) (color, 2-sided printing)
 
 # Ehemalige (Hall of Fame)
+
 ## pupsi (Canon MAXIFY MB5350)
 
 Farbtinte
