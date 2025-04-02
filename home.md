@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2024-12-09T17:28:30.107Z
+date: 2025-04-02T20:21:46.338Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -35,13 +35,6 @@ In der Bäckergasse 32 betreiben wir unseren Hackspace, hier gibt es Vorträge, 
 ## 📅 Kalender
 
 Im Kalender sind aktuelle Events wie die offenen Tage, regelmäßige Treffen aber auch Vorträge und Workshops im OpenLab. Du bist immer herzlich eingeladen.
-
-### Nächste Events
-- 16.Nov.2024: [Nerdnight 19](/Events/Nerdnight/Nerdnight_19)
-- Anmeldung Vortrag: [Cryptpad-Vortrag](https://cryptpad.digitalcourage.de/form/#/2/form/view/dp7c0edgZu9Ia3WJD7oHST4OYBviq6bav2HLJ+ioATA/)
-- Anmeldung Gast für bessere Planung:  [Cryptpad-Gast](https://cryptpad.digitalcourage.de/form/#/2/form/view/VbK+9atGTX3lX11KwCrDl2yXF154YWHD8bY2iCEH+lI/)
-{.links-list}
-
 
 ### Regelmäßige Events
 
