@@ -1,13 +1,3 @@
----
-title: GermanRepRap
-description: 
-published: true
-date: 2024-12-09T14:11:46.981Z
-tags: 
-editor: markdown
-dateCreated: 2024-11-19T12:00:06.699Z
----
-
 # German RepRap X400CE (aka Druckbrudi)
 **⚠ Achtung: Die Doku ist im Moment als fortlaufende Projektdokumentation genutzt und unterliegt starken Änderungen. Außerdem ist vieles evtl. noch nicht korrekt, da hier Elektroniknoobs am Werk sind.**
 
