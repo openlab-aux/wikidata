@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2025-04-02T20:50:13.096Z
+date: 2025-04-03T06:20:31.979Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -13,7 +13,7 @@ dateCreated: 2024-11-19T12:03:24.203Z
 
 ## ⏳ Was ist aktuell?
 
-* **Frühjahrsputz: Samstag, 6.4.2025**
+* **Frühjahrsputz: Samstag, 5.4.2025**
   Ab Nachmittag treffen wir uns, um den Space zu grundreinigen.
   
 ## 🛰️🪐 Unser Space 🌌 {#vorbeikommen}
