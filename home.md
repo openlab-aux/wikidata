@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2025-04-03T06:20:31.979Z
+date: 2025-04-03T18:20:52.218Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -34,7 +34,8 @@ Im Kalender sind aktuelle Events wie die offenen Tage, regelmäßige Treffen abe
 ### Regelmäßige Events
 
 #### Plenum & offener Donnerstag
-**Jeden ersten Donnerstag im Monat ab 19:00 Uhr (Plenum ab 20:00 Uhr)**
+
+**Jeden ersten Donnerstag im Monat ab 19:00 Uhr (Plenum ab 20:00 Uhr)** (<span data-since="2025-01-01">Th[1] 19:00+</span>)
 
 Am Donnerstag steht das OpenLab jedem offen - ob Mitglied oder nicht.
 
@@ -49,15 +50,14 @@ Im Plenum sprechen wir über alltägliches in unseren Räumen und Projekten, die
 Das Plenum ist ein gutes erstes Treffen, wenn du aktiv werden möchtest!
 
 
-
-
 #### 3D-Drucker-Treffen
-**Jeden Dienstag ab 19:00 Uhr**
+**Jeden Dienstag ab 19:00 Uhr** (<span data-since="2024-01-01">Tu 19:00–21:00</span>)
 
 Wöchentlicher Erfahrungsaustausch rund um den 3D-Druck.
 
 #### Open Source Home Automation Stammtisch
-**Jeden zweiten Donnerstag im Monat ab 19:00 Uhr**
+
+**Jeden zweiten Donnerstag im Monat ab 19:00 Uhr** (<span data-since="2025-01-01">Th[2] 19:00+</span>)
 
 Wir treffen uns, um uns über Open Source Home Automation auszutauschen und gemeinsam zu basteln.
 
@@ -68,7 +68,8 @@ Egal, ob ihr bereits Erfahrung in diesem Bereich habt oder ganz neu einsteigt, b
 In einer lockeren und kreativen Atmosphäre wollen wir Ideen teilen, gemeinsam Probleme lösen und voneinander lernen. Bringt gerne eure eigenen Projekte, Fragen oder Herausforderungen mit, um sie mit der Community zu besprechen.
 
 #### [Chaostreff](https://c3a.de/)
-**Jeden dritten Donnerstag im Monat ab 19:42**
+
+**Jeden dritten Donnerstag im Monat ab 19:42** (<span data-since="2025-01-01">Th[3] 19:42+</span>)
 
 Der dritte Donnerstag im Monat ist dem Chaos gewidmet. Durch Vorträge und Diskussionsrunden tauschen wir Erfahrungen und Wissen aus, u.A. zu folgenden Themen
 
@@ -83,7 +84,8 @@ Erscheint zahlreich!
 All hail Eris, All hail Discordia!
 
 #### Bits & Bäume Aux-Muc
-**Jeden zweiten Mittwoch im Monat ab 19:00 Uhr**
+
+**Jeden zweiten Mittwoch im Monat ab 19:00 Uhr**  (<span data-since="2025-01-01">We[2] 19:00+</span>)
 
 Offenes Treffen bei dem Nachhaltigkeit und Digitalisierung zusammengedacht werden. Alle willkommen!
 
