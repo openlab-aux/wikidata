@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2025-04-03T18:20:52.218Z
+date: 2025-04-03T20:19:51.511Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -51,7 +51,7 @@ Das Plenum ist ein gutes erstes Treffen, wenn du aktiv werden möchtest!
 
 
 #### 3D-Drucker-Treffen
-**Jeden Dienstag ab 19:00 Uhr** (<span data-since="2024-01-01">Tu 19:00–21:00</span>)
+**Jeden Dienstag ab 19:00 Uhr** (<span data-since="2024-01-01">Tu 19:00-21:00</span>)
 
 Wöchentlicher Erfahrungsaustausch rund um den 3D-Druck.
 
