@@ -1,4 +1,15 @@
+---
+title: abschliessen
+description: 
+published: true
+date: 2025-04-06T21:10:07.266Z
+tags: 
+editor: markdown
+dateCreated: 2024-11-19T11:51:14.663Z
+---
+
 # OpenLab schließen und verlassen für Dummies und Klugies
+
 Folgendes solltest du tun, wenn du das OpenLab als letzter Mensch verlässt: Bitte lasse niemanden in den Räumlichkeiten zurück, der diese Liste nicht selbst umsetzen kann!
 Falls du zurückgelassen wurdest, keine Panik! Folge einfach den Schritten im roten Kasten und schließe am Ende die Wohnungstüre hinter dir.
 
@@ -10,6 +21,7 @@ Verlasse das Lab bitte wie du es vorgefunden hast oder gerne auch besser.
 
 
 <div style="padding:1em; border:6px solid red">
+  
 - [ ] **Lichter im Keller ausmachen**
 - [ ] **Lichter im OG ausmachen** (alle Schalter an den Wänden)
 	- Hinweis: **An bleiben dürfen** (weil [automatisiert](HASS)): 
@@ -26,15 +38,18 @@ Verlasse das Lab bitte wie du es vorgefunden hast oder gerne auch besser.
 	- Herd, Backofen, Küchengeräte, ...
 - [ ] Kein (hilfloser) Mensch außer dir ist mehr im lab
 - [ ] Die **Wohnungstüre hinter sich schließen**
+  
 </div>
 
 ## Haustüre
+
 Für öffentliche Events kann die Wohnungstür offen bleiben.
 
 Die Haustüre selbst muss immer geschlossen sein, weil die Hauskatze nicht entwischen soll. 
 Der Schnapper darf verwendet werden, sofern er danach wieder rausgenommen wird.
 
 ## Für Fortgeschrittene oder Engagierte
+
 - Müll rausbringen 
 	- Geht aktuell nur, wenn Gregor, phjl oder krobin da sind, weil wir noch keinen Müllschlüssel für das Müllhäuschen im Innenhof haben. Hier wurde bereits Richtung Vermieter kommuniziert, notfalls könnten wir uns natürlich auch unseren Zugang hacken.
 - Staubsaugerroboter anwerfen
