@@ -2,7 +2,7 @@
 title: Mitgliederversammlungen
 description: 
 published: true
-date: 2025-04-07T20:44:44.663Z
+date: 2025-04-07T20:45:57.413Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T11:52:57.130Z
@@ -18,17 +18,17 @@ Ebenfalls in der Satzung verankert ist die [Vorstandssitzung](Vorstandssitzung),
 
 Vergangene Mitgliederversammlungen und deren Protokolle finden sich hier:
 
-* [2024 - Januar](/Mitglieder/MW/MV2024)
-* [2023 - Juli](/Mitglieder/MW/MV2023)
-* [2022 - Juli](/Mitglieder/MW/MV2022)
-* [2021 - Mai](/Mitglieder/MW/MV2021)
-* [2020 - Juni](/Mitglieder/MW/MV2020-Juni)
-* [2020 - Mai](/Mitglieder/MW/MV2020-Mai)
-* [2019 - November](/Mitglieder/MW/MV2019)
-* [2018 - Januar](/Mitglieder/MW/MV2018)
+* [2024 - Januar](/Mitglieder/MV/MV2024)
+* [2023 - Juli](/Mitglieder/MV/MV2023)
+* [2022 - Juli](/Mitglieder/MV/MV2022)
+* [2021 - Mai](/Mitglieder/MV/MV2021)
+* [2020 - Juni](/Mitglieder/MV/MV2020-Juni)
+* [2020 - Mai](/Mitglieder/MV/MV2020-Mai)
+* [2019 - November](/Mitglieder/MV/MV2019)
+* [2018 - Januar](/Mitglieder/MV/MV2018)
 * 2017 - ?
-* [2016 - Dezember](/Mitglieder/MW/MV2016)
-* [2015 - Dezember](/Mitglieder/MW/MV2015)
-* [2015 - Mai](/Mitglieder/MW/MV2015-Mai)
-* [2014 - Juni](/Mitglieder/MW/MV2014)
-* [2013 - Dezember](/Mitglieder/MW/MV2013)
+* [2016 - Dezember](/Mitglieder/MV/MV2016)
+* [2015 - Dezember](/Mitglieder/MV/MV2015)
+* [2015 - Mai](/Mitglieder/MV/MV2015-Mai)
+* [2014 - Juni](/Mitglieder/MV/MV2014)
+* [2013 - Dezember](/Mitglieder/MV/MV2013)
