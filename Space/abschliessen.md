@@ -2,7 +2,7 @@
 title: abschliessen
 description: 
 published: true
-date: 2025-04-06T21:10:07.266Z
+date: 2025-04-07T20:47:36.239Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T11:51:14.663Z
@@ -24,7 +24,7 @@ Verlasse das Lab bitte wie du es vorgefunden hast oder gerne auch besser.
   
 - [ ] **Lichter im Keller ausmachen**
 - [ ] **Lichter im OG ausmachen** (alle Schalter an den Wänden)
-	- Hinweis: **An bleiben dürfen** (weil [automatisiert](HASS)): 
+	- Hinweis: **An bleiben dürfen** (weil [automatisiert](/de/Space/Infrastruktur/HASS)): 
 		- Die LEDs am Fenster über dem Sofa
 		- Die LEDs an den 3D-Druckern und am Schaufenster
 		- Der LED Strahler oben beim Beamer
