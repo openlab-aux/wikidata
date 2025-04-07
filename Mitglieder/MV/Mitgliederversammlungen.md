@@ -2,7 +2,7 @@
 title: Mitgliederversammlungen
 description: 
 published: true
-date: 2025-04-07T20:45:57.413Z
+date: 2025-04-07T20:47:37.178Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T11:52:57.130Z
@@ -12,7 +12,7 @@ Mitgliederversammlungen müssen gemäß unserer [Satzung](https://openlab-augsbu
 
 Die Mitgliederversammlung ist für die Formalien zuständig, zum Beispiel für die Wahl des Vorstands und andere Aufgaben gemäß der Satzung. Das Tagesgeschäft verlangt deutlich mehr Detailtiefe, das wird im [Plenum](Plenum/Infos) besprochen.
 
-Ebenfalls in der Satzung verankert ist die [Vorstandssitzung](Vorstandssitzung), mindestens zwei Mal pro Jahr.
+Ebenfalls in der Satzung verankert ist die [Vorstandssitzung](/Vorstand/Vorstandssitzung), mindestens zwei Mal pro Jahr.
 
 ## Protokolle
 
