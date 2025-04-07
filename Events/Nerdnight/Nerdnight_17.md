@@ -1,0 +1,32 @@
+## D.I. ‽ WHY
+
+### Anmeldung
+
+Wenn du vorhast, teilzunehmen, [melde dich bitte vorher an](https://cryptpad.digitalcourage.de/form/#/2/form/view/Y7pZ0gJzgafX3QCLYuSp+SB5DMtU6OdXtlUXghS46D4/).
+
+
+### Flyer
+
+![NerdNight 17 Flyer](NerdNightFlyer.web.png)
+
+### Food & Drinks
+
+* Alkoholische & alkoholfreie Getränke zu fairen Preisen
+* Essen (befleischt/unbefleischt/pflanzenbasiert) zum Selbstkostenpreis (10-12 Euro pro Portion)
+	* [Melde dich bitte vor der Veranstaltung an, um die Planung zu erleichtern](https://cryptpad.digitalcourage.de/form/#/2/form/view/Y7pZ0gJzgafX3QCLYuSp+SB5DMtU6OdXtlUXghS46D4/)
+
+### Programm
+
+| Zeit     | Programmpunkt                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 16:00    | Bertram Wirth: Entwicklung und Anwendungsfälle einer RDF-GUI mit interaktiven geo-Positions-Grafiken<br><br>Der aktuelle Prototyp läuft lokal auf einem Smartphone mit Android 10 unter Termux mit einem Fuseki- und einem Tomcat-Server und einem Java-Servlet.                                                                                                                                                                                         |
+| 17:00    | TBA: Warum funktioniert ein Oszilloskop und wie Funktioniert unseres.<br><br>Grundlagen zum Oszilloskop Funktionsweise und Geschichte. Praxis Anwendung und Auswertung der Messdaten.<br>                                                                                                                                                                                                                                                                |
+| 18:00    | Vitalij Hein: Detecting Propaganda in Russian & American News with AI (Ukraine Conflict)<br><br>Während meiner Meisterarbeit habe ich mich die Berichterstattung zum Ukraine Krieg in russischen und amerikanischen Medien angeschaut. Ich habe etwa 50000 Artikel ausgewertet, mehrere LLMs (Bert, Roberta, OPT) gefine-tuned und zum Schluss mit einer Ridge Regression zusammengeführt.Das Ergebnis ist eine zu 80%Vitalij Hein genaue Prognose (Benchmark war 68%).<br> |
+| 19:00    | PAUSE                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 20:30    | Lightning Talks Slot I<br><br>christian: Die Freie ArbeiterInnen Union<br>hogü456: Abstrakte Automaten<br>Schenklklopfer: Web-Radio machen<br><br>                                                                                                                                                                                                                                                                                                                  |
+| 21:30    | PAUSE                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 22:00    | Lightning Talks Slot II<br><br>TBA: Bits und Bäume Augsburg und ein Ausflug zum Hacken aufs Land<br>Yongan: Kifferkarte<br>(freier Slot: Anmeldung an der Bar)                                                                                                                                                                                                                                                                           |
+| 23:00    | Karaoke                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ab 24:00 | Lounge                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+Special: kleine Schnitzeljagd durch den Space

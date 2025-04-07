@@ -1,0 +1,38 @@
+![Prusarotti](prusarotti.png)
+
+Seit Ende Januar 2014 ist das OpenLab im Besitz eines Prusa Mendel 3D-Druckers, der wegen seiner singenden Geräusche den Spitznamen „Prusarotti“ (von Luciano Pavarotti, Opernsänger) bekommen hat.
+
+### Zuständige
+
+Hast du Fragen oder Probleme mit dem Drucker? Möchtest du eine Einweisung für den Drucker? Dann melde dich bei:
+
+* [Salü (Stephan Schlosser)](Mitglieder/Menschen/Mensch_salue)
+* [Aelonath (Adrian Rauth)](Mitglieder/Menschen/Mensch_Aelonath)
+
+# Anleitung
+
+Zwar ist die Bedienung eines 3D Druckers kein Hexenwerk, doch ist es eine komplexe Maschine bei der man durch unsachgemäßen Gebrauch viel kaputt machen kann. Deshalb gilt: Der Drucker darf nur nach Einweisung verwendet werden.
+
+Die Steuerung des Druckers erfolgt über eine OctoPrint-Installation. Diese ist über folgende IP innerhalb des OpenLab Netzwerkes erreichbar:
+
+http://172.16.16.151 bzw. http://octoprint.lab
+
+Das Webinterface ist Passwortgesichert. Accounts werden an diejenigen Vergeben, die eine Einweisung bekommen haben.
+
+# Fehlerbehebung
+|Fehler                       |Fix                                                                                      |
+|-----------------------------|-----------------------------------------------------------------------------------------|
+|kein Fillamentvorschub       |Leider im Moment noch ein häufiges Problem mit dem Prusarotti - vor allem bei längeren Drucken. Aus $Gründen setzt sich die Förderschraube zu und dreht dann am Fillament vorbei. In diesem Fall sind die Zähne zu reinigen. Dies gelingt am besten mit einer Drahtbürste oder einer spitzen Pinzette.|
+|Webinterface nicht erreichbar|Läuft der Raspberry? Wenn nein, Stromversorgung sicherstellen. Ist das Netzwerkkabel verbunden? Wenn nein, verbinden.|
+|Das Display und die Buttons auf dem Drucker funktionieren nicht |Diese sind im Moment nicht konfiguriert und daher nicht funktionsfähig. Für den Drucker sind diese auch nicht notwendig.|
+
+
+
+Für allgemeine Probleme rund um 3D Drucker ist dieser Guide sehr hilfreich: A visual Ultimaker troubleshooting guide
+
+# Konfiguration
+
+Slic3r Config Bundle, kann einfach im Slic3r importiert werden.
+
+[Slic3r Config Bundle](https://github.com/Aelonath/3d-drucker/blob/master/slic3r_config/OpenLab_Slic3r_config_bundle.ini)
+

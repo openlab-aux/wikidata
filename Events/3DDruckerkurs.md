@@ -1,0 +1,108 @@
+# 17. 3D-Drucker-Workshop (28.5. u. 29.5.2022)
+
+Bei bisher 16 Workshops wurden über 50 Drucker gebaut. Sogar ein Filmteam vom bayerischen Rundfunk hat uns besucht - leider ist der Bericht nicht mehr auf Youtube abrufbar. Der nächste Workshop startet im Dezember 2021. Er wird wieder 2 Tage dauern. Die Kosten für den Workshop belaufen sich auf
+
+- € 700,- für Mitglieder des OpenLab Augsburg e.V.
+
+und
+
+- € 780,-  für externe Teilnehmer.
+
+Seid euch bitte darüber im Klaren, dass wir euch *keinen* fertigen Drucker anbieten. Wir übernehmen die Beschaffung und Logistik, stellen euch einen Arbeitsplatz und Werkzeug zur Verfügung und unterstützen euch beim Aufbau - aber bauen müsst ihr selbst! Ihr braucht zwar keine speziellen Vorkenntnisse, aber etwas handwerkliches Geschick hilft.
+
+## Was bekomme ich für mein Geld?
+
+- Wir bestellen für euch einen original Prusa i3 MK3S Bausatz direkt bei Prusa in Prag. Dazu bekommt ihr eine Rolle PLA-Filament und fachliche Unterstützung beim Aufbau. Außerdem stellen wir euch alle benötigten Werkzeuge und ausreichend Arbeitsplatz in den Räumen des OpenLab Augsburg zur Verfügung.
+- Wir geben euch eine Einweisung in euren neuen Drucker und bringen euch bei, wie ihr selbst qualitativ hochwertige Druckteile herstellen könnt. Ihr lernt auch wie ihr selbst Reparaturen und Einstellungen an einem 3D-Drucker vornehmen könnt. Auch bei der Installation und Bedienung der 3D-Druck-Software sind wir euch behilflich.
+- Nach dem Kurs könnt ihr uns jeden Dienstag im Lab besuchen um mit uns zusammen Erfahrungen auszutauschen oder bei Problemen Hilfe zu bekommen.
+
+## Überblick über den Drucker
+
+![Prusa i3 MK3](MK3_poster_V6.jpg)
+
+- Prusa i3 MK3 mit gefrästem Duralaluminium Rahmen, pulverbeschichtet in schwarz, Rahmenteile aus 20x20mm Aluminiumstrangprofilen
+- Original Rambo-Einsy Drucker-Elektronik mit je 4 Motor- und MosFET-Treibern
+- Original E3D Vollmetall Hotend für 1.75mm Filament
+- Bauraum ~250x210x200mm (LxBxH)
+- automatische Bettnivellierung
+- LC-Display
+- Die Bausätze kommen mit fertig konfigurierter und druckfertiger Firmware und Slic3r.
+- Der Bausatz an sich beinhaltet den vollständigen Drucker. Allerdings lässt der sich immer noch erweitern. Z.B mit einer Beleuchtung um Druckfehler besser zu erkennen oder generell um den Druck zu beobachten, oder man baut einen Raspberry Pi und Octoprint an um den Drucker netzwerkfähig zu machen ...
+
+Prusa hat den MK3 noch weiter verbessert. Hier sind die wesentlichen Änderungen gegenüber dem MK2:
+
+- Der Filamentsensor stellt fest, ob die Rolle zu Ende ist oder ob es zu einer Störung im Materialfluss kam. Falls nötig, wird der laufende Druck pausiert und kann nach Beheben der Störung fortgesetzt werden.
+- Stromausfälle werden erkannt und man kann den Druck an der Stelle fortsetzen, an der der Strom ausgefallen ist.
+- Die Lüfterdrehzahlen werden überwacht.
+- In die Z-Kalibrierung fließt jetzt auch die Umgebungstemperatur mit ein.
+- Die Trinamic 2130 Motortreiber können nun Störungen an den Achsen feststellen. Der Drucker ist noch leiser.
+- Neue Y-Achse aus Alu-Strangprofilen
+- Magnetisches MK52 Heizbett
+
+Seit ein paar Monaten gibt es das Model MK3S. 
+
+- Der optische Filamentsensor wird nun durch einen mechanischen Hebel ausgelöst. Dadurch sind die optischen Eigenschaften des Filaments nicht mehr relevant.
+- Durch den komplett überarbeiteten Extruder ist der Düsenwechsel so einfach wie nie zuvor. Außerdem sind die Düse und der Extrudermotor viel näher an der X-Achse, was weniger Resonanz und bessere Druckergebnisse bedeutet. Der MK3S ist auch besser für den Druck flexibler Materialien geeignet.
+- Der MK3S beinhaltet alle kumulativen Upgrades aus dem gesamten Lebenszyklus des MK3 wie original Gates Zahnriemen, Textilschläuche, ein neues Einsy-Gehäuse für eine einfachere Raspberry Pi-Verbindung, eine Anti-Rost-Beschichtung der PEI-Druckplatten und natürlich dutzende Änderungen an der Firmware und den Kunststoffteilen.
+
+![Bausatz ausgepackt](small prusa i3 unboxed.JPG)
+
+## Was bisher geschah
+
+Im **Workshop 1 und 2** (März / April 2015) wurden Prusa i3 Clone aus gekauften Teilesätzen und selbst gedruckten Kunststoffteilen gebaut. Wir haben uns aus den vielen möglichen Varianten für die Version mit lasergeschnittenem Holzrahmen entschieden. Ein i3 Clon ist sicher nicht der beste Drucker am Markt, aber er ist günstig und einfach zusammen zu bauen. Außerdem ist er weit verbreitet und es gibt viele Verbesserungen, Upgrades und Support. Die Vorbereitungen der Kurse waren sehr zeitaufwändig und aufgrund der geringen Stückzahlen nicht rentabel. Wir mussten die Bauanleitung selbst erstellen, zuvor Fotos der Bauteile schießen, Druckteile drucken und die Zeit dazu frei bekommen und vieles mehr.
+
+Für den **dritten Kurs** (Oktober 2015) wichen wir wegen des schlechten Pfund-Kurses auf einen deutschen Händler aus. Dieser bot uns einen Komplett-Bausatz an. Neben besserer Elektronik gibt es auch eine automatische Bett-Nivellierung. Neben der Standarddüse in 0,4 mm ist eine zweite Düse (für z.B. Holzfilament) in 0,5 mm mit dabei. Das kleinere Netzteil findet an der rechten Seite Platz und ein Rollenhalter sorgt für problemlose Zufuhr des Filaments in den Extruder. Zusätzlich hat der Drucker eine CE- und WEEE-Kennzeichnung. Ein Elektriker führte die technische Abnahme der Drucker durch, so dass auch Laien am Ende einen geprüften Drucker in Betrieb nehmen können. Trotzdem war die Vorbereitung zeitintensiv, da sowohl für das Netzteil, als auch für die Elektronik je eine Abdeckung bzw. ein Berührungsschutz nötig war und wir darin Schalter, Sicherung sowie Anschlußstecker einbauen mussten. 
+
+Ab **Workshop Nummer 4** bauen wir das Original. Josef Průša vertreibt über seinen eigenen Shop seine Konstruktion. Den Prusa i3 MK1 konnten wir im April 2016 bauen, kurz danach kam der MK2 auf den Markt. 3 der Teilnehmer leisteten sich auch das Upgrade Kit und haben nun einen der besten Bausatzdrucker zu Hause, den es gibt. Seit Oktober 2016 bauen wir den MK2 auf. Im Herbst/Winter 2017 kam der MK3 in den Shop. Den haben wir erstmals im Februar 2018 gebaut. Seit dem Kurs Mai 2019 wird das Modell MK3S gebaut.
+
+## Ablauf
+
+Der Workshop wird 2 Tage brauchen. Selbst geübte Hacker tun sich schwer, einen Drucker an einem einzigen Tag komplett aufzubauen und abzustimmen.
+
+- Samstag/Tag1
+
+    3D-Drucker-Vortrag von Stefan um die Basics zu vermitteln (Was ist "RepRap"?, Bestandteile eines RepRap 3D Druckers, Software Workflow, Historie/Wie alles begann)  
+    Einführung in den i3 und seinen Aufbau  
+    Bauphase nach Anleitung und mit Hilfestellung  
+
+- Sonntag/Tag2
+
+    Einführung in die Software (PrusaSlicer, Pronterface)  
+    Test- und Abstimmphase  
+    häufige Fehler ansprechen, allgemeines 3D-Drucker-Troubleshooting  
+    (eventuell) Upgrades einbauen
+
+## Anmeldung
+
+Wenn ihr jetzt Lust bekommen habt mitzumachen - super. Hier die Details zum Workshop:
+
+Der Workshop beginnt Samstag früh (genaue Zeiten folgen per E-Mail) und endet Sonntag am späten Nachmittag. Falls nötig, wird der Sonntag Abend noch angehängt. Gegen Sonntag Mittag sollte der Drucker in Betrieb gehen, den Rest des Tages verbringen wir mit Einstellen, Drucken und Optimieren.
+
+Es kann immer etwas schief gehen - sollte euer Drucker aus irgendeinem Grund nicht bis Sonntag Abend fertig werden, könnt ihr ihn entweder daheim fertig bauen, oder im OpenLab jeden Dienstag mit uns zusammen weiter bauen. Trotzdem versuchen wir natürlich alle Drucker bis Sonntag Abend fertigzustellen!
+
+Wichtig: Ihr braucht einen mobilen Computer. Die online-Bauanleitung enthält sehr wertvolle Kommentare anderer Schrauber, die nicht in der gedruckten Bauanleitung sind. Bitte bringt eure Laptops mit. Wer keinen mobilen Computer zur Verfügung hat, soll sich bitte mit uns in Verbindung setzen, wir versuchen ein Leihgerät zu organisieren.
+
+In der Tabelle unten findet ihr die Termine und das jeweilige Anmeldeformular. Die Platzvergabe läuft so:
+
+- Ihr schickt uns das ausgefüllte Formular zu, wir blocken Euch einen Platz.
+- Wenn Ihr innerhalb von 4 Werktagen zahlt, vergeben wir den Platz fest an euch.
+- Kommt nach 4 Werktagen keine Zahlung wird der Platz wieder für Andere freigegeben.
+- Wenn alle Plätze geblockt, aber noch nicht alle vergeben wurden, könnt ihr Euch auf eine Warteliste setzen lassen. Füllt dazu das Formular aus und schickt es uns zu. Wir werden Euch kontaktieren wenn ein Platz frei wird.
+- Solltet ihr den Anmeldeschluss verpasst haben, könnt ihr Euch auch auf die Liste setzen lassen. Dann werdet ihr vor Veröffentlichung des nächsten Kurses informiert. Eine kurze Mail an <stefan.krister@creative.chaos.de> genügt.
+
+
++-------------------+-------------------------------------------------------+----------------------+
+| Termin            | Anmeldung                                             | Anmeldeschluss       |
++===================+=======================================================+======================+
+| Mai 2022          | [Anmeldung](Workshop Mai 2022 Anmeldung.pdf)         | 18.5.2022 12:00 Uhr  |
++-------------------+-------------------------------------------------------+----------------------+
+
+
+
+
+Wir werden von Teilnehmern immer wieder gefragt, ob wir Rechnungen ausstellen können. Dazu ist folgendes festzustellen:
+
+- Wir sind ein gemeinnütziger Verein und unterliegen daher Richtlinien, die vom Finanzamt gesetzt sind
+- Wir haben uns in diesem Rahmen dazu entschlossen, keine Rechnungen (bei der wir sowieso keine MwSt ausweisen könnten) zu erstellen, um jegliche Diskussion mit dem FA bzgl. wirtschaftlicher Betrieb und die dortigen Regelungen zu beenden.
+- Es ist aber kein Problem, eine Bestätigung der Zahlung über den betreffenden Betrag (Quittung) zu erhalten, die die Bezahlung eines „3D-Drucker Bausatzes basierend auf Prusa i3“ ausweist. Dies müsste i.d.R. ausreichen, um den Bausatz (und den unterstützenden Kurs) dem Finanzamt gegenüber geltend zu machen.
+

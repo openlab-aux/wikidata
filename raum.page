@@ -1,4 +1,0 @@
----
-redirect: Anreise und Umgebung
-...
- 

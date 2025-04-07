@@ -1,0 +1,38 @@
+# Nerdnight 13 - There, we fixed it!
+![flyer](nerdnight13_web.png)
+
+10.02.2024, 13:37 – OpenLab Augsburg – Bäckergasse 32 – Augsburg
+
+Talks // Getränke // Party
+
+## Talks
+
+* Yanis Varoufakis & MeRA25
+* Volt
+* String-Verarbeitung mit dem Arduino
+* Über Versuche, die Dinge mit HASS zusammen zu halten.
+* Nitro: Yet another init system
+
+## Agenda
+| Uhrzeit | Host | Name |
+|---------|------|------|
+| 16:00   | Paulele | String-Verarbeitung mit dem Arduino |
+| 16:45   | Rian | Yanis Varoufakis & MeRA25 |
+| 17:30   | Yonggan | Volt |
+| 18:15  | krobin | Versuche, die Dinge mit HASS zusammen zu halten. |
+| 19:00   |  Leah    | Nitro: Yet another init system
+
+
+Danach Lightning Talks: [https://ola.lol/code/#/2/code/edit/+RVw0g4jN580VBBrx6yiulD2/](https://ola.lol/code/#/2/code/edit/+RVw0g4jN580VBBrx6yiulD2/)
+Gerne auch noch währenddessen Eintragen. Keine Vorbereitung notwendig.
+
+Parallel zu Lightning Talks im Nebenraum Correctiv Theater:
+[https://www.youtube.com/watch?v=kJMQODymCsQ](https://www.youtube.com/watch?v=kJMQODymCsQ)
+
+## Workshops
+
+* (kommen bald)
+
+## Contact
+
+[Matrix](https://wiki.openlab-augsburg.de/Nerdnight%2013)

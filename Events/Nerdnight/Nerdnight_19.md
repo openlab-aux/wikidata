@@ -1,0 +1,62 @@
+## Right to repair / Or is it right to repair?
+
+Die Nerdnight 19 findet statt am **Samstag, den 16. November 2024**
+
+
+
+### Anmeldung
+
+Wenn du vorhast, als Gast teilzunehmen, [melde dich bitte vorher anonym an](https://cryptpad.digitalcourage.de/form/#/2/form/view/VbK+9atGTX3lX11KwCrDl2yXF154YWHD8bY2iCEH+lI/).
+
+Wenn du vorhast, einen Talk oder Lightning Talk zu halten, [melde dich bitte vorher an](https://cryptpad.digitalcourage.de/form/#/2/form/view/dp7c0edgZu9Ia3WJD7oHST4OYBviq6bav2HLJ+ioATA/).
+
+Hier findest du allgemeine Informationen zum Format der Vorträge unter [Call for Participation](https://wiki.openlab-augsburg.de/Nerdnight%2019/CallForParticipation).
+
+
+### Flyer
+
+![NerdNight 19](flyerNN19_mini2.jpeg)
+
+
+### Stream
+Die Vorträge werden via [owncast](https://wiki.openlab-augsburg.de/owncast) an Monitore an verschiedenen Orten im Lab gestreamt. Der Stream kann auch im Lab-WLAN auf eigenen Geräten empfangen werden: <http://172.16.0.100>
+
+
+### Food & Drinks
+
+* Alkoholische & alkoholfreie Getränke zu fairen Preisen
+* Veganes und glutenfreies Essen (Spendenempfehlung: 14 Euro pro Portion. Wir nehmen gerne mehr an, aber nach Absprache geht auch weniger)
+	* [Melde dich bitte vor der Veranstaltung an, um die Planung zu erleichtern](https://cryptpad.digitalcourage.de/form/#/2/form/view/VbK+9atGTX3lX11KwCrDl2yXF154YWHD8bY2iCEH+lI/)
+
+### Programm
+
+| Zeit     | Programmpunkt                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 16:00    | aublue: Right to repair? Wie Repariere ich ein Auto am beispiel von VAG<br><br>Es soll losgelöst von rechtlichen, moralischen und politischen Aspekten am Beispiel von originalen VW Konzernunterlagen gezeigt werden, wie ein ambitionierter Hacker in der Lage ist (theoretisch) sämtliche Reparaturen an einem Fahrzeug durchführen kann. Hierbei soll auf die Informationsbeschaffung zur Vorgehensweise sowie Ersatzteilbeschaffung, Spezialwerkzuge, notwendige Software und eingene Best-Practises eingegangen werden.                                                                                                                                                                                         |
+| 17:00    | savral: Grundlagen Elektromotoren und Steppermotoren<br><br> Einführung zu Elektromotoren und Erklärung der Funktionsweise eines Schrittmotors.<br>                                                                                                                                                                                                                                                                |
+| 18:00    | TBA: Hardware hacking mit Bluetooth Low Energy<br><br>Eine Demo der Möglichkeiten von BLE und BLEnky anhand anschaulicher Hardware-Hacks und Spielereien.
+ <br> |
+| 18:45    | PAUSE                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 20:30     | Leena Simon: Digitale Mündigkeit<br><br> Leena Simon liest aus ihrem Buch "Digitale Mündigkeit" (ISBN: 978-3-934636-49-1). Im Anschluss können wir gemeinsam zum Thema diskutieren.
+ <br> |
+| 21:30    | PAUSE                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 22:00    | Lightning Talk Slots <br><br> TBA: Blitzschnelle Embedded Entwicklung mit Rust (Embassy+Rust zur Programmierung von gängigen Microcontrollern (z. B. ESP32/STM32/NRF91)) <br>TBA: Website-DRM: Devtools blocken als Chromium-Feature?<br>TBA: Bits und Bäume  (Augsburg)                                                                                                                                                                                                                                                                           |
+| 23:00    | Karaoke                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ab 24:00 | Lounge                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+### CTF-Challenge
+Es wird während der Nerdnight 3 CTF-Challenges von https://tryhackme.com/ geben.
+
+Setzt euch dafür vielleicht schonmal eine VM mit [https://www.kali.org/](https://www.kali.org/) oder [https://parrotsec.org/](https://parrotsec.org/)auf.
+
+Der Gewinner wird einen kleinen Preis erhalten. 
+
+Solltet ihr die Challenges schon gemacht haben, bitten wir euch nicht teilzunehmen, um den anderen ein faires Erlebnis zu ermöglichen.
+
+Hier gehts zu den CTFs:[https://cryptpad.digitalcourage.de/form/#/2/form/view/9u69q8I-QDZ2R3VqBsSVFAsmf6AwzaZVrXo1tpSfVVY/](https://cryptpad.digitalcourage.de/form/#/2/form/view/9u69q8I-QDZ2R3VqBsSVFAsmf6AwzaZVrXo1tpSfVVY/)
+
+Viel Spaß!
+
+### Wheel of Fortune
+Jeder Gast der Nerdnight bekommt eine Glücksradmarke und kann diese einlösen, um einen Preis zu gewinnen! 
+Viel Glück! :)

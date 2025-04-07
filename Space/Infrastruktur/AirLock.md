@@ -1,0 +1,186 @@
+Wir sind in die Bäckergasse umgezogen, jetzt ergeben sich für den Zugang ins Lab eine große Reihe neuer Anforderungen: es wir notwendig sein, ein neu konzipiertes Zuganssystem zu entwerfen. 
+[Airlock Quest](https://https://wiki.openlab-augsburg.de/AirLock#airlock-quest) soll die endgültige Version dieser Lösung sein. Gut durchdacht, sicher, benutzerfreundlich, sorfältig ausgeführt. 
+Anfang Mai 2022 wurden aber schon Stimmen nach einer temporären Lösung laut. Hierraus entstand der Anstoß zu [Airlock Zvezda](https://https://wiki.openlab-augsburg.de/AirLock#airlock-zvezda).
+https://www.openlab-augsburg.de/wp-content/uploads/2022/05/Schema-Seidle-Interface.png 
+
+# Zugang für Mitglieder
+
+Wenn du bei uns Mitglied bist, bekommst du die Möglichkeit dich um einen Airlock-Zugang zu bewerben. Mit dem Airlock-Zugang kannst du dann jederzeit (24/7) die Räume betreten. Die weiteren Details findest du auf dieser Seite, aber auch in deiner Willkommensmail!
+
+# AirLock Zvezda
+Prinzipiell sind die Grundanforderungen an dieses System sehr überschaubar: Das Haustelefon von Seidle wird noch nicht ersetzt, Zvezda ist nur eine temporäre addition an dieses System. 
+
+Zvezda basiert auf einem Pi 3 B. Über die GPIOs werden zwei Relays bedient, die tasten die 12VAC Schaltspannungen für Buzzer außen und innen (tbc).
+
+Wir haben gerade Chip-Knappheit. Daher wird das mit dem umgesetzt, was zur verfügung steht:
+
+* Ein Relay-Board zum Prototyping mit Arduino (krobin)
+* Ein Teenzy Board als absolut overkill pegelwandler (phjl)
+* Ein Raspberry Pi 3B (krobin)
+
+craftamap hat eine kleine Software in Go entwickelt, die per basic auth eine webseite bereitstellt, mit der über zwei schaltflächen "Innentür" und "Außentür" am Pi zwei GPIOs geschaltet werden können. Die Ausgänge (3.3V) des Pi gehen an die analog-Eingänge des Teenzy-Board, an den Digitalausgängen kommen dann anständige 5V Pegel raus. Daran ist das Relay-Bard angeschlossen, das schaltet dann die buzzer.
+
+Die Software ist auf github: [https://github.com/openlab-aux/airlock/tree/master/zvezda](https://github.com/openlab-aux/airlock/tree/master/zvezda)
+
+**Die Klingel geht genauso wie vorher weiterhin. Die Verbindung von Klingel Innen zum Buzzer innen wurde getrennt und durch Airlock ersetzt. Auch das wird mit Quest wieder schöner.**
+
+### Eine Zusammenfassung
+
+* Der Pi 3B hängt mit craftamaps software per LAN im Netz und ist über [http://172.16.0.248:3000/](http://172.16.0.248:3000/) erreichbar
+* Für einen account profpatsch, waaaaargh, paulele oder krobin anschreiben
+* Der Pi gibt Logikpegel an GPIO 12 und 16 aus, die gehen weiter zum Tennzy auf dem Breadboard
+* Weil die Logikpegel genau falsch rum sind, werden die vom Teenzy einmal umgedreht und mit 5V Pegel weiter gegeben
+* Das Relay Board schaltet dann die tatsächlichen Kontakte. Die sind im Gehäuse des Seidle Haustelefons verstaut, Belegung steht weiter unten.
+
+
+### Ein Bild vom Aufbau
+
+Es ist wunderschön!
+
+![](https://www.openlab-augsburg.de/wp-content/uploads/2022/05/rn_image_picker_lib_temp_ae098c2a-a79a-42ba-9967-6e3bf9de745d.jpg){width=500}
+
+
+# AirLock Quest
+
+Die dauerhafte Lösung, AirLock Quest, bildet deutlich mehr ab als Zvezda, braucht aber deswegen auch ein wenig Zeit in der Entwicklung. Die Hardware soll von der Außenwelt geschützt im Serverrack hausen, in einem eigens dazu angepassten 2HE Gehäuse. Die Bedienung soll über sinnvoll verschlüsselte Keyfobs möglich sein, z.b. Desfire EV3.
+
+## Systemüberblick
+
+
+## Die Anforderungen
+* Das Ola hat in der Bäckergasse
+	* Zwei Türen
+		* Die Haustür außen, hier können wir baulich nichts tun
+		* Die Tür innen, ab hier können wir modifizieren
+		* Beide Türen sind mit einem Türöffner versehen. Wie die jeweils angesteuert sind, ist unklar
+	* Eine Türklingel, drückbar von ganz außen
+		* Die könnte man als Zugangssteuerung verwenden, muss aber stets beachten, dass hier ahnungslose gäste klingeln können
+	* Eine Gegensprechanlage
+* Wir dürfen gemäß Günther Modifikationen an der Anlage vornehmen. Es ist aber davon auszugehen, dass alles außerhal der Ola-Räumlichkeiten natürlich Off-Limits ist
+* Das neue System braucht mehr Stati als das alte. Durch die verteilteren Räumlichkeiten ist es oft möglich, nicht mitzubekommen, wenn jemand ungeahnt zur Tür rein kommt, zum Beispiel weil man hackend im Keller sitzt oder eine abgeteilte Workshopgruppe produktiv arbeitet. Das neue System muss das abbilden
+* Aus Erfahrung ist es förderlich, die Verwaltung der Schließberechtigung in ein modifikaionsresistenteres Modell zu überführen. Auch dem soll das neue System rechnung tragen, zum Beispiel durch erhöhte physikalische Sicherheit der Steuerelektronik
+
+
+## Die Überwachung der Tür
+
+Im Gegensatz zu Sphincter wird die Tür bei Airlock nicht abgesperrt, sondern fällt nur ins Schloss. Das ist natürlich ein gewisses Sicherheitsrisiko. Zur zusätzlichen Überwachung soll die innere Tür einen Türsensor bekommen, so ein Standard-Alarmanlagen-Sensor. Dann kann Quest überwachen, ob die Tür irgendwann aufgeht ohne Auslösung. Und dann vielleicht... SMS schreiben? Jemanden anrufen? Sowas eben.
+Auch die Fenster, aus denen man flüchten kann, kann man in der selben weise überwachen. Das sind die zwei fenster in die passage und das Fluchtfenster aus der Küche.
+
+
+
+## Raumstati
+
+~~Prinzipiell gibt es, wie unter Anforderungen beschrieben, den Bedarf nach mehreren Raumstati.
+Die folgende Auflistung ist ein erster Vorschlag von phjl, offen zur Debatte.
+Prinzipiell gilt: Wenn jemand außen reingelassen wird, sollte er auch innen reingelassen werden. 
+* Public "Grün"
+	* Leute sind anwesend und wollen den Space explitiz offen haben. Jeder soll einfach so rein können.
+	* Außentür: Buzzert auf, wenn man die Außenklingel drückt.
+	* Innentür: Buzzert auf, wenn man die Innenklingel drückt. Oder zeitverzögert zur Außenklingel?
+	* Bei jedem eintritt vielleicht für Awareness einen kleinen, angenehmen Sound über die Klingellautsprecher spielen. Damit man mitbekommt, dass jemand rein kommt. Man muss ja nix tun.
+	* phjl hat die Idee, den public-status wegen des Sicherheitsrisiko zeitlich begrenzt zu bauen. Man müsste public-state quasi "nachtriggern" und wenn man ihn z.B. eine stunde nicht nachgetriggered hat, fällt es auf restircted zurück oder sowas. Wir wollen verhindern, dass irgendwer den space offen stehen lassen kann, und die sorgfalt der keyholder technisch zu unterstützen ist sicher keine schlechte idee.
+	* Member können sich immer mit RFID-Token rein lassen. Die erfolgreiche eingabe des RFID-Token wird an der Ecke des Schaufensters, wo der Leser (und Statusanzeige) ist, optisch bestätigt. Der darauffolgende Ablauf ist immer gleich: einige Sekunden - Außentür - einige Sekunden - Innentür.
+	* Der Status "Public" muss aktiv ausgewählt werden. Nach einer Stunde fällt er auf "active" zurück, esseidenn jemand bestätigt ihn für eine weitere stunde.
+* Active "Blau"
+	* Der Space ist offen, es ist aber niemand gewillt, die ankommenden Personen wirklich aktiv zu überblicken. Die meiste geöffnete Zeit ist der Space sinngemäß in diesem Zustand.
+	* Klingelt man außen mit einem definieten Klingelcode, buzzert zuerst die außentür, dann mit einer kleinen zeitverzögerung die innentür auf. Der klingelcode funktioniert genauso an der innentür, dann buzzert natürlich nur die innentür (z.B. weil man es nicht zeitig on außentür nach innentür geschafft hat, weil man z.B. einen scooter dabei hat oder so)
+	* Buzzert sich jemand mit klingelcode ein, spielt ein kleiner bestätigungston über die klingel, wie bei public.
+	* Klingelt jemand, und es wird nicht als Klingelcode erkannt (es könnte ein Gast, Essenslieferant, Paketbote, Nachbar sein), spielt ein normaler Tür-Klingelton über die Anlage. Man kann dann reagieren, tür Tür gehen, leute reinlassen. Oder eben nicht.
+	* Der Status "Active" ist der standardzustand, wenn der space "locked" war und jemand rein kommt.
+	* Der Status "Active" hat, wie public, eine Zeitbegrenzung. Das Buzzern per Klingelcode ist zwar deutlich weniger gefährlich, aber trotzdem ein gewisses Risiko. Das Limit ist 6 Stunden, die Funktionalität mit nachtriggern genauso wie bei public. Wird nicht nachgetriggerd, fällt das system auf "restricted" zurück.
+* Restricted "Orange"
+	* Dieser Zustand ist z.B. für den Fall gedacht, das jemand im Space explizit abseits arbeiten will, eingeschlafen ist, etc.
+	* Prinzipell gelten sie selben Anforderungen wie "Locked", aber die Tür wird nicht aktiv überwacht. Es könnte ja sein, dass die anwesende Person raus geht. Das wäre kein Anlass zum Alarm.
+	* Der Klingelcode funktioniert nicht, die Klingel wird nicht nach innen weitergegeben (um die Produktivität nicht zu stören)
+	* Der Status Restricted wird per Taster ausgewählt und hat keine Zeitbegrenzung. 
+	* Der Status "restricted" bleibt bestehen, auch wenn jemand per RFID rein kommt.
+	* Kommt jemand in den Raum und es ist ohne ersichtlichen Grund "Restricted" statt "active" nach dem öffnen, hat jemand das korrekte schließen versäumt.
+* Locked "Rot"
+	* Das letzte Member geht, wählt "Locked" als Zustand und verlässt den space. 
+	* Dafür wird Locked am Bedienpanel ausgewählt und nach einer gewissen zeitverzögerung aktiv gesetzt. 
+	* Im Zustand "Locked" werden Klingelversuche in den Raum durchgeleitet und zusätzlich in den Chat geschriebe
+	* Die Tür wird überwacht, sollte sich die Tür öffnen (alarm!) bekommen definierte Telefonnummern nachrichten und können entsprechend nachforschen.~~
+
+
+
+## Anschlüsse
+
+An der Hausanlage steckt ein Seidle 811. Gegeben der Herstellerspezifikation ergänzt durch ein wenig eigene Vorgaben ergibt sich folgende Pinout-Tabelle an der Dose:
+
++---------------+--------------------------------------+
+| Pin(Seidle)   | Funktion                             |
++===============+======================================+
+| 6.1           | Tastkontakt Türöffner (außen) A      |
++---------------+--------------------------------------+
+| I             | Tastkontakt Türöffner (außen) B      |
++---------------+--------------------------------------+
+| 6.2           | Tastkontakt Licht A                  |
++---------------+--------------------------------------+
+| II            | Tastkontakt Licht B                  |
++---------------+--------------------------------------+
+| G             | Ansteuerung für Gong                 |
++---------------+--------------------------------------+
+| 10            | Ansteuerung für Etagenruf (Dauerton) |
++---------------+--------------------------------------+
+| 7             | Ansteuerung für Türruf (Alphaton)    |
++---------------+--------------------------------------+
+| c             | Bezugspunkt Rufsignale (GND)         |
++---------------+--------------------------------------+
+| b             | Versorgung Gong (dauerhaft 12V AC)   |
++---------------+--------------------------------------+
+| 1             | Impuls Mithörsperre                  |
++---------------+--------------------------------------+
+| 9             | Bezugspunkt Audio (GND)              |
++---------------+--------------------------------------+
+| 11            | Mikrofon (Mi)                        |
++---------------+--------------------------------------+
+| 12            | Lauthörkapsel (Ls)                   |
++---------------+--------------------------------------+
+
++---------------+--------------------+
+| Pin(Extra)    | Funktion           |
++===============+====================+
+| 20            | Klingel innen AC 2 |
++---------------+--------------------+
+| 21            | Buzzer innen AC A  |
++---------------+--------------------+
+| 22            | Buzzer innen AC B  |
++---------------+--------------------+
+
+
+## Signale
+
+Spannung von 10 zu c (also Klingel innen gegen GND) bei nicht-klingeln
+
+![alt text](10-to-c-at_rest.png)
+
+
+Spannung von 10 zu c (also Klingel innen gegen GND) bei klingeln. Gleiches Bild bei b gegen c.
+
+![alt text](10-to-c-ringing.png)
+
+## Übergabepunkt Seidle -> AirLock
+
+Anfangs übergeben wir die Signale zwischen Anlage des Hauses und Airlock über einen Klemmblock mit bezeichnungen, die 1:1 der Vorlage von Seidle entsprechen. So kann selbst ein fremder Haustechniker, der sich nur mit Seidle-Anlagen auskennt, irgendwas tun. Breaking Changes durch Änderungen an der Hausanlage wären natürlich ärgerlich, aber mit den Herstellernahen Übergabepunkt ist auch für einen fremden Techniker einfach zu erkennen, dass wir uns lediglich an die Anlage angehängt haben, die Anlage dabei aber nicht in irgend einer Weise stören wollen.
+
+Das Haustelefon ist auf einer normalen Unterputzdose montiert, also 60mm Lochabstand an den Montagelöchern. Eine selbst gedruckte Dose stellt die Verbidnungen gemäß dem Originalzustand her und ermöglicht es, eine eigene Leitung anzufügen. Das passiert nach dem Anschlusschema von weiter unten, wobei die Adernfarben in der Hausanlage schön mehrdeutig sind. es gilt darauf zu achten, hier keine Verwirrung herzustellen.
+
+### Anschlussschema Übergabepunkt
+
+## Airlock Quest Module
+
+### Türmodul 
+
+ESP32 NodeMCU Clone + 2x Relais Modul + CAN Transceiver 
+
+#### PinOut
+
+| ESP32 PIN | Funktion |
+|-----------|----------|
+| 26 | Buzzer Außen |
+| 27 | Buzzer Innen |
+| 12 | Klingel Außen Active High |
+| 13 | Kilngel Außen Active High |
+| 4 | CAN RX | 
+| 5 | CAN TX |
+
