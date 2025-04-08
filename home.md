@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2025-04-08T11:02:29.787Z
+date: 2025-04-08T15:56:44.050Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -85,7 +85,7 @@ All hail Eris, All hail Discordia!
 
 #### Bits & Bäume Aux-Muc
 
-**Jeden zweiten Mittwoch im Monat ab 19:00 Uhr**  (<span data-datespec data-stable-id="bits-und-bäume" data-since="2025-01-01">We[2] 19:00+</span>)
+**Jeden zweiten Mittwoch im Monat ab 19:00 Uhr**  (<span data-datespec data-stable-id="bits-und-bäume">We[2] 19:00+</span>)
 
 Offenes Treffen bei dem Nachhaltigkeit und Digitalisierung zusammengedacht werden. Alle willkommen!
 
