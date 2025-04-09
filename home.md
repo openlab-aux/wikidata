@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2025-04-09T00:23:36.552Z
+date: 2025-04-09T00:33:41.082Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -36,6 +36,21 @@ In der Bäckergasse 32 betreiben wir unseren Hackspace, hier gibt es Vorträge, 
 Im Kalender sind aktuelle Events wie die offenen Tage, regelmäßige Treffen aber auch Vorträge und Workshops im OpenLab. Du bist immer herzlich eingeladen.
 
 ### Regelmäßige Events
+
+Es finden einige regelmäßige Events im Space statt.
+
+<details>
+  <summary>Kalenderlink (<code>.ics</code>)</summary>
+    
+  [Hier ist ein Kalenderlink](https://haku.profpatsch.de/openlab-tools/events/openlab-augsburg-recurring-events.ics) für die regelmäßigen Events.
+  
+  Einfach rechts klicken, Link kopieren, und in die Kalenderapp deiner Wahl einfügen. Er sollte sich einmal am Tag automatisch aktualisieren.
+  
+  Die <code>.ical</code>-Datei wird aus den untenstehenden <code>&lt;span&gt;</code>-Elementen generiert. Diese unterstützen ein sehr (sehr) eingeschränktes Subset der <code>[opening_hours](https://wiki.openstreetmap.org/wiki/Key:opening_hours)</code> von OpenStreetMap. Der Text im jeweiligen Abschnitt wird als Beschreibung verwendet.
+  
+  Falls etwas nicht funktioniert, gibt es [hier eine Debugpage](https://haku.profpatsch.de/openlab-tools/events/debug.html), die immer den aktuellen Inhalt dieser Seite abruft und Fehler anzeigt.
+
+</details>
 
 #### Plenum & offener Donnerstag
 
