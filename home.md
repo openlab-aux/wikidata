@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2025-04-17T18:03:43.027Z
+date: 2025-04-28T09:42:54.433Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -18,7 +18,7 @@ dateCreated: 2024-11-19T12:03:24.203Z
   
   Danke an alle, die mitgeholfen haben!
 
-
+* Die Kassenprüfung für 2024 wurde gemacht, die MV kann kommen!
   
 ## 🛰️🪐 Unser Space 🌌 {#vorbeikommen}
 
