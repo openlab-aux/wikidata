@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2025-04-30T19:45:13.708Z
+date: 2025-04-30T19:45:29.614Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
