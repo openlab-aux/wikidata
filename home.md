@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2025-04-30T19:45:29.614Z
+date: 2025-05-01T08:46:47.022Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -54,7 +54,7 @@ Es finden einige regelmäßige Events im Space statt.
 
 #### Plenum & offener Donnerstag
 
-**Jeden ersten Donnerstag im Monat ab 19:00 Uhr (Plenum ab 20:00 Uhr)** (<span data-datespec data-stable-id="offener-donnerstag" data-since="2025-01-01" data-except="2025-05-01", additional="2025-05-08">Th[1] 19:00+</span>)
+**Jeden ersten Donnerstag im Monat ab 19:00 Uhr (Plenum ab 20:00 Uhr)** (<span data-datespec data-stable-id="offener-donnerstag" data-since="2025-01-01" data-except="2025-05-01", data-additional="2025-05-08">Th[1] 19:00+</span>)
 
 Am Donnerstag steht das OpenLab jedem offen - ob Mitglied oder nicht.
 
