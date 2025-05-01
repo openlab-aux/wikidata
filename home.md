@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2025-05-01T13:14:43.773Z
+date: 2025-05-01T13:14:52.716Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -68,7 +68,7 @@ Im Plenum sprechen wir über alltägliches in unseren Räumen und Projekten, die
 
 Das Plenum ist ein gutes erstes Treffen, wenn du aktiv werden möchtest!
 
-Protokolle von vergangenen Seiten [findest du hier](/de/Mitglieder/Plenum/home).
+Protokolle von vergangenen Plenen [findest du hier](/de/Mitglieder/Plenum/home).
 
 
 #### 3D-Drucker-Treffen
