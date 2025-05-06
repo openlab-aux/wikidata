@@ -2,7 +2,7 @@
 title: Openlab Augsburg
 description: 
 published: true
-date: 2025-05-01T13:15:20.977Z
+date: 2025-05-06T14:16:45.507Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T12:03:24.203Z
@@ -78,7 +78,7 @@ Wöchentlicher Erfahrungsaustausch rund um den 3D-Druck.
 
 #### Open Source Home Automation Stammtisch
 
-**Jeden zweiten Donnerstag im Monat ab 19:00 Uhr** (<span data-datespec data-stable-id="open-source-home-automation-stammtisch" data-since="2025-01-01" data-except="2025-05-08">Th[2] 19:00+</span>)
+**Jeden zweiten Donnerstag im Monat ab 19:00 Uhr** (<span data-datespec data-stable-d="open-source-home-automation-stammtisch" data-since="202501-01" data-except="2025-05-08">Th[2]+ 19:00+</span>)
 
 Wir treffen uns, um uns über Open Source Home Automation auszutauschen und gemeinsam zu basteln.
 
