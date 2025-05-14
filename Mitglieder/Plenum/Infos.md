@@ -17,9 +17,9 @@ Neben dem Plenum gibt es auch die [Mitgliederversammlung](/Mitglieder/MV/Mitglie
 
 # Protokolle
 ## 2025
-* [2025-01-02](/Mitglieder/Plenum/2025-01-02)
-* [2025-02-06](/Mitglieder/Plenum/2025-02-06)
 * [2025-03-06](/Mitglieder/Plenum/2025-03-06)
+* [2025-02-06](/Mitglieder/Plenum/2025-02-06)
+* [2025-01-02](/Mitglieder/Plenum/2025-01-02)
 ## 2024
 * [2024-12-05](/Mitglieder/Plenum/2024-12-05)
 * [2024-11-08](/Mitglieder/Plenum/2024-11-08)
