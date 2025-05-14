@@ -1,0 +1,170 @@
+# Plenum am 2024-11-08 um 19:17 Uhr
+
+ 👯‍♂️ Es sind 10 +3 Wesen vor Ort.
+ 
+ ⏳ Es wurde gestartet um 19:17 Uhr
+
+ ⚠️ Bitte beachten: Themen bitte mit Namen und bis einen Tag vor Plenum aufschreiben. Dann für eigene Themen auch zum Plenum da sein. Ansonsten keine Garantie, dass das Thema auch dran kommt!
+
+## Sehr kurze Vorstellungsrunde
+  * einige selten/neue gesichter hier, lasst uns eine kurze Vorstellungsrunde machen :)
+  
+## Gemeinsames 38C3 Ticketklicken? (krobin)
+  * In sieben Wochen ist der 38. Chaos Communication Congress
+  * Nicht alle haben ein Ticket in Phase1 bekommen :(
+  * Es gibt noch 3 offene Verkaufsrunden, jeweil first come, first serve
+    * Kommender Dienstag 2024-11-12 20:00 (CET)
+    * 2024-11-17 16:00 (CET)
+    * 2024-11-23 11:00 (CET)
+  * Fragen an das Plenum:
+    * Gibt es Bedarf für bessere Chancen Klickgemeinschaften zu bilden?
+      * Aus dem Plenum + Peers eher nicht
+      * Klima-Bubble braucht 16 Tickets, freut sich über jedes Mitklickendes, können auch Bezahlung übernehmen.
+    * Welche Daten muss man vorher wissen/kann man nicht ändern? E-Mail, Ticketpreis/Typ
+    * Falls ja: Wer will das organisieren?
+      * Ingo macht das schon, hier das Pad: 
+
+
+## OpenLab 38C3 Assembly (Yonggan, krobin, Alle)
+* Wurde im Hub angelegt, Yonggan und krobin vergeben gerne Rechte
+  * Können noch nicht genau angeben, wo wir sein wollen und mit welchen 
+* Haben uns, auf Einladung, in die Chaoszone begeben.
+* Wir suchen Projekte, die wir mitnehmen können - falls ihr besondere Bedürfnisse dafür habt
+* Größe der Assembly ist atm auf 23 angemeldet, je schneller wir die auf die reale Zahl festlegen, desto besser
+* Planungspad Mathe/Klimabubble
+  * https://etherpad.wikimedia.org/p/PlAC5mnUQ1n_wXnGj6Vp
+* Mathe/Klima-Bubble bei uns?
+  * Kein fixer Platz bisher
+  * Gemeinsamer Tisch / Sub-Assembly
+* Meinungsbild: Niemand hat was dagegen, dieses Jahr Blasen zusammenploppen zu lassen.
+* joghurt fragt in die Mathe- & Kilma-bubble, erwartet grundsätzlich Interesse an gemeinsamem Tisch + SOS im Habitat.
+* Gemeisames weiteres Treffen, wo wir auch z.B. schwierige soziale Details vorab ansprechen/klären können.
+* Tipp: ICE-Gruppenticket ist sehr günstig (konkretes Beispiel: 17€)
+### Liste an Sachen die Menschen tun wollen
+* Zirbelrocket-Lampe
+* Crepé-Maschinen dabei
+* Übliche Propaganda-Flaggen
+* Logistik- und Mitfahrzentrale Augsburg (Wer fährt mit dem Auto, kann Kram und Menschen mitnehmen)
+
+--> Fühlt euch eingeladen, eigene Ideen auszuprobieren, um Hilfe und Feedback zu bitten. 
+
+
+
+## Ultra High Quality Sticker mit Hollow Effekt (Yonggan)
+  * Wir können über Potsdam super Sticker relativ günstig in Massen drucken. 
+  * Wollen wir da eine Sonderedition der Openlab Sticker anfertigen mit Holo-Effekt?
+    * Kostenpunkt ca. 120-200€ für 6\*1,20m.
+    * Papier müssen wir selber besorgen.
+    * Qualitativ seien sie die besten. 
+  * Falls es konkrete Fragen gibt, ab 20 Uhr ist ChaosZone-Meeting, jetzt ist ein guter Zeitpunkt sie einzubringen.
+    * Wollen wir? Der Preis ist sehr günstig.
+    * Wer ist dafür? -> keine Gegenstimmen
+    * Wer nimmt sich der Sache an? Kommunkation: Andre, er fragt auch zorryn, ansonsten caro, next curtisanne fragen.
+
+
+## Neuen Drucker annehmen? (paulele)
+  * Wir würden einen dicken A3-Drucker geschenkt bekommen.
+  * https://www.kyoceradocumentsolutions.de/de/products/printers/ECOSYSP8060CDN.html
+  * Datenblatt: 60W/960W idle/usage; 60 A4/30 A3-Seiten pro Minute
+  * Fragen:
+    * Was kostet Material?
+      * ca. 950 Geld für neue Toner
+      * Preis pro Seite damit 3.3 ct
+    * Platzbedarf OK? Gut 4 Getränkekisten Fläche.
+    * Ist ein A3-Fach dabei?
+    * Wollen wir das? Nein, fast alle dagegen. Wir wollen lieben Dank ausrichten!
+
+## Sofas umstellen (Yonggan)
+  * Wir überlegen ob wir die Sofas umstellen und in einem U anordnen. 
+  * Ziel und Wunsch wäre: Mehr raum für gemütliches zwischenmenschliches Beisammensein, weniger Werkstattgeräusche im Hauptraum
+Hierfür ist der Plan folgender:
+
+```
+P = Pannaboard
+G = Graues Sofa aus dem nebenraum
+D = Derpys Sofa
+S = schwarzes Sofa
+                           -----------|
+| P                        |          |
+|-----|                    |----      |
+|     |                         |     |
+|     |                         |     |
+|--------------||--------------||     |
+| Gr           || D            || S   |
+|---------------|--------------||-----|
+```
+
+Hierfür müssen die 3D-Drucker jedoch in einen anderen Raum.
+2 Möglichkeiten sehen wir hier:
+- Im CNC-Raum rechts an der Wand
+- Oder unten bei der E-Ecke in eines der leeren Regale in der Mitte.
+
+* Fragen & Diskurs:
+  * w5rg hätte gerne für die ästhetik noch einen Drucker im Schaufenster
+  * Alternatividee waren Streams auf den fnord-mon
+  * Druckerstandort Fräsraum ist eher ungeeignet wegen Dreck
+  * Druckerstandort E-Ecke scheint eher gut geeignet
+  * CAD-Workstation mit Musikecke mergen.
+
+  * Die Anwesenden wollen mehr Sofas im Hauptraum. Die Anwesenden finden auch das Layout OK.
+  * Die Anwesenden sind sich noch nicht einig, ob ein 3D-Drucker im Schaufenster bleiben soll, das ganze Rack bleiben soll oder alle weg können.
+  
+  * Soll "Sofa +1" passieren?
+    * E: 4, N: 0:, J: Rest
+  * Soll das 3D-Druck-Regal as is + klipper komplett in die E-Ecke umziehen?
+    * E: 4, N: 1, J: ~Rest
+    * Dagegen gestimmt wurde weil: Es gibt nen geschickteren Ort als die E-Ecke, z.B. Flur, "weniger verpeilbar"
+  * Soll Druckbrudi im Schaufenster bleiben - zumindest bis ein Prusa an der Wand ist?
+  * Wichtige precondition: Jörg ist einverstanden mit CAD-Musik-Merge.  
+  * Es gibt keinen Widerspruch dagegen, mit Fingerspitzengefühl und Absprache mit den individuell Betroffenen weiter fortzufahren. Egal - wo konkret die Drucker zunächst dann landen,
+  
+  
+## Generelles Diskutieren über Beamer-Standort (Yonggan)
+Wir hatten überlegt ob wir den Beamer umhängen und die Leinwand wieder benutzen. Das wäre für das Sofa U besser und man könnte die Beamer-Wand mit Plakaten oder Kunst bekleben.
+
+```
+T = Tische
+L = Leinwand
+              |--L--|
+              |-----|
+              |     |
+              | T   |
+              |-----|
+
+                           -----------|
+| P                        |          |
+|-----|                    |----      |
+|     |                         |     |
+|     |                         |     |
+|--------------||--------------||     |
+| Gr           || D            || S   |
+|---------------|--------------||-----|
+```
+
+* Thema wird nicht besprochen - weil es von obigem grundsätzlich bedingt und erfasst wird.
+
+
+## Projektanträge (krobin)
+* Entropia: GPN Lager: Plenum dafür
+* Düsseldorf: Kuechenelektrik: Plenum dafür
+
+
+## Cannabis-Kochkurs, Werbung OK? (salomonderossi)
+  * Rückfrage, v.A. weil wir z.B. auch Kinderkurse machen.
+  * Ist es OK - wenn Flyer für einen Cannabis-Koch-Kurs angeboten werden.
+  * Vor der Legalisierung war Wissenstransfer zum safer use schwer. Jetzt geht das. Im Kurs wird anhand von CBD-Blüten (wenig psychotrop, CB2-affin) Exktraktion gezeigt. Im Kurs wird medizinische, kochprozessuelle und der weitere verantwortungsvolle Umgang mit dem Thema beigebracht.
+  * Hat jemand an dem Konzept Zweifel, lehnt es ab, oder ähnliches? -> Nein! Viel Erfolg.
+  
+  
+## 🗞️🚨 Kurznachrichten
+  * 38C3-Phase1-Voucher-Topf ist leer, wir haben Tickets umgesetzt, (noch) nicht genau gezählt.
+    * Ein paar gingen an befreundete Gruppen/die Klima Bubble
+  * Unsere Steuerberaterin, Rita Vogt, unterstützt uns weiter liebevoll, die letzte Steuererklärung hat sie uns auch wieder geschenkt! <3
+  * Mietkostenzuschuss kommt wieder rein. 120€ im Monat weniger als letztes Jahr: 300€.
+  * Airlock-Update (waaaaargh braucht Hilfe)
+  * Stromabschlag hat sich erhöht Zahl geschätzt: 117 -> 148
+  * Demo: "Reclaim the city": 23.11. 16:30 @ Bahnhof Dachau, Soli-Aufruf, weil zuletzt III. Weg reingeschissen hat. https://www.kalinka-m.org/events/dachau-demonstration-reclaim-the-city-alles-fuer-alle-die-krise-heisst-kapitalismus/
+
+* Protokoll überträgt krobin
+
+## Ende um 20:34 \o/

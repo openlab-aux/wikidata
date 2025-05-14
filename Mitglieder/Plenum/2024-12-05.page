@@ -1,0 +1,107 @@
+# Plenum am 2024-12-05 ab 20:15
+*  👯‍♂️ Es sind 9 Wesen vor Ort.
+*  ⏳ Es wurde gestartet um 20:13 Uhr
+*  ⚠️ Bitte beachten: https://wiki.openlab-augsburg.de/Plenum/2024-11-08
+  * Themen bitte mit Namen und bis einen Tag vor Plenum aufschreiben. Dann für eigene Themen auch zum Plenum da sein. Ansonsten keine Garantie, dass das Thema auch dran kommt!
+  * Nach dem Plenum neue Seite unter der [Wiki-Seite](https://wiki.openlab-augsburg.de/Plenum/Infos) für das Protokoll anlegen und rüber kopieren. Übernimmt heute: $wesen
+* [Link zum Pad (Sie sind hier)](https://cryptpad.digitalcourage.de/code/#/2/code/edit/fNwDH76UURHBggkmLNQ1NDfD/)
+* [Link zum Jitsi](https://meet.ffmuc.net/OpenLabPlenum), falls jemand Lust hat.
+* Moderation: Paul <3
+* Protkoll: krobin, <Du!>
+
+# Offenes Plenum, Vorstellungsrunde für Gäste?
+  - Wollen wir?
+    - Alle waren schonmal da, aber kurze Vorstellungsrunde scheint trotzdem nicht zu schaden. :)
+  - Rundum: Wer seid ihr, warum kommt ihr ins Lab, ...? :) 
+
+
+# Signal-Channel für Notfälle (kleinste/vertraulichste Gruppe) (Jörg)
+
+- Der Name ist eine einzige Diskriminierung und wird nicht unserem eigenen Anspruch, z.B. auf gewaltfreie  Sprache, gerecht. 
+- Ich kenne die Historie und der Kanal ist an sich sinnvoll. 
+
+  - paulele: Split "interne Notfälle" und "spontanes Verabreden unter Aktiven" wäre gut. Die Matrix Channel sind nicht cozy/vertraulich genug sind.
+  - krobin: a) Name hat nichts mit Teilehmenden/Kriterien zu tun (Aktivkohlefilter..), b) der Kanal ist nicht öffentlich, c) wenn dass das einzige Problem ist, würde ich ihn in "Notfall- und Kern-Gruppe" umbenennen und weiter diskret behandeln.
+  - krobin: an meine eigene Nase fassend, sollten wir da auch wirklich nichts für eine normale Beteiligung notwendiges besprechen, wenn nicht alle teilnehmen dürfen.. Also Essensbestellungen und Absprachen vielleicht in einem offen(eren) Kanal in Matrix/Bridge?
+  - Patsch: Wenn ich kommunizieren will:
+    - bei allgemein interessantem: "Alle"-Channel. Für Patsch: Der Random-Zeugs-Channel.
+    - finde ich es auch OK, wenn verschiedene Subgruppen eigene Gruppen haben.
+  - Zusammenfassung: Jörg schlägt vor, wir legen einen zweiten Signal-Channel für "den banalen Alltags". Bridge zu #aktive
+  - krobin: Signal-Channel bridgen mit einem Matrix-Channel wäre wünschenswert -> Wer könnte sich darum kümmern?
+  - wargh: Matrix Alle-Channel für Lab-Interessierte und aktive Channel für aktive Leute im Lab -> letzteres nicht publically
+    - Invite-Link per QR-Code im Lab.
+    - Jemand müsste aber die Signal-Bridge aufsetzen. Man benötigt ein Android-Phone und ne Telefonnummer.
+    - Patsch legt (LIDL-Connect) SIM-Karte an, derpy hat ein Android-Device
+- jörg: Signal ist ja offensichtlich beliebt und wird gerne genutzt. Warum nicht dort einen Alltagskram-Kommunikationskanal machen?
+- Konsens!
+
+# Letztes Plenum vor'm Congress (krobin)
+- Was geht?
+- Wo stehen wir?
+- Hat jemand Zweifel, dass es richtig schön wird?
+- Mitfahrgelegeheiten?
+- Übernachtungsnot? Ticketnot?
+- Prototype-Fund Q&A-Session auf C3, aber knapp vor deadline, trotzdem nicht unvorbereitet kommen
+- Hub ist praktisch, ist fast alles drinnen, auch TIcketbörse: https://events.ccc.de/congress/2024/hub/en/index
+- Creppe wurde im 5-Jahresplan integriert (ACK of Chaoszone)
+
+
+# IRC-Matrix Bridge für öffentliche Kanäle (aume)
+- Die Matrix UX ist eher subpar. Einige Leute werden vielleicht Probleme mit Matrix als Plattform haben
+  - grindhold: full support fuer die bridges. ich hasse es, den Matrix-client offen zu haben, würde aber gerne wieder in lab-relatierten kanälen im IRC mitlesen.
+- Matrix hat guten Support für Bridges
+- libera bertreibt keine bridges mehr.
+- Ich glaube jemand im Lab hält noch die Channels auf libera.chat??
+  - krobin: könnte sein, dass ich bei manchen channels permissions habe, kann mal :TM: gucken und übertragen. andere kandidaten: phj, brabo, muesli, lobo
+  - Gibt es libera nutzer im Labumfeld? Würden aktive Leute Anschluss verlieren, weil sie libera nutzen und wir nicht dahin bridgen?
+- Braucht: Abstimmung ob gewünscht; Unterstützung in Form eines graciously donated Platz auf dem K8S Cluster
+- aumetra baut zwei test-setups, dann können wir testen. :)  
+
+
+# Klimanetz Augsburg Grupppen (via Ingo)
+- Es scheint zu passen, uns als Gruppe hier mit einzutragen:
+  - https://klimanetz-augsburg.org/groups/
+- Diskussion: Gibt es Bedenken?
+- Abstimmung: Ist jemand dagegen?
+  - Einstimmig: wir machen das.
+  - krobin gibt Ingo Bescheid.
+  
+- Random Idee: Wir machen nen Skillshare/..-Kanal, den wir dort auch verlinken könnten, als Kontaktgruppe für Externe
+
+
+# Mama, der Mann mit den Thin Clients ist (heute) da
+
+  - Bei Olivers AG fallen ne ganze Menge ThinClients (brauchbar!) raus, es stehen Fragen im Raum:
+  
+    - Chef will mit Vorstand sprechen:
+      - Vereinbarung, dass das nicht veräußert wird
+      - Würden gerne ein paar konkrete Projekte die wir damit machen könnten hören/kennenlernen (Media-Center, ...)
+      - Interesse, ob gemeinsame Projekte möglich wären
+        - krobin ist alarmiert, dass ein Sponsoring drin ist, wir verkaufen uns nicht ;)
+    - Sind Netzteile dabei? Stromverbrauch?
+    - Andre und Paul schauen mal bei El Cheffe vorbei.
+    - Stückzahl >=50 möglich. Mal sehen was geht.
+    - Paul macht Termin aus, Kontakt geht weiter über Matrix erstmal, dann weiter zu FIrma. 
+    
+
+
+# Kurznachrichten
+- Nerdnight war, gut besucht, die beste bislang :TM:
+  - Gutes Feedback von extern, kleiner 3-Stelliger Betrag bleibt übrig.
+- Neues HDMI-Kabel (Danke vero <3) im Hauptraum ist gut.
+- Prototype-Fund Deadline 1.2.2025 (nur eine Runde nächstes Jahr)
+  - https://new.prototypefund.de/#timeline
+  - Kann man auf dem Congress kennenlernen (allerdings wenig Zeit bis zur Deadline), es gibt eine FAQ vor Ort.
+  - Die Online-FAQ von vor einer Woche wurde von $Spacemitglied aufgezeichnet, bei Interesse kann der Link geteilt werden.
+- Jobbs
+  - Frag Den Staat suchen Entwickler\*in (Berlin, Remote, Django & Postgres)
+    - https://fragdenstaat.de/artikel/jobs/2024/12/wir-suchen-einen-full-stack-developer-fur-fragdenstaat/?pk_campaign=ola.lol
+  - Pretix sucht eine Adminstelle
+    - Kann man auf dem Congress kennenlernen
+- Rian: Schade, dass das Repaircafethema es nicht hier rein geschafft hat, ich selbst kann beim Plenum nicht anwesend sein 
+  - Mehrere (neue) Förderprogramm für Repaircafes am Start. Im kommenden Jahr wollen wir das angehen.
+  - Wurde besprochen, themenbezogenes Treffen im nächsten Jahr.
+
+
+# Ende: 21:16
+
