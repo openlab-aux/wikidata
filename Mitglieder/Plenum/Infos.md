@@ -2,7 +2,7 @@
 title: Infos
 description: 
 published: true
-date: 2025-04-07T20:40:28.089Z
+date: 2025-05-15T16:03:54.011Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-19T11:56:45.470Z
@@ -17,6 +17,7 @@ Neben dem Plenum gibt es auch die [Mitgliederversammlung](/Mitglieder/MV/Mitglie
 
 # Protokolle
 ## 2025
+* [2025-03-06](/Mitglieder/Plenum/2025-04-03)
 * [2025-03-06](/Mitglieder/Plenum/2025-03-06)
 * [2025-02-06](/Mitglieder/Plenum/2025-02-06)
 * [2025-01-02](/Mitglieder/Plenum/2025-01-02)
